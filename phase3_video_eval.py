@@ -359,11 +359,11 @@ def process_entry(entry):
     
     # 获取三个片段的描述
     segment_descriptions = {
-        "Start": timeline.get("start_frame_caption", "N/A"),
-        "Middle": timeline.get("middle_frame_caption", "N/A"),
-        "End": timeline.get("end_frame_caption", "N/A")
+        "Start": timeline.get("start_caption", "N/A"),
+        "Middle": timeline.get("middle_caption", "N/A"),
+        "End": timeline.get("end_caption", "N/A")
     }
-    
+
     print(f"🔄 Processing {keyword} - {s_type}...")
     
     best_score = -1

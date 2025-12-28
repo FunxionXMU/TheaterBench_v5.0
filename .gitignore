@@ -1,1 +1,11 @@
 t2v_videos/
+__pycache__/
+*.pyc
+.DS_Store
+venv/
+.env
+.vscode/
+.idea/
+*.log
+*.swp
+*.swo
