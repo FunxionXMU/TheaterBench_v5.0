@@ -1,0 +1,7 @@
+openai
+requests
+tqdm
+python-dotenv
+opencv-python
+prettytable
+streamlit

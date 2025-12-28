@@ -1,0 +1,434 @@
+[
+  {
+    "object_name": "Nerf Gun (软弹枪)",
+    "scenario_type": "Surprise Scenario",
+    "video_file": "Nerf_Gun_(软弹枪)_Surprise_1.mp4",
+    "mcq_question": "[0-3s]: A young boy stands in a living room, holding a brightly colored Nerf gun and focusing intently on a stack of plastic cups on the table ahead.; [3-7s]: ???; [7-10s]: ] The boy lowers the blaster, pumping his fist in the air with a wide, triumphant grin.. What most likely happened in the [3-7s] interval according to the video?",
+    "mcq_options": {
+      "A": "The boy pulls the trigger; the foam dart freezes mid-air, grows a tiny human-like hand that meticulously flicks each cup over one by one, then zips back into its original trajectory to hit the table.",
+      "B": "The boy pulls the trigger; a foam dart flies through the air and strikes the center of the cup pyramid, causing them to scatter across the table.",
+      "C": "The boy pulls the trigger; the foam dart suddenly expands into a giant soft pillow that gently pushes the entire table over, causing the cups to float upward toward the ceiling before disappearing.",
+      "D": "The boy pulls the trigger; the foam dart transforms into a small mechanical bird that circles the stack three times, chirping loudly as it knocks each cup down with its wings before landing on the boy's shoulder."
+    },
+    "correct_answer": "A",
+    "model_name": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+    "model_answer": "A",
+    "is_correct": true,
+    "model_reasoning": "The video shows a boy aiming a Nerf gun at a stack of cups. In the [3-7s] interval, the dart is seen flying through the air, but instead of hitting the cups, it transforms into a small hand that meticulously knocks over each cup one by one. This is consistent with option A, which describes the dart freezing mid-air, growing a hand, and knocking over the cups before returning to its trajectory. The other options describe different fantastical events that are not depicted in the video.",
+    "original_score": 9.7
+  },
+  {
+    "object_name": "Nerf Gun (软弹枪)",
+    "scenario_type": "Surprise Scenario",
+    "video_file": "Nerf_Gun_(软弹枪)_Surprise_1.mp4",
+    "mcq_question": "[0-3s]: A young boy stands in a living room, holding a brightly colored Nerf gun and focusing intently on a stack of plastic cups on the table ahead.; [3-7s]: ???; [7-10s]: ] The boy lowers the blaster, pumping his fist in the air with a wide, triumphant grin.. What most likely happened in the [3-7s] interval according to the video?",
+    "mcq_options": {
+      "A": "The boy pulls the trigger; the foam dart freezes mid-air, grows a tiny human-like hand that meticulously flicks each cup over one by one, then zips back into its original trajectory to hit the table.",
+      "B": "The boy pulls the trigger; a foam dart flies through the air and strikes the center of the cup pyramid, causing them to scatter across the table.",
+      "C": "The boy pulls the trigger; the foam dart suddenly expands into a giant soft pillow that gently pushes the entire table over, causing the cups to float upward toward the ceiling before disappearing.",
+      "D": "The boy pulls the trigger; the foam dart transforms into a small mechanical bird that circles the stack three times, chirping loudly as it knocks each cup down with its wings before landing on the boy's shoulder."
+    },
+    "correct_answer": "A",
+    "model_name": "qwen3-vl-flash",
+    "model_answer": "B",
+    "is_correct": false,
+    "model_reasoning": "The video shows the boy aiming a Nerf gun at a pyramid of plastic cups. At 0:03, the dart is shown in mid-air with a hand attached to it, which is clearly a visual effect or animation — not a real physical event. However, by 0:05–0:06, the cups are seen falling over, indicating the dart struck them. The boy’s subsequent triumphant reaction (0:08–0:09) confirms he successfully knocked down the cups. Option B describes a realistic and plausible outcome: the dart hits the center of the cup pyramid, causing them to scatter — matching both the visual evidence and the boy’s celebration. The other options involve fantastical elements (e.g., a hand on the dart, pillow transformation, mechanical bird) that, while visually creative, contradict the straightforward cause-effect narrative implied by the boy’s focused aim and joyful reaction.",
+    "original_score": 9.7
+  },
+  {
+    "object_name": "Microphone (麦克风)",
+    "scenario_type": "Surprise Scenario",
+    "video_file": "Microphone_(麦克风)_Surprise_1.mp4",
+    "mcq_question": "[0-3s]: A man in a suit nervously walks up to a wooden podium on a stage, looking down at his notes; a silver microphone stands tall on its mount.; [3-7s]: ???; [7-10s]: ] The man winces and recoils, pulling his hands away and covering one ear while looking awkwardly toward the sound booth.. What most likely happened in the [3-7s] interval according to the video?",
+    "mcq_options": {
+      "A": "Just as he reaches for the stand, the microphone begins to vibrate violently and the metal head suddenly shatters into a cloud of sharp glass shards that fly toward his face with a deafening explosion.",
+      "B": "As he grips the neck of the microphone, the silver metal softens into scaly skin and the head of the mic transforms into a wide-open human mouth that lets out a piercing, supernatural scream directly at him.",
+      "C": "He reaches out and grips the neck of the microphone to adjust it toward his mouth, causing a loud, sharp screech of audio feedback to ring out through the speakers.",
+      "D": "When he touches the microphone, the metal becomes a bright, glowing white light that expands rapidly until the entire stage is engulfed in a blinding flash and a high-pitched electronic hum that fills the room."
+    },
+    "correct_answer": "B",
+    "model_name": "qwen3-vl-flash",
+    "model_answer": "B",
+    "is_correct": true,
+    "model_reasoning": "In the video frames from [3-7s], the man reaches for the microphone, and at 0:04, the microphone head suddenly transforms into a grotesque, screaming reptilian mouth. This is followed by his startled reaction — recoiling, wincing, and covering his ear — which matches the description in option B: the microphone’s metal softens into scaly skin and transforms into a human-like screaming mouth. The other options describe implausible or physically inconsistent events (e.g., glass shards, glowing light, audio feedback) that are not visually supported by the footage. Only option B aligns with the visual transformation and the man’s immediate physical reaction.",
+    "original_score": 9.55
+  },
+  {
+    "object_name": "Microphone (麦克风)",
+    "scenario_type": "Surprise Scenario",
+    "video_file": "Microphone_(麦克风)_Surprise_1.mp4",
+    "mcq_question": "[0-3s]: A man in a suit nervously walks up to a wooden podium on a stage, looking down at his notes; a silver microphone stands tall on its mount.; [3-7s]: ???; [7-10s]: ] The man winces and recoils, pulling his hands away and covering one ear while looking awkwardly toward the sound booth.. What most likely happened in the [3-7s] interval according to the video?",
+    "mcq_options": {
+      "A": "Just as he reaches for the stand, the microphone begins to vibrate violently and the metal head suddenly shatters into a cloud of sharp glass shards that fly toward his face with a deafening explosion.",
+      "B": "As he grips the neck of the microphone, the silver metal softens into scaly skin and the head of the mic transforms into a wide-open human mouth that lets out a piercing, supernatural scream directly at him.",
+      "C": "He reaches out and grips the neck of the microphone to adjust it toward his mouth, causing a loud, sharp screech of audio feedback to ring out through the speakers.",
+      "D": "When he touches the microphone, the metal becomes a bright, glowing white light that expands rapidly until the entire stage is engulfed in a blinding flash and a high-pitched electronic hum that fills the room."
+    },
+    "correct_answer": "B",
+    "model_name": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+    "model_answer": "B",
+    "is_correct": true,
+    "model_reasoning": "The sequence of events in the video provides a clear narrative that allows for a logical inference about the [3-7s] interval. The video begins with a man nervously approaching a podium with a microphone (0-3s). The next segment (3-7s) shows him reaching out and touching the microphone. The final segment (7-10s) shows him recoiling in pain and covering his ear, looking towards the sound booth. This reaction is a direct response to a sudden, loud, and unpleasant sound originating from the microphone. Option B is the only one that provides a coherent and logical explanation for this sequence: the man touches the microphone, which then transforms into a creature that emits a piercing scream, causing him to recoil. The other options are implausible: A involves a violent explosion that would likely cause more than just a recoil; C describes a common feedback screech, but the man's reaction is one of physical pain and shock, not just annoyance; D describes a massive light and sound event that would have a much more dramatic and widespread effect than what is shown. Therefore, B is the most likely event that occurred.",
+    "original_score": 9.55
+  },
+  {
+    "object_name": "Nerf Gun (软弹枪)",
+    "scenario_type": "Surprise Scenario",
+    "video_file": "Nerf_Gun_(软弹枪)_Surprise_1.mp4",
+    "mcq_question": "[0-3s]: A young boy stands in a living room, holding a brightly colored Nerf gun and focusing intently on a stack of plastic cups on the table ahead.; [3-7s]: ???; [7-10s]: ] The boy lowers the blaster, pumping his fist in the air with a wide, triumphant grin.. What most likely happened in the [3-7s] interval according to the video?",
+    "mcq_options": {
+      "A": "The boy pulls the trigger; the foam dart freezes mid-air, grows a tiny human-like hand that meticulously flicks each cup over one by one, then zips back into its original trajectory to hit the table.",
+      "B": "The boy pulls the trigger; a foam dart flies through the air and strikes the center of the cup pyramid, causing them to scatter across the table.",
+      "C": "The boy pulls the trigger; the foam dart suddenly expands into a giant soft pillow that gently pushes the entire table over, causing the cups to float upward toward the ceiling before disappearing.",
+      "D": "The boy pulls the trigger; the foam dart transforms into a small mechanical bird that circles the stack three times, chirping loudly as it knocks each cup down with its wings before landing on the boy's shoulder."
+    },
+    "correct_answer": "A",
+    "model_name": "qwen-vl-max-latest",
+    "model_answer": "A",
+    "is_correct": true,
+    "model_reasoning": "In the video, during the [3-7s] interval, the foam dart is shown flying through the air with a tiny human-like hand attached to it. This hand flicks each cup over one by one in a precise and deliberate manner, causing them to fall. The dart then continues on its original trajectory and hits the table. This sequence matches option A exactly, where the dart freezes mid-air, grows a hand that knocks down the cups, and then returns to its path. The other options describe different transformations or effects that are not observed in the video.",
+    "original_score": 9.7
+  },
+  {
+    "object_name": "Microphone (麦克风)",
+    "scenario_type": "Surprise Scenario",
+    "video_file": "Microphone_(麦克风)_Surprise_1.mp4",
+    "mcq_question": "[0-3s]: A man in a suit nervously walks up to a wooden podium on a stage, looking down at his notes; a silver microphone stands tall on its mount.; [3-7s]: ???; [7-10s]: ] The man winces and recoils, pulling his hands away and covering one ear while looking awkwardly toward the sound booth.. What most likely happened in the [3-7s] interval according to the video?",
+    "mcq_options": {
+      "A": "Just as he reaches for the stand, the microphone begins to vibrate violently and the metal head suddenly shatters into a cloud of sharp glass shards that fly toward his face with a deafening explosion.",
+      "B": "As he grips the neck of the microphone, the silver metal softens into scaly skin and the head of the mic transforms into a wide-open human mouth that lets out a piercing, supernatural scream directly at him.",
+      "C": "He reaches out and grips the neck of the microphone to adjust it toward his mouth, causing a loud, sharp screech of audio feedback to ring out through the speakers.",
+      "D": "When he touches the microphone, the metal becomes a bright, glowing white light that expands rapidly until the entire stage is engulfed in a blinding flash and a high-pitched electronic hum that fills the room."
+    },
+    "correct_answer": "B",
+    "model_name": "qwen-vl-max-latest",
+    "model_answer": "B",
+    "is_correct": true,
+    "model_reasoning": "In the video, the man approaches the podium and reaches for the microphone. At 3-7 seconds, the microphone transforms into a creature with a reptilian head that opens its mouth wide, suggesting a supernatural or surreal event. This transformation is consistent with option B, where the microphone's head turns into a human-like mouth that screams. The man's reaction—covering his ear and recoiling—indicates he was startled by a loud, possibly supernatural sound, which aligns with the description in option B. Options A, C, and D describe different events (shattering glass, audio feedback, or a blinding flash), none of which match the visual transformation seen in the video.",
+    "original_score": 9.55
+  },
+  {
+    "object_name": "Nerf Gun (软弹枪)",
+    "scenario_type": "Surprise Scenario",
+    "video_file": "Nerf_Gun_(软弹枪)_Surprise_1.mp4",
+    "mcq_question": "[0-3s]: A young boy stands in a living room, holding a brightly colored Nerf gun and focusing intently on a stack of plastic cups on the table ahead.; [3-7s]: ???; [7-10s]: ] The boy lowers the blaster, pumping his fist in the air with a wide, triumphant grin.. What most likely happened in the [3-7s] interval according to the video?",
+    "mcq_options": {
+      "A": "The boy pulls the trigger; the foam dart freezes mid-air, grows a tiny human-like hand that meticulously flicks each cup over one by one, then zips back into its original trajectory to hit the table.",
+      "B": "The boy pulls the trigger; a foam dart flies through the air and strikes the center of the cup pyramid, causing them to scatter across the table.",
+      "C": "The boy pulls the trigger; the foam dart suddenly expands into a giant soft pillow that gently pushes the entire table over, causing the cups to float upward toward the ceiling before disappearing.",
+      "D": "The boy pulls the trigger; the foam dart transforms into a small mechanical bird that circles the stack three times, chirping loudly as it knocks each cup down with its wings before landing on the boy's shoulder."
+    },
+    "correct_answer": "A",
+    "model_name": "qwen3-vl-plus",
+    "model_answer": "A",
+    "is_correct": true,
+    "model_reasoning": "The video frames from 4s to 7s clearly show the foam dart mid-flight with a small, human-like hand attached to its end. This hand is seen actively flicking the plastic cups off the table one by one, which directly matches the description in option A. The boy’s triumphant reaction at 8s-9s confirms that the target was successfully knocked down, and the visual evidence rules out the more physically implausible or fantastical outcomes described in options B, C, and D.",
+    "original_score": 9.7
+  },
+  {
+    "object_name": "Microphone (麦克风)",
+    "scenario_type": "Surprise Scenario",
+    "video_file": "Microphone_(麦克风)_Surprise_1.mp4",
+    "mcq_question": "[0-3s]: A man in a suit nervously walks up to a wooden podium on a stage, looking down at his notes; a silver microphone stands tall on its mount.; [3-7s]: ???; [7-10s]: ] The man winces and recoils, pulling his hands away and covering one ear while looking awkwardly toward the sound booth.. What most likely happened in the [3-7s] interval according to the video?",
+    "mcq_options": {
+      "A": "Just as he reaches for the stand, the microphone begins to vibrate violently and the metal head suddenly shatters into a cloud of sharp glass shards that fly toward his face with a deafening explosion.",
+      "B": "As he grips the neck of the microphone, the silver metal softens into scaly skin and the head of the mic transforms into a wide-open human mouth that lets out a piercing, supernatural scream directly at him.",
+      "C": "He reaches out and grips the neck of the microphone to adjust it toward his mouth, causing a loud, sharp screech of audio feedback to ring out through the speakers.",
+      "D": "When he touches the microphone, the metal becomes a bright, glowing white light that expands rapidly until the entire stage is engulfed in a blinding flash and a high-pitched electronic hum that fills the room."
+    },
+    "correct_answer": "B",
+    "model_name": "qwen3-vl-plus",
+    "model_answer": "B",
+    "is_correct": true,
+    "model_reasoning": "In the frames from 3-7s, the man is seen gripping the microphone, and it visually transforms into a creature's head with an open mouth, appearing to scream. His subsequent reaction in frames 7-10s — wincing, recoiling, and covering his ear — is consistent with being startled by a loud, supernatural scream emanating from the transformed microphone. This matches option B exactly. The other options involve physical destruction (A), glowing light (D), or audio feedback (C), none of which are visually depicted; only B aligns with both the visual transformation and the man’s auditory-reactive behavior.",
+    "original_score": 9.55
+  },
+  {
+    "object_name": "Nerf Gun (软弹枪)",
+    "scenario_type": "Surprise Scenario",
+    "video_file": "Nerf_Gun_(软弹枪)_Surprise_1.mp4",
+    "mcq_question": "[0-3s]: A young boy stands in a living room, holding a brightly colored Nerf gun and focusing intently on a stack of plastic cups on the table ahead.; [3-7s]: ???; [7-10s]: ] The boy lowers the blaster, pumping his fist in the air with a wide, triumphant grin.. What most likely happened in the [3-7s] interval according to the video?",
+    "mcq_options": {
+      "A": "The boy pulls the trigger; the foam dart freezes mid-air, grows a tiny human-like hand that meticulously flicks each cup over one by one, then zips back into its original trajectory to hit the table.",
+      "B": "The boy pulls the trigger; a foam dart flies through the air and strikes the center of the cup pyramid, causing them to scatter across the table.",
+      "C": "The boy pulls the trigger; the foam dart suddenly expands into a giant soft pillow that gently pushes the entire table over, causing the cups to float upward toward the ceiling before disappearing.",
+      "D": "The boy pulls the trigger; the foam dart transforms into a small mechanical bird that circles the stack three times, chirping loudly as it knocks each cup down with its wings before landing on the boy's shoulder."
+    },
+    "correct_answer": "A",
+    "model_name": "qwen3-vl-30b-a3b-thinking",
+    "model_answer": "B",
+    "is_correct": false,
+    "model_reasoning": "The video shows the boy aiming a Nerf gun at a stack of plastic cups. In the 3-7s interval, the sequence depicts the foam dart (from the Nerf gun) traveling toward the cups and causing them to scatter across the table. This aligns with option B, which describes the dart striking the cup pyramid and knocking them over. The other options involve fantastical elements (e.g., a hand growing from the dart, a pillow expanding, or a mechanical bird) that are not present in the video. The visual evidence confirms a straightforward action where the dart hits the cups, leading to their scattering.",
+    "original_score": 9.7
+  },
+  {
+    "object_name": "Microphone (麦克风)",
+    "scenario_type": "Surprise Scenario",
+    "video_file": "Microphone_(麦克风)_Surprise_1.mp4",
+    "mcq_question": "[0-3s]: A man in a suit nervously walks up to a wooden podium on a stage, looking down at his notes; a silver microphone stands tall on its mount.; [3-7s]: ???; [7-10s]: ] The man winces and recoils, pulling his hands away and covering one ear while looking awkwardly toward the sound booth.. What most likely happened in the [3-7s] interval according to the video?",
+    "mcq_options": {
+      "A": "Just as he reaches for the stand, the microphone begins to vibrate violently and the metal head suddenly shatters into a cloud of sharp glass shards that fly toward his face with a deafening explosion.",
+      "B": "As he grips the neck of the microphone, the silver metal softens into scaly skin and the head of the mic transforms into a wide-open human mouth that lets out a piercing, supernatural scream directly at him.",
+      "C": "He reaches out and grips the neck of the microphone to adjust it toward his mouth, causing a loud, sharp screech of audio feedback to ring out through the speakers.",
+      "D": "When he touches the microphone, the metal becomes a bright, glowing white light that expands rapidly until the entire stage is engulfed in a blinding flash and a high-pitched electronic hum that fills the room."
+    },
+    "correct_answer": "B",
+    "model_name": "qwen3-vl-30b-a3b-thinking",
+    "model_answer": "B",
+    "is_correct": true,
+    "model_reasoning": "In the video, during the 3-7s interval, the man reaches for the microphone. As he grips it, the microphone transforms into a dinosaur-like head with an open mouth (scaly skin, wide-open mouth), which emits a loud sound causing him to recoil. Option B accurately describes this transformation and the resulting scream that leads to his reaction. Other options involve implausible events (e.g., shattering glass, glowing light, audio feedback) not depicted in the video.",
+    "original_score": 9.55
+  },
+  {
+    "object_name": "Nerf Gun (软弹枪)",
+    "scenario_type": "Surprise Scenario",
+    "video_file": "Nerf_Gun_(软弹枪)_Surprise_1.mp4",
+    "mcq_question": "[0-3s]: A young boy stands in a living room, holding a brightly colored Nerf gun and focusing intently on a stack of plastic cups on the table ahead.; [3-7s]: ???; [7-10s]: ] The boy lowers the blaster, pumping his fist in the air with a wide, triumphant grin.. What most likely happened in the [3-7s] interval according to the video?",
+    "mcq_options": {
+      "A": "The boy pulls the trigger; the foam dart freezes mid-air, grows a tiny human-like hand that meticulously flicks each cup over one by one, then zips back into its original trajectory to hit the table.",
+      "B": "The boy pulls the trigger; a foam dart flies through the air and strikes the center of the cup pyramid, causing them to scatter across the table.",
+      "C": "The boy pulls the trigger; the foam dart suddenly expands into a giant soft pillow that gently pushes the entire table over, causing the cups to float upward toward the ceiling before disappearing.",
+      "D": "The boy pulls the trigger; the foam dart transforms into a small mechanical bird that circles the stack three times, chirping loudly as it knocks each cup down with its wings before landing on the boy's shoulder."
+    },
+    "correct_answer": "A",
+    "model_name": "zai-org/GLM-4.6V",
+    "model_answer": "B",
+    "is_correct": false,
+    "model_reasoning": "The boy is aiming a Nerf gun at a stack of cups. In the 3-7s interval, the most logical action is the foam dart flying and striking the cups, causing them to scatter (as seen in the boy’s triumphant reaction afterward). Options A, C, and D describe fantastical, unrealistic events (a dart growing a hand, transforming into a pillow, or a mechanical bird) that don’t align with typical Nerf gun behavior or the context of the scene.",
+    "original_score": 9.7
+  },
+  {
+    "object_name": "Microphone (麦克风)",
+    "scenario_type": "Surprise Scenario",
+    "video_file": "Microphone_(麦克风)_Surprise_1.mp4",
+    "mcq_question": "[0-3s]: A man in a suit nervously walks up to a wooden podium on a stage, looking down at his notes; a silver microphone stands tall on its mount.; [3-7s]: ???; [7-10s]: ] The man winces and recoils, pulling his hands away and covering one ear while looking awkwardly toward the sound booth.. What most likely happened in the [3-7s] interval according to the video?",
+    "mcq_options": {
+      "A": "Just as he reaches for the stand, the microphone begins to vibrate violently and the metal head suddenly shatters into a cloud of sharp glass shards that fly toward his face with a deafening explosion.",
+      "B": "As he grips the neck of the microphone, the silver metal softens into scaly skin and the head of the mic transforms into a wide-open human mouth that lets out a piercing, supernatural scream directly at him.",
+      "C": "He reaches out and grips the neck of the microphone to adjust it toward his mouth, causing a loud, sharp screech of audio feedback to ring out through the speakers.",
+      "D": "When he touches the microphone, the metal becomes a bright, glowing white light that expands rapidly until the entire stage is engulfed in a blinding flash and a high-pitched electronic hum that fills the room."
+    },
+    "correct_answer": "B",
+    "model_name": "zai-org/GLM-4.6V",
+    "model_answer": "B",
+    "is_correct": true,
+    "model_reasoning": "The video shows the microphone transforming into a creature with a wide-open mouth (visible in the image), which aligns with option B’s description of the mic head becoming a human mouth that lets out a piercing scream. This scream would explain the man’s reaction (winces, recoils, covers ear, looks at sound booth) in the 7-10s interval. Other options (shattering, feedback, light) don’t match the visual transformation of the microphone seen in the video.",
+    "original_score": 9.55
+  },
+  {
+    "object_name": "Toothpaste Tube (牙膏管)",
+    "scenario_type": "Surprise Scenario",
+    "video_file": "Toothpaste_Tube_(牙膏管)_Surprise_1.mp4",
+    "mcq_question": "[0-3s]: A person stands at a bathroom sink, holding a toothbrush in one hand and a crumpled, nearly empty toothpaste tube in the other.; [3-7s]: ???; [7-10s]: ] The person stops squeezing and stares at the oversized mess on their hand with a sigh of frustration.. What most likely happened in the [3-7s] interval according to the video?",
+    "mcq_options": {
+      "A": "The person rolls the tube tightly from the bottom and squeezes hard; suddenly, a large, messy glob of toothpaste shoots out onto the bristles and the person's hand.",
+      "B": "The person gives the tube a firm press, causing the plastic casing to ripple like liquid water while emitting a high-pitched chirp, eventually rupturing at the seam to release a heavy, shimmering burst of paste that misses the brush and lands heavily on the person's palm.",
+      "C": "As the person begins to squeeze, the toothpaste tube suddenly expands its sides like lungs, inhales with a loud whistling sound, and lets out a violent, wet sneeze that launches a massive, glowing glob of paste across the bristles and onto the person's hand.",
+      "D": "While the person applies pressure, the tube starts to vibrate intensely and hums a low frequency before the cap pops off with a miniature steam explosion, spraying a thick, fluorescent trail of gel that covers the toothbrush and splatters over the person's knuckles."
+    },
+    "correct_answer": "C",
+    "model_name": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+    "model_answer": "A",
+    "is_correct": false,
+    "model_reasoning": "The video shows a person attempting to squeeze toothpaste from a nearly empty tube. The action of squeezing the tube is depicted, followed by the person's reaction of frustration upon seeing a large, messy amount of toothpaste on their hand. This sequence of events is best described by option A, which details the person rolling the tube and squeezing hard, resulting in a large glob of toothpaste shooting out. The other options describe more fantastical or exaggerated events that are not supported by the video.",
+    "original_score": 8.716666666666665
+  },
+  {
+    "object_name": "Hygrometer (湿度计)",
+    "scenario_type": "Surprise Scenario",
+    "video_file": "Hygrometer_(湿度计)_Surprise_1.mp4",
+    "mcq_question": "[0-3s]: A man reaches for a polished wooden humidor on a sunlit table; a round analog hygrometer is visible on the front of the box.; [3-7s]: ???; [7-10s]: ] He places the humidor in a dark, shaded corner of the room, wiping sweat from his forehead with a look of relief.. What most likely happened in the [3-7s] interval according to the video?",
+    "mcq_options": {
+      "A": "As he leans in, the hygrometer needle spins violently and pierces through the glass, sweating a heavy stream of water that drenches the man's sleeves as he lifts the leaking box.",
+      "B": "Upon his approach, the glass on the hygrometer cracks open and thick vines sprout from the center, wrapping tightly around the man's wrists as he struggles to pull the heavy humidor into the shade.",
+      "C": "He leans in closely to read the needle, which is pointing deep into the 'High' humidity zone, and he quickly picks up the heavy box.",
+      "D": "While he reaches out, the hygrometer dial suddenly detaches and floats in mid-air, emitting a dense fog that obscures the table before the man manages to grasp the vibrating wooden lid."
+    },
+    "correct_answer": "A",
+    "model_name": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+    "model_answer": "C",
+    "is_correct": false,
+    "model_reasoning": "The video shows a man reaching for a humidor with a hygrometer on it. In the [3-7s] interval, he leans in to read the hygrometer, which is pointing deep into the 'High' humidity zone. This action is consistent with option C, which describes him reading the needle and then picking up the humidor. The other options describe fantastical events (spinning needle piercing glass, vines sprouting, dial floating) that are not supported by the video. The man's subsequent action of placing the humidor in a shaded corner and wiping sweat suggests he was concerned about the high humidity and wanted to store the humidor in a cooler, more stable environment.",
+    "original_score": 8.666666666666666
+  },
+  {
+    "object_name": "Toothpaste Tube (牙膏管)",
+    "scenario_type": "Surprise Scenario",
+    "video_file": "Toothpaste_Tube_(牙膏管)_Surprise_1.mp4",
+    "mcq_question": "[0-3s]: A person stands at a bathroom sink, holding a toothbrush in one hand and a crumpled, nearly empty toothpaste tube in the other.; [3-7s]: ???; [7-10s]: ] The person stops squeezing and stares at the oversized mess on their hand with a sigh of frustration.. What most likely happened in the [3-7s] interval according to the video?",
+    "mcq_options": {
+      "A": "The person rolls the tube tightly from the bottom and squeezes hard; suddenly, a large, messy glob of toothpaste shoots out onto the bristles and the person's hand.",
+      "B": "The person gives the tube a firm press, causing the plastic casing to ripple like liquid water while emitting a high-pitched chirp, eventually rupturing at the seam to release a heavy, shimmering burst of paste that misses the brush and lands heavily on the person's palm.",
+      "C": "As the person begins to squeeze, the toothpaste tube suddenly expands its sides like lungs, inhales with a loud whistling sound, and lets out a violent, wet sneeze that launches a massive, glowing glob of paste across the bristles and onto the person's hand.",
+      "D": "While the person applies pressure, the tube starts to vibrate intensely and hums a low frequency before the cap pops off with a miniature steam explosion, spraying a thick, fluorescent trail of gel that covers the toothbrush and splatters over the person's knuckles."
+    },
+    "correct_answer": "C",
+    "model_name": "qwen3-vl-flash",
+    "model_answer": "A",
+    "is_correct": false,
+    "model_reasoning": "The video shows a person attempting to squeeze toothpaste onto a brush from a nearly empty tube. In frames [3-7s], the toothpaste is shown flowing out in an unusually thick, viscous stream that wraps around the bristles and even forms a knot-like shape before dripping down — suggesting excessive pressure or a malfunctioning tube. The final frame at [7-10s] shows the person staring at a large, messy glob of toothpaste on their hand, indicating that the squeezing action resulted in an overabundance of paste being dispensed. Option A best matches this sequence: rolling the tube tightly and squeezing hard causes a large, messy glob to shoot out — which aligns with the visual outcome. The other options (B, C, D) introduce fantastical or physically implausible elements (e.g., tube expanding like lungs, cap popping with steam, fluorescent gel) not supported by the actual footage.",
+    "original_score": 8.716666666666665
+  },
+  {
+    "object_name": "Hygrometer (湿度计)",
+    "scenario_type": "Surprise Scenario",
+    "video_file": "Hygrometer_(湿度计)_Surprise_1.mp4",
+    "mcq_question": "[0-3s]: A man reaches for a polished wooden humidor on a sunlit table; a round analog hygrometer is visible on the front of the box.; [3-7s]: ???; [7-10s]: ] He places the humidor in a dark, shaded corner of the room, wiping sweat from his forehead with a look of relief.. What most likely happened in the [3-7s] interval according to the video?",
+    "mcq_options": {
+      "A": "As he leans in, the hygrometer needle spins violently and pierces through the glass, sweating a heavy stream of water that drenches the man's sleeves as he lifts the leaking box.",
+      "B": "Upon his approach, the glass on the hygrometer cracks open and thick vines sprout from the center, wrapping tightly around the man's wrists as he struggles to pull the heavy humidor into the shade.",
+      "C": "He leans in closely to read the needle, which is pointing deep into the 'High' humidity zone, and he quickly picks up the heavy box.",
+      "D": "While he reaches out, the hygrometer dial suddenly detaches and floats in mid-air, emitting a dense fog that obscures the table before the man manages to grasp the vibrating wooden lid."
+    },
+    "correct_answer": "A",
+    "model_name": "qwen3-vl-flash",
+    "model_answer": "A",
+    "is_correct": true,
+    "model_reasoning": "The video frames from 0-3 seconds show the man approaching a polished wooden humidor with a round analog hygrometer on its front. At 2-3 seconds, a close-up of the hygrometer reveals the needle pointing deep into the 'High' humidity zone (near 100%). Immediately after, in frames 3-6, the glass of the hygrometer cracks violently, and water begins gushing out forcefully — drenching the box and the man’s hands. This matches option A exactly: the needle spins violently, the glass pierces, and water pours out, soaking the man’s sleeves. The subsequent frames (7-10) show him moving the box to a shaded corner, visibly relieved — indicating he reacted to the sudden water eruption. Options B, C, and D describe fantastical or implausible events not shown in the video (e.g., vines, floating dials, or no water at all), making A the only logically consistent choice based on visual evidence.",
+    "original_score": 8.666666666666666
+  },
+  {
+    "object_name": "Hygrometer (湿度计)",
+    "scenario_type": "Surprise Scenario",
+    "video_file": "Hygrometer_(湿度计)_Surprise_1.mp4",
+    "mcq_question": "[0-3s]: A man reaches for a polished wooden humidor on a sunlit table; a round analog hygrometer is visible on the front of the box.; [3-7s]: ???; [7-10s]: ] He places the humidor in a dark, shaded corner of the room, wiping sweat from his forehead with a look of relief.. What most likely happened in the [3-7s] interval according to the video?",
+    "mcq_options": {
+      "A": "As he leans in, the hygrometer needle spins violently and pierces through the glass, sweating a heavy stream of water that drenches the man's sleeves as he lifts the leaking box.",
+      "B": "Upon his approach, the glass on the hygrometer cracks open and thick vines sprout from the center, wrapping tightly around the man's wrists as he struggles to pull the heavy humidor into the shade.",
+      "C": "He leans in closely to read the needle, which is pointing deep into the 'High' humidity zone, and he quickly picks up the heavy box.",
+      "D": "While he reaches out, the hygrometer dial suddenly detaches and floats in mid-air, emitting a dense fog that obscures the table before the man manages to grasp the vibrating wooden lid."
+    },
+    "correct_answer": "A",
+    "model_name": "qwen-vl-max-latest",
+    "model_answer": "A",
+    "is_correct": true,
+    "model_reasoning": "In the video, during the [3-7s] interval, the hygrometer on the humidor is shown with its glass cracking and water gushing out from it. The needle spins violently before piercing through the glass, and water streams out, drenching the man's sleeves as he lifts the box. This matches option A exactly. The subsequent scenes show the man carrying the leaking humidor to a shaded corner, consistent with the aftermath of this event.",
+    "original_score": 8.666666666666666
+  },
+  {
+    "object_name": "Toothpaste Tube (牙膏管)",
+    "scenario_type": "Surprise Scenario",
+    "video_file": "Toothpaste_Tube_(牙膏管)_Surprise_1.mp4",
+    "mcq_question": "[0-3s]: A person stands at a bathroom sink, holding a toothbrush in one hand and a crumpled, nearly empty toothpaste tube in the other.; [3-7s]: ???; [7-10s]: ] The person stops squeezing and stares at the oversized mess on their hand with a sigh of frustration.. What most likely happened in the [3-7s] interval according to the video?",
+    "mcq_options": {
+      "A": "The person rolls the tube tightly from the bottom and squeezes hard; suddenly, a large, messy glob of toothpaste shoots out onto the bristles and the person's hand.",
+      "B": "The person gives the tube a firm press, causing the plastic casing to ripple like liquid water while emitting a high-pitched chirp, eventually rupturing at the seam to release a heavy, shimmering burst of paste that misses the brush and lands heavily on the person's palm.",
+      "C": "As the person begins to squeeze, the toothpaste tube suddenly expands its sides like lungs, inhales with a loud whistling sound, and lets out a violent, wet sneeze that launches a massive, glowing glob of paste across the bristles and onto the person's hand.",
+      "D": "While the person applies pressure, the tube starts to vibrate intensely and hums a low frequency before the cap pops off with a miniature steam explosion, spraying a thick, fluorescent trail of gel that covers the toothbrush and splatters over the person's knuckles."
+    },
+    "correct_answer": "C",
+    "model_name": "qwen-vl-max-latest",
+    "model_answer": "A",
+    "is_correct": false,
+    "model_reasoning": "In the video, the person is seen squeezing a nearly empty toothpaste tube. At around 3-7 seconds, the toothpaste unexpectedly shoots out in a large, messy glob that covers both the toothbrush and the person's hand. This behavior matches option A, where the person rolls the tube tightly and squeezes hard, causing a sudden burst of toothpaste. The visual evidence shows no signs of the tube vibrating, humming, or emitting sounds (ruling out D), nor does it show any glowing or steam explosion effects (ruling out C and B). The most plausible explanation based on the visuals is a forceful squeeze resulting in an uncontrolled release of paste, as described in option A.",
+    "original_score": 8.716666666666665
+  },
+  {
+    "object_name": "Toothpaste Tube (牙膏管)",
+    "scenario_type": "Surprise Scenario",
+    "video_file": "Toothpaste_Tube_(牙膏管)_Surprise_1.mp4",
+    "mcq_question": "[0-3s]: A person stands at a bathroom sink, holding a toothbrush in one hand and a crumpled, nearly empty toothpaste tube in the other.; [3-7s]: ???; [7-10s]: ] The person stops squeezing and stares at the oversized mess on their hand with a sigh of frustration.. What most likely happened in the [3-7s] interval according to the video?",
+    "mcq_options": {
+      "A": "The person rolls the tube tightly from the bottom and squeezes hard; suddenly, a large, messy glob of toothpaste shoots out onto the bristles and the person's hand.",
+      "B": "The person gives the tube a firm press, causing the plastic casing to ripple like liquid water while emitting a high-pitched chirp, eventually rupturing at the seam to release a heavy, shimmering burst of paste that misses the brush and lands heavily on the person's palm.",
+      "C": "As the person begins to squeeze, the toothpaste tube suddenly expands its sides like lungs, inhales with a loud whistling sound, and lets out a violent, wet sneeze that launches a massive, glowing glob of paste across the bristles and onto the person's hand.",
+      "D": "While the person applies pressure, the tube starts to vibrate intensely and hums a low frequency before the cap pops off with a miniature steam explosion, spraying a thick, fluorescent trail of gel that covers the toothbrush and splatters over the person's knuckles."
+    },
+    "correct_answer": "C",
+    "model_name": "qwen3-vl-plus",
+    "model_answer": "A",
+    "is_correct": false,
+    "model_reasoning": "In the video, the person is seen squeezing a nearly empty toothpaste tube. At 0:03-0:06, a large, messy glob of toothpaste unexpectedly shoots out onto the toothbrush and the person's hand. This matches option A, which describes rolling the tube tightly from the bottom and squeezing hard, resulting in a sudden, messy burst of paste. The other options describe fantastical or physically impossible events (e.g., tube rippling like water, expanding like lungs, vibrating with steam explosions), which are not depicted in the video. The visual evidence clearly supports the realistic, albeit exaggerated, outcome described in option A.",
+    "original_score": 8.716666666666665
+  },
+  {
+    "object_name": "Toothpaste Tube (牙膏管)",
+    "scenario_type": "Surprise Scenario",
+    "video_file": "Toothpaste_Tube_(牙膏管)_Surprise_1.mp4",
+    "mcq_question": "[0-3s]: A person stands at a bathroom sink, holding a toothbrush in one hand and a crumpled, nearly empty toothpaste tube in the other.; [3-7s]: ???; [7-10s]: ] The person stops squeezing and stares at the oversized mess on their hand with a sigh of frustration.. What most likely happened in the [3-7s] interval according to the video?",
+    "mcq_options": {
+      "A": "The person rolls the tube tightly from the bottom and squeezes hard; suddenly, a large, messy glob of toothpaste shoots out onto the bristles and the person's hand.",
+      "B": "The person gives the tube a firm press, causing the plastic casing to ripple like liquid water while emitting a high-pitched chirp, eventually rupturing at the seam to release a heavy, shimmering burst of paste that misses the brush and lands heavily on the person's palm.",
+      "C": "As the person begins to squeeze, the toothpaste tube suddenly expands its sides like lungs, inhales with a loud whistling sound, and lets out a violent, wet sneeze that launches a massive, glowing glob of paste across the bristles and onto the person's hand.",
+      "D": "While the person applies pressure, the tube starts to vibrate intensely and hums a low frequency before the cap pops off with a miniature steam explosion, spraying a thick, fluorescent trail of gel that covers the toothbrush and splatters over the person's knuckles."
+    },
+    "correct_answer": "C",
+    "model_name": "qwen3-vl-30b-a3b-thinking",
+    "model_answer": "A",
+    "is_correct": false,
+    "model_reasoning": "The video shows a person squeezing a nearly empty toothpaste tube onto a toothbrush. In the 3-7s interval, the close-up frames (3.2-6.2s) depict the toothpaste being squeezed, resulting in a large, messy glob that overflows onto the bristles and the person's hand. This matches Option A's description of squeezing hard, causing a \"large, messy glob of toothpaste\" to shoot out. Other options describe unrealistic or non-existent actions (e.g., tube rippling like water, vibrating, or steam explosions), which are not observed in the video. The subsequent frame (7-10s) shows the person staring at the mess, confirming the outcome of the squeezing action described in A.",
+    "original_score": 8.716666666666665
+  },
+  {
+    "object_name": "Hygrometer (湿度计)",
+    "scenario_type": "Surprise Scenario",
+    "video_file": "Hygrometer_(湿度计)_Surprise_1.mp4",
+    "mcq_question": "[0-3s]: A man reaches for a polished wooden humidor on a sunlit table; a round analog hygrometer is visible on the front of the box.; [3-7s]: ???; [7-10s]: ] He places the humidor in a dark, shaded corner of the room, wiping sweat from his forehead with a look of relief.. What most likely happened in the [3-7s] interval according to the video?",
+    "mcq_options": {
+      "A": "As he leans in, the hygrometer needle spins violently and pierces through the glass, sweating a heavy stream of water that drenches the man's sleeves as he lifts the leaking box.",
+      "B": "Upon his approach, the glass on the hygrometer cracks open and thick vines sprout from the center, wrapping tightly around the man's wrists as he struggles to pull the heavy humidor into the shade.",
+      "C": "He leans in closely to read the needle, which is pointing deep into the 'High' humidity zone, and he quickly picks up the heavy box.",
+      "D": "While he reaches out, the hygrometer dial suddenly detaches and floats in mid-air, emitting a dense fog that obscures the table before the man manages to grasp the vibrating wooden lid."
+    },
+    "correct_answer": "A",
+    "model_name": "qwen3-vl-plus",
+    "model_answer": "A",
+    "is_correct": true,
+    "model_reasoning": "The video frames from 3-7s show the hygrometer's glass cracking and water gushing out violently, drenching the man’s hand and sleeve as he lifts the box. This matches option A exactly: the needle spins (implied by the sudden crack), the glass breaks, and water streams out, soaking his sleeves as he carries the leaking humidor. The subsequent frames (7-10s) confirm he moves it to a shaded area while visibly sweating and relieved, consistent with having just dealt with a sudden, messy malfunction.",
+    "original_score": 8.666666666666666
+  },
+  {
+    "object_name": "Hygrometer (湿度计)",
+    "scenario_type": "Surprise Scenario",
+    "video_file": "Hygrometer_(湿度计)_Surprise_1.mp4",
+    "mcq_question": "[0-3s]: A man reaches for a polished wooden humidor on a sunlit table; a round analog hygrometer is visible on the front of the box.; [3-7s]: ???; [7-10s]: ] He places the humidor in a dark, shaded corner of the room, wiping sweat from his forehead with a look of relief.. What most likely happened in the [3-7s] interval according to the video?",
+    "mcq_options": {
+      "A": "As he leans in, the hygrometer needle spins violently and pierces through the glass, sweating a heavy stream of water that drenches the man's sleeves as he lifts the leaking box.",
+      "B": "Upon his approach, the glass on the hygrometer cracks open and thick vines sprout from the center, wrapping tightly around the man's wrists as he struggles to pull the heavy humidor into the shade.",
+      "C": "He leans in closely to read the needle, which is pointing deep into the 'High' humidity zone, and he quickly picks up the heavy box.",
+      "D": "While he reaches out, the hygrometer dial suddenly detaches and floats in mid-air, emitting a dense fog that obscures the table before the man manages to grasp the vibrating wooden lid."
+    },
+    "correct_answer": "A",
+    "model_name": "qwen3-vl-30b-a3b-thinking",
+    "model_answer": "C",
+    "is_correct": false,
+    "model_reasoning": "The video shows a man interacting with a humidor containing a hygrometer. In the 3-7s interval, the sequence of events is as follows: the man leans in to examine the hygrometer (visible in close-up at 2.2s), where the needle indicates a high humidity level. Immediately after, the hygrometer glass cracks (3.2s-5.2s), causing water to leak from the humidor. The man then picks up the leaking humidor (6.2s-7.2s) and moves it to a shaded area. Option C accurately describes this logical progression: he reads the high humidity reading on the hygrometer and then quickly lifts the heavy box. The other options introduce supernatural or exaggerated elements (e.g., vines, floating dials, violent needle spinning) not present in the video, which depicts a realistic scenario of humidity-related damage to the hygrometer.",
+    "original_score": 8.666666666666666
+  },
+  {
+    "object_name": "Hygrometer (湿度计)",
+    "scenario_type": "Surprise Scenario",
+    "video_file": "Hygrometer_(湿度计)_Surprise_1.mp4",
+    "mcq_question": "[0-3s]: A man reaches for a polished wooden humidor on a sunlit table; a round analog hygrometer is visible on the front of the box.; [3-7s]: ???; [7-10s]: ] He places the humidor in a dark, shaded corner of the room, wiping sweat from his forehead with a look of relief.. What most likely happened in the [3-7s] interval according to the video?",
+    "mcq_options": {
+      "A": "As he leans in, the hygrometer needle spins violently and pierces through the glass, sweating a heavy stream of water that drenches the man's sleeves as he lifts the leaking box.",
+      "B": "Upon his approach, the glass on the hygrometer cracks open and thick vines sprout from the center, wrapping tightly around the man's wrists as he struggles to pull the heavy humidor into the shade.",
+      "C": "He leans in closely to read the needle, which is pointing deep into the 'High' humidity zone, and he quickly picks up the heavy box.",
+      "D": "While he reaches out, the hygrometer dial suddenly detaches and floats in mid-air, emitting a dense fog that obscures the table before the man manages to grasp the vibrating wooden lid."
+    },
+    "correct_answer": "A",
+    "model_name": "zai-org/GLM-4.6V",
+    "model_answer": "C",
+    "is_correct": false,
+    "model_reasoning": "The scenario involves a man interacting with a humidor (used for storing cigars) and a hygrometer (measuring humidity). Option C describes a realistic action: the man reads the hygrometer (showing high humidity, a critical issue for cigar storage) and then moves the humidor, which aligns with the subsequent action of placing it in a shaded corner for relief. The other options involve fantastical elements (needle piercing glass, vines, floating dial/fog) that do not fit a plausible, real-world context for humidor care.",
+    "original_score": 8.666666666666666
+  },
+  {
+    "object_name": "Toothpaste Tube (牙膏管)",
+    "scenario_type": "Surprise Scenario",
+    "video_file": "Toothpaste_Tube_(牙膏管)_Surprise_1.mp4",
+    "mcq_question": "[0-3s]: A person stands at a bathroom sink, holding a toothbrush in one hand and a crumpled, nearly empty toothpaste tube in the other.; [3-7s]: ???; [7-10s]: ] The person stops squeezing and stares at the oversized mess on their hand with a sigh of frustration.. What most likely happened in the [3-7s] interval according to the video?",
+    "mcq_options": {
+      "A": "The person rolls the tube tightly from the bottom and squeezes hard; suddenly, a large, messy glob of toothpaste shoots out onto the bristles and the person's hand.",
+      "B": "The person gives the tube a firm press, causing the plastic casing to ripple like liquid water while emitting a high-pitched chirp, eventually rupturing at the seam to release a heavy, shimmering burst of paste that misses the brush and lands heavily on the person's palm.",
+      "C": "As the person begins to squeeze, the toothpaste tube suddenly expands its sides like lungs, inhales with a loud whistling sound, and lets out a violent, wet sneeze that launches a massive, glowing glob of paste across the bristles and onto the person's hand.",
+      "D": "While the person applies pressure, the tube starts to vibrate intensely and hums a low frequency before the cap pops off with a miniature steam explosion, spraying a thick, fluorescent trail of gel that covers the toothbrush and splatters over the person's knuckles."
+    },
+    "correct_answer": "C",
+    "model_name": "zai-org/GLM-4.6V",
+    "model_answer": "A",
+    "is_correct": false,
+    "model_reasoning": "Option A describes a realistic scenario where squeezing a nearly empty toothpaste tube (especially after rolling it) causes an unexpected large amount of paste to shoot out, leading to the mess on the hand. The other options include fantastical or physically implausible elements (e.g., tube rippling like liquid, expanding like lungs, steam explosion) that do not align with typical real-world behavior of a toothpaste tube.",
+    "original_score": 8.716666666666665
+  }
+]

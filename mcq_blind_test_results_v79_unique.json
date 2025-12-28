@@ -1,0 +1,458 @@
+[
+  {
+    "constraints": {
+      "keyword": "Microphone (麦克风)",
+      "type": "Surprise Scenario"
+    },
+    "director_data": {
+      "object_name": "Microphone (麦克风)",
+      "scenario_type": "Surprise Scenario",
+      "status": "evaluated",
+      "best_video": "Microphone_(麦克风)_Surprise_1.mp4",
+      "best_score": 9.55,
+      "best_reasoning": "Frame match score: 10.00, Coherence score: 8.50",
+      "all_candidates": [
+        {
+          "video_file": "Microphone_(麦克风)_Surprise_1.mp4",
+          "final_score": 9.55,
+          "segment_scores": [
+            {
+              "segment": "Start",
+              "score": 10.0,
+              "reasoning": "The frame perfectly matches the start of the synopsis. It shows a man in a suit approaching a podium with a microphone in a theater-like setting with red curtains. Since this is the START frame, the transformation of the microphone has not yet occurred, which is consistent with the narrative flow."
+            },
+            {
+              "segment": "Middle",
+              "score": 10.0,
+              "reasoning": "The frame perfectly captures the middle of the described action: the man is at a podium, and the microphone neck has transformed into a screaming creature shrieking directly into his face. The visual content aligns exactly with the synopsis."
+            },
+            {
+              "segment": "End",
+              "score": 10.0,
+              "reasoning": "The frame perfectly captures the end state of the described action: the microphone neck has transformed into a screaming creature with an open mouth, shrieking directly into the face of the man who appears startled while on his phone. The scene, characters, and the specific transformation are all clearly visible and accurate to the script."
+            }
+          ],
+          "coherence_evaluation": {
+            "expected_end_frame": "The end frame should show the man standing at the podium, reacting with shock or fear. The microphone stand's neck should be transformed into a thin, organic-looking creature with an open mouth, positioned as if it is shrieking directly into the man's face. The man should be in the process of adjusting the microphone or recoiling from it.",
+            "reasoning": "The start frame establishes a man in a suit approaching a podium with a standard microphone. The synopsis describes a surreal transformation where the microphone becomes a screaming creature. The actual end frame captures this transformation perfectly: the microphone head has turned into a grey, screaming creature with a wide-open mouth. The man's posture and facial expression show confusion and alarm, which aligns with the narrative. However, the man is holding a phone to his ear in the end frame, which was not mentioned in the synopsis and slightly deviates from the 'approaching to speak' narrative, though the primary visual transformation of the microphone is executed accurately.",
+            "score": "8.5"
+          },
+          "reasoning": "Frame match score: 10.00, Coherence score: 8.50",
+          "valid": true
+        }
+      ],
+      "has_valid_video": true,
+      "timeline": {
+        "start_caption": "[0-3s] A man in a suit nervously walks up to a wooden podium on a stage, looking down at his notes; a silver microphone stands tall on its mount.",
+        "middle_caption": "[3-7s] As he grips the neck of the microphone, the silver metal softens into scaly skin and the head of the mic transforms into a wide-open human mouth that lets out a piercing, supernatural scream directly at him.",
+        "end_caption": "[7-10s] The man winces and recoils, pulling his hands away and covering one ear while looking awkwardly toward the sound booth."
+      },
+      "normal_timeline": {
+        "start_caption": "[0-3s] A man in a suit nervously walks up to a wooden podium on a stage, looking down at his notes; a silver microphone stands tall on its mount.",
+        "middle_caption": "[3-7s] He reaches out and grips the neck of the microphone to adjust it toward his mouth, causing a loud, sharp screech of audio feedback to ring out through the speakers.",
+        "end_caption": "[7-10s] The man winces and recoils, pulling his hands away and covering one ear while looking awkwardly toward the sound booth."
+      },
+      "constraints": {
+        "keyword": "Microphone (麦克风)",
+        "type": "Surprise Scenario"
+      }
+    },
+    "final_prompt": "Surreal Style: - Start (0s): [0-3s] A man in a suit nervously walks up to a wooden podium on a stage, looking down at his notes; a silver microphone stands tall on its mount.\n- Action (Mid): [3-7s] As he grips the neck of the microphone, the silver metal softens into scaly skin and the head of the mic transforms into a wide-open human mouth that lets out a piercing, supernatural scream directly at him.\n- Result (End): [7-10s] The man winces and recoils, pulling his hands away and covering one ear while looking awkwardly toward the sound booth.",
+    "mcq": {
+      "question": "[0-3s]: A man in a suit nervously walks up to a wooden podium on a stage, looking down at his notes; a silver microphone stands tall on its mount.; [3-7s]: ???; [7-10s]: ] The man winces and recoils, pulling his hands away and covering one ear while looking awkwardly toward the sound booth.. What most likely happened in the [3-7s] interval according to the video?",
+      "options": {
+        "A": "Just as he reaches for the stand, the microphone begins to vibrate violently and the metal head suddenly shatters into a cloud of sharp glass shards that fly toward his face with a deafening explosion.",
+        "B": "As he grips the neck of the microphone, the silver metal softens into scaly skin and the head of the mic transforms into a wide-open human mouth that lets out a piercing, supernatural scream directly at him.",
+        "C": "He reaches out and grips the neck of the microphone to adjust it toward his mouth, causing a loud, sharp screech of audio feedback to ring out through the speakers.",
+        "D": "When he touches the microphone, the metal becomes a bright, glowing white light that expands rapidly until the entire stage is engulfed in a blinding flash and a high-pitched electronic hum that fills the room."
+      },
+      "correct_answer": "B"
+    },
+    "blind_test_log": {
+      "guessed_option": "C",
+      "confidence": "High",
+      "reasoning": "The man's reaction—wincing, recoiling, covering an ear, and looking awkwardly toward the sound booth—is a classic response to audio feedback, which is a common, realistic occurrence when adjusting a microphone. The other options involve fantastical or violent events (like shattering glass, supernatural transformations, or blinding flashes) that would likely cause more dramatic or physical harm, not just an awkward, ear-covering wince. The scenario fits a typical public speaking or performance context where feedback is a plausible mishap."
+    },
+    "blind_test_passed": true
+  },
+  {
+    "constraints": {
+      "keyword": "Nerf Gun (软弹枪)",
+      "type": "Surprise Scenario"
+    },
+    "director_data": {
+      "object_name": "Nerf Gun (软弹枪)",
+      "scenario_type": "Surprise Scenario",
+      "status": "evaluated",
+      "best_video": "Nerf_Gun_(软弹枪)_Surprise_1.mp4",
+      "best_score": 9.7,
+      "best_reasoning": "Frame match score: 10.00, Coherence score: 9.00",
+      "all_candidates": [
+        {
+          "video_file": "Nerf_Gun_(软弹枪)_Surprise_1.mp4",
+          "final_score": 9.7,
+          "segment_scores": [
+            {
+              "segment": "Start",
+              "score": 10.0,
+              "reasoning": "The frame perfectly captures the initial state of the scene as described in the synopsis. The boy is aiming the Nerf gun at the pyramid of cups, setting the stage for the action to follow. All key elements (boy, toy gun, cups) are clearly visible and correctly positioned."
+            },
+            {
+              "segment": "Middle",
+              "score": 10.0,
+              "reasoning": "The frame perfectly captures the middle segment of the described action: a foam Nerf dart is suspended mid-air and has sprouted a tiny human-like arm, which is the core surreal element of the prompt. The background shows the cups mentioned in the synopsis, and the focus is sharp on the dart and arm."
+            },
+            {
+              "segment": "End",
+              "score": 10.0,
+              "reasoning": "The frame shows the boy smiling and celebrating in a living room setting, which perfectly aligns with the 'boy's celebration' mentioned in the synopsis for the end of the sequence. The scene is consistent with the established environment."
+            }
+          ],
+          "coherence_evaluation": {
+            "expected_end_frame": "The end frame should show the boy in a celebratory pose (smiling, cheering, or raising his arms) in the same living room setting. Crucially, the pyramid of plastic cups on the table should be knocked over or scattered, reflecting the successful 'flick' described in the synopsis. The Nerf gun should either be lowered or out of the frame, and the boy's expression should transition from focused aiming to joy.",
+            "reasoning": "The start frame establishes a boy aiming a toy gun at a stable pyramid of cups. The synopsis describes a surreal event where a dart flicks the cups over, followed by a celebration. The actual end frame shows the boy smiling and looking towards the camera/target area, which aligns with the 'celebration' part of the synopsis. The background elements (sofa, lamp, paintings) remain consistent. While we don't see the fallen cups in the final frame due to the camera angle shifting closer to the boy, his triumphant expression and the presence of the gun at the bottom of the frame suggest the action has concluded successfully. The logical progression from aiming to a successful result is maintained.",
+            "score": "9.0"
+          },
+          "reasoning": "Frame match score: 10.00, Coherence score: 9.00",
+          "valid": true
+        }
+      ],
+      "has_valid_video": true,
+      "timeline": {
+        "start_caption": "[0-3s] A young boy stands in a living room, holding a brightly colored Nerf gun and focusing intently on a stack of plastic cups on the table ahead.",
+        "middle_caption": "[3-7s] The boy pulls the trigger; the foam dart freezes mid-air, grows a tiny human-like hand that meticulously flicks each cup over one by one, then zips back into its original trajectory to hit the table.",
+        "end_caption": "[7-10s] The boy lowers the blaster, pumping his fist in the air with a wide, triumphant grin."
+      },
+      "normal_timeline": {
+        "start_caption": "[0-3s] A young boy stands in a living room, holding a brightly colored Nerf gun and focusing intently on a stack of plastic cups on the table ahead.",
+        "middle_caption": "[3-7s] The boy pulls the trigger; a foam dart flies through the air and strikes the center of the cup pyramid, causing them to scatter across the table.",
+        "end_caption": "[7-10s] The boy lowers the blaster, pumping his fist in the air with a wide, triumphant grin."
+      },
+      "constraints": {
+        "keyword": "Nerf Gun (软弹枪)",
+        "type": "Surprise Scenario"
+      }
+    },
+    "final_prompt": "Surreal Style: - Start (0s): [0-3s] A young boy stands in a living room, holding a brightly colored Nerf gun and focusing intently on a stack of plastic cups on the table ahead.\n- Action (Mid): [3-7s] The boy pulls the trigger; the foam dart freezes mid-air, grows a tiny human-like hand that meticulously flicks each cup over one by one, then zips back into its original trajectory to hit the table.\n- Result (End): [7-10s] The boy lowers the blaster, pumping his fist in the air with a wide, triumphant grin.",
+    "mcq": {
+      "question": "[0-3s]: A young boy stands in a living room, holding a brightly colored Nerf gun and focusing intently on a stack of plastic cups on the table ahead.; [3-7s]: ???; [7-10s]: ] The boy lowers the blaster, pumping his fist in the air with a wide, triumphant grin.. What most likely happened in the [3-7s] interval according to the video?",
+      "options": {
+        "A": "The boy pulls the trigger; the foam dart freezes mid-air, grows a tiny human-like hand that meticulously flicks each cup over one by one, then zips back into its original trajectory to hit the table.",
+        "B": "The boy pulls the trigger; a foam dart flies through the air and strikes the center of the cup pyramid, causing them to scatter across the table.",
+        "C": "The boy pulls the trigger; the foam dart suddenly expands into a giant soft pillow that gently pushes the entire table over, causing the cups to float upward toward the ceiling before disappearing.",
+        "D": "The boy pulls the trigger; the foam dart transforms into a small mechanical bird that circles the stack three times, chirping loudly as it knocks each cup down with its wings before landing on the boy's shoulder."
+      },
+      "correct_answer": "A"
+    },
+    "blind_test_log": {
+      "guessed_option": "B",
+      "confidence": "High",
+      "reasoning": "The scene is set in a realistic living room with a Nerf gun and plastic cups, and the boy's triumphant reaction suggests a successful shot. Option B describes a typical, plausible outcome of firing a Nerf dart at a cup pyramid, matching the context. The other options involve fantastical, impossible transformations that are inconsistent with the realistic setting and the boy's ordinary reaction."
+    },
+    "blind_test_passed": true
+  },
+  {
+    "constraints": {
+      "keyword": "Microphone (麦克风)",
+      "type": "Surprise Scenario"
+    },
+    "director_data": {
+      "object_name": "Microphone (麦克风)",
+      "scenario_type": "Surprise Scenario",
+      "status": "evaluated",
+      "best_video": "Microphone_(麦克风)_Surprise_1.mp4",
+      "best_score": 9.55,
+      "best_reasoning": "Frame match score: 10.00, Coherence score: 8.50",
+      "all_candidates": [
+        {
+          "video_file": "Microphone_(麦克风)_Surprise_1.mp4",
+          "final_score": 9.55,
+          "segment_scores": [
+            {
+              "segment": "Start",
+              "score": 10.0,
+              "reasoning": "The frame perfectly matches the start of the synopsis. It shows a man in a suit approaching a podium with a microphone in a theater-like setting with red curtains. Since this is the START frame, the transformation of the microphone has not yet occurred, which is consistent with the narrative flow."
+            },
+            {
+              "segment": "Middle",
+              "score": 10.0,
+              "reasoning": "The frame perfectly captures the middle of the described action: the man is at a podium, and the microphone neck has transformed into a screaming creature shrieking directly into his face. The visual content aligns exactly with the synopsis."
+            },
+            {
+              "segment": "End",
+              "score": 10.0,
+              "reasoning": "The frame perfectly captures the end state of the described action: the microphone neck has transformed into a screaming creature with an open mouth, shrieking directly into the face of the man who appears startled while on his phone. The scene, characters, and the specific transformation are all clearly visible and accurate to the script."
+            }
+          ],
+          "coherence_evaluation": {
+            "expected_end_frame": "The end frame should show the man standing at the podium, reacting with shock or fear. The microphone stand's neck should be transformed into a thin, organic-looking creature with an open mouth, positioned as if it is shrieking directly into the man's face. The man should be in the process of adjusting the microphone or recoiling from it.",
+            "reasoning": "The start frame establishes a man in a suit approaching a podium with a standard microphone. The synopsis describes a surreal transformation where the microphone becomes a screaming creature. The actual end frame captures this transformation perfectly: the microphone head has turned into a grey, screaming creature with a wide-open mouth. The man's posture and facial expression show confusion and alarm, which aligns with the narrative. However, the man is holding a phone to his ear in the end frame, which was not mentioned in the synopsis and slightly deviates from the 'approaching to speak' narrative, though the primary visual transformation of the microphone is executed accurately.",
+            "score": "8.5"
+          },
+          "reasoning": "Frame match score: 10.00, Coherence score: 8.50",
+          "valid": true
+        }
+      ],
+      "has_valid_video": true,
+      "timeline": {
+        "start_caption": "[0-3s] A man in a suit nervously walks up to a wooden podium on a stage, looking down at his notes; a silver microphone stands tall on its mount.",
+        "middle_caption": "[3-7s] As he grips the neck of the microphone, the silver metal softens into scaly skin and the head of the mic transforms into a wide-open human mouth that lets out a piercing, supernatural scream directly at him.",
+        "end_caption": "[7-10s] The man winces and recoils, pulling his hands away and covering one ear while looking awkwardly toward the sound booth."
+      },
+      "normal_timeline": {
+        "start_caption": "[0-3s] A man in a suit nervously walks up to a wooden podium on a stage, looking down at his notes; a silver microphone stands tall on its mount.",
+        "middle_caption": "[3-7s] He reaches out and grips the neck of the microphone to adjust it toward his mouth, causing a loud, sharp screech of audio feedback to ring out through the speakers.",
+        "end_caption": "[7-10s] The man winces and recoils, pulling his hands away and covering one ear while looking awkwardly toward the sound booth."
+      },
+      "constraints": {
+        "keyword": "Microphone (麦克风)",
+        "type": "Surprise Scenario"
+      }
+    },
+    "final_prompt": "Surreal Style: - Start (0s): [0-3s] A man in a suit nervously walks up to a wooden podium on a stage, looking down at his notes; a silver microphone stands tall on its mount.\n- Action (Mid): [3-7s] As he grips the neck of the microphone, the silver metal softens into scaly skin and the head of the mic transforms into a wide-open human mouth that lets out a piercing, supernatural scream directly at him.\n- Result (End): [7-10s] The man winces and recoils, pulling his hands away and covering one ear while looking awkwardly toward the sound booth.",
+    "mcq": {
+      "question": "[0-3s]: A man in a suit nervously walks up to a wooden podium on a stage, looking down at his notes; a silver microphone stands tall on its mount.; [3-7s]: ???; [7-10s]: ] The man winces and recoils, pulling his hands away and covering one ear while looking awkwardly toward the sound booth.. What most likely happened in the [3-7s] interval according to the video?",
+      "options": {
+        "A": "As he grips the neck of the microphone, the silver metal softens into scaly skin and the head of the mic transforms into a wide-open human mouth that lets out a piercing, supernatural scream directly at him.",
+        "B": "When he grasps the neck of the microphone, the device unexpectedly snaps in half like a dry twig, releasing a pressurized blast of thick grey smoke and a high-pitched whistling sound that startles the entire room.",
+        "C": "He reaches out and grips the neck of the microphone to adjust it toward his mouth, causing a loud, sharp screech of audio feedback to ring out through the speakers.",
+        "D": "The man reaches out to steady the microphone, but as his fingers touch the stand, the metal begins to glow white-hot and emits a sudden, violent burst of sparks and electric crackling that shocks his hand."
+      },
+      "correct_answer": "A"
+    },
+    "blind_test_log": {
+      "guessed_option": "C",
+      "confidence": "High",
+      "reasoning": "The man's reaction—wincing, recoiling, covering an ear, and looking toward the sound booth—is a classic response to audio feedback from a microphone. This is a common, realistic occurrence at a podium, unlike the supernatural or mechanical failures described in the other options. The timing aligns with adjusting the microphone causing feedback, which fits the 3-7 second interval."
+    },
+    "blind_test_passed": true
+  },
+  {
+    "constraints": {
+      "keyword": "Nerf Gun (软弹枪)",
+      "type": "Surprise Scenario"
+    },
+    "director_data": {
+      "object_name": "Nerf Gun (软弹枪)",
+      "scenario_type": "Surprise Scenario",
+      "status": "evaluated",
+      "best_video": "Nerf_Gun_(软弹枪)_Surprise_1.mp4",
+      "best_score": 9.7,
+      "best_reasoning": "Frame match score: 10.00, Coherence score: 9.00",
+      "all_candidates": [
+        {
+          "video_file": "Nerf_Gun_(软弹枪)_Surprise_1.mp4",
+          "final_score": 9.7,
+          "segment_scores": [
+            {
+              "segment": "Start",
+              "score": 10.0,
+              "reasoning": "The frame perfectly captures the initial state of the scene as described in the synopsis. The boy is aiming the Nerf gun at the pyramid of cups, setting the stage for the action to follow. All key elements (boy, toy gun, cups) are clearly visible and correctly positioned."
+            },
+            {
+              "segment": "Middle",
+              "score": 10.0,
+              "reasoning": "The frame perfectly captures the middle segment of the described action: a foam Nerf dart is suspended mid-air and has sprouted a tiny human-like arm, which is the core surreal element of the prompt. The background shows the cups mentioned in the synopsis, and the focus is sharp on the dart and arm."
+            },
+            {
+              "segment": "End",
+              "score": 10.0,
+              "reasoning": "The frame shows the boy smiling and celebrating in a living room setting, which perfectly aligns with the 'boy's celebration' mentioned in the synopsis for the end of the sequence. The scene is consistent with the established environment."
+            }
+          ],
+          "coherence_evaluation": {
+            "expected_end_frame": "The end frame should show the boy in a celebratory pose (smiling, cheering, or raising his arms) in the same living room setting. Crucially, the pyramid of plastic cups on the table should be knocked over or scattered, reflecting the successful 'flick' described in the synopsis. The Nerf gun should either be lowered or out of the frame, and the boy's expression should transition from focused aiming to joy.",
+            "reasoning": "The start frame establishes a boy aiming a toy gun at a stable pyramid of cups. The synopsis describes a surreal event where a dart flicks the cups over, followed by a celebration. The actual end frame shows the boy smiling and looking towards the camera/target area, which aligns with the 'celebration' part of the synopsis. The background elements (sofa, lamp, paintings) remain consistent. While we don't see the fallen cups in the final frame due to the camera angle shifting closer to the boy, his triumphant expression and the presence of the gun at the bottom of the frame suggest the action has concluded successfully. The logical progression from aiming to a successful result is maintained.",
+            "score": "9.0"
+          },
+          "reasoning": "Frame match score: 10.00, Coherence score: 9.00",
+          "valid": true
+        }
+      ],
+      "has_valid_video": true,
+      "timeline": {
+        "start_caption": "[0-3s] A young boy stands in a living room, holding a brightly colored Nerf gun and focusing intently on a stack of plastic cups on the table ahead.",
+        "middle_caption": "[3-7s] The boy pulls the trigger; the foam dart freezes mid-air, grows a tiny human-like hand that meticulously flicks each cup over one by one, then zips back into its original trajectory to hit the table.",
+        "end_caption": "[7-10s] The boy lowers the blaster, pumping his fist in the air with a wide, triumphant grin."
+      },
+      "normal_timeline": {
+        "start_caption": "[0-3s] A young boy stands in a living room, holding a brightly colored Nerf gun and focusing intently on a stack of plastic cups on the table ahead.",
+        "middle_caption": "[3-7s] The boy pulls the trigger; a foam dart flies through the air and strikes the center of the cup pyramid, causing them to scatter across the table.",
+        "end_caption": "[7-10s] The boy lowers the blaster, pumping his fist in the air with a wide, triumphant grin."
+      },
+      "constraints": {
+        "keyword": "Nerf Gun (软弹枪)",
+        "type": "Surprise Scenario"
+      }
+    },
+    "final_prompt": "Surreal Style: - Start (0s): [0-3s] A young boy stands in a living room, holding a brightly colored Nerf gun and focusing intently on a stack of plastic cups on the table ahead.\n- Action (Mid): [3-7s] The boy pulls the trigger; the foam dart freezes mid-air, grows a tiny human-like hand that meticulously flicks each cup over one by one, then zips back into its original trajectory to hit the table.\n- Result (End): [7-10s] The boy lowers the blaster, pumping his fist in the air with a wide, triumphant grin.",
+    "mcq": {
+      "question": "[0-3s]: A young boy stands in a living room, holding a brightly colored Nerf gun and focusing intently on a stack of plastic cups on the table ahead.; [3-7s]: ???; [7-10s]: ] The boy lowers the blaster, pumping his fist in the air with a wide, triumphant grin.. What most likely happened in the [3-7s] interval according to the video?",
+      "options": {
+        "A": "The boy pulls the trigger; a foam dart flies through the air and strikes the center of the cup pyramid, causing them to scatter across the table.",
+        "B": "The boy pulls the trigger; the foam dart hovers mid-air and transforms into a miniature blue bird that circles the stack, pecking each cup to the floor before vanishing into a puff of white smoke.",
+        "C": "The boy pulls the trigger; the foam dart expands into a long, gelatinous tentacle that snakes across the room, gently tapping the top cup until the entire stack collapses in a slow-motion spiral.",
+        "D": "The boy pulls the trigger; the foam dart freezes mid-air, grows a tiny human-like hand that meticulously flicks each cup over one by one, then zips back into its original trajectory to hit the table."
+      },
+      "correct_answer": "D"
+    },
+    "blind_test_log": {
+      "guessed_option": "A",
+      "confidence": "High",
+      "reasoning": "The scenario is set in a realistic, everyday context with a boy holding a Nerf gun and focusing on plastic cups. The outcome shows him celebrating, indicating a successful shot. Options B, C, and D involve fantastical or surreal events (e.g., transformations, tentacles, tiny hands), which are inconsistent with the realistic tone implied by the setup and the boy's natural reaction. Therefore, the most logical and likely event is a straightforward foam dart hitting the cups."
+    },
+    "blind_test_passed": true
+  },
+  {
+    "constraints": {
+      "keyword": "Hygrometer (湿度计)",
+      "type": "Surprise Scenario"
+    },
+    "director_data": {
+      "object_name": "Hygrometer (湿度计)",
+      "scenario_type": "Surprise Scenario",
+      "status": "evaluated",
+      "best_video": "Hygrometer_(湿度计)_Surprise_1.mp4",
+      "best_score": 8.666666666666666,
+      "best_reasoning": "Frame match score: 9.17, Coherence score: 7.50",
+      "all_candidates": [
+        {
+          "video_file": "Hygrometer_(湿度计)_Surprise_1.mp4",
+          "final_score": 8.666666666666666,
+          "segment_scores": [
+            {
+              "segment": "Start",
+              "score": 10.0,
+              "reasoning": "The frame accurately depicts the start of the sequence: a man is positioned behind a wooden humidor with a visible hygrometer on a wooden table. The scene is set up correctly for the subsequent action described in the synopsis."
+            },
+            {
+              "segment": "Middle",
+              "score": 10.0,
+              "reasoning": "The frame perfectly captures the middle phase of the described action: the hygrometer needle has punctured through the glass, and a stream of water is visibly weeping from the puncture point. The wooden humidor and the hand are also visible, matching the scene context."
+            },
+            {
+              "segment": "End",
+              "score": 7.5,
+              "reasoning": "The frame shows the humidor emitting a stream of water, which aligns with the 'weeping a torrent of water' part of the synopsis. However, the synopsis states the man moves it to the shade in the end phase, whereas in this frame, he is still standing in the light by the window. Additionally, the water is arcing toward the window rather than onto his hands as described. Despite these discrepancies in positioning, the core surreal element (water from the humidor) is clearly present."
+            }
+          ],
+          "coherence_evaluation": {
+            "expected_end_frame": "The end frame should show the man standing in a shaded area, holding or standing next to the wooden humidor. The hygrometer on the front of the box should have a punctured glass face with a needle sticking out, and a significant stream or 'torrent' of water should be flowing out of the puncture, likely getting on the man's hands or the surface below. The lighting should be dimmer than the start frame to reflect the move to the 'shade'.",
+            "reasoning": "The start frame establishes the man and the humidor with a visible hygrometer. The synopsis describes a surreal sequence where the hygrometer needle punctures the glass and leaks water. The actual end frame shows the man standing by a window with the humidor, and a stream of water is indeed shooting out of the top/front of the box. However, the water is shooting upwards in a high-pressure arc rather than 'weeping' onto his hands as described. Additionally, the man has moved the box near a bright window, which contradicts the instruction to move it to the 'shade'. While the core elements (man, humidor, water leak) are present, the physics of the water and the lighting conditions do not perfectly align with the narrative progression described.",
+            "score": 7.5
+          },
+          "reasoning": "Frame match score: 9.17, Coherence score: 7.50",
+          "valid": true
+        }
+      ],
+      "has_valid_video": true,
+      "timeline": {
+        "start_caption": "[0-3s] A man reaches for a polished wooden humidor on a sunlit table; a round analog hygrometer is visible on the front of the box.",
+        "middle_caption": "[3-7s] As he leans in, the hygrometer needle spins violently and pierces through the glass, sweating a heavy stream of water that drenches the man's sleeves as he lifts the leaking box.",
+        "end_caption": "[7-10s] He places the humidor in a dark, shaded corner of the room, wiping sweat from his forehead with a look of relief."
+      },
+      "normal_timeline": {
+        "start_caption": "[0-3s] A man reaches for a polished wooden humidor on a sunlit table; a round analog hygrometer is visible on the front of the box.",
+        "middle_caption": "[3-7s] He leans in closely to read the needle, which is pointing deep into the 'High' humidity zone, and he quickly picks up the heavy box.",
+        "end_caption": "[7-10s] He places the humidor in a dark, shaded corner of the room, wiping sweat from his forehead with a look of relief."
+      },
+      "constraints": {
+        "keyword": "Hygrometer (湿度计)",
+        "type": "Surprise Scenario"
+      }
+    },
+    "final_prompt": "Surreal Style: - Start (0s): [0-3s] A man reaches for a polished wooden humidor on a sunlit table; a round analog hygrometer is visible on the front of the box.\n- Action (Mid): [3-7s] As he leans in, the hygrometer needle spins violently and pierces through the glass, sweating a heavy stream of water that drenches the man's sleeves as he lifts the leaking box.\n- Result (End): [7-10s] He places the humidor in a dark, shaded corner of the room, wiping sweat from his forehead with a look of relief.",
+    "mcq": {
+      "question": "[0-3s]: A man reaches for a polished wooden humidor on a sunlit table; a round analog hygrometer is visible on the front of the box.; [3-7s]: ???; [7-10s]: ] He places the humidor in a dark, shaded corner of the room, wiping sweat from his forehead with a look of relief.. What most likely happened in the [3-7s] interval according to the video?",
+      "options": {
+        "A": "As he leans in, the hygrometer needle spins violently and pierces through the glass, sweating a heavy stream of water that drenches the man's sleeves as he lifts the leaking box.",
+        "B": "Upon his approach, the glass on the hygrometer cracks open and thick vines sprout from the center, wrapping tightly around the man's wrists as he struggles to pull the heavy humidor into the shade.",
+        "C": "He leans in closely to read the needle, which is pointing deep into the 'High' humidity zone, and he quickly picks up the heavy box.",
+        "D": "While he reaches out, the hygrometer dial suddenly detaches and floats in mid-air, emitting a dense fog that obscures the table before the man manages to grasp the vibrating wooden lid."
+      },
+      "correct_answer": "A"
+    },
+    "blind_test_log": {
+      "guessed_option": "C",
+      "confidence": "High",
+      "reasoning": "The scene before (0-3s) shows a man reaching for a humidor with a hygrometer, and after (7-10s) he places it in a shaded corner while wiping sweat, indicating relief. This suggests a logical sequence where he checks the humidity, finds it too high (which would cause discomfort or damage to contents), and moves the humidor to a cooler, shaded area. Option C fits this narrative without introducing surreal or violent elements, aligning with a realistic cause-and-effect flow in a typical video."
+    },
+    "blind_test_passed": true
+  },
+  {
+    "constraints": {
+      "keyword": "Toothpaste Tube (牙膏管)",
+      "type": "Surprise Scenario"
+    },
+    "director_data": {
+      "object_name": "Toothpaste Tube (牙膏管)",
+      "scenario_type": "Surprise Scenario",
+      "status": "evaluated",
+      "best_video": "Toothpaste_Tube_(牙膏管)_Surprise_1.mp4",
+      "best_score": 8.716666666666665,
+      "best_reasoning": "Frame match score: 9.67, Coherence score: 6.50",
+      "all_candidates": [
+        {
+          "video_file": "Toothpaste_Tube_(牙膏管)_Surprise_1.mp4",
+          "final_score": 8.716666666666665,
+          "segment_scores": [
+            {
+              "segment": "Start",
+              "score": 10.0,
+              "reasoning": "The frame perfectly sets the scene for the start of the script. It shows a person in a bathroom holding a toothpaste tube and a toothbrush, appearing to be in the initial state of 'struggling' or preparing to use the tube before the described action occurs."
+            },
+            {
+              "segment": "Middle",
+              "score": 9.5,
+              "reasoning": "The frame shows a surreal scene where a white object (resembling a tube or dispenser) is launching a massive glob of light blue paste onto a toothbrush and hand. This aligns well with the 'Middle' segment of the script describing a 'violent sneeze' launching a 'massive glob of paste'. The visual style captures the chaotic and exaggerated nature of the action described."
+            },
+            {
+              "segment": "End",
+              "score": 9.5,
+              "reasoning": "The frame shows the aftermath of the described action: a massive glob of toothpaste has been launched and is visible dripping down from the tube/brush area, and the person is reacting to the mess. This aligns with the 'End' phase of the script where the 'sneeze' has already occurred."
+            }
+          ],
+          "coherence_evaluation": {
+            "expected_end_frame": "The end frame should show the person reacting with surprise or shock as a massive, messy glob of toothpaste is splattered across their hand or the toothbrush. The toothpaste tube should appear slightly distorted or 'deflated' after the 'sneeze' event, and there might be visible residue or spray in the air or on the mirror to reflect the 'violent, thunderous' nature of the action described in the synopsis.",
+            "reasoning": "The start frame establishes a woman in a bathroom holding a toothpaste tube and a toothbrush. The synopsis describes a surreal event where the tube 'sneezes' out a massive glob of paste. The actual end frame shows a long, thin, liquid-like stream of toothpaste falling vertically from the tube toward the sink, rather than a 'massive glob' launched onto the person's hand. While the end frame captures the tube discharging content, it fails to visualize the 'violent sneeze' or the specific landing point (the hand) mentioned in the synopsis. The visual consistency of the character and environment is perfect, but the narrative event completion is only partially successful due to the physics of the toothpaste not matching the 'sneeze' description.",
+            "score": 6.5
+          },
+          "reasoning": "Frame match score: 9.67, Coherence score: 6.50",
+          "valid": true
+        }
+      ],
+      "has_valid_video": true,
+      "timeline": {
+        "start_caption": "[0-3s] A person stands at a bathroom sink, holding a toothbrush in one hand and a crumpled, nearly empty toothpaste tube in the other.",
+        "middle_caption": "[3-7s] As the person begins to squeeze, the toothpaste tube suddenly expands its sides like lungs, inhales with a loud whistling sound, and lets out a violent, wet sneeze that launches a massive, glowing glob of paste across the bristles and onto the person's hand.",
+        "end_caption": "[7-10s] The person stops squeezing and stares at the oversized mess on their hand with a sigh of frustration."
+      },
+      "normal_timeline": {
+        "start_caption": "[0-3s] A person stands at a bathroom sink, holding a toothbrush in one hand and a crumpled, nearly empty toothpaste tube in the other.",
+        "middle_caption": "[3-7s] The person rolls the tube tightly from the bottom and squeezes hard; suddenly, a large, messy glob of toothpaste shoots out onto the bristles and the person's hand.",
+        "end_caption": "[7-10s] The person stops squeezing and stares at the oversized mess on their hand with a sigh of frustration."
+      },
+      "constraints": {
+        "keyword": "Toothpaste Tube (牙膏管)",
+        "type": "Surprise Scenario"
+      }
+    },
+    "final_prompt": "Surreal Style: - Start (0s): [0-3s] A person stands at a bathroom sink, holding a toothbrush in one hand and a crumpled, nearly empty toothpaste tube in the other.\n- Action (Mid): [3-7s] As the person begins to squeeze, the toothpaste tube suddenly expands its sides like lungs, inhales with a loud whistling sound, and lets out a violent, wet sneeze that launches a massive, glowing glob of paste across the bristles and onto the person's hand.\n- Result (End): [7-10s] The person stops squeezing and stares at the oversized mess on their hand with a sigh of frustration.",
+    "mcq": {
+      "question": "[0-3s]: A person stands at a bathroom sink, holding a toothbrush in one hand and a crumpled, nearly empty toothpaste tube in the other.; [3-7s]: ???; [7-10s]: ] The person stops squeezing and stares at the oversized mess on their hand with a sigh of frustration.. What most likely happened in the [3-7s] interval according to the video?",
+      "options": {
+        "A": "The person rolls the tube tightly from the bottom and squeezes hard; suddenly, a large, messy glob of toothpaste shoots out onto the bristles and the person's hand.",
+        "B": "The person gives the tube a firm press, causing the plastic casing to ripple like liquid water while emitting a high-pitched chirp, eventually rupturing at the seam to release a heavy, shimmering burst of paste that misses the brush and lands heavily on the person's palm.",
+        "C": "As the person begins to squeeze, the toothpaste tube suddenly expands its sides like lungs, inhales with a loud whistling sound, and lets out a violent, wet sneeze that launches a massive, glowing glob of paste across the bristles and onto the person's hand.",
+        "D": "While the person applies pressure, the tube starts to vibrate intensely and hums a low frequency before the cap pops off with a miniature steam explosion, spraying a thick, fluorescent trail of gel that covers the toothbrush and splatters over the person's knuckles."
+      },
+      "correct_answer": "C"
+    },
+    "blind_test_log": {
+      "guessed_option": "A",
+      "confidence": "High",
+      "reasoning": "The question describes a realistic, everyday scenario: a person at a sink with a nearly empty toothpaste tube. The outcome is an oversized mess on their hand, suggesting an ordinary but frustrating event like squeezing too hard and getting too much toothpaste. Option A depicts this realistically—rolling the tube and squeezing, causing a messy glob. Options B, C, and D include fantastical, exaggerated elements (e.g., rippling like water, sneezing, steam explosions), which are inconsistent with a plausible real-life video. Thus, A is the most logical choice."
+    },
+    "blind_test_passed": true
+  }
+]

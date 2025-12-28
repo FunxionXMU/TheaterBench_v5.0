@@ -1,0 +1,410 @@
+[
+  {
+    "constraints": {
+      "keyword": "Hair Clip (发夹)",
+      "type": "Surprise Scenario"
+    },
+    "reasoning_trace": "Idea 1: A woman simply clips her hair back while looking in a mirror; Idea 2: A woman is trying to keep her hair out of her face while leaning over a sink to wash her face, but the clip snaps or slips, causing her hair to fall into the water. Idea 2 is more engaging because it involves a relatable 'mini-struggle' and a clear cause-and-effect narrative that is visually dynamic.\nThe start involves preparing to clip hair and the end involves the hair being wet and the woman being annoyed. To create a surreal twist that connects these points, I transformed the middle phase so that instead of the clip falling off naturally, the clip's 'jaws' expand into a massive, hungry mouth that physically consumes the hair and drags her head into the sink's water like a predator.",
+    "synopsis": "A woman attempts to clip her hair back, but the hair clip suddenly comes to life, opening its plastic jaws wide to swallow her hair and forcefully plunging her head into the running water before detaching.",
+    "normal_timeline": {
+      "start_caption": "[0-3s] A woman stands in front of a bathroom mirror with a large claw hair clip in her hand, gathering her long hair at the back of her head.",
+      "middle_caption": "[3-7s] She secures the hair with the clip and leans down toward the running water; suddenly, the clip slips off, and her hair splashes into the sink.",
+      "end_caption": "[7-10s] She stands up quickly, holding her wet hair with a look of annoyance and sighing at her reflection."
+    },
+    "timeline": {
+      "start_caption": "[0-3s] A woman stands in front of a bathroom mirror with a large claw hair clip in her hand, gathering her long hair at the back of her head.",
+      "middle_caption": "[3-7s] As she secures the clip, it suddenly grows row of pearly white teeth and snaps shut, gulping down her hair and pulling her entire head down into the sink water with supernatural force.",
+      "end_caption": "[7-10s] She stands up quickly, holding her wet hair with a look of annoyance and sighing at her reflection."
+    },
+    "final_t2v_prompt": "Realistic Style: - [0-3s] A woman stands in front of a bathroom mirror with a large claw hair clip in her hand, gathering her long hair at the back of her head.\n- [3-7s] As she secures the clip, it suddenly grows row of pearly white teeth and snaps shut, gulping down her hair and pulling her entire head down into the sink water with supernatural force.\n- [7-10s] She stands up quickly, holding her wet hair with a look of annoyance and sighing at her reflection.",
+    "reviewer_audit": {
+      "passed": true,
+      "reason": "The script perfectly adheres to the [Setup -> Twist -> Reaction] structure. The START (0-3s) is pure setup, showing the woman preparing to use the clip. The MIDDLE (3-7s) contains a clear and surreal twist as the clip grows teeth and pulls her head into the sink. The END (7-10s) is a simple, logical reaction of annoyance and sighing. Transitions are smooth and continuous.",
+      "score": 10
+    }
+  },
+  {
+    "constraints": {
+      "keyword": "Metronome (节拍器)",
+      "type": "Surprise Scenario"
+    },
+    "reasoning_trace": "Idea 1: A student sits at a piano and simply watches a metronome tick; Idea 2: A frustrated musician is struggling with a complex piece, starts the metronome to regain control, and finally plays the passage perfectly. Idea 1 is static and lacks narrative; Idea 2 uses the metronome as a functional tool to resolve a realistic conflict (musical difficulty), making it more engaging while remaining grounded in a normal setting.\nThe start sets up a stressed pianist and a silent metronome, while the end requires the pianist to have successfully finished a musical scale. To introduce a surreal twist that connects these points, I transformed the metronome from a passive tool into an active conductor. Instead of the pianist flicking the needle, the needle begins to oscillate at an impossible speed, and the metronome’s mechanical body grows multiple wooden arms that play the piano keys alongside the pianist, forcing the perfect synchronization mentioned in the ending.",
+    "synopsis": "A stressed pianist prepares to play, but when the metronome starts, it sprouts extra mechanical limbs to physically assist in playing the fast-paced scale before returning to its normal state.",
+    "normal_timeline": {
+      "start_caption": "[0-3s] A young pianist sits at a wooden piano, looking stressed and rubbing their temples; a pyramid-shaped mechanical metronome sits silent on the piano lid.",
+      "middle_caption": "[3-7s] The pianist reaches out, flicks the metronome's needle to start it ticking, and begins playing a fast, rhythmic scale in perfect synchronization with the swinging pendulum.",
+      "end_caption": "[7-10s] The pianist stops playing as the scale ends perfectly, exhales a sigh of relief, and watches the metronome continue to tick for a moment."
+    },
+    "timeline": {
+      "start_caption": "[0-3s] A young pianist sits at a wooden piano, looking stressed and rubbing their temples; a pyramid-shaped mechanical metronome sits silent on the piano lid.",
+      "middle_caption": "[3-7s] As the pianist reaches out, the metronome's needle begins to oscillate at an impossible blur; suddenly, several wooden, skeletal arms sprout from the metronome's base, dancing across the piano keys to play the fast scale in a frantic, supernatural duet with the pianist.",
+      "end_caption": "[7-10s] The pianist stops playing as the scale ends perfectly, exhales a sigh of relief, and watches the metronome continue to tick for a moment."
+    },
+    "final_t2v_prompt": "Realistic Style: - [0-3s] A young pianist sits at a wooden piano, looking stressed and rubbing their temples; a pyramid-shaped mechanical metronome sits silent on the piano lid.\n- [3-7s] As the pianist reaches out, the metronome's needle begins to oscillate at an impossible blur; suddenly, several wooden, skeletal arms sprout from the metronome's base, dancing across the piano keys to play the fast scale in a frantic, supernatural duet with the pianist.\n- [7-10s] The pianist stops playing as the scale ends perfectly, exhales a sigh of relief, and watches the metronome continue to tick for a moment.",
+    "reviewer_audit": {
+      "passed": true,
+      "reason": "The script perfectly adheres to the [Setup -> Twist -> Reaction] structure. The START (0-3s) is pure setup, establishing the stressed pianist and the silent metronome. The MIDDLE (3-7s) contains a clear, surreal twist with the metronome sprouting arms and playing a frantic duet. The END (7-10s) is a simple, logical reaction of the pianist stopping, sighing in relief, and watching the metronome. The transitions are smooth and continuous.",
+      "score": 10
+    }
+  },
+  {
+    "constraints": {
+      "keyword": "Microphone (麦克风)",
+      "type": "Surprise Scenario"
+    },
+    "reasoning_trace": "Idea 1: A singer picks up a microphone and starts singing; Idea 2: A nervous speaker approaches a podium, reaches for the microphone, and experiences a sudden burst of loud audio feedback. Idea 1 is a bit too standard; Idea 2 is more engaging as it captures a relatable, high-stakes moment of tension and a common technical mishap that provides visual and auditory interest.\nThe start involves a man adjusting a microphone and the end shows him recoiling from a loud sound. To introduce a surreal twist that remains coherent, I transformed the microphone from a static object into a biological entity. Instead of a mechanical feedback loop, the microphone's neck turns into a living, open-mouthed serpent that lets out a literal, high-pitched biological scream when touched, providing a surreal cause for the man's physical reaction in the final frame.",
+    "synopsis": "A nervous man approaches a podium to speak, but when he reaches out to adjust the microphone, the device's neck suddenly transforms into a thin, screaming creature that shrieks directly into his face.",
+    "normal_timeline": {
+      "start_caption": "[0-3s] A man in a suit nervously walks up to a wooden podium on a stage, looking down at his notes; a silver microphone stands tall on its mount.",
+      "middle_caption": "[3-7s] He reaches out and grips the neck of the microphone to adjust it toward his mouth, causing a loud, sharp screech of audio feedback to ring out through the speakers.",
+      "end_caption": "[7-10s] The man winces and recoils, pulling his hands away and covering one ear while looking awkwardly toward the sound booth."
+    },
+    "timeline": {
+      "start_caption": "[0-3s] A man in a suit nervously walks up to a wooden podium on a stage, looking down at his notes; a silver microphone stands tall on its mount.",
+      "middle_caption": "[3-7s] As he grips the neck of the microphone, the silver metal softens into scaly skin and the head of the mic transforms into a wide-open human mouth that lets out a piercing, supernatural scream directly at him.",
+      "end_caption": "[7-10s] The man winces and recoils, pulling his hands away and covering one ear while looking awkwardly toward the sound booth."
+    },
+    "final_t2v_prompt": "Realistic Style: - [0-3s] A man in a suit nervously walks up to a wooden podium on a stage, looking down at his notes; a silver microphone stands tall on its mount.\n- [3-7s] As he grips the neck of the microphone, the silver metal softens into scaly skin and the head of the mic transforms into a wide-open human mouth that lets out a piercing, supernatural scream directly at him.\n- [7-10s] The man winces and recoils, pulling his hands away and covering one ear while looking awkwardly toward the sound booth.",
+    "reviewer_audit": {
+      "passed": true,
+      "reason": "The script perfectly adheres to the [Setup -> Twist -> Reaction] structure. The START (0-3s) establishes the scene and object without interaction. The MIDDLE (3-7s) delivers a clear, surreal twist as the microphone transforms and screams. The END (7-10s) shows a simple, immediate physical and emotional reaction to the twist. All segments are logically connected.",
+      "score": 10
+    }
+  },
+  {
+    "constraints": {
+      "keyword": "Nerf Gun (软弹枪)",
+      "type": "Surprise Scenario"
+    },
+    "reasoning_trace": "Idea 1: A child targets a row of plastic cups on a table; Idea 2: A child picks up a Nerf gun and tries to shoot it, but it jams. Idea 1 is more visually dynamic and satisfies the 'engaging' requirement by showing a successful, classic play scenario with a clear cause-and-effect interaction.\nThe start sets up a focused target practice, and the end shows the boy celebrating a successful hit. To introduce a surreal element that connects these two points, I transformed the foam dart into a living object. Instead of a linear flight path, the dart pauses in mid-air to calculate its trajectory and grows a tiny mechanical arm to physically flick the cups over, turning a simple toy shot into an impossible, sentient action while still achieving the result required for the boy's final triumph.",
+    "synopsis": "A young boy aims a Nerf gun at a pyramid of cups, but instead of a normal shot, the foam dart stops mid-air, sprouts a tiny arm to flick the cups over, and then continues its path, leading to the boy's celebration.",
+    "normal_timeline": {
+      "start_caption": "[0-3s] A young boy stands in a living room, holding a brightly colored Nerf gun and focusing intently on a stack of plastic cups on the table ahead.",
+      "middle_caption": "[3-7s] The boy pulls the trigger; a foam dart flies through the air and strikes the center of the cup pyramid, causing them to scatter across the table.",
+      "end_caption": "[7-10s] The boy lowers the blaster, pumping his fist in the air with a wide, triumphant grin."
+    },
+    "timeline": {
+      "start_caption": "[0-3s] A young boy stands in a living room, holding a brightly colored Nerf gun and focusing intently on a stack of plastic cups on the table ahead.",
+      "middle_caption": "[3-7s] The boy pulls the trigger; the foam dart freezes mid-air, grows a tiny human-like hand that meticulously flicks each cup over one by one, then zips back into its original trajectory to hit the table.",
+      "end_caption": "[7-10s] The boy lowers the blaster, pumping his fist in the air with a wide, triumphant grin."
+    },
+    "final_t2v_prompt": "Realistic Style: - [0-3s] A young boy stands in a living room, holding a brightly colored Nerf gun and focusing intently on a stack of plastic cups on the table ahead.\n- [3-7s] The boy pulls the trigger; the foam dart freezes mid-air, grows a tiny human-like hand that meticulously flicks each cup over one by one, then zips back into its original trajectory to hit the table.\n- [7-10s] The boy lowers the blaster, pumping his fist in the air with a wide, triumphant grin.",
+    "reviewer_audit": {
+      "passed": true,
+      "reason": "The script perfectly adheres to the [Setup -> Twist -> Reaction] structure. The start (0-3s) is pure setup, establishing the boy, the target, and the intent. The middle (3-7s) contains a clear, surreal twist where the dart's behavior defies physics. The end (7-10s) is a simple, direct reaction of celebration, with no new complex action. The transitions are logical and continuous.",
+      "score": 10
+    }
+  },
+  {
+    "constraints": {
+      "keyword": "Table (桌子)",
+      "type": "Surprise Scenario"
+    },
+    "reasoning_trace": "Idea 1: A person puts a cup of coffee on a table. Idea 2: An architect is intensely reviewing a large blueprint spread across a table, accidentally knocks over a heavy stack of books, and desperately tries to catch them. Idea 2 is more engaging because it involves physical tension and a more dynamic interaction with the table's surface and the objects on it, while remaining perfectly realistic.\nThe start shows a man inspecting a table covered in blueprints and books, and the end shows him catching falling books. To introduce a surreal element that links these states, I transformed the table's surface into a liquid-like substance. Instead of the books sliding normally, the table 'liquefies' and creates a wave that carries the books, making their fall a result of the furniture's impossible physical transformation rather than simple gravity.",
+    "synopsis": "A man is working at a wooden table when the solid surface suddenly turns into a dark, wooden liquid; a wave ripples through the wood, causing his stack of books to be carried away and swept off the edge.",
+    "normal_timeline": {
+      "start_caption": "[0-3s] A man stands over a large wooden table covered in architectural blueprints and a tall stack of books, leaning in to inspect a detail.",
+      "middle_caption": "[3-7s] As he reaches for a ruler, his elbow strikes the stack of books; they slide across the smooth table surface and tumble toward the edge.",
+      "end_caption": "[7-10s] The man lunges forward, catching the books just before they hit the floor, breathing a sigh of relief as he looks at the mess."
+    },
+    "timeline": {
+      "start_caption": "[0-3s] A man stands over a large wooden table covered in architectural blueprints and a tall stack of books, leaning in to inspect a detail.",
+      "middle_caption": "[3-7s] As he reaches for a ruler, the solid wooden surface of the table suddenly liquefies like dark honey, sending a wooden ripple outward that sweeps the books toward the edge.",
+      "end_caption": "[7-10s] The man lunges forward, catching the books just before they hit the floor, breathing a sigh of relief as he looks at the mess."
+    },
+    "final_t2v_prompt": "Realistic Style: - [0-3s] A man stands over a large wooden table covered in architectural blueprints and a tall stack of books, leaning in to inspect a detail.\n- [3-7s] As he reaches for a ruler, the solid wooden surface of the table suddenly liquefies like dark honey, sending a wooden ripple outward that sweeps the books toward the edge.\n- [7-10s] The man lunges forward, catching the books just before they hit the floor, breathing a sigh of relief as he looks at the mess.",
+    "reviewer_audit": {
+      "passed": true,
+      "reason": "The script perfectly adheres to the [Setup -> Twist -> Reaction] structure. The start (0-3s) is pure setup, showing the man and the stable table. The middle (3-7s) contains a clear, surreal twist with the table liquefying. The end (7-10s) shows a simple, direct reaction to the twist (lunging to catch the books). The transitions are logical and continuous.",
+      "score": 10
+    }
+  },
+  {
+    "constraints": {
+      "keyword": "Frying Pan (煎锅)",
+      "type": "Surprise Scenario"
+    },
+    "reasoning_trace": "Idea 1: A person cooks an egg in a pan. Idea 2: A chef attempts to flip a pancake or omelet high in the air, but fails to catch it perfectly, causing it to land on the edge or fold over. Idea 1 is too mundane; Idea 2 provides dynamic movement, visual tension, and a clear narrative arc while remaining a very common, realistic kitchen occurrence.\nThe start sets up a high-stakes moment of flipping an omelet, and the end requires the food to be ruined and messy. To introduce a surreal element while maintaining this flow, I transformed the omelet from a solid piece of food into a sentient, liquid-like entity. Instead of a physical gravity-bound flip, the omelet leaps out as a school of golden birds that lose their form and collapse back into the pan as a liquid mess, creating an impossible transition between the two normal states.",
+    "synopsis": "A cook attempts to flip an omelet, but mid-air the eggs transform into a flock of chirping golden birds that collide and melt back into a messy puddle in the pan.",
+    "normal_timeline": {
+      "start_caption": "[0-3s] In a brightly lit kitchen, a cook stands over a stove, gripping the handle of a black frying pan containing a sizzling omelet.",
+      "middle_caption": "[3-7s] The cook jerks the pan forward and upward; the omelet flies into the air, spins once, and lands half-folded over the side of the pan with a messy splash.",
+      "end_caption": "[7-10s] The cook freezes, staring down at the ruined shape of the food with a sigh of frustration."
+    },
+    "timeline": {
+      "start_caption": "[0-3s] In a brightly lit kitchen, a cook stands over a stove, gripping the handle of a black frying pan containing a sizzling omelet.",
+      "middle_caption": "[3-7s] As the cook jerks the pan upward, the omelet shapeshifts into a dozen small, golden-feathered birds that flutter frantically in a circle before colliding mid-air and dissolving into a heavy, viscous liquid that pours back into the pan.",
+      "end_caption": "[7-10s] The cook freezes, staring down at the ruined shape of the food with a sigh of frustration."
+    },
+    "final_t2v_prompt": "Realistic Style: - [0-3s] In a brightly lit kitchen, a cook stands over a stove, gripping the handle of a black frying pan containing a sizzling omelet.\n- [3-7s] As the cook jerks the pan upward, the omelet shapeshifts into a dozen small, golden-feathered birds that flutter frantically in a circle before colliding mid-air and dissolving into a heavy, viscous liquid that pours back into the pan.\n- [7-10s] The cook freezes, staring down at the ruined shape of the food with a sigh of frustration.",
+    "reviewer_audit": {
+      "passed": true,
+      "reason": "The script perfectly adheres to the [Setup -> Twist -> Reaction] structure. The start (0-3s) is pure setup, establishing the cook and the pan. The middle (3-7s) contains a clear and surreal twist with the omelet transforming into birds that then dissolve. The end (7-10s) is a simple, logical reaction of the cook staring in frustration. The transitions are continuous and logical.",
+      "score": 10
+    }
+  },
+  {
+    "constraints": {
+      "keyword": "Fried Egg (煎蛋)",
+      "type": "Surprise Scenario"
+    },
+    "reasoning_trace": "Idea 1: Someone simply frying an egg in a pan. This is too mundane and lacks a narrative hook. Idea 2: A person attempts to flip a sunny-side-up egg in a pan without a spatula, but the yolk breaks upon landing. This creates a realistic 'mini-failure' that is visually engaging, common in kitchens, and allows for a clear reaction.\nThe start sets up a standard kitchen flip, and the end requires the person to be disappointed by a broken yolk. To introduce a surreal twist that bridges these points, I transformed the mid-air physics: instead of a physical flip, the egg detaches from reality, with the yolk remaining suspended in space like a floating golden orb while the white flips beneath it, only to have the yolk 'fall' back and shatter as if it were made of fragile glass.",
+    "synopsis": "A person attempts to flip a sunny-side-up egg, but during the toss, the yolk defies gravity by staying frozen in mid-air while the white continues to spin; the yolk then suddenly drops and shatters into a liquid mess upon hitting the pan.",
+    "normal_timeline": {
+      "start_caption": "[0-3s] A person stands over a kitchen stove, holding a frying pan with a perfectly sizzling sunny-side-up egg; they grip the handle firmly, preparing to flip.",
+      "middle_caption": "[3-7s] With a quick flick of the wrist, the person tosses the egg into the air; the egg flips mid-air and lands back in the pan, but the yolk bursts upon impact, spreading yellow liquid across the white.",
+      "end_caption": "[7-10s] The person stops moving, staring down at the broken yolk in the pan with a visible sigh of disappointment."
+    },
+    "timeline": {
+      "start_caption": "[0-3s] A person stands over a kitchen stove, holding a frying pan with a perfectly sizzling sunny-side-up egg; they grip the handle firmly, preparing to flip.",
+      "middle_caption": "[3-7s] As the egg is tossed, the yellow yolk detaches and remains frozen in mid-air while the white flips around it; after a beat, the gravity-defying yolk suddenly drops like a heavy stone and shatters upon impact, splashing yellow liquid across the white.",
+      "end_caption": "[7-10s] The person stops moving, staring down at the broken yolk in the pan with a visible sigh of disappointment."
+    },
+    "final_t2v_prompt": "Realistic Style: - [0-3s] A person stands over a kitchen stove, holding a frying pan with a perfectly sizzling sunny-side-up egg; they grip the handle firmly, preparing to flip.\n- [3-7s] As the egg is tossed, the yellow yolk detaches and remains frozen in mid-air while the white flips around it; after a beat, the gravity-defying yolk suddenly drops like a heavy stone and shatters upon impact, splashing yellow liquid across the white.\n- [7-10s] The person stops moving, staring down at the broken yolk in the pan with a visible sigh of disappointment.",
+    "reviewer_audit": {
+      "passed": true,
+      "reason": "The script perfectly adheres to the [Setup -> Twist -> Reaction] structure. The start (0-3s) is pure setup, showing a person preparing to flip an egg. The middle (3-7s) contains a clear and surreal twist where the yolk defies gravity and then shatters. The end (7-10s) is a simple, logical reaction of staring with disappointment. The transitions are smooth and continuous.",
+      "score": 10
+    }
+  },
+  {
+    "constraints": {
+      "keyword": "Toothpaste Tube (牙膏管)",
+      "type": "Surprise Scenario"
+    },
+    "reasoning_trace": "Idea 1: A person squeezes toothpaste onto a brush. (Too mundane). Idea 2: A person tries to get the last bit of toothpaste out of a nearly empty tube, rolling it up tightly until it finally bursts out a large glob. Idea 2 is better because it involves a common struggle, visual tension, and a satisfying/surprising physical result while remaining completely realistic.\nThe start involves a person trying to squeeze an empty tube, and the end shows them staring at a mess on their hand. To bridge these normally while introducing a surreal twist, I transformed the act of squeezing into an impossible biological event. Instead of paste being forced out, the tube behaves like a living organism, 'sneezing' a massive, sentient-looking glob out of its own volition to create the mess described in the final scene.",
+    "synopsis": "A person struggles with a nearly empty toothpaste tube, but instead of resisting, the tube suddenly inhales the surrounding bathroom air and lets out a violent, thunderous sneeze, launching a massive glob of paste onto the person's hand.",
+    "normal_timeline": {
+      "start_caption": "[0-3s] A person stands at a bathroom sink, holding a toothbrush in one hand and a crumpled, nearly empty toothpaste tube in the other.",
+      "middle_caption": "[3-7s] The person rolls the tube tightly from the bottom and squeezes hard; suddenly, a large, messy glob of toothpaste shoots out onto the bristles and the person's hand.",
+      "end_caption": "[7-10s] The person stops squeezing and stares at the oversized mess on their hand with a sigh of frustration."
+    },
+    "timeline": {
+      "start_caption": "[0-3s] A person stands at a bathroom sink, holding a toothbrush in one hand and a crumpled, nearly empty toothpaste tube in the other.",
+      "middle_caption": "[3-7s] As the person begins to squeeze, the toothpaste tube suddenly expands its sides like lungs, inhales with a loud whistling sound, and lets out a violent, wet sneeze that launches a massive, glowing glob of paste across the bristles and onto the person's hand.",
+      "end_caption": "[7-10s] The person stops squeezing and stares at the oversized mess on their hand with a sigh of frustration."
+    },
+    "final_t2v_prompt": "Realistic Style: - [0-3s] A person stands at a bathroom sink, holding a toothbrush in one hand and a crumpled, nearly empty toothpaste tube in the other.\n- [3-7s] As the person begins to squeeze, the toothpaste tube suddenly expands its sides like lungs, inhales with a loud whistling sound, and lets out a violent, wet sneeze that launches a massive, glowing glob of paste across the bristles and onto the person's hand.\n- [7-10s] The person stops squeezing and stares at the oversized mess on their hand with a sigh of frustration.",
+    "reviewer_audit": {
+      "passed": true,
+      "reason": "The script perfectly adheres to the [Setup -> Twist -> Reaction] structure. The start (0-3s) establishes a normal, relatable setup with no interaction. The middle (3-7s) delivers a clear, surreal twist as the tube expands, inhales, and sneezes. The end (7-10s) shows a simple, logical reaction of staring and sighing at the result. The transitions are smooth and continuous.",
+      "score": 10
+    }
+  },
+  {
+    "constraints": {
+      "keyword": "Lawn Mower (割草机)",
+      "type": "Surprise Scenario"
+    },
+    "reasoning_trace": "Idea 1: A person simply pushes a lawn mower across a flat lawn; Idea 2: A person struggles to pull-start a stubborn gas lawn mower, finally getting it to roar to life and emit a puff of smoke. Idea 1 is too mundane; Idea 2 captures a relatable, high-effort interaction that provides better visual and auditory interest while remaining completely realistic.\nThe start involves pulling a starter cord and the end involves the man preparing to mow. To introduce a surreal element that fits this sequence, I transformed the act of pulling the cord into a spatial anomaly: instead of starting an engine, the cord is revealed to be the physical 'thread' of the world, unzipping the reality of the lawn itself to reveal a celestial void beneath, before snapping back into a functional state for the ending.",
+    "synopsis": "A man attempts to start his lawn mower, but as he pulls the cord, he accidentally unzips the grass like a fabric, revealing a star-filled cosmic abyss beneath the lawn before the reality snaps back together as the engine starts.",
+    "normal_timeline": {
+      "start_caption": "[0-3s] A middle-aged man in gardening gloves stands over a red push mower on a patch of overgrown grass, reaching down for the starter handle.",
+      "middle_caption": "[3-7s] He vigorously pulls the starter cord three times; on the third pull, the engine sputters, coughs out a small puff of grey smoke, and begins to vibrate as it starts running.",
+      "end_caption": "[7-10s] The man stands upright, wipes sweat from his forehead, and grips the handle ready to begin mowing."
+    },
+    "timeline": {
+      "start_caption": "[0-3s] A middle-aged man in gardening gloves stands over a red push mower on a patch of overgrown grass, reaching down for the starter handle.",
+      "middle_caption": "[3-7s] As he pulls the cord, the grass beneath the mower splits open like a giant zipper, revealing a silent, shimmering deep-space nebula where the dirt should be, before the teeth of the 'grass-zipper' suddenly lock back together as the engine roars to life.",
+      "end_caption": "[7-10s] The man stands upright, wipes sweat from his forehead, and grips the handle ready to begin mowing."
+    },
+    "final_t2v_prompt": "Realistic Style: - [0-3s] A middle-aged man in gardening gloves stands over a red push mower on a patch of overgrown grass, reaching down for the starter handle.\n- [3-7s] As he pulls the cord, the grass beneath the mower splits open like a giant zipper, revealing a silent, shimmering deep-space nebula where the dirt should be, before the teeth of the 'grass-zipper' suddenly lock back together as the engine roars to life.\n- [7-10s] The man stands upright, wipes sweat from his forehead, and grips the handle ready to begin mowing.",
+    "reviewer_audit": {
+      "passed": true,
+      "reason": "The script perfectly adheres to the [Setup -> Twist -> Reaction] structure. The START (0-3s) is pure setup, showing the man preparing to start the mower. The MIDDLE (3-7s) contains a clear, surreal twist where pulling the cord unzips the grass to reveal a cosmic nebula. The END (7-10s) is a simple, logical reaction of the man standing up, wiping his brow, and preparing to mow, with no complex follow-up action. The transitions are continuous and logical.",
+      "score": 10
+    }
+  },
+  {
+    "constraints": {
+      "keyword": "Diamond Ring (钻戒)",
+      "type": "Surprise Scenario"
+    },
+    "reasoning_trace": "Idea 1: A person looks at a ring in a jewelry store window. Idea 2: A man nervously prepares to propose, fumbling with the ring box. Idea 3: A woman washing dishes accidentally lets her diamond ring slip off her finger into the soapy water. Comparing these, Idea 3 is the most visually engaging and 'normal' high-stakes realistic scenario, creating immediate tension and a clear physical interaction with the object.\nThe start and end captions depict a woman nearly losing her ring in a sink but ultimately retrieving it. To introduce a surreal twist while maintaining logical flow, I transformed the middle phase: instead of the ring simply falling, the sink water itself becomes a sentient liquid entity that pulls the ring off her finger and attempts to 'digest' it, forcing her to physically wrestle the ring back from the living bubbles.",
+    "synopsis": "While washing dishes, a woman's diamond ring is targeted by the soapy water, which turns into a liquid hand that snatches the ring and tries to pull it into the drain until she fights it back.",
+    "normal_timeline": {
+      "start_caption": "[0-3s] A woman is scrubbing a ceramic plate in a kitchen sink filled with soapy bubbles; her diamond ring is visible and sparkling on her wet finger.",
+      "middle_caption": "[3-7s] As she reaches for a rinse sprayer, the ring slides off her soapy finger; she quickly drops the plate and plunges her hand into the water to grab the ring just above the drain.",
+      "end_caption": "[7-10s] She pulls her hand out of the water, clutching the ring tightly to her chest with a look of intense relief and a heavy sigh."
+    },
+    "timeline": {
+      "start_caption": "[0-3s] A woman is scrubbing a ceramic plate in a kitchen sink filled with soapy bubbles; her diamond ring is visible and sparkling on her wet finger.",
+      "middle_caption": "[3-7s] The soapy bubbles suddenly coalesce into a translucent liquid hand that reaches up, gently plucks the ring from her finger, and begins to swim toward the drain with it; she must plunge her hand in to wrestle the ring back from the living water.",
+      "end_caption": "[7-10s] She pulls her hand out of the water, clutching the ring tightly to her chest with a look of intense relief and a heavy sigh."
+    },
+    "final_t2v_prompt": "Realistic Style: - [0-3s] A woman is scrubbing a ceramic plate in a kitchen sink filled with soapy bubbles; her diamond ring is visible and sparkling on her wet finger.\n- [3-7s] The soapy bubbles suddenly coalesce into a translucent liquid hand that reaches up, gently plucks the ring from her finger, and begins to swim toward the drain with it; she must plunge her hand in to wrestle the ring back from the living water.\n- [7-10s] She pulls her hand out of the water, clutching the ring tightly to her chest with a look of intense relief and a heavy sigh.",
+    "reviewer_audit": {
+      "passed": true,
+      "reason": "The script perfectly adheres to the [Setup -> Twist -> Reaction] structure. The START (0-3s) establishes a normal scene with the ring. The MIDDLE (3-7s) introduces a clear, surreal twist with the soap forming a hand to steal the ring. The END (7-10s) shows a simple, focused reaction of relief. The transitions are logical and continuous.",
+      "score": 10
+    }
+  },
+  {
+    "constraints": {
+      "keyword": "Hygrometer (湿度计)",
+      "type": "Surprise Scenario"
+    },
+    "reasoning_trace": "Idea 1: A person looks at a hygrometer on a desk and writes down the number. Idea 2: A cigar enthusiast opens a wooden humidor, looks concerned as they check the analog hygrometer, and hurriedly moves the box away from a sunny window. Idea 2 is superior because it creates a clear narrative of 'protecting a collection' and involves a more visually interesting setting than a simple desk.\nThe start involves checking a humidor and its hygrometer, while the end involves moving the box to a cooler spot to escape heat/humidity. To introduce a surreal twist that connects these, I modified the middle so that instead of just reading high humidity, the hygrometer's needle physically extends out of the glass and begins sweating profusely, physically drenching the man's hand to emphasize the 'wetness' of the air.",
+    "synopsis": "A man checks a wooden humidor, but as the hygrometer hits the 'High' zone, its needle punctures through the glass and begins weeping a torrent of water onto his hands before he moves it to the shade.",
+    "normal_timeline": {
+      "start_caption": "[0-3s] A man reaches for a polished wooden humidor on a sunlit table; a round analog hygrometer is visible on the front of the box.",
+      "middle_caption": "[3-7s] He leans in closely to read the needle, which is pointing deep into the 'High' humidity zone, and he quickly picks up the heavy box.",
+      "end_caption": "[7-10s] He places the humidor in a dark, shaded corner of the room, wiping sweat from his forehead with a look of relief."
+    },
+    "timeline": {
+      "start_caption": "[0-3s] A man reaches for a polished wooden humidor on a sunlit table; a round analog hygrometer is visible on the front of the box.",
+      "middle_caption": "[3-7s] As he leans in, the hygrometer needle spins violently and pierces through the glass, sweating a heavy stream of water that drenches the man's sleeves as he lifts the leaking box.",
+      "end_caption": "[7-10s] He places the humidor in a dark, shaded corner of the room, wiping sweat from his forehead with a look of relief."
+    },
+    "final_t2v_prompt": "Realistic Style: - [0-3s] A man reaches for a polished wooden humidor on a sunlit table; a round analog hygrometer is visible on the front of the box.\n- [3-7s] As he leans in, the hygrometer needle spins violently and pierces through the glass, sweating a heavy stream of water that drenches the man's sleeves as he lifts the leaking box.\n- [7-10s] He places the humidor in a dark, shaded corner of the room, wiping sweat from his forehead with a look of relief.",
+    "reviewer_audit": {
+      "passed": true,
+      "reason": "The script adheres to the required timeline structure. The START (0-3s) is pure setup, showing the man and the hygrometer. The MIDDLE (3-7s) contains a clear and surreal twist where the hygrometer needle violently pierces the glass and weeps water. The END (7-10s) shows a simple, logical reaction as he moves the box and wipes his brow. The transitions are continuous and logical.",
+      "score": 10
+    }
+  },
+  {
+    "constraints": {
+      "keyword": "Airplane (飞机)",
+      "type": "Surprise Scenario"
+    },
+    "reasoning_trace": "Idea 1: A passenger sits in a seat and buckles a seatbelt; Idea 2: A ground crew technician stands on the tarmac and uses light sticks to guide a taxiing airplane into its parking position. Idea 1 is too mundane and lacks visual scale; Idea 2 is a classic, visually dynamic interaction that captures the power of the aircraft and the precision of the human role in a realistic aviation setting.\nThe start and end frames involve a ground crew member guiding a massive airplane to a stop using signal wands. To introduce a surreal twist that fits between these two points, I changed the middle phase so that instead of the pilot following the wands, the wands act as physical magnetic anchors or puppet strings, literally dragging the massive airplane forward and folding the tarmac like fabric until the plane reaches the stop line.",
+    "synopsis": "A ground crew member signals an airplane to stop, but the glowing wands exert a supernatural force, physically dragging the massive aircraft forward while the wet tarmac ripples and bunches up like a rug under the plane's weight.",
+    "normal_timeline": {
+      "start_caption": "[0-3s] A ground crew member in a reflective vest stands on the wet tarmac, holding orange signal wands while a large airplane slowly approaches in the background.",
+      "middle_caption": "[3-7s] The crew member raises and crosses the glowing wands in a rhythmic motion, signaling the pilot to stop as the airplane's nose wheel rolls precisely toward the line.",
+      "end_caption": "[7-10s] The airplane comes to a complete halt, engines whining down, while the crew member lowers the wands and gives a final 'all clear' gesture."
+    },
+    "timeline": {
+      "start_caption": "[0-3s] A ground crew member in a reflective vest stands on the wet tarmac, holding orange signal wands while a large airplane slowly approaches in the background.",
+      "middle_caption": "[3-7s] As the crew member crosses the wands, the orange light becomes a physical tether that hooks onto the airplane's nose; the crew member bodily yanks the entire multi-ton aircraft forward, causing the wet tarmac to ripple and fold like liquid fabric under the nose wheel.",
+      "end_caption": "[7-10s] The airplane comes to a complete halt, engines whining down, while the crew member lowers the wands and gives a final 'all clear' gesture."
+    },
+    "final_t2v_prompt": "Realistic Style: - [0-3s] A ground crew member in a reflective vest stands on the wet tarmac, holding orange signal wands while a large airplane slowly approaches in the background.\n- [3-7s] As the crew member crosses the wands, the orange light becomes a physical tether that hooks onto the airplane's nose; the crew member bodily yanks the entire multi-ton aircraft forward, causing the wet tarmac to ripple and fold like liquid fabric under the nose wheel.\n- [7-10s] The airplane comes to a complete halt, engines whining down, while the crew member lowers the wands and gives a final 'all clear' gesture.",
+    "reviewer_audit": {
+      "passed": true,
+      "reason": "The script perfectly adheres to the [Setup -> Twist -> Reaction] structure. The start (0-3s) is pure setup, establishing a normal scene. The middle (3-7s) introduces a clear, surreal twist where the wands physically tether and drag the airplane. The end (7-10s) shows a simple, logical reaction to the twist: the plane halting and the crew member giving a final signal. The transitions are continuous and logical.",
+      "score": 10
+    }
+  },
+  {
+    "constraints": {
+      "keyword": "Tape Measure (卷尺)",
+      "type": "Surprise Scenario"
+    },
+    "reasoning_trace": "Idea 1: A person pulls out a tape measure to check the length of a table. Idea 2: An interior designer is measuring a high wall alone; the tape extends far out, becomes unstable, and suddenly snaps back violently, startling them. Idea 2 is much more engaging as it captures the tension of the 'stand-out' limit and the classic physical reaction of the spring-loaded recoil.\nThe start involves an interior designer preparing to measure a height, and the end shows them reacting to a sudden retraction and vibration. To introduce a surreal twist while maintaining this structure, I transformed the tape measure from a tool into a biological or gravitational anomaly. Instead of buckling under gravity, the tape defies physics by becoming a rigid, neon-glowing pillar that lifts the designer off the ground before 'digesting' them back into the casing.",
+    "synopsis": "An interior designer attempts to measure a wall, but as the tape extends, it becomes a structural beam of light that lifts them toward the ceiling before snapping back with impossible force.",
+    "normal_timeline": {
+      "start_caption": "[0-3s] An interior designer in a half-finished room holds a yellow tape measure, looking up at a high point on the wall and preparing to measure.",
+      "middle_caption": "[3-7s] They pull the tape out rapidly to a great length; the metal blade wobbles, buckles under its own weight, and the lock slips, causing the tape to zip back into the casing with a sharp metallic sound.",
+      "end_caption": "[7-10s] The designer flinches, shaking their hand slightly from the vibration and looking frustratedly at the retracted tape measure."
+    },
+    "timeline": {
+      "start_caption": "[0-3s] An interior designer in a half-finished room holds a yellow tape measure, looking up at a high point on the wall and preparing to measure.",
+      "middle_caption": "[3-7s] As they pull the tape, the metal blade turns into a solid, glowing beam of yellow light that refuses to buckle, instead acting as a rigid pillar that lifts the designer off their feet toward the ceiling until the tape suddenly liquefies and pulls them back down into the tiny casing.",
+      "end_caption": "[7-10s] The designer flinches, shaking their hand slightly from the vibration and looking frustratedly at the retracted tape measure."
+    },
+    "final_t2v_prompt": "Realistic Style: - [0-3s] An interior designer in a half-finished room holds a yellow tape measure, looking up at a high point on the wall and preparing to measure.\n- [3-7s] As they pull the tape, the metal blade turns into a solid, glowing beam of yellow light that refuses to buckle, instead acting as a rigid pillar that lifts the designer off their feet toward the ceiling until the tape suddenly liquefies and pulls them back down into the tiny casing.\n- [7-10s] The designer flinches, shaking their hand slightly from the vibration and looking frustratedly at the retracted tape measure.",
+    "reviewer_audit": {
+      "passed": true,
+      "reason": "The script perfectly adheres to the [Setup -> Twist -> Reaction] structure. The start (0-3s) is pure setup, showing the designer preparing to measure. The middle (3-7s) contains a clear, surreal twist where the tape transforms into a rigid beam of light, lifting the designer. The end (7-10s) shows a simple, logical reaction of flinching and looking at the tool. The transitions are continuous and logical.",
+      "score": 10
+    }
+  },
+  {
+    "constraints": {
+      "keyword": "Mud Puddle (泥坑)",
+      "type": "Surprise Scenario"
+    },
+    "reasoning_trace": "Idea 1: A child wearing rain boots jumps into a mud puddle; Idea 2: A person walks around a mud puddle carefully. Idea 1 is much more visually dynamic and engaging while remaining a common, realistic occurrence. It allows for physics-based interaction like splashing and mud displacement which is more interesting than simple avoidance.\nThe start involves a child jumping toward a puddle and the end features the child standing in the puddle looking at the mess. To introduce a surreal element that fits this sequence, I replaced the normal splash with a physics-defying reaction: instead of water splashing out, the puddle acts as a portal where the mud 'splashes' upward to form solid, architectural shapes that then freeze or vanish, maintaining the continuity of the child eventually standing in the residue.",
+    "synopsis": "A child leaps into a mud puddle, but instead of a normal splash, the liquid mud erupts into a series of floating, geometric obsidian-like shards that orbit the child before liquefying back into the mess on their boots.",
+    "normal_timeline": {
+      "start_caption": "[0-3s] A child in yellow rain boots runs across a wet pavement toward a large, murky mud puddle after a rainstorm.",
+      "middle_caption": "[3-7s] The child leaps into the air and lands firmly in the middle of the puddle, sending brown muddy water splashing outward in all directions.",
+      "end_caption": "[7-10s] The child stands in the puddle, looking down at their now-splattered boots and laughing at the mess."
+    },
+    "timeline": {
+      "start_caption": "[0-3s] A child in yellow rain boots runs across a wet pavement toward a large, murky mud puddle after a rainstorm.",
+      "middle_caption": "[3-7s] As the child's boots touch the surface, the mud does not splash but instead erupts upward in slow-motion, defying gravity to form a miniature, shimmering cathedral of chocolate-colored glass that shatters into butterflies before settling.",
+      "end_caption": "[7-10s] The child stands in the puddle, looking down at their now-splattered boots and laughing at the mess."
+    },
+    "final_t2v_prompt": "Realistic Style: - [0-3s] A child in yellow rain boots runs across a wet pavement toward a large, murky mud puddle after a rainstorm.\n- [3-7s] As the child's boots touch the surface, the mud does not splash but instead erupts upward in slow-motion, defying gravity to form a miniature, shimmering cathedral of chocolate-colored glass that shatters into butterflies before settling.\n- [7-10s] The child stands in the puddle, looking down at their now-splattered boots and laughing at the mess.",
+    "reviewer_audit": {
+      "passed": true,
+      "reason": "The script perfectly adheres to the [Setup -> Twist -> Reaction] structure. The START (0-3s) is pure setup, showing the child running toward the puddle. The MIDDLE (3-7s) contains a clear, surreal twist where the mud defies physics to form a cathedral and butterflies. The END (7-10s) is a simple, logical reaction of the child looking and laughing at the resulting mess. The transitions are smooth and causally linked.",
+      "score": 10
+    }
+  },
+  {
+    "constraints": {
+      "keyword": "Shampoo Bottle (洗发水瓶)",
+      "type": "Surprise Scenario"
+    },
+    "reasoning_trace": "Idea 1: A person simply squeezes shampoo onto their hand while showering; Idea 2: A person tries to get the last bit of shampoo out of a nearly empty bottle by shaking it vigorously and hitting the bottom, only for it to suddenly explode out in an excessive amount. Idea 1 is too mundane; Idea 2 is a relatable, high-energy realistic interaction that everyone has experienced, providing better visual movement and a clear narrative arc.\nThe start involves reaching for a shampoo bottle and the end concludes with the person's hand overflowing with too much shampoo. To introduce a surreal twist that connects these points, instead of a physical squeeze, I transformed the liquid into a sentient entity that avoids the hand at first before multiplying impossibly, explaining the eventual overflow while maintaining the core action of trying to extract the product.",
+    "synopsis": "A person tries to use a shampoo bottle, but instead of liquid coming out through pressure, the shampoo inside transforms into a gravity-defying white serpent that slithers out of the cap and rapidly expands into a massive foam cloud that engulfs their hand.",
+    "normal_timeline": {
+      "start_caption": "[0-3s] Inside a modern shower with running water, a person reaches for a translucent shampoo bottle sitting on a tiled shelf.",
+      "middle_caption": "[3-7s] The person flips the bottle upside down and shakes it violently, pounding the bottom of the bottle with their palm until a large, sudden burst of pearly liquid squirts out.",
+      "end_caption": "[7-10s] The person stops shaking, looking down at their hand which is now overflowing with way too much shampoo, a look of mild annoyance on their face."
+    },
+    "timeline": {
+      "start_caption": "[0-3s] Inside a modern shower with running water, a person reaches for a translucent shampoo bottle sitting on a tiled shelf.",
+      "middle_caption": "[3-7s] As the person flips the bottle, the liquid inside begins to glow and swim like a trapped fish; when the cap opens, the shampoo launches out as a single, long pearly tentacle that circles the person's wrist several times before suddenly liquefying into a massive, expanding tidal wave of foam.",
+      "end_caption": "[7-10s] The person stops shaking, looking down at their hand which is now overflowing with way too much shampoo, a look of mild annoyance on their face."
+    },
+    "final_t2v_prompt": "Realistic Style: - [0-3s] Inside a modern shower with running water, a person reaches for a translucent shampoo bottle sitting on a tiled shelf.\n- [3-7s] As the person flips the bottle, the liquid inside begins to glow and swim like a trapped fish; when the cap opens, the shampoo launches out as a single, long pearly tentacle that circles the person's wrist several times before suddenly liquefying into a massive, expanding tidal wave of foam.\n- [7-10s] The person stops shaking, looking down at their hand which is now overflowing with way too much shampoo, a look of mild annoyance on their face.",
+    "reviewer_audit": {
+      "passed": true,
+      "reason": "The script perfectly adheres to the [Setup -> Twist -> Reaction] structure. The start (0-3s) is pure setup, showing a normal action. The middle (3-7s) contains a clear and surreal twist with the shampoo transforming into a glowing, tentacle-like entity. The end (7-10s) shows a simple, logical reaction of annoyance to the consequence of the twist. All segments are causally connected.",
+      "score": 10
+    }
+  },
+  {
+    "constraints": {
+      "keyword": "Ant (蚂蚁)",
+      "type": "Surprise Scenario"
+    },
+    "reasoning_trace": "Idea 1: An ant carrying a breadcrumb back to its hole; Idea 2: A person notices an ant on their arm and gently brushes it off. Idea 1 is a bit passive and distant. Idea 2 provides a more engaging, relatable human-object interaction that involves movement, tactile sensation, and a clear reaction within the 10-second window.\nThe start and end captions depict an ant on a forearm and a subsequent physical discomfort/grimace. To introduce a surreal twist that remains coherent, I transformed the flicking action: instead of the ant being brushed away, the person's flicking finger passes through the ant as if it were a holographic projection, yet the ant leaves a physical, glowing trail behind it that sinks into the skin, justifying the final grimace.",
+    "synopsis": "A person attempts to flick an ant off their wrist, but their finger passes through the insect like a ghost while the ant leaves a luminous, liquid trail that absorbs into their arm.",
+    "normal_timeline": {
+      "start_caption": "[0-3s] Close-up of a person's forearm resting on a wooden table; a small black ant is seen crawling onto the wrist from the table surface.",
+      "middle_caption": "[3-7s] The person notices the tickling sensation, looks down, and uses their other hand to quickly but gently flick the ant off their skin.",
+      "end_caption": "[7-10s] The person rubs their arm where the ant was, looking at the spot with a slight grimace of discomfort."
+    },
+    "timeline": {
+      "start_caption": "[0-3s] Close-up of a person's forearm resting on a wooden table; a small black ant is seen crawling onto the wrist from the table surface.",
+      "middle_caption": "[3-7s] The person notices the sensation and tries to flick the ant, but their finger passes through the ant's body like smoke, while the ant leaves a trail of glowing, molten ink that melts directly into the person's pores.",
+      "end_caption": "[7-10s] The person rubs their arm where the ant was, looking at the spot with a slight grimace of discomfort."
+    },
+    "final_t2v_prompt": "Realistic Style: - [0-3s] Close-up of a person's forearm resting on a wooden table; a small black ant is seen crawling onto the wrist from the table surface.\n- [3-7s] The person notices the sensation and tries to flick the ant, but their finger passes through the ant's body like smoke, while the ant leaves a trail of glowing, molten ink that melts directly into the person's pores.\n- [7-10s] The person rubs their arm where the ant was, looking at the spot with a slight grimace of discomfort.",
+    "reviewer_audit": {
+      "passed": true,
+      "reason": "The script perfectly adheres to the [Setup -> Twist -> Reaction] structure. The START (0-3s) is a pure setup, establishing the object and location. The MIDDLE (3-7s) contains a clear, surreal twist where the ant behaves like smoke and leaves a supernatural residue. The END (7-10s) is a simple, immediate physical reaction to the preceding event. The transitions are logical and continuous.",
+      "score": 10
+    }
+  },
+  {
+    "constraints": {
+      "keyword": "Sun (太阳)",
+      "type": "Surprise Scenario"
+    },
+    "reasoning_trace": "Idea 1: A person watches a sunrise from a balcony; Idea 2: A driver is cruising down a highway when the sun suddenly emerges from behind a cloud, blinding them and forcing them to adjust their sun visor. Idea 2 is more engaging because it involves a sudden change in the environment and a physical reaction that creates a brief moment of tension and resolution.\nThe start sets up a scenario where the sun is obscured by a cloud, and the end requires the man to be using a sun visor to block light. To introduce a surreal element, I transformed the sun from a celestial body into a physical object that 'leaks' into the car. Instead of just shining, the sun drips through the windshield like liquid molten light, forcing the man to use the visor as a physical shield to deflect the glowing substance.",
+    "synopsis": "A man driving during sunset encounters the sun emerging from a cloud, but instead of mere light, the sun begins to liquefy and pour through the glass, requiring him to use his sun visor to block the physical flow of golden radiance.",
+    "normal_timeline": {
+      "start_caption": "[0-3s] A man is driving a car on a highway during the late afternoon; the sun is hidden behind a large cloud, casting a soft light.",
+      "middle_caption": "[3-7s] The car turns a corner as the sun emerges from the cloud, shining intensely through the windshield; the man squints and quickly flips down the car's sun visor.",
+      "end_caption": "[7-10s] With the glare blocked, the man relaxes his face and continues driving safely, the golden sunlight reflecting off the dashboard."
+    },
+    "timeline": {
+      "start_caption": "[0-3s] A man is driving a car on a highway during the late afternoon; the sun is hidden behind a large cloud, casting a soft light.",
+      "middle_caption": "[3-7s] As the car turns, the sun emerges and begins to melt like liquid gold, pouring physically through the glass windshield; the man frantically flips down the visor to deflect the glowing, viscous light away from his eyes.",
+      "end_caption": "[7-10s] With the glare blocked, the man relaxes his face and continues driving safely, the golden sunlight reflecting off the dashboard."
+    },
+    "final_t2v_prompt": "Realistic Style: - [0-3s] A man is driving a car on a highway during the late afternoon; the sun is hidden behind a large cloud, casting a soft light.\n- [3-7s] As the car turns, the sun emerges and begins to melt like liquid gold, pouring physically through the glass windshield; the man frantically flips down the visor to deflect the glowing, viscous light away from his eyes.\n- [7-10s] With the glare blocked, the man relaxes his face and continues driving safely, the golden sunlight reflecting off the dashboard.",
+    "reviewer_audit": {
+      "passed": true,
+      "reason": "The script perfectly adheres to the [Setup -> Twist -> Reaction] structure. The START (0-3s) establishes a normal driving scene with the sun hidden. The MIDDLE (3-7s) introduces a clear, surreal twist where the sun physically melts and pours through the windshield. The END (7-10s) shows a simple, logical reaction of the man relaxing after using the visor to block the light. All segments are causally connected and the action in the end is appropriately minimal.",
+      "score": 10
+    }
+  }
+]

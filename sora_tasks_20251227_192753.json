@@ -1,0 +1,17 @@
+{
+  "saved_at": "2025-12-27T19:28:00.515471",
+  "total_tasks": 1,
+  "tasks": [
+    {
+      "task_id": "4-5c2c52ab-1df9-42d6-8fc2-0cf4970ad276",
+      "prompt": "Realistic Style: - [0-3s] A person is kneeling under a kitchen sink with a wrench; a small, shiny metal washer sits on the edge of the cabinet base.\n- [3-7s] As the person reaches for it, the washer suddenly expands to the size of a bicycle wheel, emitting a low metallic hum as it defies gravity to pivot and steer itself with precision toward the drain.\n- [7-10s] The washer stops rolling just short of the floor drain; the person sighs in relief and reaches down to retrieve it.",
+      "status": "submitted",
+      "submitted_at": "2025-12-27T19:28:00.514742",
+      "params": {
+        "filename_prefix": "Metal_Washer_(垫圈)_Surprise_1",
+        "duration": 5,
+        "aspect_ratio": "16:9"
+      }
+    }
+  ]
+}

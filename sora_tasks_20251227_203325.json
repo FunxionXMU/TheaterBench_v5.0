@@ -1,0 +1,50 @@
+{
+  "saved_at": "2025-12-27T20:35:27.751067",
+  "total_tasks": 4,
+  "tasks": [
+    {
+      "task_id": "10-a6f63180-2a52-4111-9979-9baaf1956c6b",
+      "prompt": "Realistic Style: - [0-3.3 s]: A solid, gray smooth stone sits on a mossy riverbank, beginning to ripple like water across its surface.\n- [3.3-6.6 s]: The stone stretches into a soft, organic shape as shimmering metallic wings burst from its sides.\n- [6.6-10 s]: The transformed stone flaps its heavy mercury wings and ascends into the air, leaving a trail of floating liquid droplets.",
+      "status": "submitted",
+      "submitted_at": "2025-12-27T20:35:27.664304",
+      "params": {
+        "filename_prefix": "Smooth_Stone_(鹅卵石)_CG_1",
+        "duration": 5,
+        "aspect_ratio": "16:9"
+      }
+    },
+    {
+      "task_id": "1-0dc56459-ae02-474e-9c4d-4e8aeee795c6",
+      "prompt": "Realistic Style: - [0-3.3 s]: A stack of pancakes on a ceramic plate begins to rhythmically pulse and flatten at the edges.\n- [3.3-6.6 s]: The individual pancakes sprout fins and take flight, flapping through a room where gravity has inverted.\n- [6.6-10 s]: The pancake-rays migrate into a cloud of steam, turning into translucent amber bubbles that pop into butter droplets.",
+      "status": "submitted",
+      "submitted_at": "2025-12-27T20:35:27.665143",
+      "params": {
+        "filename_prefix": "Pancake_(薄煎饼)_CG_1",
+        "duration": 5,
+        "aspect_ratio": "16:9"
+      }
+    },
+    {
+      "task_id": "2-3ab07867-1afd-4f9e-befa-1835bef61060",
+      "prompt": "Realistic Style: - [0-3.3 s]: The roll of Scotch tape begins to violently unspool upward, the adhesive film shimmering in the light.\n- [3.3-6.6 s]: The floating tape strips weave and fuse together, sculpting the body and feathers of a transparent sparrow.\n- [6.6-10 s]: The tape bird chirps and takes flight, leaving the empty plastic core spinning on the table.",
+      "status": "submitted",
+      "submitted_at": "2025-12-27T20:35:27.670026",
+      "params": {
+        "filename_prefix": "Scotch_Tape_(透明胶带)_CG_1",
+        "duration": 5,
+        "aspect_ratio": "16:9"
+      }
+    },
+    {
+      "task_id": "4-0cd1135e-1854-46ad-9348-6d02a71b9086",
+      "prompt": "Realistic Style: - [0-3.3 s]: A glowing neon yo-yo spins at the end of a string, beginning to pulse with an inner rhythmic light.\n- [3.3-6.6 s]: The yo-yo string thickens into a golden DNA strand as the yo-yo body liquefies and passes through a brick wall.\n- [6.6-10 s]: The yo-yo discs explode into hundreds of shimmering digital butterflies that dissipate into a cloud of stardust.",
+      "status": "submitted",
+      "submitted_at": "2025-12-27T20:35:27.750667",
+      "params": {
+        "filename_prefix": "Yo-yo_(溜溜球)_CG_1",
+        "duration": 5,
+        "aspect_ratio": "16:9"
+      }
+    }
+  ]
+}
