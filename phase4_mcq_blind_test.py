@@ -141,10 +141,6 @@ def quizmaster_agent(final_prompt, director_data, obj, s_type, feedback=None):
     
     # DISTRACTOR GENERATION STRATEGY (CRITICAL):
     - Generate 2 more highly misleading distractors that make it impossible for Video VLMs relying solely on text priors to answer correctly.
-    - Principles:
-      1. **Visual Similarity:** Your options must be visually similar to the correct answer.
-      2. **Event Confusion:** The events described must be superficially similar to the real event.
-      3. **Text Prior Trap:** Avoid options that can be directly eliminated through text prior knowledge.
     - Your generated options should NOT be identical to the existing distractor or correct answer.
     - Options should be plausible but incorrect based on normal expectations.
     
