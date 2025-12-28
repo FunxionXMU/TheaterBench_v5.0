@@ -305,6 +305,10 @@ def process_video(eval_entry, prompt_index, test_results, lock, processed_videos
         print(f"⏭️  Skipping {best_video_file} ({object_name} - {scenario_type})... already processed")
         return
     
+    # 提前将视频标记为已处理，避免后续可能的重复处理
+    with lock:
+        processed_videos.add(unique_key)
+    
     print(f"🔄 Processing {best_video_file} ({object_name} - {scenario_type})...")
     
     # === 视频压缩处理 ===
@@ -378,9 +382,7 @@ def process_video(eval_entry, prompt_index, test_results, lock, processed_videos
                             "second_reasoning": second_response['reasoning'],
                             "original_score": eval_entry['best_score']
                         })
-                        # 标记该object_name_scenario_type组合已处理
-                        processed_videos.add(unique_key)
-                       
+                        
                     print(f"   [{model_name}] First: {first_answer} ({'✅' if first_is_correct else '❌'}) | Second: {second_answer} ({'✅' if second_is_correct else '❌'})")
                 except Exception as e:
                     print(f"   [{model_name}] Second round error: {e}")
@@ -407,8 +409,6 @@ def process_video(eval_entry, prompt_index, test_results, lock, processed_videos
                             "second_reasoning": f"Error: {e}",
                             "original_score": eval_entry['best_score']
                         })
-                        # 标记该object_name_scenario_type组合已处理
-                        processed_videos.add(unique_key)
     
     finally:
         # === 清理临时文件 ===

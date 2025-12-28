@@ -391,31 +391,33 @@ def process_entry(entry):
         frames = extract_frames(filepath)
         
         if frames and len(frames) == 3:
-            # 对每个片段单独评分
+            # 只对中间帧评分，不验证首尾帧
             segment_scores = []
-            valid_video = True  # 标记视频是否有效（所有片段都及格）
+            valid_video = True  # 标记视频是否有效
             
-            for i, (segment_name, frame) in enumerate(zip(["Start", "Middle", "End"], frames)):
-                description = segment_descriptions[segment_name]
-                eval_result = call_vlm_evaluator(frame, description, segment_name)
-                
-                segment_score = {
-                    "segment": segment_name,
-                    "score": float(eval_result.get('score', 0)),
-                    "reasoning": eval_result.get('reasoning', '')
-                }
-                segment_scores.append(segment_score)
-                
-                # 检查是否有片段不及格（<6分）
-                if segment_score["score"] < 6:
-                    valid_video = False
+            # 只处理中间帧（索引为1）
+            segment_name = "Middle"
+            frame = frames[1]  # 中间帧
+            description = segment_descriptions[segment_name]
+            eval_result = call_vlm_evaluator(frame, description, segment_name)
             
-            # 如果视频帧匹配通过，再进行连贯性评估
+            segment_score = {
+                "segment": segment_name,
+                "score": float(eval_result.get('score', 0)),
+                "reasoning": eval_result.get('reasoning', '')
+            }
+            segment_scores.append(segment_score)
+            
+            # 只检查中间帧是否及格（<6分）
+            if segment_score["score"] < 6:
+                valid_video = False
+            
+            # 如果视频帧匹配通过，进行连贯性评估
             if valid_video:
-                # 计算三个片段的平均分作为视频帧匹配分数
-                frame_match_score = sum(seg["score"] for seg in segment_scores) / len(segment_scores)
+                # 直接使用中间帧的分数作为视频帧匹配分数
+                frame_match_score = segment_score["score"]
                 
-                # 进行连贯性评估
+                # 继续进行连贯性评估
                 start_frame, _, end_frame = frames
                 coherence_result = evaluate_coherence(
                     start_frame, 
@@ -431,16 +433,16 @@ def process_entry(entry):
                 if coherence_score >= 6:
                     # 综合分数：帧匹配分数（占70%） + 连贯性分数（占30%）
                     final_score = (frame_match_score * 0.7) + (coherence_score * 0.3)
-                    final_reasoning = f"Frame match score: {frame_match_score:.2f}, Coherence score: {coherence_score:.2f}"
+                    final_reasoning = f"Middle frame match score: {frame_match_score:.2f}, Coherence score: {coherence_score:.2f}"
                 else:
                     # 连贯性不及格，视频无效
                     valid_video = False
                     final_score = 0
                     final_reasoning = "Video invalid due to failed coherence evaluation."
             else:
-                # 有片段不及格，视频作废
+                # 中间帧不及格，视频作废
                 final_score = 0
-                final_reasoning = "Video invalid due to failed segment(s)."
+                final_reasoning = "Video invalid due to failed middle segment."
                 coherence_result = None
             
             # 准备连贯性评估结果

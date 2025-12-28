@@ -502,5 +502,383 @@
     "second_is_correct": true,
     "second_reasoning": "The video frames provide critical visual evidence for the [3-7s] interval. At 3.2 seconds, the hygrometer glass cracks violently, with the needle piercing through the broken glass. By 4.2 seconds, water is visibly leaking from the damaged hygrometer, drenching the man's sleeves as he lifts the box. This sequence directly matches Option A: \"As he leans in, the hygrometer needle spins violently and pierces through the glass, sweating a heavy stream of water that drenches the man's sleeves as he lifts the leaking box.\" Option C is incorrect because it describes the man simply reading the hygrometer (which would be a calm, deliberate action), but the video shows a sudden mechanical failure (glass cracking and water leaking), not just observation. The man’s relief in the final segment ([7-10s]) stems from addressing the problem caused by this leak—moving the humidor to a stable environment—rather than merely noting high humidity. Options B and D introduce fantastical elements (vines, floating dials) not present in the video, which depicts a realistic mechanical failure. Thus, Option A is the only choice consistent with the visual narrative.",
     "original_score": 8.666666666666666
+  },
+  {
+    "object_name": "Fried Egg (煎蛋)",
+    "scenario_type": "Surprise Scenario",
+    "video_file": "Fried_Egg_(煎蛋)_Surprise_1.mp4",
+    "mcq_question": "[0-3s]: A person stands over a kitchen stove, holding a frying pan with a perfectly sizzling sunny-side-up egg; they grip the handle firmly, preparing to flip.; [3-7s]: ???; [7-10s]: ] The person stops moving, staring down at the broken yolk in the pan with a visible sigh of disappointment.. What most likely happened in the [3-7s] interval according to the video?",
+    "mcq_options": {
+      "A": "Upon tossing the egg, the yolk suddenly expands like a balloon until it covers the entire surface of the pan; it remains inflated for several seconds before abruptly popping and collapsing into a jagged, broken mess of liquid that covers the white.",
+      "B": "As the egg is tossed, the yellow yolk detaches and remains frozen in mid-air while the white flips around it; after a beat, the gravity-defying yolk suddenly drops like a heavy stone and shatters upon impact, splashing yellow liquid across the white.",
+      "C": "The person flips the pan and the egg separates into two identical halves that spin independently in the air; both halves then collide with each other at the peak of the arc, causing the yolk to crack open and spill onto the pan in a disorganized pattern.",
+      "D": "With a quick flick of the wrist, the person tosses the egg into the air; the egg flips mid-air and lands back in the pan, but the yolk bursts upon impact, spreading yellow liquid across the white."
+    },
+    "correct_answer": "B",
+    "model_name": "qwen3-vl-flash",
+    "first_answer": "D",
+    "first_is_correct": false,
+    "first_reasoning": "The video sequence shows a person preparing to flip a sunny-side-up egg (0-3s), then a blank interval (3-7s), followed by the person stopping and showing disappointment at a broken yolk (7-10s). This implies that the egg was flipped but failed — specifically, the yolk broke upon landing. Option D describes exactly this: the egg is tossed, flips mid-air, and lands back in the pan with the yolk bursting on impact — which matches both the action and the resulting disappointment. The other options involve fantastical or exaggerated physics (ballooning yolk, frozen yolk in mid-air, splitting into halves) that are inconsistent with real cooking behavior and the visual outcome of disappointment shown later. Therefore, D is the most plausible and realistic explanation.",
+    "second_answer": "D",
+    "second_is_correct": false,
+    "second_reasoning": "The video clearly shows the person flipping the egg (0:02–0:03), and in slow motion (0:04–0:06), the yolk bursts upon impact — likely as it lands back in the pan or hits the surface of the pan. The resulting mess is visible in the splatter at 0:05–0:06, followed by the person’s disappointed reaction (0:07–0:09). Option D accurately describes this sequence: the egg is tossed, flips mid-air, and lands back in the pan with the yolk bursting on impact — matching both the visual action and the outcome. The other options describe physically impossible or exaggerated events (ballooning yolk, frozen yolk in air, splitting into halves) that are not supported by the actual footage. Therefore, D is the only option consistent with the video.",
+    "original_score": 9.55
+  },
+  {
+    "object_name": "Fried Egg (煎蛋)",
+    "scenario_type": "Surprise Scenario",
+    "video_file": "Fried_Egg_(煎蛋)_Surprise_1.mp4",
+    "mcq_question": "[0-3s]: A person stands over a kitchen stove, holding a frying pan with a perfectly sizzling sunny-side-up egg; they grip the handle firmly, preparing to flip.; [3-7s]: ???; [7-10s]: ] The person stops moving, staring down at the broken yolk in the pan with a visible sigh of disappointment.. What most likely happened in the [3-7s] interval according to the video?",
+    "mcq_options": {
+      "A": "Upon tossing the egg, the yolk suddenly expands like a balloon until it covers the entire surface of the pan; it remains inflated for several seconds before abruptly popping and collapsing into a jagged, broken mess of liquid that covers the white.",
+      "B": "As the egg is tossed, the yellow yolk detaches and remains frozen in mid-air while the white flips around it; after a beat, the gravity-defying yolk suddenly drops like a heavy stone and shatters upon impact, splashing yellow liquid across the white.",
+      "C": "The person flips the pan and the egg separates into two identical halves that spin independently in the air; both halves then collide with each other at the peak of the arc, causing the yolk to crack open and spill onto the pan in a disorganized pattern.",
+      "D": "With a quick flick of the wrist, the person tosses the egg into the air; the egg flips mid-air and lands back in the pan, but the yolk bursts upon impact, spreading yellow liquid across the white."
+    },
+    "correct_answer": "B",
+    "model_name": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+    "first_answer": "D",
+    "first_is_correct": false,
+    "first_reasoning": "The video shows a person attempting to flip a sunny-side-up egg in a pan. The sequence progresses from holding the pan with a sizzling egg to the person stopping and looking down at a broken yolk with disappointment. This indicates that the flip was attempted but failed, resulting in the yolk breaking. Option D describes this exact scenario: the egg is tossed, flips in the air, and lands back in the pan, but the yolk bursts upon impact. This matches the outcome shown in the final frame (broken yolk and disappointment). The other options describe more fantastical or physically implausible events (e.g., yolk expanding like a balloon, floating mid-air, or splitting into two halves), which are not supported by the realistic context of cooking. Therefore, D is the most logical and physically plausible explanation for what happened during the [3-7s] interval.",
+    "second_answer": "D",
+    "second_is_correct": false,
+    "second_reasoning": "The video shows a person attempting to flip a sunny-side-up egg in a pan. The sequence begins with the egg sizzling in the pan, followed by the person tossing the egg into the air. The egg flips mid-air, but upon landing back in the pan, the yolk bursts and spreads across the white. This is consistent with option D, which describes the egg being tossed, flipping in the air, and the yolk bursting upon impact. The other options describe more fantastical or physically implausible events (e.g., the yolk expanding like a balloon, floating mid-air, or splitting into two halves), which are not supported by the realistic context of cooking. Therefore, D is the most logical and physically plausible explanation for what happened during the [3-7s] interval.",
+    "original_score": 9.55
+  },
+  {
+    "object_name": "Lawn Mower (割草机)",
+    "scenario_type": "Surprise Scenario",
+    "video_file": "Lawn_Mower_(割草机)_Surprise_1.mp4",
+    "mcq_question": "[0-3s]: A middle-aged man in gardening gloves stands over a red push mower on a patch of overgrown grass, reaching down for the starter handle.; [3-7s]: ???; [7-10s]: ] The man stands upright, wipes sweat from his forehead, and grips the handle ready to begin mowing.. What most likely happened in the [3-7s] interval according to the video?",
+    "mcq_options": {
+      "A": "Upon pulling the starter, the mower's red chassis briefly turns transparent like glass, showing a miniature clockwork universe of golden gears turning inside the engine block until a flash of light restores the metal to its solid form.",
+      "B": "As he pulls the cord, the grass beneath the mower splits open like a giant zipper, revealing a silent, shimmering deep-space nebula where the dirt should be, before the teeth of the 'grass-zipper' suddenly lock back together as the engine roars to life.",
+      "C": "When he yanks the cord, the green blades of grass instantly transform into a swirling liquid whirlpool of emerald paint that circles the mower's wheels in a clockwise motion before solidifying back into a dry lawn as the motor ignites.",
+      "D": "He vigorously pulls the starter cord three times; on the third pull, the engine sputters, coughs out a small puff of grey smoke, and begins to vibrate as it starts running."
+    },
+    "correct_answer": "B",
+    "model_name": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+    "first_answer": "D",
+    "first_is_correct": false,
+    "first_reasoning": "The video shows a realistic gardening scenario. The man is attempting to start a push mower in a normal outdoor setting. The most logical and expected sequence of events when starting a small engine like a push mower is that the user pulls the starter cord multiple times until the engine catches and runs. Option D describes this exact process: pulling the cord, the engine sputtering and coughing, and then successfully starting. The other options (A, B, C) introduce fantastical or impossible events (transparent machinery, grass splitting to reveal space, grass turning into paint) that are inconsistent with the realistic tone of the video and the mundane task being performed. Therefore, D is the only plausible answer based on real-world mechanics and the context provided.",
+    "second_answer": "B",
+    "second_is_correct": true,
+    "second_reasoning": "The video shows the man pulling the starter cord of the mower. As he does so, the grass beneath the mower splits open like a zipper, revealing a shimmering deep-space nebula. The 'grass-zipper' then locks back together, and the engine roars to life. This sequence matches option B exactly. The other options describe different fantastical events that are not shown in the video.",
+    "original_score": 9.2
+  },
+  {
+    "object_name": "Lawn Mower (割草机)",
+    "scenario_type": "Surprise Scenario",
+    "video_file": "Lawn_Mower_(割草机)_Surprise_1.mp4",
+    "mcq_question": "[0-3s]: A middle-aged man in gardening gloves stands over a red push mower on a patch of overgrown grass, reaching down for the starter handle.; [3-7s]: ???; [7-10s]: ] The man stands upright, wipes sweat from his forehead, and grips the handle ready to begin mowing.. What most likely happened in the [3-7s] interval according to the video?",
+    "mcq_options": {
+      "A": "Upon pulling the starter, the mower's red chassis briefly turns transparent like glass, showing a miniature clockwork universe of golden gears turning inside the engine block until a flash of light restores the metal to its solid form.",
+      "B": "As he pulls the cord, the grass beneath the mower splits open like a giant zipper, revealing a silent, shimmering deep-space nebula where the dirt should be, before the teeth of the 'grass-zipper' suddenly lock back together as the engine roars to life.",
+      "C": "When he yanks the cord, the green blades of grass instantly transform into a swirling liquid whirlpool of emerald paint that circles the mower's wheels in a clockwise motion before solidifying back into a dry lawn as the motor ignites.",
+      "D": "He vigorously pulls the starter cord three times; on the third pull, the engine sputters, coughs out a small puff of grey smoke, and begins to vibrate as it starts running."
+    },
+    "correct_answer": "B",
+    "model_name": "qwen3-vl-flash",
+    "first_answer": "D",
+    "first_is_correct": false,
+    "first_reasoning": "The video frames show a realistic, mundane scenario: a man preparing to mow grass with a push mower. The sequence from [0-3s] shows him reaching for the starter handle, and from [7-10s], he stands upright, wipes sweat, and grips the handle ready to begin mowing — indicating the engine has successfully started. The interval [3-7s] must logically depict the act of starting the mower. Option D describes a plausible, mechanical process — pulling the cord multiple times, sputtering, coughing, emitting smoke, and finally starting — which matches real-world behavior of a gas-powered push mower. The other options (A, B, C) introduce fantastical or surreal elements inconsistent with the grounded tone of the video. Therefore, D is the only option that aligns with realistic expectations.",
+    "second_answer": "B",
+    "second_is_correct": true,
+    "second_reasoning": "The video frames clearly show the man pulling the starter cord (0-3s), then a surreal visual effect occurs from 3-7s: as the mower begins to move, the grass beneath it splits open like a zipper revealing a deep-space nebula — consistent with Option B. This fantastical event is followed by the man standing upright and wiping sweat (7-10s), indicating he’s now ready to mow, likely after the bizarre but visually explained engine startup. The other options describe implausible or inconsistent events: A involves internal gears (not visible), C involves liquid grass (not shown), and D describes a mechanical start without any visual cue of struggle or smoke — which contradicts the magical transformation seen in the actual footage. Only Option B matches the visual narrative exactly.",
+    "original_score": 9.2
+  },
+  {
+    "object_name": "Fried Egg (煎蛋)",
+    "scenario_type": "Surprise Scenario",
+    "video_file": "Fried_Egg_(煎蛋)_Surprise_1.mp4",
+    "mcq_question": "[0-3s]: A person stands over a kitchen stove, holding a frying pan with a perfectly sizzling sunny-side-up egg; they grip the handle firmly, preparing to flip.; [3-7s]: ???; [7-10s]: ] The person stops moving, staring down at the broken yolk in the pan with a visible sigh of disappointment.. What most likely happened in the [3-7s] interval according to the video?",
+    "mcq_options": {
+      "A": "Upon tossing the egg, the yolk suddenly expands like a balloon until it covers the entire surface of the pan; it remains inflated for several seconds before abruptly popping and collapsing into a jagged, broken mess of liquid that covers the white.",
+      "B": "As the egg is tossed, the yellow yolk detaches and remains frozen in mid-air while the white flips around it; after a beat, the gravity-defying yolk suddenly drops like a heavy stone and shatters upon impact, splashing yellow liquid across the white.",
+      "C": "The person flips the pan and the egg separates into two identical halves that spin independently in the air; both halves then collide with each other at the peak of the arc, causing the yolk to crack open and spill onto the pan in a disorganized pattern.",
+      "D": "With a quick flick of the wrist, the person tosses the egg into the air; the egg flips mid-air and lands back in the pan, but the yolk bursts upon impact, spreading yellow liquid across the white."
+    },
+    "correct_answer": "B",
+    "model_name": "qwen3-vl-plus",
+    "first_answer": "D",
+    "first_is_correct": false,
+    "first_reasoning": "The video sequence shows the person preparing to flip the egg (0-3s), then a gap (3-7s), followed by the person staring at a broken yolk with disappointment (7-10s). This strongly implies that the flipping attempt failed — the most plausible and physically realistic outcome is that the egg was tossed, flipped, and landed back in the pan, but the yolk burst on impact. Option D describes this scenario accurately and naturally. The other options involve physically impossible or exaggerated events (e.g., yolk expanding like a balloon, freezing mid-air, or splitting into identical halves), which are inconsistent with the tone of a realistic kitchen mishap and the visible emotional reaction of disappointment.",
+    "second_answer": "D",
+    "second_is_correct": false,
+    "second_reasoning": "The video clearly shows the person attempting to flip the egg (0-3s), followed by a slow-motion sequence (3-6s) where the egg is airborne, flips, and lands back in the pan — but upon impact, the yolk bursts dramatically, splattering yellow liquid. The final frames (7-10s) show the person’s disappointed expression, confirming the failure. Option D accurately describes this realistic and visually depicted event: a toss, mid-air flip, landing, and yolk bursting on impact. The other options describe physically impossible or exaggerated scenarios not shown in the video.",
+    "original_score": 9.55
+  },
+  {
+    "object_name": "Lawn Mower (割草机)",
+    "scenario_type": "Surprise Scenario",
+    "video_file": "Lawn_Mower_(割草机)_Surprise_1.mp4",
+    "mcq_question": "[0-3s]: A middle-aged man in gardening gloves stands over a red push mower on a patch of overgrown grass, reaching down for the starter handle.; [3-7s]: ???; [7-10s]: ] The man stands upright, wipes sweat from his forehead, and grips the handle ready to begin mowing.. What most likely happened in the [3-7s] interval according to the video?",
+    "mcq_options": {
+      "A": "Upon pulling the starter, the mower's red chassis briefly turns transparent like glass, showing a miniature clockwork universe of golden gears turning inside the engine block until a flash of light restores the metal to its solid form.",
+      "B": "As he pulls the cord, the grass beneath the mower splits open like a giant zipper, revealing a silent, shimmering deep-space nebula where the dirt should be, before the teeth of the 'grass-zipper' suddenly lock back together as the engine roars to life.",
+      "C": "When he yanks the cord, the green blades of grass instantly transform into a swirling liquid whirlpool of emerald paint that circles the mower's wheels in a clockwise motion before solidifying back into a dry lawn as the motor ignites.",
+      "D": "He vigorously pulls the starter cord three times; on the third pull, the engine sputters, coughs out a small puff of grey smoke, and begins to vibrate as it starts running."
+    },
+    "correct_answer": "B",
+    "model_name": "qwen3-vl-plus",
+    "first_answer": "D",
+    "first_is_correct": false,
+    "first_reasoning": "The most plausible and realistic event that fits the context of a man starting a push mower is option D. It describes a typical mechanical failure or hesitation during engine startup — sputtering, smoke, and vibration — which is common with older or poorly maintained lawn mowers. The other options (A, B, C) involve fantastical, surreal transformations (transparent chassis revealing gears, grass turning into nebula or paint whirlpools) that are inconsistent with real-world physics and the mundane setting of gardening. Since the video transitions from reaching for the starter to standing upright and ready to mow, it logically implies the mower started — albeit with some difficulty — making D the only reasonable choice.",
+    "second_answer": "B",
+    "second_is_correct": true,
+    "second_reasoning": "The video visually confirms that when the man pulls the starter cord (0:02–0:03), the grass beneath the mower splits open like a zipper, revealing a shimmering deep-space nebula (0:04–0:05). This surreal effect directly matches option B. The man then stands upright and wipes sweat from his forehead (0:06–0:07), consistent with the aftermath described in the question. While options A, C, and D describe plausible or fantastical mechanical events, only B is visually supported by the actual footage. Therefore, despite its magical realism, B is the correct answer based on what is shown.",
+    "original_score": 9.2
+  },
+  {
+    "object_name": "Fried Egg (煎蛋)",
+    "scenario_type": "Surprise Scenario",
+    "video_file": "Fried_Egg_(煎蛋)_Surprise_1.mp4",
+    "mcq_question": "[0-3s]: A person stands over a kitchen stove, holding a frying pan with a perfectly sizzling sunny-side-up egg; they grip the handle firmly, preparing to flip.; [3-7s]: ???; [7-10s]: ] The person stops moving, staring down at the broken yolk in the pan with a visible sigh of disappointment.. What most likely happened in the [3-7s] interval according to the video?",
+    "mcq_options": {
+      "A": "Upon tossing the egg, the yolk suddenly expands like a balloon until it covers the entire surface of the pan; it remains inflated for several seconds before abruptly popping and collapsing into a jagged, broken mess of liquid that covers the white.",
+      "B": "As the egg is tossed, the yellow yolk detaches and remains frozen in mid-air while the white flips around it; after a beat, the gravity-defying yolk suddenly drops like a heavy stone and shatters upon impact, splashing yellow liquid across the white.",
+      "C": "The person flips the pan and the egg separates into two identical halves that spin independently in the air; both halves then collide with each other at the peak of the arc, causing the yolk to crack open and spill onto the pan in a disorganized pattern.",
+      "D": "With a quick flick of the wrist, the person tosses the egg into the air; the egg flips mid-air and lands back in the pan, but the yolk bursts upon impact, spreading yellow liquid across the white."
+    },
+    "correct_answer": "B",
+    "model_name": "qwen3-vl-30b-a3b-thinking",
+    "first_answer": "D",
+    "first_is_correct": false,
+    "first_reasoning": "The video shows a person preparing to flip a sunny-side-up egg (0-3s), followed by a broken yolk and disappointment at 7-10s. The key is that the yolk must have broken during the flip. Option D describes a realistic sequence: the egg is tossed, flips mid-air, and the yolk bursts upon landing. This directly explains the broken yolk seen later. Options A, B, and C involve physically implausible scenarios (e.g., yolk expanding like a balloon, floating frozen in mid-air, or splitting into two halves), which contradict basic physics and the visual outcome. Only D aligns with the cause-effect relationship: the flip caused the yolk to rupture upon impact.",
+    "second_answer": "D",
+    "second_is_correct": false,
+    "second_reasoning": "The video shows a sequence where the person flips the frying pan (0-3s), causing the egg to be tossed into the air. During the flip (3-7s), the egg rotates mid-air, and upon landing back in the pan, the yolk bursts (evidenced by the yellow liquid splashing in frames 5-7). This directly matches Option D: \"With a quick flick of the wrist, the person tosses the egg into the air; the egg flips mid-air and lands back in the pan, but the yolk bursts upon impact, spreading yellow liquid across the white.\" Options A, B, and C describe physically implausible scenarios (e.g., yolk expanding like a balloon, floating frozen in mid-air, or splitting into two halves) that do not align with the visual evidence of the yolk bursting upon impact.",
+    "original_score": 9.55
+  },
+  {
+    "object_name": "Fried Egg (煎蛋)",
+    "scenario_type": "Surprise Scenario",
+    "video_file": "Fried_Egg_(煎蛋)_Surprise_1.mp4",
+    "mcq_question": "[0-3s]: A person stands over a kitchen stove, holding a frying pan with a perfectly sizzling sunny-side-up egg; they grip the handle firmly, preparing to flip.; [3-7s]: ???; [7-10s]: ] The person stops moving, staring down at the broken yolk in the pan with a visible sigh of disappointment.. What most likely happened in the [3-7s] interval according to the video?",
+    "mcq_options": {
+      "A": "Upon tossing the egg, the yolk suddenly expands like a balloon until it covers the entire surface of the pan; it remains inflated for several seconds before abruptly popping and collapsing into a jagged, broken mess of liquid that covers the white.",
+      "B": "As the egg is tossed, the yellow yolk detaches and remains frozen in mid-air while the white flips around it; after a beat, the gravity-defying yolk suddenly drops like a heavy stone and shatters upon impact, splashing yellow liquid across the white.",
+      "C": "The person flips the pan and the egg separates into two identical halves that spin independently in the air; both halves then collide with each other at the peak of the arc, causing the yolk to crack open and spill onto the pan in a disorganized pattern.",
+      "D": "With a quick flick of the wrist, the person tosses the egg into the air; the egg flips mid-air and lands back in the pan, but the yolk bursts upon impact, spreading yellow liquid across the white."
+    },
+    "correct_answer": "B",
+    "model_name": "qwen-vl-max-latest",
+    "first_answer": "D",
+    "first_is_correct": false,
+    "first_reasoning": "The sequence begins with a person preparing to flip a sunny-side-up egg in a frying pan. In the final segment, the person stops moving and stares at a broken yolk with visible disappointment, indicating that the flip failed and the yolk was ruptured. Option D describes a realistic and plausible scenario where the egg is tossed, flips mid-air, and lands back in the pan—but the yolk bursts upon impact, resulting in a broken mess. This aligns perfectly with the observed outcome: a disrupted yolk and the person's disappointed reaction. The other options involve physically impossible or exaggerated events (e.g., yolk expanding like a balloon, defying gravity, or splitting into identical halves), which are inconsistent with real-world physics and the context of a typical cooking mishap.",
+    "second_answer": "B",
+    "second_is_correct": true,
+    "second_reasoning": "In the video, from [0-3s], the person is seen holding a frying pan with a perfectly cooked sunny-side-up egg, preparing to flip it. At [3s], the egg is tossed into the air, and in the following frames, the yolk detaches from the white and remains suspended mid-air while the white flips around it. The yolk then falls like a heavy stone and shatters upon impact with the pan, causing yellow liquid to splash across the white. This sequence matches option B exactly: the yolk detaches and floats in mid-air, defying gravity momentarily, before dropping and breaking. The visual evidence clearly shows this surreal, gravity-defying behavior, making B the most accurate description of what happened during the [3-7s] interval.",
+    "original_score": 9.55
+  },
+  {
+    "object_name": "Lawn Mower (割草机)",
+    "scenario_type": "Surprise Scenario",
+    "video_file": "Lawn_Mower_(割草机)_Surprise_1.mp4",
+    "mcq_question": "[0-3s]: A middle-aged man in gardening gloves stands over a red push mower on a patch of overgrown grass, reaching down for the starter handle.; [3-7s]: ???; [7-10s]: ] The man stands upright, wipes sweat from his forehead, and grips the handle ready to begin mowing.. What most likely happened in the [3-7s] interval according to the video?",
+    "mcq_options": {
+      "A": "Upon pulling the starter, the mower's red chassis briefly turns transparent like glass, showing a miniature clockwork universe of golden gears turning inside the engine block until a flash of light restores the metal to its solid form.",
+      "B": "As he pulls the cord, the grass beneath the mower splits open like a giant zipper, revealing a silent, shimmering deep-space nebula where the dirt should be, before the teeth of the 'grass-zipper' suddenly lock back together as the engine roars to life.",
+      "C": "When he yanks the cord, the green blades of grass instantly transform into a swirling liquid whirlpool of emerald paint that circles the mower's wheels in a clockwise motion before solidifying back into a dry lawn as the motor ignites.",
+      "D": "He vigorously pulls the starter cord three times; on the third pull, the engine sputters, coughs out a small puff of grey smoke, and begins to vibrate as it starts running."
+    },
+    "correct_answer": "B",
+    "model_name": "qwen3-vl-30b-a3b-thinking",
+    "first_answer": "D",
+    "first_is_correct": false,
+    "first_reasoning": "The video depicts a realistic scenario of a man starting a push mower. In the 0-3s interval, he reaches for the starter handle. The 3-7s interval logically represents the action of pulling the starter cord to ignite the engine, which typically requires multiple attempts in real life. Option D accurately describes this process: \"He vigorously pulls the starter cord three times; on the third pull, the engine sputters, coughs out a small puff of grey smoke, and begins to vibrate as it starts running.\" This aligns with common experiences of starting a lawnmower (e.g., sputtering, smoke, and vibration before ignition). The other options (A, B, C) involve fantastical, non-realistic elements (e.g., transparent mowers, grass splitting into space, or grass turning into paint) that contradict the mundane, practical context of the video. The subsequent action in 7-10s—standing upright, wiping sweat, and gripping the handle—confirms the engine successfully started after the 3-7s interval, making D the only plausible choice.",
+    "second_answer": "B",
+    "second_is_correct": true,
+    "second_reasoning": "The video frames show the following sequence: at 3-4 seconds, the grass beneath the mower splits open like a zipper; at 4-5 seconds, a deep-space nebula is revealed; at 5-6 seconds, the grass-zipper locks back together. This directly matches Option B, which describes the grass splitting to reveal a nebula and then the zipper locking as the engine starts. Options A, C, and D involve fantastical elements not present in the video (e.g., transparent chassis, grass turning to paint, or engine sputtering/smoke), which contradict the visual content. The 3-7s interval includes the grass-splitting, nebula reveal, and zipper lock, confirming B as the correct choice.",
+    "original_score": 9.2
+  },
+  {
+    "object_name": "Lawn Mower (割草机)",
+    "scenario_type": "Surprise Scenario",
+    "video_file": "Lawn_Mower_(割草机)_Surprise_1.mp4",
+    "mcq_question": "[0-3s]: A middle-aged man in gardening gloves stands over a red push mower on a patch of overgrown grass, reaching down for the starter handle.; [3-7s]: ???; [7-10s]: ] The man stands upright, wipes sweat from his forehead, and grips the handle ready to begin mowing.. What most likely happened in the [3-7s] interval according to the video?",
+    "mcq_options": {
+      "A": "Upon pulling the starter, the mower's red chassis briefly turns transparent like glass, showing a miniature clockwork universe of golden gears turning inside the engine block until a flash of light restores the metal to its solid form.",
+      "B": "As he pulls the cord, the grass beneath the mower splits open like a giant zipper, revealing a silent, shimmering deep-space nebula where the dirt should be, before the teeth of the 'grass-zipper' suddenly lock back together as the engine roars to life.",
+      "C": "When he yanks the cord, the green blades of grass instantly transform into a swirling liquid whirlpool of emerald paint that circles the mower's wheels in a clockwise motion before solidifying back into a dry lawn as the motor ignites.",
+      "D": "He vigorously pulls the starter cord three times; on the third pull, the engine sputters, coughs out a small puff of grey smoke, and begins to vibrate as it starts running."
+    },
+    "correct_answer": "B",
+    "model_name": "qwen-vl-max-latest",
+    "first_answer": "D",
+    "first_is_correct": false,
+    "first_reasoning": "The video depicts a realistic scenario of a man starting a push mower. In the initial frame, he is reaching for the starter handle, and in the final frame, he is standing upright, wiping sweat and ready to mow, indicating the engine has successfully started. Option D describes a plausible, real-world sequence: multiple pulls, sputtering, smoke, and vibration—common behaviors when starting a gasoline-powered lawn mower. The other options involve surreal or fantastical elements (transparent chassis with gears, space nebula, liquid paint whirlpool) that are inconsistent with the mundane, grounded context of the scene. Therefore, D is the most likely and realistic explanation for what occurred during [3-7s].",
+    "second_answer": "B",
+    "second_is_correct": true,
+    "second_reasoning": "In the video, from [0-3s], the man is seen pulling the starter cord of the red push mower. At [3-7s], the camera focuses on the grass beneath the mower, where a surreal visual effect occurs: the grass splits open like a zipper, revealing a shimmering deep-space nebula with stars and cosmic swirls. This visual is clearly fantastical and matches option B exactly. By [7-10s], the man stands upright, wipes sweat from his forehead, and grips the handle, indicating the mower has started. The sequence of events—pulling the cord, seeing the cosmic rift, then preparing to mow—confirms that the most likely event during [3-7s] was the grass splitting open to reveal a nebula before closing again as the engine starts. Therefore, option B is correct.",
+    "original_score": 9.2
+  },
+  {
+    "object_name": "Fried Egg (煎蛋)",
+    "scenario_type": "Surprise Scenario",
+    "video_file": "Fried_Egg_(煎蛋)_Surprise_1.mp4",
+    "mcq_question": "[0-3s]: A person stands over a kitchen stove, holding a frying pan with a perfectly sizzling sunny-side-up egg; they grip the handle firmly, preparing to flip.; [3-7s]: ???; [7-10s]: ] The person stops moving, staring down at the broken yolk in the pan with a visible sigh of disappointment.. What most likely happened in the [3-7s] interval according to the video?",
+    "mcq_options": {
+      "A": "Upon tossing the egg, the yolk suddenly expands like a balloon until it covers the entire surface of the pan; it remains inflated for several seconds before abruptly popping and collapsing into a jagged, broken mess of liquid that covers the white.",
+      "B": "As the egg is tossed, the yellow yolk detaches and remains frozen in mid-air while the white flips around it; after a beat, the gravity-defying yolk suddenly drops like a heavy stone and shatters upon impact, splashing yellow liquid across the white.",
+      "C": "The person flips the pan and the egg separates into two identical halves that spin independently in the air; both halves then collide with each other at the peak of the arc, causing the yolk to crack open and spill onto the pan in a disorganized pattern.",
+      "D": "With a quick flick of the wrist, the person tosses the egg into the air; the egg flips mid-air and lands back in the pan, but the yolk bursts upon impact, spreading yellow liquid across the white."
+    },
+    "correct_answer": "B",
+    "model_name": "zai-org/GLM-4.6V",
+    "first_answer": "D",
+    "first_is_correct": false,
+    "first_reasoning": "The scenario describes a person flipping a sunny-side-up egg, with the final result being a broken yolk. Option D accurately depicts the process: tossing the egg, it flipping mid-air, and the yolk bursting upon landing back in the pan (causing the broken yolk seen at 7-10s). Other options are unrealistic (e.g., yolk expanding like a balloon, detaching in mid-air, or splitting into identical halves), so D is the most logical choice.",
+    "second_answer": "D",
+    "second_is_correct": false,
+    "second_reasoning": "The video shows a person attempting to flip a sunny-side-up egg. The most logical sequence of events is that the person tosses the egg, it flips in the air, and upon landing, the yolk bursts, resulting in the broken yolk seen at 7-10s. Option D accurately describes this realistic scenario, while the other options involve unrealistic or physically anomalous events (e.g., yolk expanding like a balloon, detaching in mid-air, or splitting into identical halves).",
+    "original_score": 9.55
+  },
+  {
+    "object_name": "Lawn Mower (割草机)",
+    "scenario_type": "Surprise Scenario",
+    "video_file": "Lawn_Mower_(割草机)_Surprise_1.mp4",
+    "mcq_question": "[0-3s]: A middle-aged man in gardening gloves stands over a red push mower on a patch of overgrown grass, reaching down for the starter handle.; [3-7s]: ???; [7-10s]: ] The man stands upright, wipes sweat from his forehead, and grips the handle ready to begin mowing.. What most likely happened in the [3-7s] interval according to the video?",
+    "mcq_options": {
+      "A": "Upon pulling the starter, the mower's red chassis briefly turns transparent like glass, showing a miniature clockwork universe of golden gears turning inside the engine block until a flash of light restores the metal to its solid form.",
+      "B": "As he pulls the cord, the grass beneath the mower splits open like a giant zipper, revealing a silent, shimmering deep-space nebula where the dirt should be, before the teeth of the 'grass-zipper' suddenly lock back together as the engine roars to life.",
+      "C": "When he yanks the cord, the green blades of grass instantly transform into a swirling liquid whirlpool of emerald paint that circles the mower's wheels in a clockwise motion before solidifying back into a dry lawn as the motor ignites.",
+      "D": "He vigorously pulls the starter cord three times; on the third pull, the engine sputters, coughs out a small puff of grey smoke, and begins to vibrate as it starts running."
+    },
+    "correct_answer": "B",
+    "model_name": "zai-org/GLM-4.6V",
+    "first_answer": "D",
+    "first_is_correct": false,
+    "first_reasoning": "The interval [3-7s] follows the man reaching for the starter handle and precedes him standing ready to mow. Option D describes a realistic sequence of starting a mower (pulling the cord, sputtering, smoke, and engine starting), while options A, B, and C involve fantastical, non-realistic events (transparent chassis, grass-zipper/nebula, grass turning to liquid) that do not align with typical mower operation. Thus, D is the most plausible.",
+    "second_answer": "D",
+    "second_is_correct": false,
+    "second_reasoning": "The interval [3-7s] follows the man reaching for the starter handle and precedes him standing ready to mow. Option D describes a realistic sequence of starting a mower (pulling the cord, sputtering, smoke, and engine starting), while options A, B, and C involve fantastical, non-realistic events (transparent chassis, grass-zipper/nebula, grass turning to liquid) that do not align with typical mower operation. Thus, D is the most plausible.",
+    "original_score": 9.2
+  },
+  {
+    "object_name": "Diamond Ring (钻戒)",
+    "scenario_type": "Surprise Scenario",
+    "video_file": "Diamond_Ring_(钻戒)_Surprise_1.mp4",
+    "mcq_question": "[0-3s]: A woman is scrubbing a ceramic plate in a kitchen sink filled with soapy bubbles; her diamond ring is visible and sparkling on her wet finger.; [3-7s]: ???; [7-10s]: ] She pulls her hand out of the water, clutching the ring tightly to her chest with a look of intense relief and a heavy sigh.. What most likely happened in the [3-7s] interval according to the video?",
+    "mcq_options": {
+      "A": "The soapy water begins to churn violently, forming a miniature whirlpool that sucks the ring from her finger; she frantically thrusts her arm deep into the swirling foam to intercept the jewelry before it disappears down the open drain.",
+      "B": "A sudden burst of pressurized water from the faucet knocks the ring loose into the thick suds; she immediately submerges both hands, fumbling through the opaque bubbles to pin the ring against the bottom of the sink before it can be lost.",
+      "C": "The soapy bubbles suddenly coalesce into a translucent liquid hand that reaches up, gently plucks the ring from her finger, and begins to swim toward the drain with it; she must plunge her hand in to wrestle the ring back from the living water.",
+      "D": "As she reaches for a rinse sprayer, the ring slides off her soapy finger; she quickly drops the plate and plunges her hand into the water to grab the ring just above the drain."
+    },
+    "correct_answer": "C",
+    "model_name": "qwen3-vl-flash",
+    "first_answer": "A",
+    "first_is_correct": false,
+    "first_reasoning": "The video sequence shows a woman scrubbing a plate with her diamond ring visible on her finger. In the next segment (3-7s), there is no visual indication of a sudden water burst, a sentient bubble hand, or a rinse sprayer being used — which rules out options B, C, and D. The most plausible narrative that leads to her intense relief and heavy sigh at 7-10s is that she experienced a moment of peril — the ring was nearly lost in the swirling soapy water. Option A describes a dramatic but physically plausible scenario: the ring gets sucked into a whirlpool created by the soapy water’s motion, prompting her to frantically reach in to save it. This aligns with the emotional payoff at the end — her relief and clutching the ring to her chest — suggesting a near-loss event occurred just before. The other options either introduce fantastical elements (C) or lack the buildup of tension needed for her reaction (B, D). Thus, A is the most logically consistent with the visual cues and emotional arc.",
+    "second_answer": "A",
+    "second_is_correct": false,
+    "second_reasoning": "The video visually confirms that during the [3-7s] interval, a translucent, liquid-like hand emerges from the soapy water and reaches for the ring on the woman’s finger. This surreal but clearly depicted event (seen at 0:03–0:05) shows the ring being pulled toward the drain by this animated bubble hand. The woman reacts with visible panic — she frantically reaches into the sink to retrieve it (0:04–0:06), which matches the description in Option A: a whirlpool-like suction caused by the animated bubbles pulling the ring away, prompting her to plunge her arm in to save it. Her relief and sigh at 0:07–0:10 confirm she successfully recovered the ring after this near-loss. Options B, C, and D are inconsistent with the visual evidence — there is no pressurized water burst, no rinse sprayer use, and no sentient bubble hand *swimming* away (C is metaphorical but not literal). Option A best describes the actual sequence of events shown.",
+    "original_score": 6.8
+  },
+  {
+    "object_name": "Diamond Ring (钻戒)",
+    "scenario_type": "Surprise Scenario",
+    "video_file": "Diamond_Ring_(钻戒)_Surprise_1.mp4",
+    "mcq_question": "[0-3s]: A woman is scrubbing a ceramic plate in a kitchen sink filled with soapy bubbles; her diamond ring is visible and sparkling on her wet finger.; [3-7s]: ???; [7-10s]: ] She pulls her hand out of the water, clutching the ring tightly to her chest with a look of intense relief and a heavy sigh.. What most likely happened in the [3-7s] interval according to the video?",
+    "mcq_options": {
+      "A": "The soapy water begins to churn violently, forming a miniature whirlpool that sucks the ring from her finger; she frantically thrusts her arm deep into the swirling foam to intercept the jewelry before it disappears down the open drain.",
+      "B": "A sudden burst of pressurized water from the faucet knocks the ring loose into the thick suds; she immediately submerges both hands, fumbling through the opaque bubbles to pin the ring against the bottom of the sink before it can be lost.",
+      "C": "The soapy bubbles suddenly coalesce into a translucent liquid hand that reaches up, gently plucks the ring from her finger, and begins to swim toward the drain with it; she must plunge her hand in to wrestle the ring back from the living water.",
+      "D": "As she reaches for a rinse sprayer, the ring slides off her soapy finger; she quickly drops the plate and plunges her hand into the water to grab the ring just above the drain."
+    },
+    "correct_answer": "C",
+    "model_name": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+    "first_answer": "D",
+    "first_is_correct": false,
+    "first_reasoning": "The video shows a woman scrubbing a plate in a sink filled with soapy water, with her ring visible and sparkling. In the final segment, she pulls her hand out of the water, clutching the ring tightly to her chest with a look of relief. This suggests that the ring was in danger of being lost, but she managed to retrieve it just in time. Option D describes a plausible and realistic scenario: as she reaches for a rinse sprayer (a common kitchen tool), the ring slips off her soapy finger, prompting her to quickly drop the plate and dive into the water to retrieve it before it goes down the drain. This sequence is consistent with the visual cues and the emotional payoff of relief. The other options involve fantastical or exaggerated events (e.g., a whirlpool, a sentient bubble hand, or pressurized water knocking the ring loose), which are less likely and not supported by the context. Therefore, D is the most logical and realistic explanation for what happened between 3-7 seconds.",
+    "second_answer": "D",
+    "second_is_correct": false,
+    "second_reasoning": "The video shows a woman washing dishes in a sink filled with soapy water. Her ring is visible on her finger. In the final frame, she pulls her hand out of the water, clutching the ring tightly to her chest with a look of intense relief. This suggests that the ring was in danger of being lost, but she managed to retrieve it. Option D describes a plausible and realistic scenario: as she reaches for a rinse sprayer (a common kitchen tool), the ring slips off her soapy finger, prompting her to quickly drop the plate and dive into the water to retrieve it before it goes down the drain. This sequence is consistent with the visual cues and the emotional payoff of relief. The other options involve fantastical or exaggerated events (e.g., a whirlpool, a sentient bubble hand, or pressurized water knocking the ring loose), which are less likely and not supported by the context. Therefore, D is the most logical and realistic explanation for what happened between 3-7 seconds.",
+    "original_score": 6.8
+  },
+  {
+    "object_name": "Diamond Ring (钻戒)",
+    "scenario_type": "Surprise Scenario",
+    "video_file": "Diamond_Ring_(钻戒)_Surprise_1.mp4",
+    "mcq_question": "[0-3s]: A woman is scrubbing a ceramic plate in a kitchen sink filled with soapy bubbles; her diamond ring is visible and sparkling on her wet finger.; [3-7s]: ???; [7-10s]: ] She pulls her hand out of the water, clutching the ring tightly to her chest with a look of intense relief and a heavy sigh.. What most likely happened in the [3-7s] interval according to the video?",
+    "mcq_options": {
+      "A": "The soapy water begins to churn violently, forming a miniature whirlpool that sucks the ring from her finger; she frantically thrusts her arm deep into the swirling foam to intercept the jewelry before it disappears down the open drain.",
+      "B": "A sudden burst of pressurized water from the faucet knocks the ring loose into the thick suds; she immediately submerges both hands, fumbling through the opaque bubbles to pin the ring against the bottom of the sink before it can be lost.",
+      "C": "The soapy bubbles suddenly coalesce into a translucent liquid hand that reaches up, gently plucks the ring from her finger, and begins to swim toward the drain with it; she must plunge her hand in to wrestle the ring back from the living water.",
+      "D": "As she reaches for a rinse sprayer, the ring slides off her soapy finger; she quickly drops the plate and plunges her hand into the water to grab the ring just above the drain."
+    },
+    "correct_answer": "C",
+    "model_name": "qwen3-vl-plus",
+    "first_answer": "D",
+    "first_is_correct": false,
+    "first_reasoning": "The sequence of events suggests a plausible, realistic scenario: the woman is washing dishes, her finger is soapy, and rings can easily slip off under such conditions. The fact that she later clutches the ring tightly to her chest with relief implies she nearly lost it — most likely when reaching for something (like a rinse sprayer), causing it to slide off. She then reacts quickly to retrieve it before it goes down the drain. This aligns with option D. Options A, B, and C involve exaggerated or fantastical elements (whirlpools, pressurized bursts, sentient water hands) that are inconsistent with the otherwise mundane, realistic tone of the video described.",
+    "second_answer": "C",
+    "second_is_correct": true,
+    "second_reasoning": "The video visually depicts a surreal, animated sequence where soapy bubbles coalesce into a translucent, liquid hand that reaches up from the sink and gently plucks the ring from the woman’s finger. The woman reacts with alarm and dives her hand into the water to retrieve it. This directly matches option C, which describes the exact fantastical event shown — a living water hand stealing the ring — rather than any realistic or mundane scenario. The other options describe plausible but non-visualized events; only C aligns with the actual imagery presented in the video frames.",
+    "original_score": 6.8
+  },
+  {
+    "object_name": "Diamond Ring (钻戒)",
+    "scenario_type": "Surprise Scenario",
+    "video_file": "Diamond_Ring_(钻戒)_Surprise_1.mp4",
+    "mcq_question": "[0-3s]: A woman is scrubbing a ceramic plate in a kitchen sink filled with soapy bubbles; her diamond ring is visible and sparkling on her wet finger.; [3-7s]: ???; [7-10s]: ] She pulls her hand out of the water, clutching the ring tightly to her chest with a look of intense relief and a heavy sigh.. What most likely happened in the [3-7s] interval according to the video?",
+    "mcq_options": {
+      "A": "The soapy water begins to churn violently, forming a miniature whirlpool that sucks the ring from her finger; she frantically thrusts her arm deep into the swirling foam to intercept the jewelry before it disappears down the open drain.",
+      "B": "A sudden burst of pressurized water from the faucet knocks the ring loose into the thick suds; she immediately submerges both hands, fumbling through the opaque bubbles to pin the ring against the bottom of the sink before it can be lost.",
+      "C": "The soapy bubbles suddenly coalesce into a translucent liquid hand that reaches up, gently plucks the ring from her finger, and begins to swim toward the drain with it; she must plunge her hand in to wrestle the ring back from the living water.",
+      "D": "As she reaches for a rinse sprayer, the ring slides off her soapy finger; she quickly drops the plate and plunges her hand into the water to grab the ring just above the drain."
+    },
+    "correct_answer": "C",
+    "model_name": "qwen-vl-max-latest",
+    "first_answer": "D",
+    "first_is_correct": false,
+    "first_reasoning": "The sequence shows a woman scrubbing a plate with a visible diamond ring on her finger. In the final segment, she pulls her hand out of the water, clutching the ring tightly to her chest with relief and a sigh—indicating that she narrowly avoided losing it. This suggests the ring was at risk of slipping off during the washing process. Option D describes a plausible scenario where the ring slides off her soapy finger as she reaches for a rinse sprayer, prompting her to drop the plate and quickly retrieve it just above the drain. This aligns with the natural progression of events in a kitchen sink setting and explains her emotional reaction. The other options involve more fantastical or exaggerated elements (e.g., whirlpools, living water), which are less likely given the realistic context of the scene.",
+    "second_answer": "C",
+    "second_is_correct": true,
+    "second_reasoning": "In the video, during the [3-7s] interval, the soapy bubbles in the sink suddenly coalesce into a translucent, liquid-like hand that reaches up and plucks the ring from the woman's finger. This surreal transformation of the water is clearly visible as the bubbles form a distinct hand shape, which then moves toward the drain with the ring. The woman reacts with alarm and dives into the sink to retrieve it, confirming the unusual nature of the event. This directly matches option C, where the soapy water forms a living hand that takes the ring. Options A, B, and D describe more conventional or mechanical causes (whirlpool, burst of water, slipping off), but none of these are depicted—instead, the visual evidence shows an animated, sentient-like behavior of the water itself.",
+    "original_score": 6.8
+  },
+  {
+    "object_name": "Diamond Ring (钻戒)",
+    "scenario_type": "Surprise Scenario",
+    "video_file": "Diamond_Ring_(钻戒)_Surprise_1.mp4",
+    "mcq_question": "[0-3s]: A woman is scrubbing a ceramic plate in a kitchen sink filled with soapy bubbles; her diamond ring is visible and sparkling on her wet finger.; [3-7s]: ???; [7-10s]: ] She pulls her hand out of the water, clutching the ring tightly to her chest with a look of intense relief and a heavy sigh.. What most likely happened in the [3-7s] interval according to the video?",
+    "mcq_options": {
+      "A": "The soapy water begins to churn violently, forming a miniature whirlpool that sucks the ring from her finger; she frantically thrusts her arm deep into the swirling foam to intercept the jewelry before it disappears down the open drain.",
+      "B": "A sudden burst of pressurized water from the faucet knocks the ring loose into the thick suds; she immediately submerges both hands, fumbling through the opaque bubbles to pin the ring against the bottom of the sink before it can be lost.",
+      "C": "The soapy bubbles suddenly coalesce into a translucent liquid hand that reaches up, gently plucks the ring from her finger, and begins to swim toward the drain with it; she must plunge her hand in to wrestle the ring back from the living water.",
+      "D": "As she reaches for a rinse sprayer, the ring slides off her soapy finger; she quickly drops the plate and plunges her hand into the water to grab the ring just above the drain."
+    },
+    "correct_answer": "C",
+    "model_name": "qwen3-vl-30b-a3b-thinking",
+    "first_answer": "D",
+    "first_is_correct": false,
+    "first_reasoning": "The video sequence shows a woman scrubbing a plate with soapy water, where her diamond ring is visible on a wet finger. The critical detail is that she ends up clutching the ring tightly to her chest with relief after pulling her hand from the water. This implies the ring was in danger of being lost, and she successfully retrieved it. Option D is the most plausible scenario: as she reaches for a rinse sprayer (a common action in dishwashing), the ring slips off her soapy finger due to reduced grip. She drops the plate and plunges her hand into the water to grab the ring just above the drain before it disappears. This aligns with realistic kitchen behavior—soapy fingers often cause rings to slip, and reaching for a sprayer would naturally dislodge it. The other options involve implausible elements: A (violent whirlpool) and C (sentient bubbles) are fantastical and unsupported by the context. Option B (sudden water burst) lacks evidence in the video description, as no faucet adjustment is mentioned. D’s logical progression—ring slipping during a routine action, followed by urgent retrieval—best explains her relief and the sequence.",
+    "second_answer": "D",
+    "second_is_correct": false,
+    "second_reasoning": "The video sequence shows a woman scrubbing a plate in soapy water (0-3s), with her diamond ring visible on a wet finger. In the 3-7s interval, the key action involves the ring being lost and retrieved. Frame 3.2s shows the sink with bubbles and a blue plastic bag near the drain, while frame 5.2s depicts her pouring liquid (likely rinsing), which aligns with reaching for a rinse sprayer. The ring slipping off her soapy finger during this action is consistent with real-world dishwashing (soapy fingers reduce grip). Frame 6.2s shows her handling the plate, suggesting she dropped it to retrieve the ring. Frame 7.2s shows her plunging her hand into the water, and frame 8.2s confirms she is holding the ring with relief. Options A and C involve fantastical elements (violent whirlpool, sentient bubbles) not supported by the video. Option B describes a sudden water burst, which is not depicted. Option D accurately reflects the logical sequence: reaching for the sprayer causes the ring to slip, prompting her to drop the plate and retrieve it just above the drain.",
+    "original_score": 6.8
+  },
+  {
+    "object_name": "Diamond Ring (钻戒)",
+    "scenario_type": "Surprise Scenario",
+    "video_file": "Diamond_Ring_(钻戒)_Surprise_1.mp4",
+    "mcq_question": "[0-3s]: A woman is scrubbing a ceramic plate in a kitchen sink filled with soapy bubbles; her diamond ring is visible and sparkling on her wet finger.; [3-7s]: ???; [7-10s]: ] She pulls her hand out of the water, clutching the ring tightly to her chest with a look of intense relief and a heavy sigh.. What most likely happened in the [3-7s] interval according to the video?",
+    "mcq_options": {
+      "A": "The soapy water begins to churn violently, forming a miniature whirlpool that sucks the ring from her finger; she frantically thrusts her arm deep into the swirling foam to intercept the jewelry before it disappears down the open drain.",
+      "B": "A sudden burst of pressurized water from the faucet knocks the ring loose into the thick suds; she immediately submerges both hands, fumbling through the opaque bubbles to pin the ring against the bottom of the sink before it can be lost.",
+      "C": "The soapy bubbles suddenly coalesce into a translucent liquid hand that reaches up, gently plucks the ring from her finger, and begins to swim toward the drain with it; she must plunge her hand in to wrestle the ring back from the living water.",
+      "D": "As she reaches for a rinse sprayer, the ring slides off her soapy finger; she quickly drops the plate and plunges her hand into the water to grab the ring just above the drain."
+    },
+    "correct_answer": "C",
+    "model_name": "zai-org/GLM-4.6V",
+    "first_answer": "D",
+    "first_is_correct": false,
+    "first_reasoning": "The scenario in option D aligns with a plausible, realistic sequence: while reaching for a rinse sprayer (a common kitchen action), the soapy, wet ring slides off her finger. She immediately drops the plate (prioritizing the ring) and plunges her hand into the water to retrieve the ring just above the drain, preventing it from being lost. This action directly leads to the relief and clutching of the ring described in the 7-10s interval, as she successfully recovers the jewelry. Other options involve more dramatic or fantastical events (e.g., whirlpools, living water) that are less consistent with a typical kitchen scenario, while option D reflects a common, relatable mishap and quick recovery.",
+    "second_answer": "D",
+    "second_is_correct": false,
+    "second_reasoning": "The scenario in option D aligns with a plausible, realistic sequence: while reaching for a rinse sprayer (a common kitchen action), the soapy, wet ring slides off her finger. She immediately drops the plate (prioritizing the ring) and plunges her hand into the water to retrieve the ring just above the drain, preventing it from being lost. This action directly leads to the relief and clutching of the ring described in the 7-10s interval, as she successfully recovers the jewelry. Other options involve more dramatic or fantastical events (e.g., whirlpools, living water) that are less consistent with a typical kitchen scenario, while option D reflects a common, relatable mishap and quick recovery.",
+    "original_score": 6.8
   }
 ]

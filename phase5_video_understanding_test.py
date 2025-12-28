@@ -255,7 +255,7 @@ def call_vlm_model(video_path, question, options, model_name):
 
 # ================= 主程序 =================
 
-def process_video(eval_entry, prompt_index, test_results, lock, processed_videos):
+def process_video(eval_entry, prompt_index, test_results, lock, processed_videos, test_mode):
     """处理单个视频的函数，用于并行执行"""
     object_name = eval_entry['object_name']
     scenario_type = eval_entry['scenario_type']
@@ -281,17 +281,27 @@ def process_video(eval_entry, prompt_index, test_results, lock, processed_videos
         print(f"⏭️  Skipping {best_video_file} ({object_name} - {scenario_type})... already processed")
         return
     
+    # 提前将视频标记为已处理，避免后续可能的重复处理
+    with lock:
+        processed_videos.add(unique_key)
+    
     print(f"🔄 Processing {best_video_file} ({object_name} - {scenario_type})...")
     
     # === 视频压缩处理 ===
     current_video_path, is_temp_file = compress_video_smart(original_video_path)
+    
+    # 根据测试方式选择题干
+    if test_mode == '1':
+        question = mcq['question']
+    else:
+        question = "What most likely happened in the [3-7s] interval according to the video?"
     
     try:
         # 并行调用所有模型
         with ThreadPoolExecutor(max_workers=min(MAX_CONCURRENT_MODELS, len(TEST_MODELS))) as executor:
             # 提交所有模型调用任务
             future_to_model = {
-                executor.submit(call_vlm_model, current_video_path, mcq['question'], mcq['options'], model_name): model_name
+                executor.submit(call_vlm_model, current_video_path, question, mcq['options'], model_name): model_name
                 for model_name in TEST_MODELS
             }
             
@@ -311,18 +321,17 @@ def process_video(eval_entry, prompt_index, test_results, lock, processed_videos
                             "object_name": object_name,
                             "scenario_type": scenario_type,
                             "video_file": best_video_file,
-                            "mcq_question": mcq['question'],
+                            "mcq_question": question,  # 使用实际使用的问题
                             "mcq_options": mcq['options'],
                             "correct_answer": correct_answer,
                             "model_name": model_name,
                             "model_answer": model_answer,
                             "is_correct": is_correct,
                             "model_reasoning": model_response['reasoning'],
-                            "original_score": eval_entry['best_score']
+                            "original_score": eval_entry['best_score'],
+                            "test_mode": test_mode  # 记录测试方式
                         })
-                        # 标记该object_name_scenario_type组合已处理
-                        processed_videos.add(unique_key)
-                      
+                       
                     print(f"   [{model_name}] Ans: {model_answer} ({'✅' if is_correct else '❌'})")
                 except Exception as e:
                     print(f"   [{model_name}] Error: {e}")
@@ -332,17 +341,16 @@ def process_video(eval_entry, prompt_index, test_results, lock, processed_videos
                             "object_name": object_name,
                             "scenario_type": scenario_type,
                             "video_file": best_video_file,
-                            "mcq_question": mcq['question'],
+                            "mcq_question": question,  # 使用实际使用的问题
                             "mcq_options": mcq['options'],
                             "correct_answer": mcq['correct_answer'],
                             "model_name": model_name,
                             "model_answer": "N/A",
                             "is_correct": False,
                             "model_reasoning": f"Error: {e}",
-                            "original_score": eval_entry['best_score']
+                            "original_score": eval_entry['best_score'],
+                            "test_mode": test_mode  # 记录测试方式
                         })
-                        # 标记该object_name_scenario_type组合已处理
-                        processed_videos.add(unique_key)
     
     finally:
         # === 清理临时文件 ===
@@ -388,11 +396,24 @@ def main():
     # 创建索引，映射object_name_scenario_type到mcq结果
     prompt_index = {f"{result['director_data']['object_name']}_{result['director_data']['scenario_type']}": result for result in mcq_results if result.get('blind_test_passed', False)}
     
+    # 添加测试方式选择
+    print("\n🔍 请选择测试方式:")
+    print("1. 使用JSON中的原始题干")
+    print("2. 使用通用题干: 'What most likely happened in the [3-7s] interval according to the video?'")
+    
+    test_mode = input("请输入选择 (1 或 2): ").strip()
+    while test_mode not in ['1', '2']:
+        print("❌ 无效选择，请重新输入")
+        test_mode = input("请输入选择 (1 或 2): ").strip()
+    
     test_results = []
     lock = threading.Lock()  # 用于线程安全地更新结果列表
     
     # 检查是否有已存在的测试结果文件，用于断点续传
-    output_file = f"video_understanding_test_v{version}.json"
+    if test_mode == '1':
+        output_file = f"video_understanding_test_v{version}.json"
+    else:
+        output_file = f"video_understanding_test_generic_v{version}.json"
     processed_videos = set()
     
     if os.path.exists(output_file):
@@ -433,7 +454,7 @@ def main():
             
             # 只提交有效的评估条目
             if key in prompt_index and eval_entry['status'] == 'evaluated' and eval_entry.get('best_video'):
-                future = executor.submit(process_video, eval_entry, prompt_index, test_results, lock, processed_videos)
+                future = executor.submit(process_video, eval_entry, prompt_index, test_results, lock, processed_videos, test_mode)
                 futures.append(future)
                 valid_entries += 1
         
@@ -453,7 +474,6 @@ def main():
         print(f"\n📊 Overall Accuracy: {correct_count / len(test_results) * 100:.1f}%")
         
     # 保存
-    output_file = f"video_understanding_test_v{version}.json"
     with open(output_file, "w", encoding='utf-8') as f:
         json.dump(test_results, f, indent=2, ensure_ascii=False)
     print(f"\n✅ Results saved to {output_file}")

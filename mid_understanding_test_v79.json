@@ -1,0 +1,650 @@
+[
+  {
+    "object_name": "Nerf Gun (软弹枪)",
+    "scenario_type": "Surprise Scenario",
+    "video_file": "Nerf_Gun_(软弹枪)_Surprise_1.mp4",
+    "mcq_question": "What most likely happened according to the video?",
+    "mcq_options": {
+      "A": "The boy pulls the trigger; the foam dart hovers mid-air and transforms into a miniature blue bird that flies toward the stack, knocking each cup down with its wings before disappearing into a puff of smoke.",
+      "B": "The boy pulls the trigger; a foam dart flies through the air and strikes the center of the cup pyramid, causing them to scatter across the table.",
+      "C": "The boy pulls the trigger; the foam dart stops inches from the target and emits a localized sonic vibration that causes the cups to dance wildly in circles until they eventually fall off the edge of the table.",
+      "D": "The boy pulls the trigger; the foam dart freezes mid-air, grows a tiny human-like hand that meticulously flicks each cup over one by one, then zips back into its original trajectory to hit the table."
+    },
+    "correct_answer": "D",
+    "model_name": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+    "model_answer": "D",
+    "is_correct": true,
+    "model_reasoning": "The video shows a foam dart flying towards a stack of cups. As it approaches, the dart freezes in mid-air and a tiny human-like hand emerges from it. This hand then proceeds to flick each cup over one by one, causing them to fall. After completing this action, the dart resumes its trajectory and hits the table. This sequence of events matches option D exactly. The other options describe different fantastical outcomes that are not depicted in the video.",
+    "original_score": 9.85
+  },
+  {
+    "object_name": "Nerf Gun (软弹枪)",
+    "scenario_type": "Surprise Scenario",
+    "video_file": "Nerf_Gun_(软弹枪)_Surprise_1.mp4",
+    "mcq_question": "What most likely happened according to the video?",
+    "mcq_options": {
+      "A": "The boy pulls the trigger; the foam dart hovers mid-air and transforms into a miniature blue bird that flies toward the stack, knocking each cup down with its wings before disappearing into a puff of smoke.",
+      "B": "The boy pulls the trigger; a foam dart flies through the air and strikes the center of the cup pyramid, causing them to scatter across the table.",
+      "C": "The boy pulls the trigger; the foam dart stops inches from the target and emits a localized sonic vibration that causes the cups to dance wildly in circles until they eventually fall off the edge of the table.",
+      "D": "The boy pulls the trigger; the foam dart freezes mid-air, grows a tiny human-like hand that meticulously flicks each cup over one by one, then zips back into its original trajectory to hit the table."
+    },
+    "correct_answer": "D",
+    "model_name": "qwen3-vl-flash",
+    "model_answer": "B",
+    "is_correct": false,
+    "model_reasoning": "The video shows a foam dart (blue with orange tips) flying through the air toward a pyramid of plastic cups. At 0:02, the dart makes contact with the top cup, causing the entire stack to scatter — consistent with a direct physical impact. There is no visual evidence of magical transformations, sonic vibrations, or anthropomorphic actions like hands or dancing cups. Option B accurately describes a realistic physical outcome: the dart strikes the center of the cup pyramid and causes them to scatter.",
+    "original_score": 9.85
+  },
+  {
+    "object_name": "Microphone (麦克风)",
+    "scenario_type": "Surprise Scenario",
+    "video_file": "Microphone_(麦克风)_Surprise_1.mp4",
+    "mcq_question": "What most likely happened according to the video?",
+    "mcq_options": {
+      "A": "When he tries to adjust the microphone, the silver stand abruptly snaps in half like brittle glass, emitting a high-pitched shattering sound that echoes through the room and makes him pull his hands away.",
+      "B": "As he grips the neck of the microphone, the silver metal softens into scaly skin and the head of the mic transforms into a wide-open human mouth that lets out a piercing, supernatural scream directly at him.",
+      "C": "The man reaches for the microphone, but as his fingers touch the stand, the metal suddenly ignites into bright orange flames, causing a deafening explosion of sparks that forces him to jump back in shock.",
+      "D": "He reaches out and grips the neck of the microphone to adjust it toward his mouth, causing a loud, sharp screech of audio feedback to ring out through the speakers."
+    },
+    "correct_answer": "B",
+    "model_name": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+    "model_answer": "B",
+    "is_correct": true,
+    "model_reasoning": "The video shows a man in a suit at a podium. He reaches for the microphone stand, and as his hand touches it, the silver stand transforms into a creature with a wide-open mouth, which then emits a scream. This directly matches option B, which describes the microphone stand transforming into a creature with a mouth that screams. The other options describe different events (breaking, igniting, or audio feedback) that are not shown in the video.",
+    "original_score": 9.29
+  },
+  {
+    "object_name": "Microphone (麦克风)",
+    "scenario_type": "Surprise Scenario",
+    "video_file": "Microphone_(麦克风)_Surprise_1.mp4",
+    "mcq_question": "What most likely happened according to the video?",
+    "mcq_options": {
+      "A": "When he tries to adjust the microphone, the silver stand abruptly snaps in half like brittle glass, emitting a high-pitched shattering sound that echoes through the room and makes him pull his hands away.",
+      "B": "As he grips the neck of the microphone, the silver metal softens into scaly skin and the head of the mic transforms into a wide-open human mouth that lets out a piercing, supernatural scream directly at him.",
+      "C": "The man reaches for the microphone, but as his fingers touch the stand, the metal suddenly ignites into bright orange flames, causing a deafening explosion of sparks that forces him to jump back in shock.",
+      "D": "He reaches out and grips the neck of the microphone to adjust it toward his mouth, causing a loud, sharp screech of audio feedback to ring out through the speakers."
+    },
+    "correct_answer": "B",
+    "model_name": "qwen3-vl-flash",
+    "model_answer": "B",
+    "is_correct": true,
+    "model_reasoning": "In the video, the microphone’s head suddenly transforms into a creature with scaly skin and an open mouth screaming at the man. This is clearly not a physical malfunction (like snapping or igniting) nor typical audio feedback — it’s a supernatural or surreal transformation. Option B accurately describes this bizarre, cinematic event. The other options describe physically plausible but incorrect events that do not match what is visually shown.",
+    "original_score": 9.29
+  },
+  {
+    "object_name": "Nerf Gun (软弹枪)",
+    "scenario_type": "Surprise Scenario",
+    "video_file": "Nerf_Gun_(软弹枪)_Surprise_1.mp4",
+    "mcq_question": "What most likely happened according to the video?",
+    "mcq_options": {
+      "A": "The boy pulls the trigger; the foam dart hovers mid-air and transforms into a miniature blue bird that flies toward the stack, knocking each cup down with its wings before disappearing into a puff of smoke.",
+      "B": "The boy pulls the trigger; a foam dart flies through the air and strikes the center of the cup pyramid, causing them to scatter across the table.",
+      "C": "The boy pulls the trigger; the foam dart stops inches from the target and emits a localized sonic vibration that causes the cups to dance wildly in circles until they eventually fall off the edge of the table.",
+      "D": "The boy pulls the trigger; the foam dart freezes mid-air, grows a tiny human-like hand that meticulously flicks each cup over one by one, then zips back into its original trajectory to hit the table."
+    },
+    "correct_answer": "D",
+    "model_name": "qwen3-vl-plus",
+    "model_answer": "D",
+    "is_correct": true,
+    "model_reasoning": "The video shows a blue foam dart with a small human-like hand attached to its tip. As it approaches the stack of plastic cups, the hand extends and begins to flick each cup over one by one in a deliberate, meticulous manner. This matches option D exactly, which describes the dart freezing mid-air, growing a tiny human-like hand that flicks each cup over before zipping back into its trajectory. The other options describe physically impossible or unrelated events (e.g., transforming into a bird, emitting sonic vibrations) that are not depicted in the video.",
+    "original_score": 9.85
+  },
+  {
+    "object_name": "Microphone (麦克风)",
+    "scenario_type": "Surprise Scenario",
+    "video_file": "Microphone_(麦克风)_Surprise_1.mp4",
+    "mcq_question": "What most likely happened according to the video?",
+    "mcq_options": {
+      "A": "When he tries to adjust the microphone, the silver stand abruptly snaps in half like brittle glass, emitting a high-pitched shattering sound that echoes through the room and makes him pull his hands away.",
+      "B": "As he grips the neck of the microphone, the silver metal softens into scaly skin and the head of the mic transforms into a wide-open human mouth that lets out a piercing, supernatural scream directly at him.",
+      "C": "The man reaches for the microphone, but as his fingers touch the stand, the metal suddenly ignites into bright orange flames, causing a deafening explosion of sparks that forces him to jump back in shock.",
+      "D": "He reaches out and grips the neck of the microphone to adjust it toward his mouth, causing a loud, sharp screech of audio feedback to ring out through the speakers."
+    },
+    "correct_answer": "B",
+    "model_name": "qwen3-vl-plus",
+    "model_answer": "B",
+    "is_correct": true,
+    "model_reasoning": "The video shows a man in a suit adjusting a microphone on a podium. In the next moment, the microphone visually transforms into a creature with scaly skin and an open mouth, appearing to scream. This matches option B, which describes the microphone transforming into a living, screaming entity when gripped. The other options involve snapping, fire, or audio feedback — none of which are visually depicted. The transformation is clearly supernatural and visual, not mechanical or auditory.",
+    "original_score": 9.29
+  },
+  {
+    "object_name": "Nerf Gun (软弹枪)",
+    "scenario_type": "Surprise Scenario",
+    "video_file": "Nerf_Gun_(软弹枪)_Surprise_1.mp4",
+    "mcq_question": "What most likely happened according to the video?",
+    "mcq_options": {
+      "A": "The boy pulls the trigger; the foam dart hovers mid-air and transforms into a miniature blue bird that flies toward the stack, knocking each cup down with its wings before disappearing into a puff of smoke.",
+      "B": "The boy pulls the trigger; a foam dart flies through the air and strikes the center of the cup pyramid, causing them to scatter across the table.",
+      "C": "The boy pulls the trigger; the foam dart stops inches from the target and emits a localized sonic vibration that causes the cups to dance wildly in circles until they eventually fall off the edge of the table.",
+      "D": "The boy pulls the trigger; the foam dart freezes mid-air, grows a tiny human-like hand that meticulously flicks each cup over one by one, then zips back into its original trajectory to hit the table."
+    },
+    "correct_answer": "D",
+    "model_name": "qwen3-vl-30b-a3b-thinking",
+    "model_answer": "B",
+    "is_correct": false,
+    "model_reasoning": "The video shows a foam dart approaching a stack of cups. As the dart moves, the cups begin to scatter across the table, consistent with the dart striking the pyramid and causing the cups to fall. Options A, C, and D describe fantastical or non-existent actions (e.g., transformation into a bird, sonic vibrations, or a hand flicking cups individually), which are not observed in the video. Only Option B accurately reflects the physical interaction where the dart hits the cups, leading to their scattering.",
+    "original_score": 9.85
+  },
+  {
+    "object_name": "Microphone (麦克风)",
+    "scenario_type": "Surprise Scenario",
+    "video_file": "Microphone_(麦克风)_Surprise_1.mp4",
+    "mcq_question": "What most likely happened according to the video?",
+    "mcq_options": {
+      "A": "When he tries to adjust the microphone, the silver stand abruptly snaps in half like brittle glass, emitting a high-pitched shattering sound that echoes through the room and makes him pull his hands away.",
+      "B": "As he grips the neck of the microphone, the silver metal softens into scaly skin and the head of the mic transforms into a wide-open human mouth that lets out a piercing, supernatural scream directly at him.",
+      "C": "The man reaches for the microphone, but as his fingers touch the stand, the metal suddenly ignites into bright orange flames, causing a deafening explosion of sparks that forces him to jump back in shock.",
+      "D": "He reaches out and grips the neck of the microphone to adjust it toward his mouth, causing a loud, sharp screech of audio feedback to ring out through the speakers."
+    },
+    "correct_answer": "B",
+    "model_name": "qwen-vl-max-latest",
+    "model_answer": "B",
+    "is_correct": true,
+    "model_reasoning": "In the video, the man reaches for the microphone and adjusts it. As he does so, the microphone transforms into a creature with a reptilian head that opens its mouth wide, revealing sharp teeth. This transformation is clearly supernatural and matches the description in option B, where the microphone's head becomes a human-like mouth emitting a scream. The other options describe different events (breaking, igniting, or feedback), none of which occur in the video.",
+    "original_score": 9.29
+  },
+  {
+    "object_name": "Nerf Gun (软弹枪)",
+    "scenario_type": "Surprise Scenario",
+    "video_file": "Nerf_Gun_(软弹枪)_Surprise_1.mp4",
+    "mcq_question": "What most likely happened according to the video?",
+    "mcq_options": {
+      "A": "The boy pulls the trigger; the foam dart hovers mid-air and transforms into a miniature blue bird that flies toward the stack, knocking each cup down with its wings before disappearing into a puff of smoke.",
+      "B": "The boy pulls the trigger; a foam dart flies through the air and strikes the center of the cup pyramid, causing them to scatter across the table.",
+      "C": "The boy pulls the trigger; the foam dart stops inches from the target and emits a localized sonic vibration that causes the cups to dance wildly in circles until they eventually fall off the edge of the table.",
+      "D": "The boy pulls the trigger; the foam dart freezes mid-air, grows a tiny human-like hand that meticulously flicks each cup over one by one, then zips back into its original trajectory to hit the table."
+    },
+    "correct_answer": "D",
+    "model_name": "qwen-vl-max-latest",
+    "model_answer": "D",
+    "is_correct": true,
+    "model_reasoning": "The video shows a foam dart in mid-air with a tiny human-like hand attached to its end. The hand flicks each cup over one by one, causing them to fall. After knocking down the cups, the dart continues on its original trajectory and hits the table. This sequence matches option D exactly.",
+    "original_score": 9.85
+  },
+  {
+    "object_name": "Microphone (麦克风)",
+    "scenario_type": "Surprise Scenario",
+    "video_file": "Microphone_(麦克风)_Surprise_1.mp4",
+    "mcq_question": "What most likely happened according to the video?",
+    "mcq_options": {
+      "A": "When he tries to adjust the microphone, the silver stand abruptly snaps in half like brittle glass, emitting a high-pitched shattering sound that echoes through the room and makes him pull his hands away.",
+      "B": "As he grips the neck of the microphone, the silver metal softens into scaly skin and the head of the mic transforms into a wide-open human mouth that lets out a piercing, supernatural scream directly at him.",
+      "C": "The man reaches for the microphone, but as his fingers touch the stand, the metal suddenly ignites into bright orange flames, causing a deafening explosion of sparks that forces him to jump back in shock.",
+      "D": "He reaches out and grips the neck of the microphone to adjust it toward his mouth, causing a loud, sharp screech of audio feedback to ring out through the speakers."
+    },
+    "correct_answer": "B",
+    "model_name": "qwen3-vl-30b-a3b-thinking",
+    "model_answer": "B",
+    "is_correct": true,
+    "model_reasoning": "The video shows a man adjusting a microphone, which then transforms into a dinosaur head with an open mouth. Option B describes a transformation where the microphone's head becomes a wide-open mouth (consistent with the visual change), even though it specifies \"human mouth\" instead of dinosaur. The other options are inconsistent: A involves a snapping stand (not shown), C involves flames (not present), and D describes audio feedback (no sound effect is depicted). Thus, B is the closest match to the observed transformation.",
+    "original_score": 9.29
+  },
+  {
+    "object_name": "Nerf Gun (软弹枪)",
+    "scenario_type": "Surprise Scenario",
+    "video_file": "Nerf_Gun_(软弹枪)_Surprise_1.mp4",
+    "mcq_question": "What most likely happened according to the video?",
+    "mcq_options": {
+      "A": "The boy pulls the trigger; the foam dart hovers mid-air and transforms into a miniature blue bird that flies toward the stack, knocking each cup down with its wings before disappearing into a puff of smoke.",
+      "B": "The boy pulls the trigger; a foam dart flies through the air and strikes the center of the cup pyramid, causing them to scatter across the table.",
+      "C": "The boy pulls the trigger; the foam dart stops inches from the target and emits a localized sonic vibration that causes the cups to dance wildly in circles until they eventually fall off the edge of the table.",
+      "D": "The boy pulls the trigger; the foam dart freezes mid-air, grows a tiny human-like hand that meticulously flicks each cup over one by one, then zips back into its original trajectory to hit the table."
+    },
+    "correct_answer": "D",
+    "model_name": "zai-org/GLM-4.6V",
+    "model_answer": "D",
+    "is_correct": true,
+    "model_reasoning": "The video shows a foam dart with a tiny human-like hand attached to it, and the other options describe scenarios that don't match the visual of the hand on the dart. Option D, where the foam dart freezes mid-air and the hand flicks the cups, aligns with the visual element of the hand on the dart.",
+    "original_score": 9.85
+  },
+  {
+    "object_name": "Microphone (麦克风)",
+    "scenario_type": "Surprise Scenario",
+    "video_file": "Microphone_(麦克风)_Surprise_1.mp4",
+    "mcq_question": "What most likely happened according to the video?",
+    "mcq_options": {
+      "A": "When he tries to adjust the microphone, the silver stand abruptly snaps in half like brittle glass, emitting a high-pitched shattering sound that echoes through the room and makes him pull his hands away.",
+      "B": "As he grips the neck of the microphone, the silver metal softens into scaly skin and the head of the mic transforms into a wide-open human mouth that lets out a piercing, supernatural scream directly at him.",
+      "C": "The man reaches for the microphone, but as his fingers touch the stand, the metal suddenly ignites into bright orange flames, causing a deafening explosion of sparks that forces him to jump back in shock.",
+      "D": "He reaches out and grips the neck of the microphone to adjust it toward his mouth, causing a loud, sharp screech of audio feedback to ring out through the speakers."
+    },
+    "correct_answer": "B",
+    "model_name": "zai-org/GLM-4.6V",
+    "model_answer": "B",
+    "is_correct": true,
+    "model_reasoning": "The video shows a microphone with a creature-like head (scaly, open mouth). Option B describes the microphone’s metal transforming into scaly skin and the head becoming a screaming mouth, which aligns with the visual of the creature-headed mic. Other options (A: stand snapping, C: flames, D: audio feedback) don’t match the video’s imagery of a transformed microphone head.",
+    "original_score": 9.29
+  },
+  {
+    "object_name": "Fried Egg (煎蛋)",
+    "scenario_type": "Surprise Scenario",
+    "video_file": "Fried_Egg_(煎蛋)_Surprise_1.mp4",
+    "mcq_question": "What most likely happened according to the video?",
+    "mcq_options": {
+      "A": "Upon tossing the egg, the yolk suddenly expands like a balloon until it covers the entire surface of the pan; it remains inflated for several seconds before abruptly popping and collapsing into a jagged, broken mess of liquid that covers the white.",
+      "B": "As the egg is tossed, the yellow yolk detaches and remains frozen in mid-air while the white flips around it; after a beat, the gravity-defying yolk suddenly drops like a heavy stone and shatters upon impact, splashing yellow liquid across the white.",
+      "C": "The person flips the pan and the egg separates into two identical halves that spin independently in the air; both halves then collide with each other at the peak of the arc, causing the yolk to crack open and spill onto the pan in a disorganized pattern.",
+      "D": "With a quick flick of the wrist, the person tosses the egg into the air; the egg flips mid-air and lands back in the pan, but the yolk bursts upon impact, spreading yellow liquid across the white."
+    },
+    "correct_answer": "B",
+    "model_name": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+    "model_answer": "D",
+    "is_correct": false,
+    "model_reasoning": "The video shows a person tossing an egg into the air. The egg flips in mid-air and lands back in the pan. Upon impact, the yolk bursts, spreading yellow liquid across the white. This sequence of events matches option D exactly. The other options describe scenarios that do not match the video, such as the yolk expanding like a balloon (A), floating in mid-air (B), or the egg splitting into two halves (C).",
+    "original_score": 9.55
+  },
+  {
+    "object_name": "Fried Egg (煎蛋)",
+    "scenario_type": "Surprise Scenario",
+    "video_file": "Fried_Egg_(煎蛋)_Surprise_1.mp4",
+    "mcq_question": "What most likely happened according to the video?",
+    "mcq_options": {
+      "A": "Upon tossing the egg, the yolk suddenly expands like a balloon until it covers the entire surface of the pan; it remains inflated for several seconds before abruptly popping and collapsing into a jagged, broken mess of liquid that covers the white.",
+      "B": "As the egg is tossed, the yellow yolk detaches and remains frozen in mid-air while the white flips around it; after a beat, the gravity-defying yolk suddenly drops like a heavy stone and shatters upon impact, splashing yellow liquid across the white.",
+      "C": "The person flips the pan and the egg separates into two identical halves that spin independently in the air; both halves then collide with each other at the peak of the arc, causing the yolk to crack open and spill onto the pan in a disorganized pattern.",
+      "D": "With a quick flick of the wrist, the person tosses the egg into the air; the egg flips mid-air and lands back in the pan, but the yolk bursts upon impact, spreading yellow liquid across the white."
+    },
+    "correct_answer": "B",
+    "model_name": "qwen3-vl-flash",
+    "model_answer": "D",
+    "is_correct": false,
+    "model_reasoning": "The video shows a person tossing an egg in a pan. At 0:02, the egg is seen mid-air, flipped, and then lands back in the pan. By 0:03, the yolk bursts upon impact, splattering yellow liquid across the white — matching option D exactly. Options A, B, and C describe impossible or physically implausible events (e.g., yolk expanding like a balloon, floating mid-air, or splitting into two halves), which are not depicted. Only option D aligns with the visual evidence.",
+    "original_score": 9.55
+  },
+  {
+    "object_name": "Fried Egg (煎蛋)",
+    "scenario_type": "Surprise Scenario",
+    "video_file": "Fried_Egg_(煎蛋)_Surprise_1.mp4",
+    "mcq_question": "What most likely happened according to the video?",
+    "mcq_options": {
+      "A": "Upon tossing the egg, the yolk suddenly expands like a balloon until it covers the entire surface of the pan; it remains inflated for several seconds before abruptly popping and collapsing into a jagged, broken mess of liquid that covers the white.",
+      "B": "As the egg is tossed, the yellow yolk detaches and remains frozen in mid-air while the white flips around it; after a beat, the gravity-defying yolk suddenly drops like a heavy stone and shatters upon impact, splashing yellow liquid across the white.",
+      "C": "The person flips the pan and the egg separates into two identical halves that spin independently in the air; both halves then collide with each other at the peak of the arc, causing the yolk to crack open and spill onto the pan in a disorganized pattern.",
+      "D": "With a quick flick of the wrist, the person tosses the egg into the air; the egg flips mid-air and lands back in the pan, but the yolk bursts upon impact, spreading yellow liquid across the white."
+    },
+    "correct_answer": "B",
+    "model_name": "qwen3-vl-plus",
+    "model_answer": "D",
+    "is_correct": false,
+    "model_reasoning": "The video shows a person flipping an egg in a pan. As the egg is tossed and lands back in the pan, the yolk bursts upon impact, causing yellow liquid to spread across the white. This matches option D exactly. The other options describe physically implausible or visually inconsistent events (e.g., yolk expanding like a balloon, freezing mid-air, or splitting into identical halves), none of which are observed in the video.",
+    "original_score": 9.55
+  },
+  {
+    "object_name": "Fried Egg (煎蛋)",
+    "scenario_type": "Surprise Scenario",
+    "video_file": "Fried_Egg_(煎蛋)_Surprise_1.mp4",
+    "mcq_question": "What most likely happened according to the video?",
+    "mcq_options": {
+      "A": "Upon tossing the egg, the yolk suddenly expands like a balloon until it covers the entire surface of the pan; it remains inflated for several seconds before abruptly popping and collapsing into a jagged, broken mess of liquid that covers the white.",
+      "B": "As the egg is tossed, the yellow yolk detaches and remains frozen in mid-air while the white flips around it; after a beat, the gravity-defying yolk suddenly drops like a heavy stone and shatters upon impact, splashing yellow liquid across the white.",
+      "C": "The person flips the pan and the egg separates into two identical halves that spin independently in the air; both halves then collide with each other at the peak of the arc, causing the yolk to crack open and spill onto the pan in a disorganized pattern.",
+      "D": "With a quick flick of the wrist, the person tosses the egg into the air; the egg flips mid-air and lands back in the pan, but the yolk bursts upon impact, spreading yellow liquid across the white."
+    },
+    "correct_answer": "B",
+    "model_name": "qwen3-vl-30b-a3b-thinking",
+    "model_answer": "D",
+    "is_correct": false,
+    "model_reasoning": "The video shows a person tossing an egg in a pan. As the egg is flipped, the yolk bursts upon impact (evident from the yellow liquid splashing in the third frame). Option D accurately describes this sequence: the egg is tossed, flips mid-air, and the yolk bursts upon landing back in the pan. Other options involve implausible actions (e.g., yolk expanding like a balloon, freezing mid-air, or splitting into two halves) that do not match the video's content.",
+    "original_score": 9.55
+  },
+  {
+    "object_name": "Fried Egg (煎蛋)",
+    "scenario_type": "Surprise Scenario",
+    "video_file": "Fried_Egg_(煎蛋)_Surprise_1.mp4",
+    "mcq_question": "What most likely happened according to the video?",
+    "mcq_options": {
+      "A": "Upon tossing the egg, the yolk suddenly expands like a balloon until it covers the entire surface of the pan; it remains inflated for several seconds before abruptly popping and collapsing into a jagged, broken mess of liquid that covers the white.",
+      "B": "As the egg is tossed, the yellow yolk detaches and remains frozen in mid-air while the white flips around it; after a beat, the gravity-defying yolk suddenly drops like a heavy stone and shatters upon impact, splashing yellow liquid across the white.",
+      "C": "The person flips the pan and the egg separates into two identical halves that spin independently in the air; both halves then collide with each other at the peak of the arc, causing the yolk to crack open and spill onto the pan in a disorganized pattern.",
+      "D": "With a quick flick of the wrist, the person tosses the egg into the air; the egg flips mid-air and lands back in the pan, but the yolk bursts upon impact, spreading yellow liquid across the white."
+    },
+    "correct_answer": "B",
+    "model_name": "qwen-vl-max-latest",
+    "model_answer": "B",
+    "is_correct": true,
+    "model_reasoning": "In the video, the egg is tossed into the air, and the yolk appears to detach from the white and remains suspended mid-air for a moment. The white flips around the yolk, which then suddenly drops like a heavy stone and shatters upon impact, splashing yellow liquid across the white. This sequence matches option B exactly, where the yolk defies gravity momentarily before falling and breaking apart.",
+    "original_score": 9.55
+  },
+  {
+    "object_name": "Toothpaste Tube (牙膏管)",
+    "scenario_type": "Surprise Scenario",
+    "video_file": "Toothpaste_Tube_(牙膏管)_Surprise_1.mp4",
+    "mcq_question": "What most likely happened according to the video?",
+    "mcq_options": {
+      "A": "The person rolls the tube tightly from the bottom and squeezes hard; suddenly, a large, messy glob of toothpaste shoots out onto the bristles and the person's hand.",
+      "B": "As the person begins to squeeze, the toothpaste tube suddenly expands its sides like lungs, inhales with a loud whistling sound, and lets out a violent, wet sneeze that launches a massive, glowing glob of paste across the bristles and onto the person's hand.",
+      "C": "As pressure is applied to the tube, it begins to vibrate intensely and emits a high-pitched screeching noise before it suddenly bursts at the seams, spraying a shimmering, iridescent gel in an explosive burst that covers the toothbrush and the person's entire hand.",
+      "D": "While the person tries to squeeze the remaining paste, the tube starts to pulsate rhythmically and glows with a bright blue light, eventually erupting like a small volcano and splashing a thick, neon-colored streak of foam all over the person's palm and fingers."
+    },
+    "correct_answer": "B",
+    "model_name": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+    "model_answer": "A",
+    "is_correct": false,
+    "model_reasoning": "The video shows a person squeezing a toothpaste tube, and as they apply pressure, a large, messy glob of toothpaste shoots out onto the bristles and the person's hand. This matches option A exactly. The other options describe fantastical events like the tube expanding like lungs, vibrating and bursting, or pulsating and glowing, none of which are depicted in the video. The events in the video are realistic and consistent with the description in option A.",
+    "original_score": 6.5
+  },
+  {
+    "object_name": "Toothpaste Tube (牙膏管)",
+    "scenario_type": "Surprise Scenario",
+    "video_file": "Toothpaste_Tube_(牙膏管)_Surprise_1.mp4",
+    "mcq_question": "What most likely happened according to the video?",
+    "mcq_options": {
+      "A": "The person rolls the tube tightly from the bottom and squeezes hard; suddenly, a large, messy glob of toothpaste shoots out onto the bristles and the person's hand.",
+      "B": "As the person begins to squeeze, the toothpaste tube suddenly expands its sides like lungs, inhales with a loud whistling sound, and lets out a violent, wet sneeze that launches a massive, glowing glob of paste across the bristles and onto the person's hand.",
+      "C": "As pressure is applied to the tube, it begins to vibrate intensely and emits a high-pitched screeching noise before it suddenly bursts at the seams, spraying a shimmering, iridescent gel in an explosive burst that covers the toothbrush and the person's entire hand.",
+      "D": "While the person tries to squeeze the remaining paste, the tube starts to pulsate rhythmically and glows with a bright blue light, eventually erupting like a small volcano and splashing a thick, neon-colored streak of foam all over the person's palm and fingers."
+    },
+    "correct_answer": "B",
+    "model_name": "qwen3-vl-flash",
+    "model_answer": "A",
+    "is_correct": false,
+    "model_reasoning": "The video shows a person squeezing toothpaste from a tube onto a toothbrush. The paste comes out in a normal, viscous stream without any fantastical or exaggerated effects like glowing, pulsating, bursting, or sneezing. Option A describes a realistic scenario where the toothpaste is squeezed out and may form a messy glob due to pressure — which matches the visual content. The other options (B, C, D) introduce supernatural or fictional elements not present in the video, such as glowing, exploding, or breathing toothpaste tubes. Therefore, A is the only plausible and accurate description based on what is shown.",
+    "original_score": 6.5
+  },
+  {
+    "object_name": "Toothpaste Tube (牙膏管)",
+    "scenario_type": "Surprise Scenario",
+    "video_file": "Toothpaste_Tube_(牙膏管)_Surprise_1.mp4",
+    "mcq_question": "What most likely happened according to the video?",
+    "mcq_options": {
+      "A": "The person rolls the tube tightly from the bottom and squeezes hard; suddenly, a large, messy glob of toothpaste shoots out onto the bristles and the person's hand.",
+      "B": "As the person begins to squeeze, the toothpaste tube suddenly expands its sides like lungs, inhales with a loud whistling sound, and lets out a violent, wet sneeze that launches a massive, glowing glob of paste across the bristles and onto the person's hand.",
+      "C": "As pressure is applied to the tube, it begins to vibrate intensely and emits a high-pitched screeching noise before it suddenly bursts at the seams, spraying a shimmering, iridescent gel in an explosive burst that covers the toothbrush and the person's entire hand.",
+      "D": "While the person tries to squeeze the remaining paste, the tube starts to pulsate rhythmically and glows with a bright blue light, eventually erupting like a small volcano and splashing a thick, neon-colored streak of foam all over the person's palm and fingers."
+    },
+    "correct_answer": "B",
+    "model_name": "qwen3-vl-plus",
+    "model_answer": "A",
+    "is_correct": false,
+    "model_reasoning": "The video shows a person squeezing a toothpaste tube, and as pressure is applied, a large, messy glob of toothpaste unexpectedly shoots out onto the toothbrush bristles and the person's hand. This matches option A exactly. The other options describe fantastical or physically impossible events (e.g., the tube expanding like lungs, vibrating with screeching noise, or glowing and erupting like a volcano), none of which are shown in the video. The event depicted is realistic and consistent with everyday experience when squeezing an almost-empty toothpaste tube too hard.",
+    "original_score": 6.5
+  },
+  {
+    "object_name": "Toothpaste Tube (牙膏管)",
+    "scenario_type": "Surprise Scenario",
+    "video_file": "Toothpaste_Tube_(牙膏管)_Surprise_1.mp4",
+    "mcq_question": "What most likely happened according to the video?",
+    "mcq_options": {
+      "A": "The person rolls the tube tightly from the bottom and squeezes hard; suddenly, a large, messy glob of toothpaste shoots out onto the bristles and the person's hand.",
+      "B": "As the person begins to squeeze, the toothpaste tube suddenly expands its sides like lungs, inhales with a loud whistling sound, and lets out a violent, wet sneeze that launches a massive, glowing glob of paste across the bristles and onto the person's hand.",
+      "C": "As pressure is applied to the tube, it begins to vibrate intensely and emits a high-pitched screeching noise before it suddenly bursts at the seams, spraying a shimmering, iridescent gel in an explosive burst that covers the toothbrush and the person's entire hand.",
+      "D": "While the person tries to squeeze the remaining paste, the tube starts to pulsate rhythmically and glows with a bright blue light, eventually erupting like a small volcano and splashing a thick, neon-colored streak of foam all over the person's palm and fingers."
+    },
+    "correct_answer": "B",
+    "model_name": "qwen-vl-max-latest",
+    "model_answer": "A",
+    "is_correct": false,
+    "model_reasoning": "The video shows a person squeezing a toothpaste tube, and as they do so, a large amount of toothpaste is dispensed in an uncontrolled manner, forming a messy glob that lands on the toothbrush and the person's hand. The toothpaste appears to shoot out suddenly and forcefully, which aligns with option A. There are no visual cues such as glowing, vibrating, or explosive bursts, nor any unusual sounds or effects like whistling or screeching, ruling out options B, C, and D.",
+    "original_score": 6.5
+  },
+  {
+    "object_name": "Toothpaste Tube (牙膏管)",
+    "scenario_type": "Surprise Scenario",
+    "video_file": "Toothpaste_Tube_(牙膏管)_Surprise_1.mp4",
+    "mcq_question": "What most likely happened according to the video?",
+    "mcq_options": {
+      "A": "The person rolls the tube tightly from the bottom and squeezes hard; suddenly, a large, messy glob of toothpaste shoots out onto the bristles and the person's hand.",
+      "B": "As the person begins to squeeze, the toothpaste tube suddenly expands its sides like lungs, inhales with a loud whistling sound, and lets out a violent, wet sneeze that launches a massive, glowing glob of paste across the bristles and onto the person's hand.",
+      "C": "As pressure is applied to the tube, it begins to vibrate intensely and emits a high-pitched screeching noise before it suddenly bursts at the seams, spraying a shimmering, iridescent gel in an explosive burst that covers the toothbrush and the person's entire hand.",
+      "D": "While the person tries to squeeze the remaining paste, the tube starts to pulsate rhythmically and glows with a bright blue light, eventually erupting like a small volcano and splashing a thick, neon-colored streak of foam all over the person's palm and fingers."
+    },
+    "correct_answer": "B",
+    "model_name": "qwen3-vl-30b-a3b-thinking",
+    "model_answer": "A",
+    "is_correct": false,
+    "model_reasoning": "The video shows a person squeezing toothpaste from a tube onto a toothbrush. Options B, C, and D describe exaggerated, supernatural events (e.g., the tube expanding like lungs, vibrating, glowing, or erupting like a volcano) that are not present in the video. Option A describes a realistic scenario where squeezing the tube hard causes toothpaste to shoot out messily, which aligns with the visual of the toothpaste being dispensed under pressure. The video lacks any magical or abnormal elements, making A the only plausible choice.",
+    "original_score": 6.5
+  },
+  {
+    "object_name": "Fried Egg (煎蛋)",
+    "scenario_type": "Surprise Scenario",
+    "video_file": "Fried_Egg_(煎蛋)_Surprise_1.mp4",
+    "mcq_question": "What most likely happened according to the video?",
+    "mcq_options": {
+      "A": "Upon tossing the egg, the yolk suddenly expands like a balloon until it covers the entire surface of the pan; it remains inflated for several seconds before abruptly popping and collapsing into a jagged, broken mess of liquid that covers the white.",
+      "B": "As the egg is tossed, the yellow yolk detaches and remains frozen in mid-air while the white flips around it; after a beat, the gravity-defying yolk suddenly drops like a heavy stone and shatters upon impact, splashing yellow liquid across the white.",
+      "C": "The person flips the pan and the egg separates into two identical halves that spin independently in the air; both halves then collide with each other at the peak of the arc, causing the yolk to crack open and spill onto the pan in a disorganized pattern.",
+      "D": "With a quick flick of the wrist, the person tosses the egg into the air; the egg flips mid-air and lands back in the pan, but the yolk bursts upon impact, spreading yellow liquid across the white."
+    },
+    "correct_answer": "B",
+    "model_name": "zai-org/GLM-4.6V",
+    "model_answer": "D",
+    "is_correct": false,
+    "model_reasoning": "The video shows a person tossing an egg, which flips mid-air and lands back in the pan. Upon impact, the yolk bursts, spreading yellow liquid across the white. This matches option D, while the other options describe scenarios (like the yolk expanding like a balloon, being frozen mid-air, or the egg splitting into two halves) that are not supported by the visual evidence in the video.",
+    "original_score": 9.55
+  },
+  {
+    "object_name": "Toothpaste Tube (牙膏管)",
+    "scenario_type": "Surprise Scenario",
+    "video_file": "Toothpaste_Tube_(牙膏管)_Surprise_1.mp4",
+    "mcq_question": "What most likely happened according to the video?",
+    "mcq_options": {
+      "A": "The person rolls the tube tightly from the bottom and squeezes hard; suddenly, a large, messy glob of toothpaste shoots out onto the bristles and the person's hand.",
+      "B": "As the person begins to squeeze, the toothpaste tube suddenly expands its sides like lungs, inhales with a loud whistling sound, and lets out a violent, wet sneeze that launches a massive, glowing glob of paste across the bristles and onto the person's hand.",
+      "C": "As pressure is applied to the tube, it begins to vibrate intensely and emits a high-pitched screeching noise before it suddenly bursts at the seams, spraying a shimmering, iridescent gel in an explosive burst that covers the toothbrush and the person's entire hand.",
+      "D": "While the person tries to squeeze the remaining paste, the tube starts to pulsate rhythmically and glows with a bright blue light, eventually erupting like a small volcano and splashing a thick, neon-colored streak of foam all over the person's palm and fingers."
+    },
+    "correct_answer": "B",
+    "model_name": "zai-org/GLM-4.6V",
+    "model_answer": "A",
+    "is_correct": false,
+    "model_reasoning": "The video depicts a person squeezing a toothpaste tube to dispense toothpaste onto a toothbrush. Option A describes a realistic, common scenario of squeezing the tube tightly and a messy glob shooting out, which aligns with the visual. Options B, C, and D include fantastical, unrealistic elements (e.g., the tube expanding like lungs, vibrating, glowing, or erupting like a volcano) that do not match the ordinary action shown in the video.",
+    "original_score": 6.5
+  },
+  {
+    "object_name": "Lawn Mower (割草机)",
+    "scenario_type": "Surprise Scenario",
+    "video_file": "Lawn_Mower_(割草机)_Surprise_1.mp4",
+    "mcq_question": "What most likely happened according to the video?",
+    "mcq_options": {
+      "A": "Upon pulling the starter, the mower's red chassis briefly turns transparent like glass, showing a miniature clockwork universe of golden gears turning inside the engine block until a flash of light restores the metal to its solid form.",
+      "B": "As he pulls the cord, the grass beneath the mower splits open like a giant zipper, revealing a silent, shimmering deep-space nebula where the dirt should be, before the teeth of the 'grass-zipper' suddenly lock back together as the engine roars to life.",
+      "C": "When he yanks the cord, the green blades of grass instantly transform into a swirling liquid whirlpool of emerald paint that circles the mower's wheels in a clockwise motion before solidifying back into a dry lawn as the motor ignites.",
+      "D": "He vigorously pulls the starter cord three times; on the third pull, the engine sputters, coughs out a small puff of grey smoke, and begins to vibrate as it starts running."
+    },
+    "correct_answer": "B",
+    "model_name": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+    "model_answer": "B",
+    "is_correct": true,
+    "model_reasoning": "The video shows a man pulling the starter cord of a lawnmower. As he does so, the grass beneath the mower splits open, revealing a deep-space nebula. The visual effect clearly depicts the grass parting like a zipper to expose the cosmic scene, which matches option B exactly. The other options describe different fantastical events (a transparent engine, transforming grass into paint, or a realistic engine start) that are not shown in the video. Therefore, B is the only option that accurately describes the sequence of events in the video.",
+    "original_score": 9.2
+  },
+  {
+    "object_name": "Lawn Mower (割草机)",
+    "scenario_type": "Surprise Scenario",
+    "video_file": "Lawn_Mower_(割草机)_Surprise_1.mp4",
+    "mcq_question": "What most likely happened according to the video?",
+    "mcq_options": {
+      "A": "Upon pulling the starter, the mower's red chassis briefly turns transparent like glass, showing a miniature clockwork universe of golden gears turning inside the engine block until a flash of light restores the metal to its solid form.",
+      "B": "As he pulls the cord, the grass beneath the mower splits open like a giant zipper, revealing a silent, shimmering deep-space nebula where the dirt should be, before the teeth of the 'grass-zipper' suddenly lock back together as the engine roars to life.",
+      "C": "When he yanks the cord, the green blades of grass instantly transform into a swirling liquid whirlpool of emerald paint that circles the mower's wheels in a clockwise motion before solidifying back into a dry lawn as the motor ignites.",
+      "D": "He vigorously pulls the starter cord three times; on the third pull, the engine sputters, coughs out a small puff of grey smoke, and begins to vibrate as it starts running."
+    },
+    "correct_answer": "B",
+    "model_name": "qwen3-vl-flash",
+    "model_answer": "B",
+    "is_correct": true,
+    "model_reasoning": "The video frames show a lawnmower cutting grass, but instead of normal grass being cut, a cosmic nebula is revealed beneath the blades — visually resembling a zipper opening to expose deep space. This matches option B, which describes the grass splitting open like a zipper revealing a nebula. The other options describe implausible or unrelated phenomena (e.g., clockwork gears, liquid paint, or mechanical sputtering) that are not depicted in the video. The visual effect is clearly fantastical and aligns with option B’s description.",
+    "original_score": 9.2
+  },
+  {
+    "object_name": "Diamond Ring (钻戒)",
+    "scenario_type": "Surprise Scenario",
+    "video_file": "Diamond_Ring_(钻戒)_Surprise_1.mp4",
+    "mcq_question": "What most likely happened according to the video?",
+    "mcq_options": {
+      "A": "The soapy water begins to churn violently, forming a miniature whirlpool that sucks the ring from her finger; she frantically thrusts her arm deep into the swirling foam to intercept the jewelry before it disappears down the open drain.",
+      "B": "A sudden burst of pressurized water from the faucet knocks the ring loose into the thick suds; she immediately submerges both hands, fumbling through the opaque bubbles to pin the ring against the bottom of the sink before it can be lost.",
+      "C": "The soapy bubbles suddenly coalesce into a translucent liquid hand that reaches up, gently plucks the ring from her finger, and begins to swim toward the drain with it; she must plunge her hand in to wrestle the ring back from the living water.",
+      "D": "As she reaches for a rinse sprayer, the ring slides off her soapy finger; she quickly drops the plate and plunges her hand into the water to grab the ring just above the drain."
+    },
+    "correct_answer": "C",
+    "model_name": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+    "model_answer": "D",
+    "is_correct": false,
+    "model_reasoning": "The video shows a woman washing dishes in a sink filled with soapy water. She is holding a plate and reaches for a rinse sprayer. As she does this, the ring on her finger slips off and falls into the soapy water. She immediately drops the plate and plunges her hand into the water to retrieve the ring before it goes down the drain. This sequence of events matches option D exactly, making it the most likely scenario according to the video.",
+    "original_score": 6.8
+  },
+  {
+    "object_name": "Lawn Mower (割草机)",
+    "scenario_type": "Surprise Scenario",
+    "video_file": "Lawn_Mower_(割草机)_Surprise_1.mp4",
+    "mcq_question": "What most likely happened according to the video?",
+    "mcq_options": {
+      "A": "Upon pulling the starter, the mower's red chassis briefly turns transparent like glass, showing a miniature clockwork universe of golden gears turning inside the engine block until a flash of light restores the metal to its solid form.",
+      "B": "As he pulls the cord, the grass beneath the mower splits open like a giant zipper, revealing a silent, shimmering deep-space nebula where the dirt should be, before the teeth of the 'grass-zipper' suddenly lock back together as the engine roars to life.",
+      "C": "When he yanks the cord, the green blades of grass instantly transform into a swirling liquid whirlpool of emerald paint that circles the mower's wheels in a clockwise motion before solidifying back into a dry lawn as the motor ignites.",
+      "D": "He vigorously pulls the starter cord three times; on the third pull, the engine sputters, coughs out a small puff of grey smoke, and begins to vibrate as it starts running."
+    },
+    "correct_answer": "B",
+    "model_name": "qwen-vl-max-latest",
+    "model_answer": "B",
+    "is_correct": true,
+    "model_reasoning": "The video shows a red lawnmower moving across grass, and beneath it, the ground opens up to reveal a shimmering, star-filled nebula-like space. This visual effect resembles a 'grass-zipper' splitting open to expose deep-space imagery before closing again as the mower continues. This directly aligns with option B, which describes the grass splitting open like a zipper to reveal a silent, shimmering nebula, then locking back together as the engine roars to life. The other options describe different surreal events (transparent chassis, liquid paint whirlpool, or smoke from starting) that are not depicted in the video.",
+    "original_score": 9.2
+  },
+  {
+    "object_name": "Lawn Mower (割草机)",
+    "scenario_type": "Surprise Scenario",
+    "video_file": "Lawn_Mower_(割草机)_Surprise_1.mp4",
+    "mcq_question": "What most likely happened according to the video?",
+    "mcq_options": {
+      "A": "Upon pulling the starter, the mower's red chassis briefly turns transparent like glass, showing a miniature clockwork universe of golden gears turning inside the engine block until a flash of light restores the metal to its solid form.",
+      "B": "As he pulls the cord, the grass beneath the mower splits open like a giant zipper, revealing a silent, shimmering deep-space nebula where the dirt should be, before the teeth of the 'grass-zipper' suddenly lock back together as the engine roars to life.",
+      "C": "When he yanks the cord, the green blades of grass instantly transform into a swirling liquid whirlpool of emerald paint that circles the mower's wheels in a clockwise motion before solidifying back into a dry lawn as the motor ignites.",
+      "D": "He vigorously pulls the starter cord three times; on the third pull, the engine sputters, coughs out a small puff of grey smoke, and begins to vibrate as it starts running."
+    },
+    "correct_answer": "B",
+    "model_name": "qwen3-vl-30b-a3b-thinking",
+    "model_answer": "B",
+    "is_correct": true,
+    "model_reasoning": "The video shows a lawnmower cutting grass, where the grass splits open like a zipper to reveal a deep-space nebula. As the engine starts (implied by the action of pulling the starter cord), the grass \"zipper\" locks back together. Option B accurately describes this sequence: the grass splits to reveal a nebula, then the zipper locks as the engine roars to life. Options A, C, and D describe elements not present in the video (e.g., transparent chassis, liquid grass, multiple pulls with smoke), making them incorrect.",
+    "original_score": 9.2
+  },
+  {
+    "object_name": "Lawn Mower (割草机)",
+    "scenario_type": "Surprise Scenario",
+    "video_file": "Lawn_Mower_(割草机)_Surprise_1.mp4",
+    "mcq_question": "What most likely happened according to the video?",
+    "mcq_options": {
+      "A": "Upon pulling the starter, the mower's red chassis briefly turns transparent like glass, showing a miniature clockwork universe of golden gears turning inside the engine block until a flash of light restores the metal to its solid form.",
+      "B": "As he pulls the cord, the grass beneath the mower splits open like a giant zipper, revealing a silent, shimmering deep-space nebula where the dirt should be, before the teeth of the 'grass-zipper' suddenly lock back together as the engine roars to life.",
+      "C": "When he yanks the cord, the green blades of grass instantly transform into a swirling liquid whirlpool of emerald paint that circles the mower's wheels in a clockwise motion before solidifying back into a dry lawn as the motor ignites.",
+      "D": "He vigorously pulls the starter cord three times; on the third pull, the engine sputters, coughs out a small puff of grey smoke, and begins to vibrate as it starts running."
+    },
+    "correct_answer": "B",
+    "model_name": "qwen3-vl-plus",
+    "model_answer": "B",
+    "is_correct": true,
+    "model_reasoning": "The video visually depicts the grass beneath the red lawnmower splitting open to reveal a deep-space nebula, which aligns directly with option B. The imagery shows a surreal, cosmic void appearing where the lawn is being cut, and although the video does not show the 'zipper' closing or the engine roaring, the core fantastical event described in option B — the grass revealing a nebula — is explicitly shown. The other options describe transformations (transparent chassis, paint whirlpool, or realistic engine start) that are not depicted in the frames provided.",
+    "original_score": 9.2
+  },
+  {
+    "object_name": "Diamond Ring (钻戒)",
+    "scenario_type": "Surprise Scenario",
+    "video_file": "Diamond_Ring_(钻戒)_Surprise_1.mp4",
+    "mcq_question": "What most likely happened according to the video?",
+    "mcq_options": {
+      "A": "The soapy water begins to churn violently, forming a miniature whirlpool that sucks the ring from her finger; she frantically thrusts her arm deep into the swirling foam to intercept the jewelry before it disappears down the open drain.",
+      "B": "A sudden burst of pressurized water from the faucet knocks the ring loose into the thick suds; she immediately submerges both hands, fumbling through the opaque bubbles to pin the ring against the bottom of the sink before it can be lost.",
+      "C": "The soapy bubbles suddenly coalesce into a translucent liquid hand that reaches up, gently plucks the ring from her finger, and begins to swim toward the drain with it; she must plunge her hand in to wrestle the ring back from the living water.",
+      "D": "As she reaches for a rinse sprayer, the ring slides off her soapy finger; she quickly drops the plate and plunges her hand into the water to grab the ring just above the drain."
+    },
+    "correct_answer": "C",
+    "model_name": "qwen3-vl-flash",
+    "model_answer": "D",
+    "is_correct": false,
+    "model_reasoning": "The video shows a woman washing dishes in a soapy sink. At 0:00, her hand is visible with a ring on her finger, and she is handling a dish near the drain. By 0:01, the ring is no longer visible on her finger, suggesting it slipped off. In frames 0:02–0:03, she reacts quickly by reaching into the water near the drain, indicating she’s trying to retrieve the lost ring. This matches option D: the ring slides off her soapy finger, and she plunges her hand into the water to grab it just above the drain. The other options involve fantastical or exaggerated events (e.g., living bubbles, whirlpools, or sentient soap) that are not supported by visual evidence — the video depicts a realistic, mundane scenario.",
+    "original_score": 6.8
+  },
+  {
+    "object_name": "Diamond Ring (钻戒)",
+    "scenario_type": "Surprise Scenario",
+    "video_file": "Diamond_Ring_(钻戒)_Surprise_1.mp4",
+    "mcq_question": "What most likely happened according to the video?",
+    "mcq_options": {
+      "A": "The soapy water begins to churn violently, forming a miniature whirlpool that sucks the ring from her finger; she frantically thrusts her arm deep into the swirling foam to intercept the jewelry before it disappears down the open drain.",
+      "B": "A sudden burst of pressurized water from the faucet knocks the ring loose into the thick suds; she immediately submerges both hands, fumbling through the opaque bubbles to pin the ring against the bottom of the sink before it can be lost.",
+      "C": "The soapy bubbles suddenly coalesce into a translucent liquid hand that reaches up, gently plucks the ring from her finger, and begins to swim toward the drain with it; she must plunge her hand in to wrestle the ring back from the living water.",
+      "D": "As she reaches for a rinse sprayer, the ring slides off her soapy finger; she quickly drops the plate and plunges her hand into the water to grab the ring just above the drain."
+    },
+    "correct_answer": "C",
+    "model_name": "qwen-vl-max-latest",
+    "model_answer": "C",
+    "is_correct": true,
+    "model_reasoning": "The video shows a surreal and fantastical event where the soapy water in the sink forms a translucent, hand-like shape that reaches up and gently takes the ring from the woman's finger. This liquid hand then begins to move toward the drain, prompting the woman to react by plunging her hand into the water to retrieve the ring. The visual evidence clearly supports option C, as the water behaves in an animated, sentient manner rather than through natural forces like churning or pressure bursts. Options A, B, and D describe more realistic physical events, but none match the supernatural behavior of the water seen in the video.",
+    "original_score": 6.8
+  },
+  {
+    "object_name": "Diamond Ring (钻戒)",
+    "scenario_type": "Surprise Scenario",
+    "video_file": "Diamond_Ring_(钻戒)_Surprise_1.mp4",
+    "mcq_question": "What most likely happened according to the video?",
+    "mcq_options": {
+      "A": "The soapy water begins to churn violently, forming a miniature whirlpool that sucks the ring from her finger; she frantically thrusts her arm deep into the swirling foam to intercept the jewelry before it disappears down the open drain.",
+      "B": "A sudden burst of pressurized water from the faucet knocks the ring loose into the thick suds; she immediately submerges both hands, fumbling through the opaque bubbles to pin the ring against the bottom of the sink before it can be lost.",
+      "C": "The soapy bubbles suddenly coalesce into a translucent liquid hand that reaches up, gently plucks the ring from her finger, and begins to swim toward the drain with it; she must plunge her hand in to wrestle the ring back from the living water.",
+      "D": "As she reaches for a rinse sprayer, the ring slides off her soapy finger; she quickly drops the plate and plunges her hand into the water to grab the ring just above the drain."
+    },
+    "correct_answer": "C",
+    "model_name": "zai-org/GLM-4.6V",
+    "model_answer": "C",
+    "is_correct": true,
+    "model_reasoning": "The video shows a translucent, liquid-like hand (a visual effect) interacting with the person's hand in soapy water, which matches the description in option C where the soapy bubbles coalesce into a translucent liquid hand that takes the ring. The other options describe scenarios (whirlpool, pressurized water burst, ring sliding off when reaching for a rinse sprayer) that are not supported by the visual content of the video.",
+    "original_score": 6.8
+  },
+  {
+    "object_name": "Diamond Ring (钻戒)",
+    "scenario_type": "Surprise Scenario",
+    "video_file": "Diamond_Ring_(钻戒)_Surprise_1.mp4",
+    "mcq_question": "What most likely happened according to the video?",
+    "mcq_options": {
+      "A": "The soapy water begins to churn violently, forming a miniature whirlpool that sucks the ring from her finger; she frantically thrusts her arm deep into the swirling foam to intercept the jewelry before it disappears down the open drain.",
+      "B": "A sudden burst of pressurized water from the faucet knocks the ring loose into the thick suds; she immediately submerges both hands, fumbling through the opaque bubbles to pin the ring against the bottom of the sink before it can be lost.",
+      "C": "The soapy bubbles suddenly coalesce into a translucent liquid hand that reaches up, gently plucks the ring from her finger, and begins to swim toward the drain with it; she must plunge her hand in to wrestle the ring back from the living water.",
+      "D": "As she reaches for a rinse sprayer, the ring slides off her soapy finger; she quickly drops the plate and plunges her hand into the water to grab the ring just above the drain."
+    },
+    "correct_answer": "C",
+    "model_name": "qwen3-vl-30b-a3b-thinking",
+    "model_answer": "D",
+    "is_correct": false,
+    "model_reasoning": "The video shows a hand with a ring in soapy water, followed by the person in a green shirt handling dishes. Option D describes the ring slipping off a soapy finger (consistent with the soapy conditions), the person dropping a plate (implied by the dishwashing context), and plunging a hand into the water to retrieve the ring—matching the urgency and action seen in the frames. Options A, B, and C involve unrealistic elements (violent whirlpools, pressurized water bursts, or sentient bubbles) not present in the video, making D the only plausible scenario.",
+    "original_score": 6.8
+  },
+  {
+    "object_name": "Lawn Mower (割草机)",
+    "scenario_type": "Surprise Scenario",
+    "video_file": "Lawn_Mower_(割草机)_Surprise_1.mp4",
+    "mcq_question": "What most likely happened according to the video?",
+    "mcq_options": {
+      "A": "Upon pulling the starter, the mower's red chassis briefly turns transparent like glass, showing a miniature clockwork universe of golden gears turning inside the engine block until a flash of light restores the metal to its solid form.",
+      "B": "As he pulls the cord, the grass beneath the mower splits open like a giant zipper, revealing a silent, shimmering deep-space nebula where the dirt should be, before the teeth of the 'grass-zipper' suddenly lock back together as the engine roars to life.",
+      "C": "When he yanks the cord, the green blades of grass instantly transform into a swirling liquid whirlpool of emerald paint that circles the mower's wheels in a clockwise motion before solidifying back into a dry lawn as the motor ignites.",
+      "D": "He vigorously pulls the starter cord three times; on the third pull, the engine sputters, coughs out a small puff of grey smoke, and begins to vibrate as it starts running."
+    },
+    "correct_answer": "B",
+    "model_name": "zai-org/GLM-4.6V",
+    "model_answer": "B",
+    "is_correct": true,
+    "model_reasoning": "The video shows the grass beneath the mower transforming into a deep-space nebula as the starter cord is pulled, which matches option B's description of the grass splitting open to reveal a silent, shimmering deep-space nebula. The other options describe scenarios (transparent chassis, grass turning to liquid paint, normal engine start with smoke) that do not align with the visual content of the video.",
+    "original_score": 9.2
+  },
+  {
+    "object_name": "Diamond Ring (钻戒)",
+    "scenario_type": "Surprise Scenario",
+    "video_file": "Diamond_Ring_(钻戒)_Surprise_1.mp4",
+    "mcq_question": "What most likely happened according to the video?",
+    "mcq_options": {
+      "A": "The soapy water begins to churn violently, forming a miniature whirlpool that sucks the ring from her finger; she frantically thrusts her arm deep into the swirling foam to intercept the jewelry before it disappears down the open drain.",
+      "B": "A sudden burst of pressurized water from the faucet knocks the ring loose into the thick suds; she immediately submerges both hands, fumbling through the opaque bubbles to pin the ring against the bottom of the sink before it can be lost.",
+      "C": "The soapy bubbles suddenly coalesce into a translucent liquid hand that reaches up, gently plucks the ring from her finger, and begins to swim toward the drain with it; she must plunge her hand in to wrestle the ring back from the living water.",
+      "D": "As she reaches for a rinse sprayer, the ring slides off her soapy finger; she quickly drops the plate and plunges her hand into the water to grab the ring just above the drain."
+    },
+    "correct_answer": "C",
+    "model_name": "qwen3-vl-plus",
+    "model_answer": "C",
+    "is_correct": true,
+    "model_reasoning": "The video visually depicts a surreal, animated hand made of translucent water emerging from the soapy sink, gently plucking a ring from the woman’s finger and moving toward the drain. The woman then reacts by plunging her hand into the water to retrieve it. This matches option C exactly, which describes a fantastical 'liquid hand' stealing the ring — a clear visual metaphor or animation effect, not a literal physical event. The other options describe realistic scenarios (whirlpool, pressurized water, slipping off) that do not align with the magical realism shown in the video.",
+    "original_score": 6.8
+  }
+]

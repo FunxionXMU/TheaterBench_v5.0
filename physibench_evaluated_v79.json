@@ -12,211 +12,13 @@
         "final_score": 0,
         "segment_scores": [
           {
-            "segment": "Start",
-            "score": 10.0,
-            "reasoning": "The frame perfectly matches the description: a woman is standing in front of a bathroom mirror, holding a large claw hair clip, and is in the process of gathering her long hair with her other hand."
-          },
-          {
             "segment": "Middle",
             "score": 4.5,
-            "reasoning": "The frame shows the woman's head being pulled down toward the sink, which aligns with the latter part of the description. However, the 'pearly white teeth' on the clip and the 'supernatural force' are not clearly visible or identifiable in this static frame, and the sink does not appear to be filled with water."
-          },
-          {
-            "segment": "End",
-            "score": 9.5,
-            "reasoning": "The frame accurately depicts the woman standing in front of the mirror, holding her hair with both hands. Her facial expression clearly conveys annoyance or distress, matching the 'sighing at her reflection' description. The hair appears damp/wet as specified."
+            "reasoning": "The frame shows the woman's head being pulled down toward the sink, which aligns with the latter part of the description. However, the 'pearly white teeth' on the clip and the 'supernatural force' are not clearly visible or identifiable in this specific still, and there is no visible water in the sink yet."
           }
         ],
         "coherence_evaluation": null,
-        "reasoning": "Video invalid due to failed segment(s).",
-        "valid": false
-      }
-    ],
-    "has_valid_video": false
-  },
-  {
-    "object_name": "Microphone (麦克风)",
-    "scenario_type": "Surprise Scenario",
-    "status": "evaluated",
-    "best_video": null,
-    "best_score": -1,
-    "best_reasoning": "",
-    "all_candidates": [
-      {
-        "video_file": "Microphone_(麦克风)_Surprise_1.mp4",
-        "final_score": 0,
-        "segment_scores": [
-          {
-            "segment": "Start",
-            "score": 10.0,
-            "reasoning": "The frame perfectly matches the description: a man in a suit is walking toward a wooden podium on a stage, he is looking down at notes in his hands, and a silver microphone is clearly visible on the podium."
-          },
-          {
-            "segment": "Middle",
-            "score": 7.5,
-            "reasoning": "The frame accurately depicts the microphone's neck being gripped and the head transformed into a wide-open mouth screaming at the man. However, the mouth is reptilian/monster-like rather than a 'human mouth' as specified, and the texture is grey/scaly rather than 'silver metal softening'."
-          },
-          {
-            "segment": "End",
-            "score": 2.0,
-            "reasoning": "The frame does not match the description. The man is holding a phone to his ear and looking at a shark-like microphone on a podium, rather than recoiling, pulling his hands away, or looking toward a sound booth as described."
-          }
-        ],
-        "coherence_evaluation": null,
-        "reasoning": "Video invalid due to failed segment(s).",
-        "valid": false
-      }
-    ],
-    "has_valid_video": false
-  },
-  {
-    "object_name": "Nerf Gun (软弹枪)",
-    "scenario_type": "Surprise Scenario",
-    "status": "evaluated",
-    "best_video": "Nerf_Gun_(软弹枪)_Surprise_1.mp4",
-    "best_score": 9.033333333333333,
-    "best_reasoning": "Frame match score: 8.83, Coherence score: 9.50",
-    "all_candidates": [
-      {
-        "video_file": "Nerf_Gun_(软弹枪)_Surprise_1.mp4",
-        "final_score": 9.033333333333333,
-        "segment_scores": [
-          {
-            "segment": "Start",
-            "score": 10.0,
-            "reasoning": "The frame perfectly matches the description: a young boy is in a living room, holding a brightly colored toy gun, and is aiming directly at a stack of plastic cups on a table. The scene composition and focus are exactly as described."
-          },
-          {
-            "segment": "Middle",
-            "score": 10.0,
-            "reasoning": "The frame perfectly captures the surreal moment described: a blue foam dart is frozen mid-air and has grown a tiny, realistic human-like hand. The background shows the cups and table mentioned in the prompt, though the hand is the primary focus of this specific phase."
-          },
-          {
-            "segment": "End",
-            "score": 6.5,
-            "reasoning": "The boy has a wide, triumphant grin as described. However, he is not pumping his fist in the air; his arms are down at his sides. The blaster is lowered/out of frame, which partially matches."
-          }
-        ],
-        "coherence_evaluation": {
-          "expected_end_frame": "The end frame should show the young boy in the same living room setting, having lowered his Nerf gun. He should be expressing joy or triumph, such as pumping his fist or smiling widely, to celebrate the successful (albeit magical) knocking over of the cup pyramid. The cups on the table in the foreground should be scattered or knocked down, and the Nerf gun should no longer be in a firing position.",
-          "reasoning": "The start frame establishes the boy aiming at a pyramid of cups. The synopsis describes a surreal event where a dart sprouts an arm to flick the cups over, resulting in a successful 'hit'. The actual end frame shows the boy with a wide, triumphant grin, having lowered the blaster. This perfectly aligns with the emotional payoff of the described events. While the cups are not visible in the final frame due to a change in camera framing/zoom, the boy's reaction and the presence of the blaster at the bottom of the frame maintain strong visual and narrative consistency with the start frame and the synopsis.",
-          "score": 9.5
-        },
-        "reasoning": "Frame match score: 8.83, Coherence score: 9.50",
-        "valid": true
-      }
-    ],
-    "has_valid_video": true
-  },
-  {
-    "object_name": "Table (桌子)",
-    "scenario_type": "Surprise Scenario",
-    "status": "evaluated",
-    "best_video": null,
-    "best_score": -1,
-    "best_reasoning": "",
-    "all_candidates": [
-      {
-        "video_file": "Table_(桌子)_Surprise_1.mp4",
-        "final_score": 0,
-        "segment_scores": [
-          {
-            "segment": "Start",
-            "score": 9.0,
-            "reasoning": "The frame perfectly matches the description: a man is leaning over a large wooden table covered in architectural blueprints, inspecting a detail. While a tall stack of books is not clearly visible, the core action, subject, and setting are highly accurate."
-          },
-          {
-            "segment": "Middle",
-            "score": 9.5,
-            "reasoning": "The frame clearly shows the wooden table surface liquefying with a distinct ripple effect, resembling the texture of dark honey as described. Books are visible on the right side, positioned as if being pushed toward the edge by the distortion."
-          },
-          {
-            "segment": "End",
-            "score": 1.0,
-            "reasoning": "The frame does not match the description. The man is leaning over a desk looking at blueprints, not lunging to catch books falling toward the floor. The books are stacked neatly on the desk, and his expression is one of focused work rather than relief after a near-accident."
-          }
-        ],
-        "coherence_evaluation": null,
-        "reasoning": "Video invalid due to failed segment(s).",
-        "valid": false
-      }
-    ],
-    "has_valid_video": false
-  },
-  {
-    "object_name": "Frying Pan (煎锅)",
-    "scenario_type": "Surprise Scenario",
-    "status": "missing_videos"
-  },
-  {
-    "object_name": "Fried Egg (煎蛋)",
-    "scenario_type": "Surprise Scenario",
-    "status": "evaluated",
-    "best_video": "Fried_Egg_(煎蛋)_Surprise_1.mp4",
-    "best_score": 9.35,
-    "best_reasoning": "Frame match score: 9.50, Coherence score: 9.00",
-    "all_candidates": [
-      {
-        "video_file": "Fried_Egg_(煎蛋)_Surprise_1.mp4",
-        "final_score": 9.35,
-        "segment_scores": [
-          {
-            "segment": "Start",
-            "score": 10.0,
-            "reasoning": "The frame perfectly matches the description: a person is standing over a kitchen stove, holding a frying pan with a sunny-side-up egg. The grip on the handle suggests preparation for an action like flipping, and the blue flame indicates the stove is active for sizzling."
-          },
-          {
-            "segment": "Middle",
-            "score": 10.0,
-            "reasoning": "The frame accurately captures the specific moment where the yellow yolk has detached from the egg white and is suspended in mid-air above the pan. The visual state perfectly matches the 'gravity-defying' phase of the description before the impact occurs."
-          },
-          {
-            "segment": "End",
-            "score": 8.5,
-            "reasoning": "The frame shows the person looking down with a somber, disappointed facial expression, which aligns with the 'sigh of disappointment' described. While the pan and broken yolk are not visible in this specific crop, the subject's posture and gaze strongly suggest he is staring down at something on the counter/stove as required."
-          }
-        ],
-        "coherence_evaluation": {
-          "expected_end_frame": "The end frame should show the man in the green sweater looking down at the frying pan. Inside the pan, the egg should no longer be a perfect sunny-side-up; instead, the yolk should be broken and splattered across the white, appearing as a yellow liquid mess. The man's facial expression should convey disappointment or frustration at the failed flip.",
-          "reasoning": "The start frame establishes a man cooking a perfect sunny-side-up egg. The synopsis describes a surreal sequence where the yolk separates and eventually shatters upon landing. The actual end frame shows the man looking down with a somber, disappointed expression, which aligns perfectly with the emotional beat of the synopsis. While the pan itself is not visible in the final frame, the man's posture, eye line, and facial expression strongly imply he is reacting to the 'liquid mess' described in the events. The visual consistency of the character (same green sweater, same kitchen setting) is maintained.",
-          "score": "9.0"
-        },
-        "reasoning": "Frame match score: 9.50, Coherence score: 9.00",
-        "valid": true
-      }
-    ],
-    "has_valid_video": true
-  },
-  {
-    "object_name": "Toothpaste Tube (牙膏管)",
-    "scenario_type": "Surprise Scenario",
-    "status": "evaluated",
-    "best_video": null,
-    "best_score": -1,
-    "best_reasoning": "",
-    "all_candidates": [
-      {
-        "video_file": "Toothpaste_Tube_(牙膏管)_Surprise_1.mp4",
-        "final_score": 0,
-        "segment_scores": [
-          {
-            "segment": "Start",
-            "score": 10.0,
-            "reasoning": "The frame perfectly matches the description: a person is standing at a bathroom sink, holding a toothbrush in their right hand and a crumpled, nearly empty toothpaste tube in their left hand."
-          },
-          {
-            "segment": "Middle",
-            "score": 6.5,
-            "reasoning": "The frame shows a large, messy amount of toothpaste being dispensed from an unusual white object onto a toothbrush and hand, which aligns with the 'violent, wet sneeze' and 'massive glob' description. However, the tube does not visually resemble 'lungs' in this specific frame, and the paste is not 'glowing' as required."
-          },
-          {
-            "segment": "End",
-            "score": 4.5,
-            "reasoning": "The frame shows the person holding the toothpaste and toothbrush, but it fails to match the specific description: the toothpaste is dripping in a long, unnatural string toward the sink rather than being an 'oversized mess on their hand', and the person is looking down at the items rather than staring at their hand with a visible 'sigh of frustration'."
-          }
-        ],
-        "coherence_evaluation": null,
-        "reasoning": "Video invalid due to failed segment(s).",
+        "reasoning": "Video invalid due to failed middle segment.",
         "valid": false
       }
     ],
@@ -235,24 +37,14 @@
         "final_score": 0,
         "segment_scores": [
           {
-            "segment": "Start",
-            "score": 10.0,
-            "reasoning": "The frame perfectly matches the description: a young pianist is seated at a wooden piano, clearly exhibiting stress by rubbing their temples. A pyramid-shaped mechanical metronome is visible on the piano lid and appears to be in a stationary (silent) state."
-          },
-          {
             "segment": "Middle",
-            "score": 8.5,
-            "reasoning": "The frame clearly shows multiple wooden, skeletal hands/arms positioned over a piano, matching the 'supernatural duet' description. A human hand is also visible on the keys, adhering to the 'pianist' part of the prompt. However, the metronome mentioned as the source of the arms is not visible in this specific crop, and the arms appear to be hanging from the top of the piano rather than sprouting from a base."
-          },
-          {
-            "segment": "End",
-            "score": 6.5,
-            "reasoning": "The frame shows the pianist having stopped playing and watching the metronome, which aligns with the description. However, the metronome is floating in mid-air with strange skeletal appendages, and the pianist's arm appears to be merging into it, which represents a significant anatomical and physical hallucination not mentioned in the prompt."
+            "score": 9.0,
+            "reasoning": "The frame clearly shows multiple wooden, skeletal hands/arms interacting with a piano alongside a human hand, matching the 'supernatural duet' description. While the metronome itself is not visible in this specific crop, the core action of the skeletal limbs playing the keys is accurately represented."
           }
         ],
         "coherence_evaluation": {
           "expected_end_frame": "The pianist should be shown in a state of relief, having successfully completed the difficult scale. He should be sitting upright or leaning back slightly, exhaling, with his hands likely resting on the keys or in his lap. The metronome should be back in its normal, inanimate state on top of the piano, perhaps still ticking normally without any extra limbs, reflecting the 'returning to its normal state' part of the synopsis.",
-          "reasoning": "The actual end frame significantly deviates from the provided synopsis and the expected conclusion. While the synopsis mentions the metronome sprouting limbs to assist the pianist, it explicitly states that it should return to its 'normal state' and that the end frame should show the pianist 'exhaling a sigh of relief' after the scale ends. Instead, the actual end frame shows the metronome floating in mid-air with skeletal, spider-like legs attached to the pianist's arm, and the pianist looks shocked or confused rather than relieved. The visual consistency of the metronome is broken (it's floating), and the narrative arc of 'completion and relief' is replaced by a surreal, ongoing event.",
+          "reasoning": "The actual end frame significantly deviates from the provided synopsis and the expected conclusion. While the synopsis mentions the metronome sprouting limbs to assist the pianist, it explicitly states that it should return to its 'normal state' and the pianist should 'exhale a sigh of relief' at the end. Instead, the actual end frame shows the metronome floating in mid-air with skeletal, spider-like legs attached to the pianist's arm, and the pianist looks shocked or terrified rather than relieved. The visual consistency of the metronome's transformation is chaotic, and the narrative resolution (relief and normalcy) is completely absent.",
           "score": 3.5
         },
         "reasoning": "Video invalid due to failed coherence evaluation.",
@@ -262,81 +54,99 @@
     "has_valid_video": false
   },
   {
-    "object_name": "Diamond Ring (钻戒)",
+    "object_name": "Microphone (麦克风)",
     "scenario_type": "Surprise Scenario",
     "status": "evaluated",
-    "best_video": null,
-    "best_score": -1,
-    "best_reasoning": "",
+    "best_video": "Microphone_(麦克风)_Surprise_1.mp4",
+    "best_score": 9.29,
+    "best_reasoning": "Middle frame match score: 9.20, Coherence score: 9.50",
     "all_candidates": [
       {
-        "video_file": "Diamond_Ring_(钻戒)_Surprise_1.mp4",
-        "final_score": 0,
+        "video_file": "Microphone_(麦克风)_Surprise_1.mp4",
+        "final_score": 9.29,
         "segment_scores": [
           {
-            "segment": "Start",
-            "score": 10.0,
-            "reasoning": "The frame perfectly matches the description: a woman is scrubbing a ceramic plate with a yellow sponge in a sink full of soapy bubbles. A ring is visible on her finger, and the overall scene composition aligns with the expected start of the action."
-          },
-          {
             "segment": "Middle",
-            "score": 5.5,
-            "reasoning": "The frame shows the woman plunging her hand into the sink with a distressed expression, which aligns with the 'wrestling' part of the description. However, the 'translucent liquid hand' plucking the ring and the 'living water' swimming toward the drain are not clearly visible or identifiable in this specific frame."
-          },
-          {
-            "segment": "End",
-            "score": 3.5,
-            "reasoning": "The frame shows the woman with her hands cupped near her face, but she is not clutching a ring to her chest as described. Her expression is downcast rather than showing 'intense relief', and the specific action of pulling the hand out of the water to hold the object against her chest is not captured in this state."
-          }
-        ],
-        "coherence_evaluation": null,
-        "reasoning": "Video invalid due to failed segment(s).",
-        "valid": false
-      }
-    ],
-    "has_valid_video": false
-  },
-  {
-    "object_name": "Lawn Mower (割草机)",
-    "scenario_type": "Surprise Scenario",
-    "status": "evaluated",
-    "best_video": "Lawn_Mower_(割草机)_Surprise_1.mp4",
-    "best_score": 8.85,
-    "best_reasoning": "Frame match score: 9.00, Coherence score: 8.50",
-    "all_candidates": [
-      {
-        "video_file": "Lawn_Mower_(割草机)_Surprise_1.mp4",
-        "final_score": 8.85,
-        "segment_scores": [
-          {
-            "segment": "Start",
-            "score": 10.0,
-            "reasoning": "The frame perfectly matches the description: a middle-aged man wearing yellow gardening gloves is standing over a red push mower on overgrown grass, reaching down to pull the starter cord."
-          },
-          {
-            "segment": "Middle",
-            "score": 9.5,
-            "reasoning": "The frame perfectly captures the core concept: a lawnmower leaving a trail that reveals a deep-space nebula instead of grass or dirt. The visual of the 'split' grass revealing the cosmos is highly accurate to the description, though the 'zipper' teeth mechanism is more of a clean cut in this specific frame."
-          },
-          {
-            "segment": "End",
-            "score": 7.5,
-            "reasoning": "The frame shows the man standing upright and gripping the handle of the lawnmower, which matches the latter part of the description. However, he is not wiping sweat from his forehead; his hands are both firmly on the handle and his gaze is directed downward."
+            "score": 9.2,
+            "reasoning": "The frame accurately depicts the microphone's neck being gripped and the head transformed into a wide-open, screaming mouth with scaly skin. However, the mouth appears more reptilian/monstrous than specifically 'human' as requested, though it captures the supernatural essence perfectly."
           }
         ],
         "coherence_evaluation": {
-          "expected_end_frame": "The end frame should show the man standing upright behind the lawn mower, having successfully started the engine. He should be wiping sweat from his forehead with one gloved hand while the other grips the handle. The grass beneath him should appear normal again, showing no signs of the 'cosmic abyss' mentioned in the synopsis, as reality has 'snapped back together.' The lawn mower should be vibrating or showing visual cues of being running.",
-          "reasoning": "The start frame correctly establishes the man preparing to start the mower. The synopsis describes a surreal middle sequence where the grass unzips to reveal a cosmic abyss, which then resolves when the engine starts. The actual end frame shows the man standing upright and gripping the handle, which aligns with the 'expected conclusion' description. However, he is not wiping sweat from his forehead as specified in the prompt's description of the end frame. Additionally, while the character and setting are consistent, the transition from the surreal event described in the synopsis to the final frame is logically sound in terms of character positioning, but the specific action of wiping sweat is missing.",
-          "score": 8.5
+          "expected_end_frame": "The end frame should show the man in the suit reacting with visible distress or shock, wincing and recoiling away from the podium. He should be pulling his hands back or covering an ear, looking toward the sound booth or off-camera in confusion. The microphone on the podium should have transformed into a thin, screaming creature with an open mouth, positioned as if it is shrieking directly at him.",
+          "reasoning": "The start frame establishes the setting (a stage with a podium) and the character (a nervous man in a suit). The synopsis describes a surreal transformation where the microphone becomes a screaming creature. The actual end frame successfully captures this transformation: the microphone head has turned into a grey, screaming creature with a wide-open mouth. The man's reaction is consistent with the event; he is recoiling and looking at the creature with a shocked expression. While the synopsis mentioned him looking toward the 'sound booth,' his direct engagement with the creature in the actual frame is a logical and narratively coherent conclusion to the event described. The visual consistency of the character, the podium, and the background curtains is maintained perfectly.",
+          "score": "9.5"
         },
-        "reasoning": "Frame match score: 9.00, Coherence score: 8.50",
+        "reasoning": "Middle frame match score: 9.20, Coherence score: 9.50",
         "valid": true
       }
     ],
     "has_valid_video": true
   },
   {
-    "object_name": "Airplane (飞机)",
+    "object_name": "Nerf Gun (软弹枪)",
+    "scenario_type": "Surprise Scenario",
+    "status": "evaluated",
+    "best_video": "Nerf_Gun_(软弹枪)_Surprise_1.mp4",
+    "best_score": 9.85,
+    "best_reasoning": "Middle frame match score: 10.00, Coherence score: 9.50",
+    "all_candidates": [
+      {
+        "video_file": "Nerf_Gun_(软弹枪)_Surprise_1.mp4",
+        "final_score": 9.85,
+        "segment_scores": [
+          {
+            "segment": "Middle",
+            "score": 10.0,
+            "reasoning": "The frame perfectly captures the surreal moment described: a blue foam dart is frozen mid-air and has grown a tiny, realistic human-like hand. The background shows the cups and table mentioned in the prompt, though the hand is the primary focus of this specific phase."
+          }
+        ],
+        "coherence_evaluation": {
+          "expected_end_frame": "The end frame should show the boy in the same living room setting, having lowered his Nerf gun. He should be expressing joy or triumph, such as pumping his fist or smiling widely, because he successfully knocked over the cups. The pyramid of plastic cups on the table should now be scattered or knocked down, reflecting the successful completion of the action described in the synopsis.",
+          "reasoning": "The start frame establishes the boy aiming at a pyramid of cups. The synopsis describes a magical/humorous event where the dart flicks the cups over, leading to a celebration. The actual end frame shows the boy with a triumphant, happy expression, which perfectly aligns with the 'celebration' part of the synopsis. The visual consistency of the character's clothing and the room environment is maintained. While the cups are not visible in the final frame due to the camera angle shifting closer to the boy, his reaction logically follows the events described. The transition from intense focus to joyful success is clear and coherent.",
+          "score": "9.5"
+        },
+        "reasoning": "Middle frame match score: 10.00, Coherence score: 9.50",
+        "valid": true
+      }
+    ],
+    "has_valid_video": true
+  },
+  {
+    "object_name": "Frying Pan (煎锅)",
+    "scenario_type": "Surprise Scenario",
+    "status": "missing_videos"
+  },
+  {
+    "object_name": "Fried Egg (煎蛋)",
+    "scenario_type": "Surprise Scenario",
+    "status": "evaluated",
+    "best_video": "Fried_Egg_(煎蛋)_Surprise_1.mp4",
+    "best_score": 9.55,
+    "best_reasoning": "Middle frame match score: 10.00, Coherence score: 8.50",
+    "all_candidates": [
+      {
+        "video_file": "Fried_Egg_(煎蛋)_Surprise_1.mp4",
+        "final_score": 9.55,
+        "segment_scores": [
+          {
+            "segment": "Middle",
+            "score": 10.0,
+            "reasoning": "The frame accurately captures the specific moment where the yellow yolk has detached from the egg white and is suspended in mid-air above the pan. The visual state perfectly matches the 'gravity-defying' phase of the description before the impact occurs."
+          }
+        ],
+        "coherence_evaluation": {
+          "expected_end_frame": "The end frame should show the man in the green sweater looking down at the frying pan. Inside the pan, the egg should no longer be a perfect sunny-side-up; instead, the yolk should be broken and splattered across the white, appearing as a liquid mess. The man's facial expression should convey disappointment or frustration at the failed flip.",
+          "reasoning": "The start frame establishes a man preparing to flip a perfect sunny-side-up egg. The synopsis describes a surreal sequence where the yolk detaches and eventually shatters upon landing. The actual end frame shows the man looking down with a somber, disappointed expression, which aligns perfectly with the emotional beat of the synopsis. However, the pan itself is not visible in the final frame to confirm the 'liquid mess' of the shattered yolk. Despite the missing visual of the pan, the man's posture, clothing consistency, and facial reaction provide strong narrative coherence with the events described.",
+          "score": "8.5"
+        },
+        "reasoning": "Middle frame match score: 10.00, Coherence score: 8.50",
+        "valid": true
+      }
+    ],
+    "has_valid_video": true
+  },
+  {
+    "object_name": "Table (桌子)",
     "scenario_type": "Surprise Scenario",
     "status": "evaluated",
     "best_video": null,
@@ -344,29 +154,135 @@
     "best_reasoning": "",
     "all_candidates": [
       {
-        "video_file": "Airplane_(飞机)_Surprise_1.mp4",
+        "video_file": "Table_(桌子)_Surprise_1.mp4",
         "final_score": 0,
         "segment_scores": [
           {
-            "segment": "Start",
-            "score": 10.0,
-            "reasoning": "The frame perfectly matches the description: a ground crew member in a reflective vest is visible from behind, holding orange signal wands on a wet tarmac. A large airplane is positioned in the background with its lights on, appearing to approach."
-          },
-          {
             "segment": "Middle",
-            "score": 8.5,
-            "reasoning": "The frame accurately depicts the crew member crossing the wands to create a physical orange tether connected to the airplane's nose. The crew member is in a dynamic 'yanking' pose, and the orange light is rendered as a solid beam/tether. However, the tarmac does not yet clearly show the 'ripple and fold like liquid fabric' effect described, appearing mostly as a standard wet surface."
-          },
-          {
-            "segment": "End",
-            "score": 7.5,
-            "reasoning": "The frame shows the airplane stationary on a wet tarmac with a crew member in the foreground. However, the crew member still has their arms raised/extended with a wand visible, rather than having lowered them to give a final 'all clear' gesture as described. The 'engines whining down' is an auditory cue that cannot be confirmed, but visually the scene matches the setting."
+            "score": 10.0,
+            "reasoning": "The frame clearly shows the wooden table surface liquefying with a distinct ripple effect that mimics the texture of dark honey or molten wood. The books are positioned near the edge as described, and the lighting and material transformation perfectly match the prompt's surreal requirement."
           }
         ],
         "coherence_evaluation": {
-          "expected_end_frame": "The end frame should show a surreal and physically distorted scene where the airplane has been pulled much closer to the ground crew member. The wet tarmac should be visibly deformed, appearing bunched up, rippled, or folded like a heavy rug beneath the aircraft's landing gear due to the 'supernatural force' described. The crew member should be actively struggling or gesturing with the glowing wands to exert this force, and the plane should appear to be physically dragged rather than just taxiing.",
-          "reasoning": "There is a significant narrative contradiction between the synopsis and the provided end frame. The synopsis describes a supernatural event where the wands drag the plane and the tarmac physically bunches up like a rug. However, the actual end frame shows a standard, realistic scene of an airplane taxiing closer to the worker on a flat, normal wet surface. The 'bunched up tarmac' and 'supernatural force' elements are completely missing. Furthermore, the provided 'Expected Conclusion' description in the prompt (plane halting, engines whining down, 'all clear' gesture) actually contradicts the 'Synopsis' (supernatural dragging and tarmac deformation). The actual end frame matches the 'Expected Conclusion' text but fails to reflect the dramatic events described in the 'Synopsis'.",
-          "score": "4.0"
+          "expected_end_frame": "The end frame should show the man in a dynamic, lunging pose, physically catching or holding the stack of books near the edge of the table or close to the floor. The wooden table surface should appear liquid or distorted with ripples as described in the synopsis. The man's expression should convey relief after the frantic action of saving his books from the 'wooden liquid' wave.",
+          "reasoning": "The actual end frame fails to reflect the core narrative events described in the synopsis. While the man has shifted position and is reaching toward a stack of books, the table remains a perfectly solid wooden surface with no signs of the 'dark, wooden liquid' or the 'wave ripples' mentioned in the synopsis. Furthermore, the man is not 'catching the books just before they hit the floor' as expected; instead, the books are still neatly stacked on the table. The visual transformation of the environment (the table turning to liquid) is completely missing, leading to a significant lack of narrative coherence between the text and the visual output.",
+          "score": 3.5
+        },
+        "reasoning": "Video invalid due to failed coherence evaluation.",
+        "valid": false
+      }
+    ],
+    "has_valid_video": false
+  },
+  {
+    "object_name": "Toothpaste Tube (牙膏管)",
+    "scenario_type": "Surprise Scenario",
+    "status": "evaluated",
+    "best_video": "Toothpaste_Tube_(牙膏管)_Surprise_1.mp4",
+    "best_score": 6.5,
+    "best_reasoning": "Middle frame match score: 6.50, Coherence score: 6.50",
+    "all_candidates": [
+      {
+        "video_file": "Toothpaste_Tube_(牙膏管)_Surprise_1.mp4",
+        "final_score": 6.5,
+        "segment_scores": [
+          {
+            "segment": "Middle",
+            "score": 6.5,
+            "reasoning": "The frame shows a large, messy glob of toothpaste being dispensed from an unusual white object onto a toothbrush and hand, which aligns with the 'violent, wet sneeze' and 'massive glob' description. However, the tube does not visibly look like it is 'expanding its sides like lungs' in this static shot, and the paste is not 'glowing' as requested."
+          }
+        ],
+        "coherence_evaluation": {
+          "expected_end_frame": "The end frame should show the person looking down at their hand, which should be covered in a massive, oversized glob of toothpaste as described in the synopsis. The toothpaste tube should appear deflated or relaxed after the 'sneeze' event, and the person's expression should convey frustration or shock at the mess created.",
+          "reasoning": "The start frame correctly establishes the scene with the person holding the tube and toothbrush. The synopsis describes a 'violent, thunderous sneeze' from the tube that launches a 'massive glob' of paste. However, the actual end frame shows a thin, liquid-like stream of toothpaste falling vertically from the tube into the sink area, rather than a massive glob on the person's hand. While the person's facial expression in the mirror shows the expected surprise/frustration, the physical behavior of the toothpaste (a continuous thin drip) does not match the 'violent sneeze' and 'massive glob' described in the synopsis. The visual consistency of the character and environment is perfect, but the specific narrative event (the sneeze and the resulting mess on the hand) is not accurately depicted.",
+          "score": "6.5"
+        },
+        "reasoning": "Middle frame match score: 6.50, Coherence score: 6.50",
+        "valid": true
+      }
+    ],
+    "has_valid_video": true
+  },
+  {
+    "object_name": "Lawn Mower (割草机)",
+    "scenario_type": "Surprise Scenario",
+    "status": "evaluated",
+    "best_video": "Lawn_Mower_(割草机)_Surprise_1.mp4",
+    "best_score": 9.2,
+    "best_reasoning": "Middle frame match score: 9.50, Coherence score: 8.50",
+    "all_candidates": [
+      {
+        "video_file": "Lawn_Mower_(割草机)_Surprise_1.mp4",
+        "final_score": 9.2,
+        "segment_scores": [
+          {
+            "segment": "Middle",
+            "score": 9.5,
+            "reasoning": "The frame perfectly captures the core concept: a lawnmower leaving a trail that reveals a deep-space nebula instead of grass or dirt. The visual of the 'split' grass revealing the cosmos is highly accurate to the description, though the 'zipper' teeth mechanism is more implied by the shape of the trail than explicitly detailed."
+          }
+        ],
+        "coherence_evaluation": {
+          "expected_end_frame": "The end frame should show the man standing upright behind the lawn mower, having successfully started the engine. He should be wiping sweat from his forehead with one gloved hand while the other grips the handle. The grass should look normal again (reality 'snapped back'), and the mower should ideally show signs of being active (vibration or exhaust) as he prepares to mow.",
+          "reasoning": "The start frame correctly establishes the man preparing to start the mower. The synopsis describes a surreal event where the grass 'unzips' to reveal a cosmic abyss, which then resolves when the engine starts. The actual end frame shows the man standing upright and gripping the handle, which aligns with the 'expected conclusion' description. However, he is not wiping sweat from his forehead as specified in the prompt's description of the end frame. Additionally, the camera angle has shifted significantly from a side profile to a front-facing view, which is a bit jarring but acceptable for a narrative jump. The core narrative of 'starting the mower and preparing to work' is maintained, though the specific action of wiping sweat is missing.",
+          "score": "8.5"
+        },
+        "reasoning": "Middle frame match score: 9.50, Coherence score: 8.50",
+        "valid": true
+      }
+    ],
+    "has_valid_video": true
+  },
+  {
+    "object_name": "Diamond Ring (钻戒)",
+    "scenario_type": "Surprise Scenario",
+    "status": "evaluated",
+    "best_video": "Diamond_Ring_(钻戒)_Surprise_1.mp4",
+    "best_score": 6.8,
+    "best_reasoning": "Middle frame match score: 6.50, Coherence score: 7.50",
+    "all_candidates": [
+      {
+        "video_file": "Diamond_Ring_(钻戒)_Surprise_1.mp4",
+        "final_score": 6.8,
+        "segment_scores": [
+          {
+            "segment": "Middle",
+            "score": 6.5,
+            "reasoning": "The frame shows the woman plunging her hand into the sink with a distressed expression, which aligns with the 'wrestling' part of the description. However, the 'translucent liquid hand' and the 'living water' plucking the ring are not clearly visible or identifiable in this specific frame, making it difficult to confirm the most fantastical elements of the prompt."
+          }
+        ],
+        "coherence_evaluation": {
+          "expected_end_frame": "The end frame should show the woman having successfully retrieved her ring from the 'liquid hand.' She should be pulling her hand away from the sink, clutching the diamond ring tightly to her chest or holding it close to her face. Her expression should convey intense relief, likely with a heavy sigh or a look of exhaustion after the struggle described in the synopsis.",
+          "reasoning": "The start frame establishes the woman washing dishes with a visible ring. The synopsis describes a fantastical struggle where a liquid hand made of soapy water steals the ring, leading to a fight to get it back. The actual end frame shows the woman leaning over the sink, looking down into her cupped hands with a focused, somewhat concerned or relieved expression. While she is no longer washing dishes and her hands are out of the soapy water, she is not 'clutching the ring to her chest' as specified in the expected conclusion. Instead, she is looking into her palms at the sink level. The visual consistency of the character (green sweater, bracelet) is perfect, and the narrative progression from washing to a post-struggle moment is clear, but the specific pose and emotional intensity described in the 'Expected Conclusion' (clutching to chest) are not fully realized in the actual frame.",
+          "score": "7.5"
+        },
+        "reasoning": "Middle frame match score: 6.50, Coherence score: 7.50",
+        "valid": true
+      }
+    ],
+    "has_valid_video": true
+  },
+  {
+    "object_name": "Hygrometer (湿度计)",
+    "scenario_type": "Surprise Scenario",
+    "status": "evaluated",
+    "best_video": null,
+    "best_score": -1,
+    "best_reasoning": "",
+    "all_candidates": [
+      {
+        "video_file": "Hygrometer_(湿度计)_Surprise_1.mp4",
+        "final_score": 0,
+        "segment_scores": [
+          {
+            "segment": "Middle",
+            "score": 9.0,
+            "reasoning": "The frame clearly shows the hygrometer needle piercing through the cracked glass. A stream of liquid is visible coming from the center of the gauge, and the glass is shattered as described. While the man's sleeves are not fully visible in this tight shot, the core action of the needle breaking the glass and leaking is accurately depicted."
+          }
+        ],
+        "coherence_evaluation": {
+          "expected_end_frame": "The man should be in a dark, shaded corner of the room. He should be placing the humidor down or standing near it, wiping sweat from his forehead with a look of relief on his face. The humidor should be in the shade, and the man's hands might appear wet from the 'torrent of water' mentioned in the synopsis.",
+          "reasoning": "The actual end frame fails to maintain narrative coherence with the synopsis and the expected conclusion. While the man and the humidor are present, the events depicted are surreal and contradictory. The synopsis states the hygrometer needle punctures the glass and weeps water onto his hands, but the end frame shows a literal fountain of water shooting out of the top of the box in a high arc against a window. Furthermore, the expected end frame required the man to be in a 'dark, shaded corner' wiping sweat with 'relief,' but the actual frame shows him standing in front of a bright window with a confused or neutral expression, and the water is still actively spraying. The visual consistency of the 'water' event is handled as a magical/surreal fountain rather than the 'weeping' described, and the character's emotional state does not match the 'relief' specified.",
+          "score": 3.5
         },
         "reasoning": "Video invalid due to failed coherence evaluation.",
         "valid": false
@@ -392,23 +308,13 @@
         "final_score": 0,
         "segment_scores": [
           {
-            "segment": "Start",
-            "score": 10.0,
-            "reasoning": "The frame perfectly matches the description: a child in a yellow raincoat and yellow boots is running on wet pavement toward a large puddle. The scene clearly depicts the aftermath of a rainstorm with a murky reflection in the water."
-          },
-          {
             "segment": "Middle",
-            "score": 3.5,
-            "reasoning": "The frame shows yellow boots in a muddy puddle with some upward motion of the liquid, but it completely fails to depict the complex 'miniature, shimmering cathedral of chocolate-colored glass' or the 'butterflies' described. The visual is a standard splash rather than the surreal, gravity-defying transformation requested."
-          },
-          {
-            "segment": "End",
-            "score": 7.5,
-            "reasoning": "The frame shows the child standing in a puddle and looking down at their boots, which matches the first part of the description. However, the child's face is obscured by the hood, making it impossible to see if they are laughing, and the 'splattered' detail on the boots is not clearly visible due to the image quality."
+            "score": 3.0,
+            "reasoning": "The frame shows yellow boots in a muddy puddle with some upward motion of the liquid. However, it completely fails to depict the complex, surreal elements described: there is no 'miniature cathedral of chocolate-colored glass' nor any 'butterflies'. The splash is blurry and lacks the specific crystalline or biological shapes required by the prompt."
           }
         ],
         "coherence_evaluation": null,
-        "reasoning": "Video invalid due to failed segment(s).",
+        "reasoning": "Video invalid due to failed middle segment.",
         "valid": false
       }
     ],
@@ -430,7 +336,7 @@
     "status": "missing_videos"
   },
   {
-    "object_name": "Hygrometer (湿度计)",
+    "object_name": "Airplane (飞机)",
     "scenario_type": "Surprise Scenario",
     "status": "evaluated",
     "best_video": null,
@@ -438,27 +344,281 @@
     "best_reasoning": "",
     "all_candidates": [
       {
-        "video_file": "Hygrometer_(湿度计)_Surprise_1.mp4",
+        "video_file": "Airplane_(飞机)_Surprise_1.mp4",
         "final_score": 0,
         "segment_scores": [
           {
-            "segment": "Start",
-            "score": 10.0,
-            "reasoning": "The frame perfectly matches the description: a man is reaching toward a polished wooden humidor on a sunlit table, and the round analog hygrometer is clearly visible on the front of the box."
-          },
-          {
             "segment": "Middle",
-            "score": 9.0,
-            "reasoning": "The frame clearly shows the hygrometer needle piercing through the cracked glass. A stream of liquid is visible coming from the center of the gauge, and the glass is shattered as described. While the man's sleeves aren't fully visible in this tight shot, the core action of the needle breaking the glass and leaking is accurately depicted."
-          },
-          {
-            "segment": "End",
-            "score": 2.0,
-            "reasoning": "The frame fails to match the description: the man is not wiping sweat from his forehead, he does not have a look of relief, and there is a nonsensical stream of water/light arching from the humidor toward the window which is not mentioned in the prompt."
+            "score": 8.5,
+            "reasoning": "The frame accurately depicts the crew member crossing the wands to create a physical orange tether connected to the airplane's nose. The crew member is in a dynamic 'yanking' pose, and the orange light beam clearly links the wands to the aircraft. However, the 'wet tarmac rippling like liquid fabric' is not distinctly visible in this static frame."
           }
         ],
-        "coherence_evaluation": null,
-        "reasoning": "Video invalid due to failed segment(s).",
+        "coherence_evaluation": {
+          "expected_end_frame": "The end frame should show a surreal and physically distorted scene where the airplane has been pulled much closer to the ground crew member. The wet tarmac should be visibly deformed, appearing bunched up, rippled, or folded like a heavy rug beneath the aircraft's landing gear due to the 'supernatural force' described. The crew member should be actively struggling or gesturing with the glowing wands to exert this force, and the plane should appear to be physically dragged rather than just taxiing.",
+          "reasoning": "There is a major narrative contradiction between the synopsis and the provided end frame. The synopsis describes a supernatural event where the wands drag the plane and the tarmac physically bunches up like a rug. However, the actual end frame shows a completely standard, realistic scene of a plane taxiing toward a marshal. The tarmac is flat and wet with normal reflections, and there is no visual evidence of the 'supernatural force' or the 'bunched up' ground mentioned in the synopsis. Furthermore, the provided 'Expected Conclusion' description (plane halting, engines whining down) also contradicts the supernatural elements described in the synopsis. The actual end frame matches the 'Expected Conclusion' text but fails to reflect the core events of the synopsis.",
+          "score": "3.0"
+        },
+        "reasoning": "Video invalid due to failed coherence evaluation.",
+        "valid": false
+      }
+    ],
+    "has_valid_video": false
+  },
+  {
+    "object_name": "Book (书)",
+    "scenario_type": "Surprise Scenario",
+    "status": "evaluated",
+    "best_video": "Book_(书)_Surprise_1.mp4",
+    "best_score": 9.85,
+    "best_reasoning": "Middle frame match score: 10.00, Coherence score: 9.50",
+    "all_candidates": [
+      {
+        "video_file": "Book_(书)_Surprise_1.mp4",
+        "final_score": 9.85,
+        "segment_scores": [
+          {
+            "segment": "Middle",
+            "score": 10.0,
+            "reasoning": "The frame accurately depicts the woman pulling a book by its spine. The neighboring volumes are clearly shown in a state of supernatural transformation, liquefying into a dark, ink-like substance and fluttering paper that is cascading off the shelf, matching the description perfectly."
+          }
+        ],
+        "coherence_evaluation": {
+          "expected_end_frame": "The end frame should show the woman standing in the same library aisle, now further down the corridor. The floor should be covered in a chaotic mess of fallen books and large, dark puddles of liquid ink. She should be holding the specific book she retrieved from the shelf, looking back at the destruction with a guilty or startled expression. The shelves where the books were previously located should show empty gaps or signs of the 'liquefaction' described in the synopsis.",
+          "reasoning": "The progression from the start frame to the end frame aligns perfectly with the synopsis. The start frame establishes the character and her goal (reaching for a book). The end frame successfully depicts the aftermath of the 'ink waterfall' event: the floor is covered in dark, ink-like spills and scattered books. The character's positioning and her holding of a single book suggest she successfully pulled it down, triggering the event. The visual consistency of the library setting, the character's clothing, and the logical consequence of the described supernatural event (the mess on the floor) result in high narrative coherence.",
+          "score": "9.5"
+        },
+        "reasoning": "Middle frame match score: 10.00, Coherence score: 9.50",
+        "valid": true
+      }
+    ],
+    "has_valid_video": true
+  },
+  {
+    "object_name": "Stapler (订书机)",
+    "scenario_type": "Surprise Scenario",
+    "status": "evaluated",
+    "best_video": "Stapler_(订书机)_Surprise_1.mp4",
+    "best_score": 8.95,
+    "best_reasoning": "Middle frame match score: 10.00, Coherence score: 6.50",
+    "all_candidates": [
+      {
+        "video_file": "Stapler_(订书机)_Surprise_1.mp4",
+        "final_score": 8.95,
+        "segment_scores": [
+          {
+            "segment": "Middle",
+            "score": 10.0,
+            "reasoning": "The frame clearly shows the stapler's top half transformed into a row of sharp, metallic teeth resembling jaws, which perfectly matches the 'rowdy, metallic jaws' description for this segment. The object is in the process of 'chewing' or being positioned over the paper stack."
+          }
+        ],
+        "coherence_evaluation": {
+          "expected_end_frame": "The end frame should show the office worker looking frustrated or defeated. The thick stack of papers should appear mangled, chewed, or torn at the edges where the 'stapler beast' attacked. The worker should be shown letting go of the stack or sighing, possibly with their hands near the paper attempting to pick at a jammed staple or inspect the damage. The stapler should be back on the desk, and the overall environment (lighting, clothing, background) should remain consistent with the start frame.",
+          "reasoning": "The start frame establishes a worker preparing to staple a large stack of documents. The synopsis introduces a surreal element where the stapler 'devours' the paper edges. The actual end frame shows the worker holding the stack open, looking confused or concerned, which aligns with the aftermath of a strange event. However, the papers in the end frame appear perfectly clean and white, with no visible 'mangled remains' or 'devoured edges' as described in the synopsis. While the character's posture and the environment are consistent, the lack of visual evidence of the 'hungry beast' event on the paper itself reduces the narrative coherence score.",
+          "score": "6.5"
+        },
+        "reasoning": "Middle frame match score: 10.00, Coherence score: 6.50",
+        "valid": true
+      }
+    ],
+    "has_valid_video": true
+  },
+  {
+    "object_name": "Triangle (三角铁)",
+    "scenario_type": "Surprise Scenario",
+    "status": "evaluated",
+    "best_video": "Triangle_(三角铁)_Surprise_1.mp4",
+    "best_score": 9.649999999999999,
+    "best_reasoning": "Middle frame match score: 9.50, Coherence score: 10.00",
+    "all_candidates": [
+      {
+        "video_file": "Triangle_(三角铁)_Surprise_1.mp4",
+        "final_score": 9.649999999999999,
+        "segment_scores": [
+          {
+            "segment": "Middle",
+            "score": 9.5,
+            "reasoning": "The frame clearly shows the triangle being struck by a percussionist. The metal is visibly liquifying into shimmering, glowing silver ripples and circular waves that expand outward, perfectly matching the 'shimmering ripple of silver light' and 'wave in a pond' description."
+          }
+        ],
+        "coherence_evaluation": {
+          "expected_end_frame": "The end frame should show the percussionist in his tuxedo, having completed the magical sequence described in the synopsis. He should be shown with his hand reaching out to touch or 'dampen' the triangle to stop its vibration. His facial expression should shift from the intense focus seen in the start frame to one of relief and satisfaction. The triangle itself should be back in its solid, metallic form after the liquefaction event.",
+          "reasoning": "The transition from the start frame to the end frame follows the narrative logic perfectly. In the start frame, the musician is poised with a beater, ready to strike. The synopsis describes a magical event where the metal liquefies and then solidifies again. The actual end frame shows the musician with his hand placed on the triangle, which is the standard technique for 'dampening' the sound after a strike, directly reflecting the 'Expected Conclusion' description. The visual consistency of the character, the instrument, and the orchestral background is maintained flawlessly. The character's expression has also softened into the 'relief' mentioned in the prompt.",
+          "score": "10.0"
+        },
+        "reasoning": "Middle frame match score: 9.50, Coherence score: 10.00",
+        "valid": true
+      }
+    ],
+    "has_valid_video": true
+  },
+  {
+    "object_name": "Curtain (窗帘)",
+    "scenario_type": "Surprise Scenario",
+    "status": "evaluated",
+    "best_video": "Curtain_(窗帘)_Surprise_1.mp4",
+    "best_score": 9.85,
+    "best_reasoning": "Middle frame match score: 10.00, Coherence score: 9.50",
+    "all_candidates": [
+      {
+        "video_file": "Curtain_(窗帘)_Surprise_1.mp4",
+        "final_score": 9.85,
+        "segment_scores": [
+          {
+            "segment": "Middle",
+            "score": 10.0,
+            "reasoning": "The frame perfectly captures the surreal action described. A hand is shown grasping and peeling a translucent, film-like layer (representing the sunlight) away from the glass, revealing a dark curtain behind it. The visual execution aligns exactly with the 'peeling away like sticky film' metaphor."
+          }
+        ],
+        "coherence_evaluation": {
+          "expected_end_frame": "The end frame should show the person standing in a significantly darker room. Following the surreal action described in the synopsis, the bright light that was previously hitting the window should be gone, replaced by a dark 'shadow' layer. The person should have a relaxed expression of relief, having successfully 'peeled away' the light. The visual transition should show a clear shift from the overexposed, sun-drenched atmosphere of the first frame to a cool, shaded environment.",
+          "reasoning": "The start frame establishes a clear problem: intense, uncomfortable sunlight. The synopsis describes a surreal solution where the light is physically removed like wallpaper. The actual end frame perfectly captures the result of this action. The room is now dim, the harsh glare on the window has been replaced by a dark curtain-like shadow, and the subject's expression has shifted from squinting discomfort to a calm, satisfied smile. The visual consistency of the character's clothing and the room's layout is maintained, while the lighting transformation logically follows the narrative prompt.",
+          "score": "9.5"
+        },
+        "reasoning": "Middle frame match score: 10.00, Coherence score: 9.50",
+        "valid": true
+      }
+    ],
+    "has_valid_video": true
+  },
+  {
+    "object_name": "Hot Dog (热狗)",
+    "scenario_type": "Surprise Scenario",
+    "status": "missing_videos"
+  },
+  {
+    "object_name": "American Football (橄榄球)",
+    "scenario_type": "Surprise Scenario",
+    "status": "missing_videos"
+  },
+  {
+    "object_name": "Rake (耙子)",
+    "scenario_type": "Surprise Scenario",
+    "status": "missing_videos"
+  },
+  {
+    "object_name": "Thread (线)",
+    "scenario_type": "Surprise Scenario",
+    "status": "missing_videos"
+  },
+  {
+    "object_name": "Earrings (耳环)",
+    "scenario_type": "Surprise Scenario",
+    "status": "missing_videos"
+  },
+  {
+    "object_name": "Snake (蛇)",
+    "scenario_type": "Surprise Scenario",
+    "status": "missing_videos"
+  },
+  {
+    "object_name": "Fish Tank (鱼缸)",
+    "scenario_type": "Surprise Scenario",
+    "status": "missing_videos"
+  },
+  {
+    "object_name": "Butter Stick (黄油)",
+    "scenario_type": "Surprise Scenario",
+    "status": "missing_videos"
+  },
+  {
+    "object_name": "Hand Grenade (手榴弹)",
+    "scenario_type": "Surprise Scenario",
+    "status": "missing_videos"
+  },
+  {
+    "object_name": "Graduated Cylinder (量筒)",
+    "scenario_type": "Surprise Scenario",
+    "status": "missing_videos"
+  },
+  {
+    "object_name": "Sandals (凉鞋)",
+    "scenario_type": "Surprise Scenario",
+    "status": "missing_videos"
+  },
+  {
+    "object_name": "Paintbrush (画笔)",
+    "scenario_type": "Surprise Scenario",
+    "status": "missing_videos"
+  },
+  {
+    "object_name": "Wooden Chair (木椅)",
+    "scenario_type": "Surprise Scenario",
+    "status": "missing_videos"
+  },
+  {
+    "object_name": "Post-it Note (便利贴)",
+    "scenario_type": "Surprise Scenario",
+    "status": "missing_videos"
+  },
+  {
+    "object_name": "Wood Carving (木雕)",
+    "scenario_type": "Surprise Scenario",
+    "status": "missing_videos"
+  },
+  {
+    "object_name": "Bird Cage (鸟笼)",
+    "scenario_type": "Surprise Scenario",
+    "status": "missing_videos"
+  },
+  {
+    "object_name": "Stand Mixer (厨师机)",
+    "scenario_type": "Surprise Scenario",
+    "status": "missing_videos"
+  },
+  {
+    "object_name": "Ruler (尺子)",
+    "scenario_type": "Surprise Scenario",
+    "status": "missing_videos"
+  },
+  {
+    "object_name": "Road Barrier (路障)",
+    "scenario_type": "Surprise Scenario",
+    "status": "missing_videos"
+  },
+  {
+    "object_name": "Landmine (地雷)",
+    "scenario_type": "Surprise Scenario",
+    "status": "missing_videos"
+  },
+  {
+    "object_name": "Microscope (显微镜)",
+    "scenario_type": "Surprise Scenario",
+    "status": "missing_videos"
+  },
+  {
+    "object_name": "Pinecone (松果)",
+    "scenario_type": "Surprise Scenario",
+    "status": "missing_videos"
+  },
+  {
+    "object_name": "Suit (西装)",
+    "scenario_type": "Surprise Scenario",
+    "status": "missing_videos"
+  },
+  {
+    "object_name": "Bread Loaf (面包)",
+    "scenario_type": "Surprise Scenario",
+    "status": "evaluated",
+    "best_video": null,
+    "best_score": -1,
+    "best_reasoning": "",
+    "all_candidates": [
+      {
+        "video_file": "Bread_Loaf_(面包)_Surprise_1.mp4",
+        "final_score": 0,
+        "segment_scores": [
+          {
+            "segment": "Middle",
+            "score": 6.5,
+            "reasoning": "The frame shows hands pulling a loaf of bread that is glowing from within, matching the 'glowing' and 'viscous' description. However, the bread is not yet visibly stretching like 'rubber' or expanding like an 'accordion bellows' in this specific still, and the auditory elements (musical chord) cannot be verified in a single frame."
+          }
+        ],
+        "coherence_evaluation": {
+          "expected_end_frame": "The end frame should show the bread loaf completely separated into two distinct halves, held in the person's hands. There should be visible steam rising from the soft, porous interior of the bread, and a significant amount of crumbs scattered across the wooden cutting board below, reflecting the aftermath of the 'snap' described in the synopsis.",
+          "reasoning": "The start frame establishes a realistic rustic loaf. The synopsis describes a surreal sequence where the bread stretches like rubber and plays music before snapping in two. However, the actual end frame shows the bread in a mid-stretch state, appearing highly distorted and rubbery rather than snapped into two halves. While it captures the 'viscous rubber' aspect of the synopsis, it fails to reach the 'final snap' and the 'two torn halves' described in both the synopsis and the expected end frame description. The visual consistency of the bread's texture changes drastically from a crusty loaf to a smooth, translucent orange material, which matches the 'golden rubber' prompt but lacks the logical conclusion of a completed action.",
+          "score": "4.5"
+        },
+        "reasoning": "Video invalid due to failed coherence evaluation.",
         "valid": false
       }
     ],

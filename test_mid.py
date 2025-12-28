@@ -58,6 +58,36 @@ def sanitize_filename(name):
     name = re.sub(r'[\\/*?:"<>|]', "", name)
     return name.replace(" ", "_")
 
+def extract_video_segment(video_path, start_time=3, end_time=7):
+    """
+    从视频中提取指定时间段（3-7秒）的片段
+    返回: (提取的视频片段路径, 是否是临时文件)
+    """
+    if not os.path.exists(video_path):
+        return video_path, False
+    
+    segment_path = video_path.replace(".mp4", f"_segment_{start_time}s_{end_time}s.mp4")
+    
+    cmd = [
+        "ffmpeg", "-y",                # 覆盖输出
+        "-i", video_path,              # 输入
+        "-ss", str(start_time),        # 开始时间
+        "-to", str(end_time),          # 结束时间
+        "-c:v", "libx264",             # 视频编码器
+        "-pix_fmt", "yuv420p",         # 像素格式
+        "-an",                         # 移除音频
+        segment_path
+    ]
+    
+    try:
+        # 执行截取，静默输出
+        subprocess.run(cmd, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL, check=True)
+        print(f"✅ Extracted video segment from {start_time}s to {end_time}s: {segment_path}")
+        return segment_path, True
+    except Exception as e:
+        print(f"❌ Video segment extraction failed: {e}. Using original video.")
+        return video_path, False
+
 def compress_video_smart(video_path, target_size_mb=7.0):
     """
     智能压缩视频：如果视频超过目标大小，则通过降低帧率来压缩，
@@ -183,7 +213,7 @@ def call_vlm_model(video_path, question, options, model_name):
 
     user_prompt = f"""
     # VIDEO QUESTION:
-    **Question:** This is a video shot in the real world. Based on your understanding of the real world, please answer: {question}
+    **Question:** {question}
     **OPTIONS:**
     {chr(10).join([f"{key}. {value}" for key, value in options.items()])}
     Select the correct answer.
@@ -281,17 +311,28 @@ def process_video(eval_entry, prompt_index, test_results, lock, processed_videos
         print(f"⏭️  Skipping {best_video_file} ({object_name} - {scenario_type})... already processed")
         return
     
+    # 提前将视频标记为已处理，避免后续可能的重复处理
+    with lock:
+        processed_videos.add(unique_key)
+    
     print(f"🔄 Processing {best_video_file} ({object_name} - {scenario_type})...")
     
-    # === 视频压缩处理 ===
-    current_video_path, is_temp_file = compress_video_smart(original_video_path)
+    # === 视频处理 ===
+    # 1. 首先提取3-7秒的视频片段
+    segment_path, is_segment_temp = extract_video_segment(original_video_path, start_time=3, end_time=7)
+    
+    # 2. 然后压缩视频片段
+    current_video_path, is_compressed_temp = compress_video_smart(segment_path)
+    
+    # 使用固定问题
+    question = "What most likely happened according to the video?"
     
     try:
         # 并行调用所有模型
         with ThreadPoolExecutor(max_workers=min(MAX_CONCURRENT_MODELS, len(TEST_MODELS))) as executor:
             # 提交所有模型调用任务
             future_to_model = {
-                executor.submit(call_vlm_model, current_video_path, mcq['question'], mcq['options'], model_name): model_name
+                executor.submit(call_vlm_model, current_video_path, question, mcq['options'], model_name): model_name
                 for model_name in TEST_MODELS
             }
             
@@ -311,7 +352,7 @@ def process_video(eval_entry, prompt_index, test_results, lock, processed_videos
                             "object_name": object_name,
                             "scenario_type": scenario_type,
                             "video_file": best_video_file,
-                            "mcq_question": mcq['question'],
+                            "mcq_question": question,  # 使用实际使用的问题
                             "mcq_options": mcq['options'],
                             "correct_answer": correct_answer,
                             "model_name": model_name,
@@ -320,9 +361,7 @@ def process_video(eval_entry, prompt_index, test_results, lock, processed_videos
                             "model_reasoning": model_response['reasoning'],
                             "original_score": eval_entry['best_score']
                         })
-                        # 标记该object_name_scenario_type组合已处理
-                        processed_videos.add(unique_key)
-                      
+                        
                     print(f"   [{model_name}] Ans: {model_answer} ({'✅' if is_correct else '❌'})")
                 except Exception as e:
                     print(f"   [{model_name}] Error: {e}")
@@ -332,7 +371,7 @@ def process_video(eval_entry, prompt_index, test_results, lock, processed_videos
                             "object_name": object_name,
                             "scenario_type": scenario_type,
                             "video_file": best_video_file,
-                            "mcq_question": mcq['question'],
+                            "mcq_question": question,  # 使用实际使用的问题
                             "mcq_options": mcq['options'],
                             "correct_answer": mcq['correct_answer'],
                             "model_name": model_name,
@@ -341,21 +380,27 @@ def process_video(eval_entry, prompt_index, test_results, lock, processed_videos
                             "model_reasoning": f"Error: {e}",
                             "original_score": eval_entry['best_score']
                         })
-                        # 标记该object_name_scenario_type组合已处理
-                        processed_videos.add(unique_key)
     
     finally:
         # === 清理临时文件 ===
-        if is_temp_file and os.path.exists(current_video_path):
-            try:
-                os.remove(current_video_path)
-            except OSError:
-                pass
+        temp_files = []
+        if is_compressed_temp and current_video_path != segment_path:
+            temp_files.append(current_video_path)
+        if is_segment_temp and segment_path != original_video_path:
+            temp_files.append(segment_path)
+            
+        for temp_file in temp_files:
+            if os.path.exists(temp_file):
+                try:
+                    os.remove(temp_file)
+                except OSError:
+                    pass
 
 def main():
     import threading
     
     print(f"🚀 Starting Video Understanding Test using {', '.join(TEST_MODELS)}...")
+    print("🔍 测试配置: 截取视频3-7秒片段，使用固定问题")
     
     eval_files = [f for f in os.listdir('.') if f.startswith('physibench_evaluated_v') and f.endswith('.json')]
     eval_files.sort(key=lambda x: os.path.getmtime(x), reverse=True)
@@ -391,10 +436,11 @@ def main():
     test_results = []
     lock = threading.Lock()  # 用于线程安全地更新结果列表
     
-    # 检查是否有已存在的测试结果文件，用于断点续传
-    output_file = f"video_understanding_test_v{version}.json"
+    # 设置输出文件名
+    output_file = f"mid_understanding_test_v{version}.json"
     processed_videos = set()
     
+    # 检查是否有已存在的测试结果文件，用于断点续传
     if os.path.exists(output_file):
         try:
             with open(output_file, "r", encoding='utf-8') as f:
@@ -453,7 +499,6 @@ def main():
         print(f"\n📊 Overall Accuracy: {correct_count / len(test_results) * 100:.1f}%")
         
     # 保存
-    output_file = f"video_understanding_test_v{version}.json"
     with open(output_file, "w", encoding='utf-8') as f:
         json.dump(test_results, f, indent=2, ensure_ascii=False)
     print(f"\n✅ Results saved to {output_file}")

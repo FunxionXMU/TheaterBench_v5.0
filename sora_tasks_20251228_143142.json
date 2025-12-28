@@ -1,0 +1,116 @@
+{
+  "saved_at": "2025-12-28T14:33:27.432750",
+  "total_tasks": 10,
+  "tasks": [
+    {
+      "task_id": "6-4d2f01f1-d998-4d95-b94f-a1abe78e3b2e",
+      "prompt": "Realistic Style: - [0-3s] Inside a modern shower with running water, a person reaches for a translucent shampoo bottle sitting on a tiled shelf.\n- [3-7s] As the person flips the bottle, the liquid inside begins to glow and swim like a trapped fish; when the cap opens, the shampoo launches out as a single, long pearly tentacle that circles the person's wrist several times before suddenly liquefying into a massive, expanding tidal wave of foam.\n- [7-10s] The person stops shaking, looking down at their hand which is now overflowing with way too much shampoo, a look of mild annoyance on their face.",
+      "status": "submitted",
+      "submitted_at": "2025-12-28T14:33:27.079690",
+      "params": {
+        "filename_prefix": "Shampoo_Bottle_(洗发水瓶)_Surprise_1",
+        "duration": 5,
+        "aspect_ratio": "16:9"
+      }
+    },
+    {
+      "task_id": "7-5d9bb88e-b596-4552-86ee-006a9ff259b4",
+      "prompt": "Realistic Style: - [0-3s] An interior designer in a half-finished room holds a yellow tape measure, looking up at a high point on the wall and preparing to measure.\n- [3-7s] As they pull the tape, the metal blade turns into a solid, glowing beam of yellow light that refuses to buckle, instead acting as a rigid pillar that lifts the designer off their feet toward the ceiling until the tape suddenly liquefies and pulls them back down into the tiny casing.\n- [7-10s] The designer flinches, shaking their hand slightly from the vibration and looking frustratedly at the retracted tape measure.",
+      "status": "submitted",
+      "submitted_at": "2025-12-28T14:33:27.093512",
+      "params": {
+        "filename_prefix": "Tape_Measure_(卷尺)_Surprise_1",
+        "duration": 5,
+        "aspect_ratio": "16:9"
+      }
+    },
+    {
+      "task_id": "5-d0e58888-5805-4006-97e4-4440ba022bfc",
+      "prompt": "Realistic Style: - [0-3s] In a brightly lit kitchen, a cook stands over a stove, gripping the handle of a black frying pan containing a sizzling omelet.\n- [3-7s] As the cook jerks the pan upward, the omelet shapeshifts into a dozen small, golden-feathered birds that flutter frantically in a circle before colliding mid-air and dissolving into a heavy, viscous liquid that pours back into the pan.\n- [7-10s] The cook freezes, staring down at the ruined shape of the food with a sigh of frustration.",
+      "status": "submitted",
+      "submitted_at": "2025-12-28T14:33:27.126624",
+      "params": {
+        "filename_prefix": "Frying_Pan_(煎锅)_Surprise_1",
+        "duration": 5,
+        "aspect_ratio": "16:9"
+      }
+    },
+    {
+      "task_id": "10-558b0431-fe0e-4528-81e1-67f809fb6f53",
+      "prompt": "Realistic Style: - [0-3s] Close-up of a person's forearm resting on a wooden table; a small black ant is seen crawling onto the wrist from the table surface.\n- [3-7s] The person notices the sensation and tries to flick the ant, but their finger passes through the ant's body like smoke, while the ant leaves a trail of glowing, molten ink that melts directly into the person's pores.\n- [7-10s] The person rubs their arm where the ant was, looking at the spot with a slight grimace of discomfort.",
+      "status": "submitted",
+      "submitted_at": "2025-12-28T14:33:27.191438",
+      "params": {
+        "filename_prefix": "Ant_(蚂蚁)_Surprise_1",
+        "duration": 5,
+        "aspect_ratio": "16:9"
+      }
+    },
+    {
+      "task_id": "2-866b736f-9460-4b0e-996f-0628d3cb9d9c",
+      "prompt": "Realistic Style: - [0-3s] A young woman stands in a narrow library aisle, looking up at a leather-bound book perched on the highest shelf.\n- [3-7s] As she pulls the book by its spine, the neighboring volumes instantly liquefy into a thick, swirling waterfall of black ink and fluttering paper that pours off the shelf in a chaotic, supernatural cascade.\n- [7-10s] The woman stands amidst the fallen books on the floor, holding her single book and looking around guiltily at the mess.",
+      "status": "submitted",
+      "submitted_at": "2025-12-28T14:33:27.224677",
+      "params": {
+        "filename_prefix": "Book_(书)_Surprise_1",
+        "duration": 5,
+        "aspect_ratio": "16:9"
+      }
+    },
+    {
+      "task_id": "3-98bde019-e03d-4632-ac1f-f49ced2b7231",
+      "prompt": "Realistic Style: - [0-3s] A man is driving a car on a highway during the late afternoon; the sun is hidden behind a large cloud, casting a soft light.\n- [3-7s] As the car turns, the sun emerges and begins to melt like liquid gold, pouring physically through the glass windshield; the man frantically flips down the visor to deflect the glowing, viscous light away from his eyes.\n- [7-10s] With the glare blocked, the man relaxes his face and continues driving safely, the golden sunlight reflecting off the dashboard.",
+      "status": "submitted",
+      "submitted_at": "2025-12-28T14:33:27.241133",
+      "params": {
+        "filename_prefix": "Sun_(太阳)_Surprise_1",
+        "duration": 5,
+        "aspect_ratio": "16:9"
+      }
+    },
+    {
+      "task_id": "10-e56544e5-d88e-428f-b67d-c49a0ca6ea65",
+      "prompt": "Realistic Style: - [0-3s] A focused office worker sits at a desk, aligning a thick stack of papers and reaching toward a heavy-duty stapler.\n- [3-7s] As the worker presses down, the stapler's top half transforms into a pair of rowdy, metallic jaws that begin rhythmically chewing the stack of papers, emitting a wet, grinding sound.\n- [7-10s] The worker lets go, sighs in frustration, and tries to pry the jammed staple out with their fingernail.",
+      "status": "submitted",
+      "submitted_at": "2025-12-28T14:33:27.287426",
+      "params": {
+        "filename_prefix": "Stapler_(订书机)_Surprise_1",
+        "duration": 5,
+        "aspect_ratio": "16:9"
+      }
+    },
+    {
+      "task_id": "6-b57e3a05-99ae-4235-a37c-e99a4610efbd",
+      "prompt": "Realistic Style: - [0-3s] A focused percussionist in a formal tuxedo stands in an orchestra pit, holding a metal beater, staring intensely at the sheet music while a triangle hangs from a stand in front of him.\n- [3-7s] The percussionist strikes the triangle, but upon impact, the metal liquifies into a shimmering ripple of silver light that expands outward like a wave in a pond, distorting the air before snapping back into a solid shape.\n- [7-10s] The percussionist gently dampens the vibrating metal with his fingers to stop the sound and exhales a breath of relief, looking satisfied with the performance.",
+      "status": "submitted",
+      "submitted_at": "2025-12-28T14:33:27.331017",
+      "params": {
+        "filename_prefix": "Triangle_(三角铁)_Surprise_1",
+        "duration": 5,
+        "aspect_ratio": "16:9"
+      }
+    },
+    {
+      "task_id": "10-b3500c16-c5b0-4742-815d-35a81eca09a2",
+      "prompt": "Realistic Style: - [0-3s] A rustic, golden-brown bread loaf sits on a wooden cutting board; a person reaches out their hands toward it but hasn't gripped it yet.\n- [3-7s] As the person pulls the loaf, the bread doesn't tear but stretches like glowing, viscous rubber; the golden crust begins to wheeze and expand like an accordion bellows, emitting a loud, melodic musical chord instead of a cracking sound.\n- [7-10s] The person holds the two torn halves, looking down at the steam rising from the soft interior and the mess of crumbs they created.",
+      "status": "submitted",
+      "submitted_at": "2025-12-28T14:33:27.357749",
+      "params": {
+        "filename_prefix": "Bread_Loaf_(面包)_Surprise_1",
+        "duration": 5,
+        "aspect_ratio": "16:9"
+      }
+    },
+    {
+      "task_id": "9-502b9381-29ab-4eab-b7fa-6d54d48f43c5",
+      "prompt": "Realistic Style: - [0-3s] A person stands in a sun-drenched room, squinting and shielding their eyes from the intense light hitting the window.\n- [3-7s] The person reaches into the air and grasps the solid beam of sunlight, peeling it away from the glass like a sheet of sticky film to reveal the dark curtain already waiting underneath.\n- [7-10s] The room dims significantly; the person lets go of the fabric and sighs in relief, standing in the shadow.",
+      "status": "submitted",
+      "submitted_at": "2025-12-28T14:33:27.432446",
+      "params": {
+        "filename_prefix": "Curtain_(窗帘)_Surprise_1",
+        "duration": 5,
+        "aspect_ratio": "16:9"
+      }
+    }
+  ]
+}

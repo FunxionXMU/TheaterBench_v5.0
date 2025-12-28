@@ -454,5 +454,401 @@
       "reasoning": "The question describes a realistic, everyday scenario: a person at a sink with a nearly empty toothpaste tube. The outcome is an oversized mess on their hand, suggesting an ordinary but frustrating event like squeezing too hard and getting too much toothpaste. Option A depicts this realistically—rolling the tube and squeezing, causing a messy glob. Options B, C, and D include fantastical, exaggerated elements (e.g., rippling like water, sneezing, steam explosions), which are inconsistent with a plausible real-life video. Thus, A is the most logical choice."
     },
     "blind_test_passed": true
+  },
+  {
+    "constraints": {
+      "keyword": "Microphone (麦克风)",
+      "type": "Surprise Scenario"
+    },
+    "director_data": {
+      "object_name": "Microphone (麦克风)",
+      "scenario_type": "Surprise Scenario",
+      "status": "evaluated",
+      "best_video": "Microphone_(麦克风)_Surprise_1.mp4",
+      "best_score": 9.29,
+      "best_reasoning": "Middle frame match score: 9.20, Coherence score: 9.50",
+      "all_candidates": [
+        {
+          "video_file": "Microphone_(麦克风)_Surprise_1.mp4",
+          "final_score": 9.29,
+          "segment_scores": [
+            {
+              "segment": "Middle",
+              "score": 9.2,
+              "reasoning": "The frame accurately depicts the microphone's neck being gripped and the head transformed into a wide-open, screaming mouth with scaly skin. However, the mouth appears more reptilian/monstrous than specifically 'human' as requested, though it captures the supernatural essence perfectly."
+            }
+          ],
+          "coherence_evaluation": {
+            "expected_end_frame": "The end frame should show the man in the suit reacting with visible distress or shock, wincing and recoiling away from the podium. He should be pulling his hands back or covering an ear, looking toward the sound booth or off-camera in confusion. The microphone on the podium should have transformed into a thin, screaming creature with an open mouth, positioned as if it is shrieking directly at him.",
+            "reasoning": "The start frame establishes the setting (a stage with a podium) and the character (a nervous man in a suit). The synopsis describes a surreal transformation where the microphone becomes a screaming creature. The actual end frame successfully captures this transformation: the microphone head has turned into a grey, screaming creature with a wide-open mouth. The man's reaction is consistent with the event; he is recoiling and looking at the creature with a shocked expression. While the synopsis mentioned him looking toward the 'sound booth,' his direct engagement with the creature in the actual frame is a logical and narratively coherent conclusion to the event described. The visual consistency of the character, the podium, and the background curtains is maintained perfectly.",
+            "score": "9.5"
+          },
+          "reasoning": "Middle frame match score: 9.20, Coherence score: 9.50",
+          "valid": true
+        }
+      ],
+      "has_valid_video": true,
+      "timeline": {
+        "start_caption": "[0-3s] A man in a suit nervously walks up to a wooden podium on a stage, looking down at his notes; a silver microphone stands tall on its mount.",
+        "middle_caption": "[3-7s] As he grips the neck of the microphone, the silver metal softens into scaly skin and the head of the mic transforms into a wide-open human mouth that lets out a piercing, supernatural scream directly at him.",
+        "end_caption": "[7-10s] The man winces and recoils, pulling his hands away and covering one ear while looking awkwardly toward the sound booth."
+      },
+      "normal_timeline": {
+        "start_caption": "[0-3s] A man in a suit nervously walks up to a wooden podium on a stage, looking down at his notes; a silver microphone stands tall on its mount.",
+        "middle_caption": "[3-7s] He reaches out and grips the neck of the microphone to adjust it toward his mouth, causing a loud, sharp screech of audio feedback to ring out through the speakers.",
+        "end_caption": "[7-10s] The man winces and recoils, pulling his hands away and covering one ear while looking awkwardly toward the sound booth."
+      },
+      "constraints": {
+        "keyword": "Microphone (麦克风)",
+        "type": "Surprise Scenario"
+      }
+    },
+    "final_prompt": "Surreal Style: - Start (0s): [0-3s] A man in a suit nervously walks up to a wooden podium on a stage, looking down at his notes; a silver microphone stands tall on its mount.\n- Action (Mid): [3-7s] As he grips the neck of the microphone, the silver metal softens into scaly skin and the head of the mic transforms into a wide-open human mouth that lets out a piercing, supernatural scream directly at him.\n- Result (End): [7-10s] The man winces and recoils, pulling his hands away and covering one ear while looking awkwardly toward the sound booth.",
+    "mcq": {
+      "question": "[0-3s]: A man in a suit nervously walks up to a wooden podium on a stage, looking down at his notes; a silver microphone stands tall on its mount.; [3-7s]: ???; [7-10s]: ] The man winces and recoils, pulling his hands away and covering one ear while looking awkwardly toward the sound booth.. What most likely happened in the [3-7s] interval according to the video?",
+      "options": {
+        "A": "When he tries to adjust the microphone, the silver stand abruptly snaps in half like brittle glass, emitting a high-pitched shattering sound that echoes through the room and makes him pull his hands away.",
+        "B": "As he grips the neck of the microphone, the silver metal softens into scaly skin and the head of the mic transforms into a wide-open human mouth that lets out a piercing, supernatural scream directly at him.",
+        "C": "The man reaches for the microphone, but as his fingers touch the stand, the metal suddenly ignites into bright orange flames, causing a deafening explosion of sparks that forces him to jump back in shock.",
+        "D": "He reaches out and grips the neck of the microphone to adjust it toward his mouth, causing a loud, sharp screech of audio feedback to ring out through the speakers."
+      },
+      "correct_answer": "B"
+    },
+    "blind_test_log": {
+      "guessed_option": "D",
+      "confidence": "High",
+      "reasoning": "The video shows the man wincing, recoiling, and covering one ear while looking toward the sound booth after interacting with the microphone. This reaction is most consistent with audio feedback—a common, realistic occurrence when adjusting a microphone near speakers, which produces a loud, sharp screech. The other options involve fantastical or exaggerated events (like the stand snapping, transforming into a mouth, or igniting), which don't align with the mundane, realistic setting implied by the initial scene. The man's specific reaction (covering an ear and looking at the sound booth) strongly points to an audio-related issue rather than a physical or supernatural one."
+    },
+    "blind_test_passed": true
+  },
+  {
+    "constraints": {
+      "keyword": "Nerf Gun (软弹枪)",
+      "type": "Surprise Scenario"
+    },
+    "director_data": {
+      "object_name": "Nerf Gun (软弹枪)",
+      "scenario_type": "Surprise Scenario",
+      "status": "evaluated",
+      "best_video": "Nerf_Gun_(软弹枪)_Surprise_1.mp4",
+      "best_score": 9.85,
+      "best_reasoning": "Middle frame match score: 10.00, Coherence score: 9.50",
+      "all_candidates": [
+        {
+          "video_file": "Nerf_Gun_(软弹枪)_Surprise_1.mp4",
+          "final_score": 9.85,
+          "segment_scores": [
+            {
+              "segment": "Middle",
+              "score": 10.0,
+              "reasoning": "The frame perfectly captures the surreal moment described: a blue foam dart is frozen mid-air and has grown a tiny, realistic human-like hand. The background shows the cups and table mentioned in the prompt, though the hand is the primary focus of this specific phase."
+            }
+          ],
+          "coherence_evaluation": {
+            "expected_end_frame": "The end frame should show the boy in the same living room setting, having lowered his Nerf gun. He should be expressing joy or triumph, such as pumping his fist or smiling widely, because he successfully knocked over the cups. The pyramid of plastic cups on the table should now be scattered or knocked down, reflecting the successful completion of the action described in the synopsis.",
+            "reasoning": "The start frame establishes the boy aiming at a pyramid of cups. The synopsis describes a magical/humorous event where the dart flicks the cups over, leading to a celebration. The actual end frame shows the boy with a triumphant, happy expression, which perfectly aligns with the 'celebration' part of the synopsis. The visual consistency of the character's clothing and the room environment is maintained. While the cups are not visible in the final frame due to the camera angle shifting closer to the boy, his reaction logically follows the events described. The transition from intense focus to joyful success is clear and coherent.",
+            "score": "9.5"
+          },
+          "reasoning": "Middle frame match score: 10.00, Coherence score: 9.50",
+          "valid": true
+        }
+      ],
+      "has_valid_video": true,
+      "timeline": {
+        "start_caption": "[0-3s] A young boy stands in a living room, holding a brightly colored Nerf gun and focusing intently on a stack of plastic cups on the table ahead.",
+        "middle_caption": "[3-7s] The boy pulls the trigger; the foam dart freezes mid-air, grows a tiny human-like hand that meticulously flicks each cup over one by one, then zips back into its original trajectory to hit the table.",
+        "end_caption": "[7-10s] The boy lowers the blaster, pumping his fist in the air with a wide, triumphant grin."
+      },
+      "normal_timeline": {
+        "start_caption": "[0-3s] A young boy stands in a living room, holding a brightly colored Nerf gun and focusing intently on a stack of plastic cups on the table ahead.",
+        "middle_caption": "[3-7s] The boy pulls the trigger; a foam dart flies through the air and strikes the center of the cup pyramid, causing them to scatter across the table.",
+        "end_caption": "[7-10s] The boy lowers the blaster, pumping his fist in the air with a wide, triumphant grin."
+      },
+      "constraints": {
+        "keyword": "Nerf Gun (软弹枪)",
+        "type": "Surprise Scenario"
+      }
+    },
+    "final_prompt": "Surreal Style: - Start (0s): [0-3s] A young boy stands in a living room, holding a brightly colored Nerf gun and focusing intently on a stack of plastic cups on the table ahead.\n- Action (Mid): [3-7s] The boy pulls the trigger; the foam dart freezes mid-air, grows a tiny human-like hand that meticulously flicks each cup over one by one, then zips back into its original trajectory to hit the table.\n- Result (End): [7-10s] The boy lowers the blaster, pumping his fist in the air with a wide, triumphant grin.",
+    "mcq": {
+      "question": "[0-3s]: A young boy stands in a living room, holding a brightly colored Nerf gun and focusing intently on a stack of plastic cups on the table ahead.; [3-7s]: ???; [7-10s]: ] The boy lowers the blaster, pumping his fist in the air with a wide, triumphant grin.. What most likely happened in the [3-7s] interval according to the video?",
+      "options": {
+        "A": "The boy pulls the trigger; the foam dart hovers mid-air and transforms into a miniature blue bird that flies toward the stack, knocking each cup down with its wings before disappearing into a puff of smoke.",
+        "B": "The boy pulls the trigger; a foam dart flies through the air and strikes the center of the cup pyramid, causing them to scatter across the table.",
+        "C": "The boy pulls the trigger; the foam dart stops inches from the target and emits a localized sonic vibration that causes the cups to dance wildly in circles until they eventually fall off the edge of the table.",
+        "D": "The boy pulls the trigger; the foam dart freezes mid-air, grows a tiny human-like hand that meticulously flicks each cup over one by one, then zips back into its original trajectory to hit the table."
+      },
+      "correct_answer": "D"
+    },
+    "blind_test_log": {
+      "guessed_option": "B",
+      "confidence": "High",
+      "reasoning": "The video appears to show a realistic scenario with a Nerf gun and plastic cups. Options A, C, and D involve fantastical or physically impossible events (e.g., transformations, sonic vibrations, or growing hands), which are inconsistent with a typical home video. Option B describes a plausible outcome where a foam dart hits the cups, causing them to scatter, which aligns with the boy's triumphant reaction and the everyday context of playing with a toy blaster."
+    },
+    "blind_test_passed": true
+  },
+  {
+    "constraints": {
+      "keyword": "Fried Egg (煎蛋)",
+      "type": "Surprise Scenario"
+    },
+    "director_data": {
+      "object_name": "Fried Egg (煎蛋)",
+      "scenario_type": "Surprise Scenario",
+      "status": "evaluated",
+      "best_video": "Fried_Egg_(煎蛋)_Surprise_1.mp4",
+      "best_score": 9.55,
+      "best_reasoning": "Middle frame match score: 10.00, Coherence score: 8.50",
+      "all_candidates": [
+        {
+          "video_file": "Fried_Egg_(煎蛋)_Surprise_1.mp4",
+          "final_score": 9.55,
+          "segment_scores": [
+            {
+              "segment": "Middle",
+              "score": 10.0,
+              "reasoning": "The frame accurately captures the specific moment where the yellow yolk has detached from the egg white and is suspended in mid-air above the pan. The visual state perfectly matches the 'gravity-defying' phase of the description before the impact occurs."
+            }
+          ],
+          "coherence_evaluation": {
+            "expected_end_frame": "The end frame should show the man in the green sweater looking down at the frying pan. Inside the pan, the egg should no longer be a perfect sunny-side-up; instead, the yolk should be broken and splattered across the white, appearing as a liquid mess. The man's facial expression should convey disappointment or frustration at the failed flip.",
+            "reasoning": "The start frame establishes a man preparing to flip a perfect sunny-side-up egg. The synopsis describes a surreal sequence where the yolk detaches and eventually shatters upon landing. The actual end frame shows the man looking down with a somber, disappointed expression, which aligns perfectly with the emotional beat of the synopsis. However, the pan itself is not visible in the final frame to confirm the 'liquid mess' of the shattered yolk. Despite the missing visual of the pan, the man's posture, clothing consistency, and facial reaction provide strong narrative coherence with the events described.",
+            "score": "8.5"
+          },
+          "reasoning": "Middle frame match score: 10.00, Coherence score: 8.50",
+          "valid": true
+        }
+      ],
+      "has_valid_video": true,
+      "timeline": {
+        "start_caption": "[0-3s] A person stands over a kitchen stove, holding a frying pan with a perfectly sizzling sunny-side-up egg; they grip the handle firmly, preparing to flip.",
+        "middle_caption": "[3-7s] As the egg is tossed, the yellow yolk detaches and remains frozen in mid-air while the white flips around it; after a beat, the gravity-defying yolk suddenly drops like a heavy stone and shatters upon impact, splashing yellow liquid across the white.",
+        "end_caption": "[7-10s] The person stops moving, staring down at the broken yolk in the pan with a visible sigh of disappointment."
+      },
+      "normal_timeline": {
+        "start_caption": "[0-3s] A person stands over a kitchen stove, holding a frying pan with a perfectly sizzling sunny-side-up egg; they grip the handle firmly, preparing to flip.",
+        "middle_caption": "[3-7s] With a quick flick of the wrist, the person tosses the egg into the air; the egg flips mid-air and lands back in the pan, but the yolk bursts upon impact, spreading yellow liquid across the white.",
+        "end_caption": "[7-10s] The person stops moving, staring down at the broken yolk in the pan with a visible sigh of disappointment."
+      },
+      "constraints": {
+        "keyword": "Fried Egg (煎蛋)",
+        "type": "Surprise Scenario"
+      }
+    },
+    "final_prompt": "Surreal Style: - Start (0s): [0-3s] A person stands over a kitchen stove, holding a frying pan with a perfectly sizzling sunny-side-up egg; they grip the handle firmly, preparing to flip.\n- Action (Mid): [3-7s] As the egg is tossed, the yellow yolk detaches and remains frozen in mid-air while the white flips around it; after a beat, the gravity-defying yolk suddenly drops like a heavy stone and shatters upon impact, splashing yellow liquid across the white.\n- Result (End): [7-10s] The person stops moving, staring down at the broken yolk in the pan with a visible sigh of disappointment.",
+    "mcq": {
+      "question": "[0-3s]: A person stands over a kitchen stove, holding a frying pan with a perfectly sizzling sunny-side-up egg; they grip the handle firmly, preparing to flip.; [3-7s]: ???; [7-10s]: ] The person stops moving, staring down at the broken yolk in the pan with a visible sigh of disappointment.. What most likely happened in the [3-7s] interval according to the video?",
+      "options": {
+        "A": "Upon tossing the egg, the yolk suddenly expands like a balloon until it covers the entire surface of the pan; it remains inflated for several seconds before abruptly popping and collapsing into a jagged, broken mess of liquid that covers the white.",
+        "B": "As the egg is tossed, the yellow yolk detaches and remains frozen in mid-air while the white flips around it; after a beat, the gravity-defying yolk suddenly drops like a heavy stone and shatters upon impact, splashing yellow liquid across the white.",
+        "C": "The person flips the pan and the egg separates into two identical halves that spin independently in the air; both halves then collide with each other at the peak of the arc, causing the yolk to crack open and spill onto the pan in a disorganized pattern.",
+        "D": "With a quick flick of the wrist, the person tosses the egg into the air; the egg flips mid-air and lands back in the pan, but the yolk bursts upon impact, spreading yellow liquid across the white."
+      },
+      "correct_answer": "B"
+    },
+    "blind_test_log": {
+      "guessed_option": "D",
+      "confidence": "High",
+      "reasoning": "The scenario in the video is described as a realistic cooking mishap: a person is flipping a sunny-side-up egg and ends up disappointed with a broken yolk. Among the options, D is the most plausible in a real-world context, as it involves a straightforward flip where the yolk bursts upon landing—a common cooking failure. The other options (A, B, C) involve fantastical or exaggerated elements (like yolks expanding like balloons, detaching and freezing in mid-air, or splitting into halves that collide), which are unlikely in a typical kitchen setting. Given the setup and outcome, D best fits the logical progression from preparation to disappointment."
+    },
+    "blind_test_passed": true
+  },
+  {
+    "constraints": {
+      "keyword": "Toothpaste Tube (牙膏管)",
+      "type": "Surprise Scenario"
+    },
+    "director_data": {
+      "object_name": "Toothpaste Tube (牙膏管)",
+      "scenario_type": "Surprise Scenario",
+      "status": "evaluated",
+      "best_video": "Toothpaste_Tube_(牙膏管)_Surprise_1.mp4",
+      "best_score": 6.5,
+      "best_reasoning": "Middle frame match score: 6.50, Coherence score: 6.50",
+      "all_candidates": [
+        {
+          "video_file": "Toothpaste_Tube_(牙膏管)_Surprise_1.mp4",
+          "final_score": 6.5,
+          "segment_scores": [
+            {
+              "segment": "Middle",
+              "score": 6.5,
+              "reasoning": "The frame shows a large, messy glob of toothpaste being dispensed from an unusual white object onto a toothbrush and hand, which aligns with the 'violent, wet sneeze' and 'massive glob' description. However, the tube does not visibly look like it is 'expanding its sides like lungs' in this static shot, and the paste is not 'glowing' as requested."
+            }
+          ],
+          "coherence_evaluation": {
+            "expected_end_frame": "The end frame should show the person looking down at their hand, which should be covered in a massive, oversized glob of toothpaste as described in the synopsis. The toothpaste tube should appear deflated or relaxed after the 'sneeze' event, and the person's expression should convey frustration or shock at the mess created.",
+            "reasoning": "The start frame correctly establishes the scene with the person holding the tube and toothbrush. The synopsis describes a 'violent, thunderous sneeze' from the tube that launches a 'massive glob' of paste. However, the actual end frame shows a thin, liquid-like stream of toothpaste falling vertically from the tube into the sink area, rather than a massive glob on the person's hand. While the person's facial expression in the mirror shows the expected surprise/frustration, the physical behavior of the toothpaste (a continuous thin drip) does not match the 'violent sneeze' and 'massive glob' described in the synopsis. The visual consistency of the character and environment is perfect, but the specific narrative event (the sneeze and the resulting mess on the hand) is not accurately depicted.",
+            "score": "6.5"
+          },
+          "reasoning": "Middle frame match score: 6.50, Coherence score: 6.50",
+          "valid": true
+        }
+      ],
+      "has_valid_video": true,
+      "timeline": {
+        "start_caption": "[0-3s] A person stands at a bathroom sink, holding a toothbrush in one hand and a crumpled, nearly empty toothpaste tube in the other.",
+        "middle_caption": "[3-7s] As the person begins to squeeze, the toothpaste tube suddenly expands its sides like lungs, inhales with a loud whistling sound, and lets out a violent, wet sneeze that launches a massive, glowing glob of paste across the bristles and onto the person's hand.",
+        "end_caption": "[7-10s] The person stops squeezing and stares at the oversized mess on their hand with a sigh of frustration."
+      },
+      "normal_timeline": {
+        "start_caption": "[0-3s] A person stands at a bathroom sink, holding a toothbrush in one hand and a crumpled, nearly empty toothpaste tube in the other.",
+        "middle_caption": "[3-7s] The person rolls the tube tightly from the bottom and squeezes hard; suddenly, a large, messy glob of toothpaste shoots out onto the bristles and the person's hand.",
+        "end_caption": "[7-10s] The person stops squeezing and stares at the oversized mess on their hand with a sigh of frustration."
+      },
+      "constraints": {
+        "keyword": "Toothpaste Tube (牙膏管)",
+        "type": "Surprise Scenario"
+      }
+    },
+    "final_prompt": "Surreal Style: - Start (0s): [0-3s] A person stands at a bathroom sink, holding a toothbrush in one hand and a crumpled, nearly empty toothpaste tube in the other.\n- Action (Mid): [3-7s] As the person begins to squeeze, the toothpaste tube suddenly expands its sides like lungs, inhales with a loud whistling sound, and lets out a violent, wet sneeze that launches a massive, glowing glob of paste across the bristles and onto the person's hand.\n- Result (End): [7-10s] The person stops squeezing and stares at the oversized mess on their hand with a sigh of frustration.",
+    "mcq": {
+      "question": "[0-3s]: A person stands at a bathroom sink, holding a toothbrush in one hand and a crumpled, nearly empty toothpaste tube in the other.; [3-7s]: ???; [7-10s]: ] The person stops squeezing and stares at the oversized mess on their hand with a sigh of frustration.. What most likely happened in the [3-7s] interval according to the video?",
+      "options": {
+        "A": "The person rolls the tube tightly from the bottom and squeezes hard; suddenly, a large, messy glob of toothpaste shoots out onto the bristles and the person's hand.",
+        "B": "As the person begins to squeeze, the toothpaste tube suddenly expands its sides like lungs, inhales with a loud whistling sound, and lets out a violent, wet sneeze that launches a massive, glowing glob of paste across the bristles and onto the person's hand.",
+        "C": "As pressure is applied to the tube, it begins to vibrate intensely and emits a high-pitched screeching noise before it suddenly bursts at the seams, spraying a shimmering, iridescent gel in an explosive burst that covers the toothbrush and the person's entire hand.",
+        "D": "While the person tries to squeeze the remaining paste, the tube starts to pulsate rhythmically and glows with a bright blue light, eventually erupting like a small volcano and splashing a thick, neon-colored streak of foam all over the person's palm and fingers."
+      },
+      "correct_answer": "B"
+    },
+    "blind_test_log": {
+      "guessed_option": "A",
+      "confidence": "High",
+      "reasoning": "The scenario describes a common, realistic situation involving a nearly empty toothpaste tube, leading to an oversized mess. Options B, C, and D involve fantastical elements like glowing, sneezing, or exploding tubes, which are inconsistent with the mundane, everyday context of the video. Only option A depicts a plausible event (squeezing too hard causing a messy glob) that aligns with the frustration indicated in the final scene."
+    },
+    "blind_test_passed": true
+  },
+  {
+    "constraints": {
+      "keyword": "Lawn Mower (割草机)",
+      "type": "Surprise Scenario"
+    },
+    "director_data": {
+      "object_name": "Lawn Mower (割草机)",
+      "scenario_type": "Surprise Scenario",
+      "status": "evaluated",
+      "best_video": "Lawn_Mower_(割草机)_Surprise_1.mp4",
+      "best_score": 9.2,
+      "best_reasoning": "Middle frame match score: 9.50, Coherence score: 8.50",
+      "all_candidates": [
+        {
+          "video_file": "Lawn_Mower_(割草机)_Surprise_1.mp4",
+          "final_score": 9.2,
+          "segment_scores": [
+            {
+              "segment": "Middle",
+              "score": 9.5,
+              "reasoning": "The frame perfectly captures the core concept: a lawnmower leaving a trail that reveals a deep-space nebula instead of grass or dirt. The visual of the 'split' grass revealing the cosmos is highly accurate to the description, though the 'zipper' teeth mechanism is more implied by the shape of the trail than explicitly detailed."
+            }
+          ],
+          "coherence_evaluation": {
+            "expected_end_frame": "The end frame should show the man standing upright behind the lawn mower, having successfully started the engine. He should be wiping sweat from his forehead with one gloved hand while the other grips the handle. The grass should look normal again (reality 'snapped back'), and the mower should ideally show signs of being active (vibration or exhaust) as he prepares to mow.",
+            "reasoning": "The start frame correctly establishes the man preparing to start the mower. The synopsis describes a surreal event where the grass 'unzips' to reveal a cosmic abyss, which then resolves when the engine starts. The actual end frame shows the man standing upright and gripping the handle, which aligns with the 'expected conclusion' description. However, he is not wiping sweat from his forehead as specified in the prompt's description of the end frame. Additionally, the camera angle has shifted significantly from a side profile to a front-facing view, which is a bit jarring but acceptable for a narrative jump. The core narrative of 'starting the mower and preparing to work' is maintained, though the specific action of wiping sweat is missing.",
+            "score": "8.5"
+          },
+          "reasoning": "Middle frame match score: 9.50, Coherence score: 8.50",
+          "valid": true
+        }
+      ],
+      "has_valid_video": true,
+      "timeline": {
+        "start_caption": "[0-3s] A middle-aged man in gardening gloves stands over a red push mower on a patch of overgrown grass, reaching down for the starter handle.",
+        "middle_caption": "[3-7s] As he pulls the cord, the grass beneath the mower splits open like a giant zipper, revealing a silent, shimmering deep-space nebula where the dirt should be, before the teeth of the 'grass-zipper' suddenly lock back together as the engine roars to life.",
+        "end_caption": "[7-10s] The man stands upright, wipes sweat from his forehead, and grips the handle ready to begin mowing."
+      },
+      "normal_timeline": {
+        "start_caption": "[0-3s] A middle-aged man in gardening gloves stands over a red push mower on a patch of overgrown grass, reaching down for the starter handle.",
+        "middle_caption": "[3-7s] He vigorously pulls the starter cord three times; on the third pull, the engine sputters, coughs out a small puff of grey smoke, and begins to vibrate as it starts running.",
+        "end_caption": "[7-10s] The man stands upright, wipes sweat from his forehead, and grips the handle ready to begin mowing."
+      },
+      "constraints": {
+        "keyword": "Lawn Mower (割草机)",
+        "type": "Surprise Scenario"
+      }
+    },
+    "final_prompt": "Surreal Style: - Start (0s): [0-3s] A middle-aged man in gardening gloves stands over a red push mower on a patch of overgrown grass, reaching down for the starter handle.\n- Action (Mid): [3-7s] As he pulls the cord, the grass beneath the mower splits open like a giant zipper, revealing a silent, shimmering deep-space nebula where the dirt should be, before the teeth of the 'grass-zipper' suddenly lock back together as the engine roars to life.\n- Result (End): [7-10s] The man stands upright, wipes sweat from his forehead, and grips the handle ready to begin mowing.",
+    "mcq": {
+      "question": "[0-3s]: A middle-aged man in gardening gloves stands over a red push mower on a patch of overgrown grass, reaching down for the starter handle.; [3-7s]: ???; [7-10s]: ] The man stands upright, wipes sweat from his forehead, and grips the handle ready to begin mowing.. What most likely happened in the [3-7s] interval according to the video?",
+      "options": {
+        "A": "Upon pulling the starter, the mower's red chassis briefly turns transparent like glass, showing a miniature clockwork universe of golden gears turning inside the engine block until a flash of light restores the metal to its solid form.",
+        "B": "As he pulls the cord, the grass beneath the mower splits open like a giant zipper, revealing a silent, shimmering deep-space nebula where the dirt should be, before the teeth of the 'grass-zipper' suddenly lock back together as the engine roars to life.",
+        "C": "When he yanks the cord, the green blades of grass instantly transform into a swirling liquid whirlpool of emerald paint that circles the mower's wheels in a clockwise motion before solidifying back into a dry lawn as the motor ignites.",
+        "D": "He vigorously pulls the starter cord three times; on the third pull, the engine sputters, coughs out a small puff of grey smoke, and begins to vibrate as it starts running."
+      },
+      "correct_answer": "B"
+    },
+    "blind_test_log": {
+      "guessed_option": "D",
+      "confidence": "High",
+      "reasoning": "The video's description is grounded in a realistic scenario of starting a push mower. Options A, B, and C involve fantastical, surreal, or magical events (transparent chassis with clockwork, grass splitting to reveal space, grass turning to liquid paint), which are highly unlikely in a typical, real-world context. Option D describes a common, plausible event: struggling to start a mower, with it sputtering, emitting smoke, and then running—a sequence that fits logically between the man reaching for the starter handle and later wiping sweat and preparing to mow."
+    },
+    "blind_test_passed": true
+  },
+  {
+    "constraints": {
+      "keyword": "Diamond Ring (钻戒)",
+      "type": "Surprise Scenario"
+    },
+    "director_data": {
+      "object_name": "Diamond Ring (钻戒)",
+      "scenario_type": "Surprise Scenario",
+      "status": "evaluated",
+      "best_video": "Diamond_Ring_(钻戒)_Surprise_1.mp4",
+      "best_score": 6.8,
+      "best_reasoning": "Middle frame match score: 6.50, Coherence score: 7.50",
+      "all_candidates": [
+        {
+          "video_file": "Diamond_Ring_(钻戒)_Surprise_1.mp4",
+          "final_score": 6.8,
+          "segment_scores": [
+            {
+              "segment": "Middle",
+              "score": 6.5,
+              "reasoning": "The frame shows the woman plunging her hand into the sink with a distressed expression, which aligns with the 'wrestling' part of the description. However, the 'translucent liquid hand' and the 'living water' plucking the ring are not clearly visible or identifiable in this specific frame, making it difficult to confirm the most fantastical elements of the prompt."
+            }
+          ],
+          "coherence_evaluation": {
+            "expected_end_frame": "The end frame should show the woman having successfully retrieved her ring from the 'liquid hand.' She should be pulling her hand away from the sink, clutching the diamond ring tightly to her chest or holding it close to her face. Her expression should convey intense relief, likely with a heavy sigh or a look of exhaustion after the struggle described in the synopsis.",
+            "reasoning": "The start frame establishes the woman washing dishes with a visible ring. The synopsis describes a fantastical struggle where a liquid hand made of soapy water steals the ring, leading to a fight to get it back. The actual end frame shows the woman leaning over the sink, looking down into her cupped hands with a focused, somewhat concerned or relieved expression. While she is no longer washing dishes and her hands are out of the soapy water, she is not 'clutching the ring to her chest' as specified in the expected conclusion. Instead, she is looking into her palms at the sink level. The visual consistency of the character (green sweater, bracelet) is perfect, and the narrative progression from washing to a post-struggle moment is clear, but the specific pose and emotional intensity described in the 'Expected Conclusion' (clutching to chest) are not fully realized in the actual frame.",
+            "score": "7.5"
+          },
+          "reasoning": "Middle frame match score: 6.50, Coherence score: 7.50",
+          "valid": true
+        }
+      ],
+      "has_valid_video": true,
+      "timeline": {
+        "start_caption": "[0-3s] A woman is scrubbing a ceramic plate in a kitchen sink filled with soapy bubbles; her diamond ring is visible and sparkling on her wet finger.",
+        "middle_caption": "[3-7s] The soapy bubbles suddenly coalesce into a translucent liquid hand that reaches up, gently plucks the ring from her finger, and begins to swim toward the drain with it; she must plunge her hand in to wrestle the ring back from the living water.",
+        "end_caption": "[7-10s] She pulls her hand out of the water, clutching the ring tightly to her chest with a look of intense relief and a heavy sigh."
+      },
+      "normal_timeline": {
+        "start_caption": "[0-3s] A woman is scrubbing a ceramic plate in a kitchen sink filled with soapy bubbles; her diamond ring is visible and sparkling on her wet finger.",
+        "middle_caption": "[3-7s] As she reaches for a rinse sprayer, the ring slides off her soapy finger; she quickly drops the plate and plunges her hand into the water to grab the ring just above the drain.",
+        "end_caption": "[7-10s] She pulls her hand out of the water, clutching the ring tightly to her chest with a look of intense relief and a heavy sigh."
+      },
+      "constraints": {
+        "keyword": "Diamond Ring (钻戒)",
+        "type": "Surprise Scenario"
+      }
+    },
+    "final_prompt": "Surreal Style: - Start (0s): [0-3s] A woman is scrubbing a ceramic plate in a kitchen sink filled with soapy bubbles; her diamond ring is visible and sparkling on her wet finger.\n- Action (Mid): [3-7s] The soapy bubbles suddenly coalesce into a translucent liquid hand that reaches up, gently plucks the ring from her finger, and begins to swim toward the drain with it; she must plunge her hand in to wrestle the ring back from the living water.\n- Result (End): [7-10s] She pulls her hand out of the water, clutching the ring tightly to her chest with a look of intense relief and a heavy sigh.",
+    "mcq": {
+      "question": "[0-3s]: A woman is scrubbing a ceramic plate in a kitchen sink filled with soapy bubbles; her diamond ring is visible and sparkling on her wet finger.; [3-7s]: ???; [7-10s]: ] She pulls her hand out of the water, clutching the ring tightly to her chest with a look of intense relief and a heavy sigh.. What most likely happened in the [3-7s] interval according to the video?",
+      "options": {
+        "A": "The soapy water begins to churn violently, forming a miniature whirlpool that sucks the ring from her finger; she frantically thrusts her arm deep into the swirling foam to intercept the jewelry before it disappears down the open drain.",
+        "B": "A sudden burst of pressurized water from the faucet knocks the ring loose into the thick suds; she immediately submerges both hands, fumbling through the opaque bubbles to pin the ring against the bottom of the sink before it can be lost.",
+        "C": "The soapy bubbles suddenly coalesce into a translucent liquid hand that reaches up, gently plucks the ring from her finger, and begins to swim toward the drain with it; she must plunge her hand in to wrestle the ring back from the living water.",
+        "D": "As she reaches for a rinse sprayer, the ring slides off her soapy finger; she quickly drops the plate and plunges her hand into the water to grab the ring just above the drain."
+      },
+      "correct_answer": "C"
+    },
+    "blind_test_log": {
+      "guessed_option": "D",
+      "confidence": "High",
+      "reasoning": "The video setup shows a woman scrubbing a plate with soapy water, and the outcome is her pulling her hand out clutching the ring with relief. This suggests a plausible, everyday scenario where the ring slips off due to soap and water, and she reacts quickly to retrieve it. Option D is the most realistic—ring sliding off a soapy finger as she reaches for something, leading her to drop the plate and grab it. The other options involve fantastical elements (whirlpool, living water) or less likely sudden bursts, which don't align with the straightforward relief shown later."
+    },
+    "blind_test_passed": true
   }
 ]
