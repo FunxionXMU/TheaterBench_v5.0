@@ -11,7 +11,7 @@ import os
 from datetime import datetime
 
 class SoraVideoBatchGenerator:
-    def __init__(self, api_key: str, base_url: str = "https://grsai.dakka.com.cn"):
+    def __init__(self, api_key: str, base_url: str = "https://www.dmxapi.cn"):
         self.api_key = api_key
         self.base_url = base_url
         self.headers = {
@@ -98,7 +98,7 @@ class SoraVideoBatchGenerator:
         """
         # 构建请求数据
         payload = {
-            "model": "sora-2", # 或者 sora-1.0-turbo, 根据实际可用模型调整
+            "model": "sora-2-hd-10s-chat", # 或者 sora-1.0-turbo, 根据实际可用模型调整
             "prompt": prompt,
             "aspectRatio": kwargs.get("aspect_ratio", "16:9"),
             "duration": kwargs.get("duration", 10),
@@ -114,7 +114,7 @@ class SoraVideoBatchGenerator:
         
         try:
             response = requests.post(
-                f"{self.base_url}/v1/video/sora-video",
+                f"{self.base_url}/v1/chat/completions",
                 headers=self.headers,
                 json=payload,
                 timeout=30
@@ -339,7 +339,7 @@ def get_prompt_priority(entry, existing_count, eval_results_dict):
     return 3
 
 def main():
-    API_KEY = "sk-3f597d10725f4fd7a12404f1dc79cfd5"
+    API_KEY = "sk-hY1PLRISvYRksP0HNJELF2NIv3oqTeW07wAEO0ak432VHHDf"
     generator = SoraVideoBatchGenerator(API_KEY)
     
     print("=" * 50)

@@ -60,17 +60,34 @@ def sanitize_filename(name):
 
 def compress_video_smart(video_path, target_size_mb=7.0):
     """
-    智能压缩视频：如果视频超过目标大小，则通过降低帧率来压缩，
-    同时保持画质（CRF 18）不变。
+    智能压缩视频：仅通过降低帧率来压缩视频，始终保持高画质（CRF 18）不变。
+    
+    主要功能：
+    1. 根据视频文件大小自适应选择合适的帧率进行压缩
+    2. 无论压缩程度如何，始终保持高画质参数（CRF 18）
+    3. 移除音频以进一步减小文件大小
+    
+    参数说明：
+    - video_path: 输入视频文件路径
+    - target_size_mb: 目标文件大小（MB），默认为7.0MB
+    
+    压缩策略：
+    1. 根据文件大小自动选择帧率：
+       - 小于等于15MB：使用5fps（适中帧率，保持良好流畅度）
+       - 15-30MB：使用4fps（较低帧率，但仍保持关键动作可见）
+       - 大于30MB：使用3fps（低帧率，但能保留重要视觉信息）
+    2. 如果压缩后仍超过目标大小，会进一步降低帧率至2fps或1fps
+    3. 始终使用相同的高画质编码参数（CRF 18）确保视频质量
     
     关键调整：
-    我们将 target_size_mb 默认值从 9.5MB 降低到 7.0MB。
-    原因：Base64 编码会使文件大小增加约 33%。
-    - 7.0MB * 1.33 ≈ 9.3MB (安全，小于 API 的 10MB 限制)
-    - 9.0MB * 1.33 ≈ 12.0MB (会报错 Exceeded limit)
+    - target_size_mb 默认值设置为 7.0MB，因为 Base64 编码会使文件大小增加约 33%
+      - 7.0MB * 1.33 ≈ 9.3MB (安全，小于 API 的 10MB 限制)
+      - 9.0MB * 1.33 ≈ 12.0MB (会报错 Exceeded limit)
+    - 不再通过增加CRF值来降低画质，只依赖帧率调整来控制文件大小
     
-    返回: (文件路径, 是否是临时文件)
+    返回: (处理后的文件路径, 是否是临时文件)
     """
+
     if not os.path.exists(video_path):
         return video_path, False
 
@@ -81,13 +98,14 @@ def compress_video_smart(video_path, target_size_mb=7.0):
     
     temp_path = video_path.replace(".mp4", "_compressed_temp.mp4")
     
-    # 策略：降低帧率，但保持高质量
-    # 调整为 5fps (1秒视频也有5帧，满足 >4帧 的要求)
-    target_fps = "5" 
-    
-    # 如果文件特别大 (>30MB)，尝试降低到 3fps (对于长视频也足够)
+    # 策略：降低帧率，但保持高质量（固定CRF 18）
+    # 根据文件大小选择合适的帧率
     if file_size > 30:
-        target_fps = "3"
+        target_fps = "3"  # 非常大的文件使用更低的帧率
+    elif file_size > 15:
+        target_fps = "4"  # 较大的文件使用较低的帧率
+    else:
+        target_fps = "5"  # 正常大小的文件使用适中的帧率
 
     cmd = [
         "ffmpeg", "-y",                # 覆盖输出
@@ -108,20 +126,24 @@ def compress_video_smart(video_path, target_size_mb=7.0):
         # 检查压缩后的大小
         new_size = os.path.getsize(temp_path) / (1024 * 1024)
         
-        # 如果还是太大，尝试进一步压缩 (CRF 23 仍然很清晰)
+        # 如果还是太大，只通过进一步降低帧率来压缩，不改变画质参数
         if new_size > target_size_mb:
-            print(f"⚠️ Still too large ({new_size:.2f}MB). Re-compressing aggressively...")
-            cmd_aggressive = [
+            print(f"⚠️ Still too large ({new_size:.2f}MB). Further compressing by reducing frame rate only...")
+            
+            # 更激进地降低帧率，但保持相同的画质参数
+            lower_fps = "2" if target_fps != "2" else "1"
+            
+            cmd_reduce_fps = [
                 "ffmpeg", "-y", "-i", video_path,
-                "-r", "2", "-c:v", "libx264", # 只有在大文件(通常较长)才敢用2fps
+                "-r", lower_fps, "-c:v", "libx264",
                 "-pix_fmt", "yuv420p",
-                "-crf", "23", "-preset", "veryfast", "-an",
+                "-crf", "18", "-preset", "veryfast", "-an",
                 temp_path
             ]
-            subprocess.run(cmd_aggressive, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL, check=True)
+            subprocess.run(cmd_reduce_fps, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL, check=True)
             new_size = os.path.getsize(temp_path) / (1024 * 1024)
 
-        print(f"✅ Compressed to {new_size:.2f}MB (FPS: {target_fps})")
+        print(f"✅ Compressed to {new_size:.2f}MB (FPS: {target_fps}, Quality: High - CRF 18)")
         return temp_path, True
         
     except Exception as e:

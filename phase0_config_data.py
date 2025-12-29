@@ -4,7 +4,7 @@
 from openai import OpenAI
 
 # Gemini模型API配置
-GEMINI_API_KEY = "sk-20b733d2915046919215148e510424e5"
+GEMINI_API_KEY = "sk-hY1PLRISvYRksP0HNJELF2NIv3oqTeW07wAEO0ak432VHHDf"
 
 # DeepSeek模型API配置
 DEEPSEEK_API_KEY = "sk-nuzywtfwqsmxwwgheoftmtajhdqmrryqqcisciaxkggzqibz"
@@ -13,7 +13,7 @@ DEEPSEEK_API_KEY = "sk-nuzywtfwqsmxwwgheoftmtajhdqmrryqqcisciaxkggzqibz"
 # Gemini客户端
 client_gemini = OpenAI(
     api_key=GEMINI_API_KEY,
-    base_url="https://api.grsai.com/v1",
+    base_url="https://www.dmxapi.cn/v1",
     timeout=60.0,
     max_retries=0
 )
@@ -28,11 +28,11 @@ client_deepseek = OpenAI(
 
 # 🤖 模型配置
 # DIRECTOR_MODEL = "inclusionAI/Ling-flash-2.0" 
-DIRECTOR_MODEL = "gemini-3-flash" 
+DIRECTOR_MODEL = "gemini-3-flash-preview" 
 # HELPER_MODEL = "Qwen/Qwen3-235B-A22B" 
 HELPER_MODEL = "deepseek-ai/DeepSeek-V3.2" 
 # HELPER_MODEL = "moonshotai/Kimi-K2-Thinking" 
-VERSION = "v79_unique"
+VERSION = "v80_unique"
 
 # 测试模式开关："test" 表示测试模式，随机选择5个词生成情景
 TEST_MODE = "all" 
@@ -40,11 +40,6 @@ TEST_MODE = "all"
 SCENARIO_TYPES = [
     "CG Scenario"          # 后期CG：超现实、魔法、违反物理
 ]
-
-# 根据测试模式过滤场景类型
-if TEST_MODE == "rare":
-    SCENARIO_TYPES = ["Practical Scenario"]
-
 
 # ================= MacGuffin Library (Expanded to ~400 items) =================
 
