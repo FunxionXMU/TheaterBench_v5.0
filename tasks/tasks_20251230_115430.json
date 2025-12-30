@@ -1,0 +1,182 @@
+[
+  {
+    "id": 3,
+    "prompt": "Realistic Style: - [0-3s] A person stands in a kitchen, looking up at a high cabinet; a sturdy wooden chair sits nearby on the tiled floor.\n- [3-7s] As the person steps onto the seat, the wooden legs of the chair suddenly soften into flexible, noodle-like strands that stretch upward toward the ceiling, undulating wildly as the person balances atop the rubbery, elongated wood.\n- [7-10s] The person quickly steps back down to the floor, breathing a sigh of relief and steadying the chair with their hand.",
+    "filename_prefix": "Wooden_Chair_(木椅)_Surprise_1",
+    "status": "completed",
+    "video_url": "https://filesystem.site/cdn/20251230/d87130870beb235f7c4e8a2532580f.mp4",
+    "save_path": "t2v_videos/Wooden_Chair_(木椅)_Surprise_1.mp4",
+    "created_at": "2025-12-30 11:22:01"
+  },
+  {
+    "id": 1,
+    "prompt": "Realistic Style: - [0-3s] A woman in a summer dress walks confidently down a paved park path; her leather sandals are visible with every step.\n- [3-7s] As she pushes off her back foot, the solid leather side strap of the sandal suddenly turns into a dark, viscous liquid and melts off the sole, causing her foot to slide out and her gait to stumble.\n- [7-10s] She stops walking, balances on one leg, and lifts her foot to inspect the broken strap with a frustrated expression.",
+    "filename_prefix": "Sandals_(凉鞋)_Surprise_1",
+    "status": "completed",
+    "video_url": "https://filesystem.site/cdn/20251230/9c6c410eb9a2e8457e36011c3cc137.mp4",
+    "save_path": "t2v_videos/Sandals_(凉鞋)_Surprise_1.mp4",
+    "created_at": "2025-12-30 11:22:00"
+  },
+  {
+    "id": 4,
+    "prompt": "Realistic Style: - [0-3s] A person sits at a cluttered office desk, holding a bright yellow Post-it note and looking intently at their computer screen.\n- [3-7s] As the note touches the monitor, dozens of tiny, frantic paper legs sprout from its adhesive strip, scuttling across the frame in an attempt to run away before the person presses it down.\n- [7-10s] The corner of the Post-it slowly curls up and the note falls onto the keyboard; the person notices and sighs in frustration.",
+    "filename_prefix": "Post-it_Note_(便利贴)_Surprise_1",
+    "status": "completed",
+    "video_url": "https://filesystem.site/cdn/20251230/14e16505cdf0e118d1a4180701fcd1.mp4",
+    "save_path": "t2v_videos/Post-it_Note_(便利贴)_Surprise_1.mp4",
+    "created_at": "2025-12-30 11:24:52"
+  },
+  {
+    "id": 5,
+    "prompt": "Realistic Style: - [0-3s] A customer leans in closely to admire a highly detailed wood carving of a dragon displayed on a wooden pedestal in a dimly lit shop.\n- [3-7s] As the customer's finger touches the wing, the wooden dragon suddenly flinches and shudders like living flesh, causing the entire carving to leap off the pedestal and tumble onto the table.\n- [7-10s] The customer pulls their hands back in shock, eyes wide with a panicked expression as they look at the fallen artwork.",
+    "filename_prefix": "Wood_Carving_(木雕)_Surprise_1",
+    "status": "completed",
+    "video_url": "https://filesystem.site/cdn/20251230/2bf665de6f92069bc7f396f50dbb01.mp4",
+    "save_path": "t2v_videos/Wood_Carving_(木雕)_Surprise_1.mp4",
+    "created_at": "2025-12-30 11:25:16"
+  },
+  {
+    "id": 2,
+    "prompt": "Realistic Style: - [0-3s] A close-up of a detailed oil painting on an easel; an artist's hand enters the frame holding a loaded paintbrush, hovering inches away from the canvas.\n- [3-7s] As the brush nears the canvas, the wet paint on the bristles suddenly morphs into a small, obsidian-colored liquid hand that reaches out and violently smears itself across a bright section of the painting.\n- [7-10s] The artist freezes mid-air, their hand shaking slightly as they stare at the ruined spot with a look of utter shock and disappointment.",
+    "filename_prefix": "Paintbrush_(画笔)_Surprise_1",
+    "status": "failed",
+    "video_url": null,
+    "save_path": null,
+    "created_at": "2025-12-30 11:22:00"
+  },
+  {
+    "id": 6,
+    "prompt": "Realistic Style: - [0-3s] An elderly man walks slowly through a park holding a covered bamboo bird cage; he approaches a large willow tree.\n- [3-7s] He removes the fabric cover and tilts the cage, pouring the bamboo bars like liquid water onto the branch, where they instantly freeze back into a solid cage structure.\n- [7-10s] The man steps back, smiles, and begins to whistle a melody to the bird inside the cage.",
+    "filename_prefix": "Bird_Cage_(鸟笼)_Surprise_1",
+    "status": "completed",
+    "video_url": "https://filesystem.site/cdn/20251230/7cd79a314816fa1f47bf9d5b8daf32.mp4",
+    "save_path": "t2v_videos/Bird_Cage_(鸟笼)_Surprise_1.mp4",
+    "created_at": "2025-12-30 11:28:08"
+  },
+  {
+    "id": 7,
+    "prompt": "Realistic Style: - [0-3s] A woman stands in a sunlit kitchen, holding a measuring cup of flour next to a silver stand mixer that is already spinning.\n- [3-7s] As she tips the flour, the white powder becomes sentient, swirling upward into a miniature, localized tornado that leaps out of the bowl to deliberately engulf her entire head in a dense white cloud.\n- [7-10s] She stops pouring, blinks through the white dust, and lets out a small laugh while wiping her cheek.",
+    "filename_prefix": "Stand_Mixer_(厨师机)_Surprise_1",
+    "status": "completed",
+    "video_url": "https://filesystem.site/cdn/20251230/967a73b26a03295949680529581449.mp4",
+    "save_path": "t2v_videos/Stand_Mixer_(厨师机)_Surprise_1.mp4",
+    "created_at": "2025-12-30 11:30:28"
+  },
+  {
+    "id": 8,
+    "prompt": "Realistic Style: - [0-3s] A woman holds a pencil and looks at a long wooden ruler resting against a white wall, planning her mark.\n- [3-7s] As she presses the pencil against it, the wooden ruler loses its rigidity and begins to melt like liquid wax down the wall, turning the straight mark into a sagging, gelatinous streak.\n- [7-10s] She pulls the ruler away from the wall, sighs, and rubs the bridge of her nose in annoyance.",
+    "filename_prefix": "Ruler_(尺子)_Surprise_1",
+    "status": "completed",
+    "video_url": "https://filesystem.site/cdn/20251230/d350bbdf729148e5d2bdc9f15b2f09.mp4",
+    "save_path": "t2v_videos/Ruler_(尺子)_Surprise_1.mp4",
+    "created_at": "2025-12-30 11:31:19"
+  },
+  {
+    "id": 9,
+    "prompt": "Realistic Style: - [0-3s] A skateboarder rolls down a paved suburban road toward a bright orange plastic road barrier set up near a pothole.\n- [3-7s] As the board clips the barrier, the orange plastic instantly liquefies into a thick, splashing jelly; the skateboarder’s feet sink through the viscous mass as it ripples like water, causing him to stumble through the liquid before it suddenly re-solidifies into its hard form mid-tumble.\n- [7-10s] The skateboarder comes to a stop and looks back at the overturned barrier, huffing in frustration while checking his board.",
+    "filename_prefix": "Road_Barrier_(路障)_Surprise_1",
+    "status": "completed",
+    "video_url": "https://filesystem.site/cdn/20251230/dfb5be92b86e47d52513456dfea1b6.mp4",
+    "save_path": "t2v_videos/Road_Barrier_(路障)_Surprise_1.mp4",
+    "created_at": "2025-12-30 11:32:45"
+  },
+  {
+    "id": 10,
+    "prompt": "Realistic Style: - [0-3s] A man in a field sweeps a metal detector back and forth; he stops when the device emits a loud, continuous alert tone.\n- [3-7s] As he brushes away the soil, the rusted metal of the landmine liquefies into a glowing digital screen that displays a high-definition, live-streamed close-up of the man's own face looking down at it.\n- [7-10s] The man freezes, his eyes widening in realization, and he slowly stands up to place a bright red flag next to the spot.",
+    "filename_prefix": "Landmine_(地雷)_Surprise_1",
+    "status": "completed",
+    "video_url": "https://filesystem.site/cdn/20251230/e08bf8a965ca2605b8f089f7fd0c78.mp4",
+    "save_path": "t2v_videos/Landmine_(地雷)_Surprise_1.mp4",
+    "created_at": "2025-12-30 11:33:37"
+  },
+  {
+    "id": 12,
+    "prompt": "Realistic Style: - [0-3s] A bushy-tailed squirrel hops onto a weathered wooden park bench where a large, brown pinecone sits perfectly still.\n- [3-7s] The squirrel sniffs the pinecone, which suddenly sprouts several rows of translucent, feathered wings that flap frantically; the pinecone hovers briefly in mid-air before its wings snap shut like a trap, causing it to drop like a lead weight onto the grass.\n- [7-10s] The squirrel stands on its hind legs, twitching its nose and staring down at the pinecone on the ground in surprise.",
+    "filename_prefix": "Pinecone_(松果)_Surprise_1",
+    "status": "completed",
+    "video_url": "https://filesystem.site/cdn/20251230/9e629d84786e1fccfd468c355095b4.mp4",
+    "save_path": "t2v_videos/Pinecone_(松果)_Surprise_1.mp4",
+    "created_at": "2025-12-30 11:36:46"
+  },
+  {
+    "id": 13,
+    "prompt": "Realistic Style: - [0-3s] A man in a crisp white dress shirt stands before a vanity mirror; a sharp navy suit jacket hangs on a valet stand next to him.\n- [3-7s] As he reaches for the jacket, the fabric suddenly liquefies into a dark navy viscous fluid that leaps onto his arms and autonomously crawls up his torso, hardening into a solid garment that buttons itself incorrectly.\n- [7-10s] He stops and looks in the mirror, sighing in frustration as he realizes the buttons are misaligned and the jacket is lopsided.",
+    "filename_prefix": "Suit_(西装)_Surprise_1",
+    "status": "completed",
+    "video_url": "https://filesystem.site/cdn/20251230/d38ebde2839d92f3f3f0f64778d8cb.mp4",
+    "save_path": "t2v_videos/Suit_(西装)_Surprise_1.mp4",
+    "created_at": "2025-12-30 11:38:09"
+  },
+  {
+    "id": 11,
+    "prompt": "Realistic Style: - [0-3s] A student in a lab coat sits at a desk, leaning toward a professional microscope while holding a glass slide.\n- [3-7s] As the student turns the adjustment knob, the surrounding lab walls and furniture begin to liquefy and get sucked into the tiny eyepiece like a vortex, funneling the entire room into the microscopic slide.\n- [7-10s] The student gasps and pulls back slightly, a wide smile spreading across their face as they point at the eyepiece in excitement.",
+    "filename_prefix": "Microscope_(显微镜)_Surprise_1",
+    "status": "completed",
+    "video_url": "https://filesystem.site/cdn/20251230/3a3a818495744876f83e9b9dfe085d.mp4",
+    "save_path": "t2v_videos/Microscope_(显微镜)_Surprise_1.mp4",
+    "created_at": "2025-12-30 11:34:34"
+  },
+  {
+    "id": 14,
+    "prompt": "Realistic Style: - [0-3s] A person holds a white ceramic bowl filled with ripe strawberries under a kitchen faucet, their hand poised on the handle.\n- [3-7s] As the person turns the faucet on, one strawberry suddenly sprouts tiny, translucent insect wings and flutters out of the bowl, hovering momentarily before flying rapidly across the granite countertop to avoid the water.\n- [7-10s] The person quickly turns off the water and reaches out to grab the runaway strawberry, shaking their head slightly.",
+    "filename_prefix": "Strawberry_(草莓)_Surprise_1",
+    "status": "completed",
+    "video_url": "https://filesystem.site/cdn/20251230/cba9cee5e6dc128ad886563100c1d7.mp4",
+    "save_path": "t2v_videos/Strawberry_(草莓)_Surprise_1.mp4",
+    "created_at": "2025-12-30 11:40:23"
+  },
+  {
+    "id": 16,
+    "prompt": "Realistic Style: - [0-3s] A woman sits at a sunlit vanity table; an ornate glass perfume bottle sits in the foreground as she finishes her hair.\n- [3-7s] She reaches for the bottle and presses the nozzle, but instead of liquid, a shimmering cloud of miniature, iridescent butterflies bursts out, fluttering rhythmically around her neck and wrists before dissolving into a glowing scent on her skin.\n- [7-10s] She places the bottle back on the vanity, closes her eyes, and takes a deep breath, smiling at the scent.",
+    "filename_prefix": "Perfume_Bottle_(香水瓶)_Surprise_1",
+    "status": "completed",
+    "video_url": "https://filesystem.site/cdn/20251230/a1d6db209a5037e418a687d49707fe.mp4",
+    "save_path": "t2v_videos/Perfume_Bottle_(香水瓶)_Surprise_1.mp4",
+    "created_at": "2025-12-30 11:41:47"
+  },
+  {
+    "id": 17,
+    "prompt": "Realistic Style: - [0-3s] A person sits at a desk with a glowing RGB mechanical keyboard; they pick up a wire keycap puller and inspect the dusty gaps between the keys.\n- [3-7s] They use the puller to pop off the keycaps, but instead of switches, gravity reverses inside the board, causing the dust to rise and coalesce into a miniature, swirling galaxy of stars that they manipulate with the brush.\n- [7-10s] They press the keycaps back onto the switches until they click into place and tap them a few times to ensure they are seated correctly.",
+    "filename_prefix": "Mechanical_Keyboard_(机械键盘)_Surprise_1",
+    "status": "completed",
+    "video_url": "https://filesystem.site/cdn/20251230/030dfd69fa5c7e4ac00f7a38d9e1e7.mp4",
+    "save_path": "t2v_videos/Mechanical_Keyboard_(机械键盘)_Surprise_1.mp4",
+    "created_at": "2025-12-30 11:43:50"
+  },
+  {
+    "id": 15,
+    "prompt": "Realistic Style: - [0-3s] A sweaty basketball player sits down on a wooden bench, breathing heavily; a bright blue sweat towel lies on the bench next to him.\n- [3-7s] The player picks up the towel, but as it touches his forehead, the fabric transforms into a swirling vortex of blue liquid that drinks the sweat directly from his pores before solidifying back into a heavy, bioluminescent cloth draped over his shoulders.\n- [7-10s] The player leans back against the wall, exhaling a long breath of relief while clutching the ends of the towel.",
+    "filename_prefix": "Sweat_Towel_(运动毛巾)_Surprise_1",
+    "status": "failed",
+    "video_url": null,
+    "save_path": null,
+    "created_at": "2025-12-30 11:41:31"
+  },
+  {
+    "id": 18,
+    "prompt": "Realistic Style: - [0-3s] An elderly man walks slowly along a park path, leaning on a wooden crutch; he approaches a patch of wet, golden leaves on the ground.\n- [3-7s] As the tip of the crutch touches the leaves, the damp foliage instantly sprouts hundreds of miniature, golden hands that seize the crutch and begin an aggressive tug-of-war, dragging the man off-balance until he manages to seize the bench's armrest.\n- [7-10s] The man stands still for a moment, exhaling in relief, and carefully repositioning his crutch on the dry pavement.",
+    "filename_prefix": "Crutch_(拐杖)_Surprise_1",
+    "status": "completed",
+    "video_url": "https://filesystem.site/cdn/20251230/173d58cd2e256836de0dda93732b63.mp4",
+    "save_path": "t2v_videos/Crutch_(拐杖)_Surprise_1.mp4",
+    "created_at": "2025-12-30 11:45:39"
+  },
+  {
+    "id": 19,
+    "prompt": "Realistic Style: - [0-3s] A journalist stands in a room, looking at a heavy black bulletproof vest laid out on a table in front of them.\n- [3-7s] As the journalist reaches out, the vest begins to pulse like a giant heart before suddenly liquefying into a pool of black shadows that flows up their arms and torso, instantly solidifying into a rigid vest.\n- [7-10s] They pat the front ceramic plate to check the fit and take a deep, steadying breath while looking at their reflection.",
+    "filename_prefix": "Bulletproof_Vest_(防弹衣)_Surprise_1",
+    "status": "completed",
+    "video_url": "https://filesystem.site/cdn/20251230/fdbdfdb335d075e489718bd63693fd.mp4",
+    "save_path": "t2v_videos/Bulletproof_Vest_(防弹衣)_Surprise_1.mp4",
+    "created_at": "2025-12-30 11:48:31"
+  },
+  {
+    "id": 20,
+    "prompt": "Realistic Style: - [0-3s] A jogger stands on a sunny park path, breathing heavily and looking exhausted, wearing a matching set of moisture-wicking workout clothes.\n- [3-7s] As the jogger lifts the shirt to wipe their face, the fabric begins to drink the sweat and sucks a swirling gray cloud of fatigue directly from their skin, causing vibrant, neon-colored flowers to instantly sprout and bloom across the shirt's surface.\n- [7-10s] The jogger relaxes their posture, takes a deep breath, and looks determinedly down the path.",
+    "filename_prefix": "Workout_Clothes_(运动服)_Surprise_1",
+    "status": "failed",
+    "video_url": null,
+    "save_path": null,
+    "created_at": "2025-12-30 11:49:04"
+  }
+]

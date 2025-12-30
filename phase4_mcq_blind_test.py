@@ -342,9 +342,13 @@ def main(evaluated_file, surprise_file, output_file=None):
             # Extract processed entries using constraints as unique identifier
             for result in results:
                 constraints = result.get('constraints', {})
-                if constraints:
+                if constraints and result.get('blind_test_passed', False):
                     # Create a unique identifier for the entry
-                    entry_id = f"{constraints.get('keyword')}_{constraints.get('type')}_{constraints.get('mode')}"
+                    # Use the same fields and fallback logic as when processing new entries for consistency
+                    keyword = constraints.get('keyword')
+                    entry_type = constraints.get('type')
+                    entry_mode = constraints.get('mode', '')
+                    entry_id = f"{keyword}_{entry_type}_{entry_mode}"
                     processed_entries.add(entry_id)
             print(f"   跳过已处理的条目...")
         except json.JSONDecodeError:
@@ -366,7 +370,8 @@ def main(evaluated_file, surprise_file, output_file=None):
             continue
         
         # Check if this entry has already been processed
-        entry_id = f"{obj}_{s_type}_{mode}"
+        # Use the same fields as when loading existing results for consistency
+        entry_id = f"{constraints.get('keyword', obj)}_{constraints.get('type', s_type)}_{mode}"
         if entry_id in processed_entries:
             print(f"   ⏭️  条目已处理，跳过: {obj} ({s_type})")
             continue

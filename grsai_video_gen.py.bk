@@ -11,272 +11,278 @@ import os
 from datetime import datetime
 
 class SoraVideoBatchGenerator:
-    def __init__(self, api_key):
+    def __init__(self, api_key: str, base_url: str = "https://www.dmxapi.cn"):
         self.api_key = api_key
+        self.base_url = base_url
+        self.headers = {
+            "Content-Type": "application/json",
+            "Authorization": f"Bearer {api_key}"
+        }
+        # 生成带时间戳的文件名，格式：sora_tasks_年月日时分秒.json
+        timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+        self.tasks_file = f"sora_tasks_{timestamp}.json"
         self.videos_dir = "t2v_videos"
-        self.tasks_dir = "tasks"
-        self.url = "https://www.dmxapi.cn/v1/chat/completions"
-        self.print_lock = threading.Lock()
         
-        # 创建必要的目录
+        # 确保videos目录存在
         if not os.path.exists(self.videos_dir):
             os.makedirs(self.videos_dir)
-        if not os.path.exists(self.tasks_dir):
-            os.makedirs(self.tasks_dir)
-            
-    def download_video(self, video_url, save_path):
-        """
-        下载视频到指定路径
-        :param video_url: 视频URL
-        :param save_path: 保存路径
-        """
-        try:
-            response = requests.get(video_url, stream=True)
-            response.raise_for_status()
-            
-            with open(save_path, 'wb') as f:
-                for chunk in response.iter_content(chunk_size=8192):
-                    if chunk:
-                        f.write(chunk)
-            return True
-        except Exception as e:
-            print(f"❌ 视频下载失败: {e}")
-            return False
+            print(f"已创建视频保存目录: {self.videos_dir}")
     
-    def run_streaming_task(self, task_id, prompt, filename_prefix, aspect_ratio="16:9"):
+    def load_tasks_from_json(self, tasks_file: str) -> List[Dict[str, Any]]:
         """
-        单个流式任务执行函数
-        :param task_id: 任务编号
-        :param prompt: 提示词
-        :param filename_prefix: 文件名前缀
-        :param duration: 视频时长
-        :param aspect_ratio: 视频比例
+        从JSON文件加载任务信息
         """
-        print(f"🚀 [任务 {task_id}] 启动: {filename_prefix}")
+        try:
+            with open(tasks_file, 'r', encoding='utf-8') as f:
+                data = json.load(f)
+            return data.get("tasks", [])
+        except Exception as e:
+            print(f"❌ 加载任务文件失败: {e}")
+            return []
+    
+    def list_task_files(self) -> List[str]:
+        """
+        列出所有已保存的任务文件
+        """
+        task_files = [f for f in os.listdir('.') if f.startswith('sora_tasks_') and f.endswith('.json')]
+        # 按时间戳降序排序
+        task_files.sort(key=lambda x: os.path.getmtime(x), reverse=True)
+        return task_files
+    
+    def download_all_completed_videos(self, tasks: List[Dict[str, Any]]):
+        """
+        下载所有已完成任务的视频（跳过已存在的文件）
+        """
+        print(f"📥 开始检查 {len(tasks)} 个任务的视频下载状态...")
         
-        # 构建请求头
-        headers = {
-            "Authorization": f"Bearer {self.api_key}",
-            "Content-Type": "application/json",
-            "Accept": "text/event-stream"
-        }
-        
-        # 构建请求体
-        # 在prompt前面添加比例要求
-        prompt_with_aspect = f"Please generate a video with orientation landscape: {prompt}"
+        for i, task in enumerate(tasks):
+            task_id = task.get("task_id")
+            if not task_id:
+                print(f"📝 任务 {i+1} 缺少task_id，跳过")
+                continue
+            
+            filename_prefix = task.get("params", {}).get("filename_prefix", task_id[:8])
+            print(f"\n🔍 检查任务 {i+1}/{len(tasks)}: {filename_prefix}")
+            
+            # 检查任务状态
+            status_info = self.check_task_status(task_id)
+            status = status_info.get("status", "unknown")
+            
+            if status == "succeeded" and status_info.get('results'):
+                for j, result in enumerate(status_info['results']):
+                    video_url = result.get('url')
+                    if video_url:
+                        suffix = f"_{j+1}" if len(status_info['results']) > 1 else ""
+                        filename = f"{filename_prefix}{suffix}.mp4"
+                        save_path = os.path.join(self.videos_dir, filename)
+                        
+                        if os.path.exists(save_path):
+                            print(f"✅ 视频已存在，跳过下载: {save_path}")
+                            continue
+                            
+                        print(f"📥 开始下载: {save_path}")
+                        if self.download_video(video_url, save_path):
+                            print(f"✅ 下载成功: {save_path}")
+                        else:
+                            print(f"❌ 下载失败: {save_path}")
+            elif status == "processing":
+                print(f"⏳ 任务正在处理中，当前进度: {status_info.get('progress', 0)}%")
+            elif status in ["failed", "error"]:
+                print(f"❌ 任务失败: {status_info.get('error', '未知错误')}")
+            else:
+                print(f"ℹ️  任务状态: {status}")
+    
+    def submit_video_task(self, prompt: str, task_id: str = None, **kwargs) -> Dict[str, Any]:
+        """
+        提交视频生成任务（不等待完成）
+        """
+        # 构建请求数据
         payload = {
-            "model": "sora-2-hd-10s-chat",
-            "messages": [
-                {"role": "user", "content": prompt_with_aspect}
-            ],
-            "stream": True,
-            "aspectRatio": aspect_ratio  # 添加专门的aspectRatio参数
+            "model": "sora-2-hd-10s-chat", # 或者 sora-1.0-turbo, 根据实际可用模型调整
+            "prompt": prompt,
+            "aspectRatio": kwargs.get("aspect_ratio", "16:9"),
+            "duration": kwargs.get("duration", 10),
+            "remixTargetId": kwargs.get("remix_target_id", ""),
+            "characters": kwargs.get("characters", []),
+            "size": kwargs.get("size", "small"),
+            "webHook": "-1",  # 设置为-1，使用轮询方式获取结果
+            "shutProgress": kwargs.get("shut_progress", False)
         }
+        
+        if kwargs.get("url"):
+            payload["url"] = kwargs.get("url")
         
         try:
-            response = requests.post(self.url, headers=headers, json=payload, stream=True)
-        except Exception as e:
-            with self.print_lock:
-                print(f"❌ [任务 {task_id}] 请求失败: {e}")
-            return None
-        
-        if response.status_code != 200:
-            with self.print_lock:
-                print(f"❌ [任务 {task_id}] 错误: {response.status_code}")
-                print(response.text)
-            return None
-        
-        response.encoding = "utf-8"
-        
-        task_result = {
-            "id": task_id,
-            "prompt": prompt,
-            "filename_prefix": filename_prefix,
-            "status": "running",
-            "video_url": None,
-            "save_path": None,
-            "created_at": datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-        }
-        
-        # 迭代读取流数据
-        for raw_line in response.iter_lines(decode_unicode=True):
-            if not raw_line:
-                continue
+            response = requests.post(
+                f"{self.base_url}/v1/chat/completions",
+                headers=self.headers,
+                json=payload,
+                timeout=30
+            )
             
-            line = raw_line.decode("utf-8", errors="ignore").strip() if isinstance(raw_line, bytes) else raw_line.strip()
-            
-            # 解析 SSE 格式
-            data_str = line[len("data:"):].strip() if line.startswith("data:") else line
-            
-            if not data_str:
-                continue
-            if data_str == "[DONE]":
-                with self.print_lock:
-                    print(f"\n✅ [任务 {task_id}] 完成！")
-                task_result["status"] = "completed"
-                break
+            if response.status_code != 200:
+                raise Exception(f"服务器返回错误: {response.status_code} - {response.text}")
             
             try:
-                obj = json.loads(data_str)
-                choices = obj.get("choices", [])
-                if choices:
-                    delta = choices[0].get("delta") or choices[0].get("message") or {}
-                    text = delta.get("content") or ""
-                    if text:
-                        # 显示进度信息
-                        if '进度' in text:
-                            with self.print_lock:
-                                print(f"[任务 {task_id}]: {text}")
-                        
-                        # 提取视频URL并下载
-                        if '.mp4' in text:
-                            video_urls = re.findall(r'(https?://[^\s\"]+\.mp4)', text)
-                            if video_urls:
-                                video_url = video_urls[0]
-                                # 生成保存路径
-                                save_path = os.path.join(self.videos_dir, f"{filename_prefix}.mp4")
-                                
-                                with self.print_lock:
-                                    print(f"[任务 {task_id}]: 📥 开始下载视频...")
-                                
-                                # 下载视频
-                                if self.download_video(video_url, save_path):
-                                    with self.print_lock:
-                                        print(f"[任务 {task_id}]: ✅ 视频下载完成: {save_path}")
-                                    task_result["video_url"] = video_url
-                                    task_result["save_path"] = save_path
-                                    task_result["status"] = "downloaded"
-            except json.JSONDecodeError:
-                pass
-        
-        # 任务完成后检查是否有视频URL
-        if not task_result.get("video_url"):
-            task_result["status"] = "failed"
-            with self.print_lock:
-                print(f"❌ [任务 {task_id}] 失败: 未生成视频URL")
-        
-        return task_result
+                result = response.json()
+            except json.JSONDecodeError as e:
+                raise Exception(f"响应解析失败: {response.text}")
+            
+            if result.get("code") != 0:
+                raise Exception(f"API返回错误: {result.get('msg', 'Unknown error')}")
+            
+            # 返回任务ID
+            task_id = result["data"]["id"]
+            
+            return {
+                "task_id": task_id,
+                "prompt": prompt,
+                "status": "submitted",
+                "submitted_at": datetime.now().isoformat(),
+                "params": kwargs # 关键：保存包括 filename_prefix 在内的参数
+            }
+                
+        except Exception as e:
+            raise
     
-    def batch_submit_tasks(self, task_requests, max_workers=3):
+    def batch_submit_tasks(self, task_requests: List[Dict[str, Any]], max_workers: int = 2) -> List[Dict[str, Any]]:
         """
-        批量提交任务
-        :param task_requests: 任务请求列表
-        :param max_workers: 最大并行数
-        :return: 任务结果列表
+        批量提交视频生成任务
         """
-        print(f"🚀 开始批量提交 {len(task_requests)} 个任务 (最大并行数: {max_workers})")
-        
         tasks = []
         
+        print(f"开始批量提交 {len(task_requests)} 个视频生成任务...")
+        
         with ThreadPoolExecutor(max_workers=max_workers) as executor:
-            future_to_task = {
-                executor.submit(self.run_streaming_task, i+1, task["prompt"], task["filename_prefix"], 
-                              task.get("aspect_ratio", "16:9")):
-                task for i, task in enumerate(task_requests)
+            # 提交所有任务
+            future_to_req = {
+                executor.submit(self.submit_video_task, **req): req 
+                for req in task_requests
             }
             
-            for future in as_completed(future_to_task):
-                task_result = future.result()
-                if task_result:
-                    tasks.append(task_result)
+            # 收集结果
+            for future in as_completed(future_to_req):
+                req = future_to_req[future]
+                try:
+                    task_info = future.result()
+                    tasks.append(task_info)
+                    prefix = req.get('filename_prefix', 'unknown')
+                    print(f"✅ 任务提交成功: {prefix} (ID: {task_info['task_id']})")
+                except Exception as e:
+                    print(f"❌ 任务提交失败: {req.get('filename_prefix')} - 错误: {str(e)}")
         
         return tasks
     
-    def monitor_tasks_with_progress(self, tasks, auto_download=True):
-        """
-        监控任务进度
-        :param tasks: 任务列表
-        :param auto_download: 是否自动下载
-        """
-        print(f"👀 开始监控 {len(tasks)} 个任务的进度...")
-        
-        # 这里可以根据需要实现更详细的进度监控
-        completed_tasks = [task for task in tasks if task.get("status") in ["downloaded", "completed"]]
-        failed_tasks = [task for task in tasks if task.get("status") == "failed"]
-        print(f"✅ 已完成任务: {len(completed_tasks)}/{len(tasks)}")
-        if failed_tasks:
-            print(f"❌ 失败任务: {len(failed_tasks)}/{len(tasks)}")
-            for task in failed_tasks:
-                print(f"   - 任务 {task.get('id')}: {task.get('filename_prefix')}")
-        
-        # 下载所有已完成的视频
-        if auto_download:
-            self.download_all_completed_videos(tasks)
+    def save_tasks_to_json(self, tasks: List[Dict[str, Any]], filename: str = None):
+        if not filename:
+            filename = self.tasks_file
+        data = {
+            "saved_at": datetime.now().isoformat(),
+            "total_tasks": len(tasks),
+            "tasks": tasks
+        }
+        try:
+            with open(filename, 'w', encoding='utf-8') as f:
+                json.dump(data, f, indent=2, ensure_ascii=False)
+            print(f"任务信息已保存到: {filename}")
+        except Exception as e:
+            print(f"保存任务信息失败: {str(e)}")
     
-    def save_tasks_to_json(self, tasks):
-        """
-        保存任务到JSON文件
-        :param tasks: 任务列表
-        """
-        timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-        filename = f"tasks_{timestamp}.json"
-        filepath = os.path.join(self.tasks_dir, filename)
+    def monitor_tasks_with_progress(self, task_infos: List[Dict[str, Any]], update_interval: int = 10, auto_download: bool = True):
+        print(f"开始监控 {len(task_infos)} 个任务...")
+        print("按 Ctrl+C 停止监控")
+        
+        progress_bars = {}
+        for task_info in task_infos:
+            task_id = task_info["task_id"]
+            filename_prefix = task_info.get("params", {}).get("filename_prefix", task_id[:8])
+            
+            progress_bars[task_id] = tqdm(
+                total=100,
+                desc=f"{filename_prefix}",
+                bar_format="{l_bar}{bar}| {n:.0f}% {desc}",
+                position=len(progress_bars)
+            )
+        
+        completed_tasks = set()
         
         try:
-            with open(filepath, 'w', encoding='utf-8') as f:
-                json.dump(tasks, f, ensure_ascii=False, indent=2)
-            print(f"💾 任务已保存到: {filepath}")
-            return filepath
+            while len(completed_tasks) < len(task_infos):
+                for task_info in task_infos:
+                    task_id = task_info["task_id"]
+                    if task_id in completed_tasks: continue
+                    
+                    status_info = self.check_task_status(task_id)
+                    status = status_info.get("status", "unknown")
+                    progress = status_info.get("progress", 0)
+                    
+                    bar = progress_bars[task_id]
+                    if progress > bar.n: bar.update(progress - bar.n)
+                    
+                    filename_prefix = task_info.get("params", {}).get("filename_prefix", task_id)
+                    bar.set_description_str(f"{filename_prefix} ({status})")
+                    
+                    if status in ["succeeded", "failed", "error"]:
+                        completed_tasks.add(task_id)
+                        
+                        if status == "succeeded":
+                            bar.set_description_str(f"{filename_prefix} - 完成 ✓")
+                            if auto_download and status_info.get('results'):
+                                for j, result in enumerate(status_info['results']):
+                                    video_url = result.get('url')
+                                    if video_url:
+                                        suffix = f"_{j+1}" if len(status_info['results']) > 1 else ""
+                                        filename = f"{filename_prefix}{suffix}.mp4"
+                                        save_path = os.path.join(self.videos_dir, filename)
+                                        
+                                        if os.path.exists(save_path):
+                                            continue 
+                                            
+                                        self.download_video(video_url, save_path)
+                        else:
+                            bar.set_description_str(f"{filename_prefix} - 失败 ✗")
+                
+                if len(completed_tasks) == len(task_infos): break
+                time.sleep(update_interval)
+                
+        except KeyboardInterrupt:
+            print("\n监控已停止")
+        finally:
+            for bar in progress_bars.values(): bar.close()
+    
+    def check_task_status(self, task_id: str) -> Dict[str, Any]:
+        payload = {"id": task_id}
+        try:
+            response = requests.post(
+                f"{self.base_url}/v1/draw/result",
+                headers=self.headers,
+                json=payload,
+                timeout=30
+            )
+            if response.status_code != 200: return {"status": "error", "error": f"HTTP {response.status_code}"}
+            result = response.json()
+            if result.get("code") != 0: return {"status": "error", "error": result.get("msg")}
+            return result["data"]
         except Exception as e:
-            print(f"❌ 保存任务失败: {e}")
+            return {"status": "error", "error": str(e)}
+
+    def download_video(self, video_url: str, save_path: str) -> str:
+        try:
+            response = requests.get(video_url, stream=True)
+            response.raise_for_status()
+            total_size = int(response.headers.get('content-length', 0))
+            
+            name = os.path.basename(save_path)
+            with open(save_path, 'wb') as file, tqdm(
+                desc=f"下载 {name}", total=total_size, unit='iB', unit_scale=True, leave=False
+            ) as bar:
+                for data in response.iter_content(chunk_size=1024):
+                    size = file.write(data)
+                    bar.update(size)
+            return save_path
+        except Exception as e:
+            print(f"下载失败 {save_path}: {e}")
             return None
-    
-    def load_tasks_from_json(self, filepath):
-        """
-        从JSON文件加载任务
-        :param filepath: 文件路径
-        :return: 任务列表
-        """
-        try:
-            with open(filepath, 'r', encoding='utf-8') as f:
-                tasks = json.load(f)
-            print(f"📂 已加载 {len(tasks)} 个任务")
-            return tasks
-        except Exception as e:
-            print(f"❌ 加载任务失败: {e}")
-            return []
-    
-    def list_task_files(self):
-        """
-        列出所有任务文件
-        :return: 任务文件列表
-        """
-        if not os.path.exists(self.tasks_dir):
-            return []
-        
-        task_files = [f for f in os.listdir(self.tasks_dir) if f.startswith('tasks_') and f.endswith('.json')]
-        task_files.sort(key=lambda x: os.path.getmtime(os.path.join(self.tasks_dir, x)), reverse=True)
-        return [os.path.join(self.tasks_dir, f) for f in task_files]
-    
-    def download_all_completed_videos(self, tasks):
-        """
-        下载所有已完成的视频
-        :param tasks: 任务列表
-        """
-        print(f"📥 开始下载所有已完成的视频...")
-        
-        # 只下载状态为"completed"且video_url存在的任务，跳过已下载的任务
-        completed_tasks = [task for task in tasks if task.get("status") in ["completed"] and task.get("video_url")]
-        downloaded_tasks = [task for task in tasks if task.get("status") in ["downloaded"]]
-        
-        if not completed_tasks:
-            print("✅ 所有已完成的视频都已下载完成")
-            return
-        
-        for task in completed_tasks:
-            video_url = task.get("video_url")
-            filename_prefix = task.get("filename_prefix")
-            save_path = os.path.join(self.videos_dir, f"{filename_prefix}.mp4")
-            
-            if os.path.exists(save_path):
-                print(f"⚠️ 视频已存在: {save_path}")
-                continue
-            
-            print(f"📥 下载视频: {filename_prefix}")
-            if self.download_video(video_url, save_path):
-                print(f"✅ 视频下载完成: {save_path}")
-            else:
-                print(f"❌ 视频下载失败: {filename_prefix}")
 
 def sanitize_filename(name):
     name = re.sub(r'[\/*?:"<>|]', "", name)
@@ -413,7 +419,7 @@ def main():
     print("1. 多样模式 - 优先为不同prompt生成视频")
     print("2. 补全模式 - 优先补全同个prompt的2个视频")
     print("3. 默认模式 - 按评估结果优先级生成，同个prompt上限6个视频")  # 新增选项
-    mode_choice = input("请选择生成模式 (1/2/3, 默认3): ").strip() or "1"
+    mode_choice = input("请选择生成模式 (1/2/3, 默认3): ").strip() or "3"
     mode = 'diverse' if mode_choice == "1" else 'complete' if mode_choice == "2" else 'default'
     
     # 2. 设置生成目标
@@ -579,49 +585,12 @@ def main():
         print("已取消")
         return
 
-    tasks = generator.batch_submit_tasks(task_requests, max_workers=5)
+    tasks = generator.batch_submit_tasks(task_requests, max_workers=3)
     
     if tasks:
         generator.save_tasks_to_json(tasks)
         print("\n👀 开始监控任务并自动下载...")
         generator.monitor_tasks_with_progress(tasks, auto_download=True)
-        
-        # 检测失败任务并询问是否删除对应物体记录
-        failed_tasks = [task for task in tasks if task.get("status") == "failed"]
-        if failed_tasks:
-            print("\n❌ 检测到失败任务，对应的物体名称:")
-            failed_keywords = set()
-            for task in failed_tasks:
-                filename_prefix = task.get("filename_prefix", "")
-                # 从文件名前缀中提取keyword和type
-                parts = filename_prefix.split("_")
-                if len(parts) >= 2:
-                    keyword = parts[0]
-                    failed_keywords.add(keyword)
-                    print(f"   - {keyword}")
-            
-            # 询问用户是否要删除这些物体记录
-            confirm_delete = input("\n💡 是否要删除 'physibench_surprise_v79_unique.json' 中这些失败物体的记录? (y/n, 默认n): ").strip().lower()
-            if confirm_delete in ['y', 'yes']:
-                print("\n🔄 正在处理文件...")
-                
-                # 读取原始文件
-                with open("physibench_surprise_v79_unique.json", "r", encoding="utf-8") as f:
-                    entries = json.load(f)
-                
-                # 删除失败物体的记录
-                original_count = len(entries)
-                entries = [entry for entry in entries if entry.get("constraints", {}).get("keyword", "").split(" ")[0].lower() not in [k.lower() for k in failed_keywords]]
-                new_count = len(entries)
-                
-                # 保存更新后的文件
-                with open("physibench_surprise_v79_unique.json", "w", encoding="utf-8") as f:
-                    json.dump(entries, f, ensure_ascii=False, indent=2)
-                
-                print(f"✅ 已删除 {original_count - new_count} 个失败物体的记录")
-                print(f"📊 文件更新后剩余 {new_count} 个记录")
-            else:
-                print("✅ 已跳过删除操作")
 
 if __name__ == "__main__":
     main()

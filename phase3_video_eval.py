@@ -39,71 +39,6 @@ def sanitize_filename(name):
     name = re.sub(r'[\\/*?:"<>|]', "", name)
     return name.replace(" ", "_")
 
-def call_transit_model(raw_text, is_coherence=False):
-    """调用中转模型转换格式为JSON
-    is_coherence: 是否为连贯性评估，决定返回的JSON字段结构
-    """
-    if is_coherence:
-        transit_system_prompt = """
-        You are a professional text format converter. Your job is to convert the given text into a strict JSON format.
-        The JSON should have three fields:
-        1. "expected_end_frame": "<Description of what the end frame should look like>"
-        2. "reasoning": "<Explanation of the evaluation>"
-        3. "score": <0-10, allow decimals>
-        OUTPUT FORMAT: Return a STRICT JSON object with no additional text.
-        """
-        
-        transit_user_prompt = f"Please convert the following text into JSON format with expected_end_frame, reasoning, and score fields:\n{raw_text}"
-    else:
-        transit_system_prompt = """
-        You are a professional text format converter. Your job is to convert the given text into a strict JSON format.
-        The JSON should have two fields:
-        1. "reasoning": "<Short explanation of why>"
-        2. "score": <0-10, allow decimals>
-        OUTPUT FORMAT: Return a STRICT JSON object with no additional text.
-        """
-        
-        transit_user_prompt = f"Please convert the following text into JSON format:\n{raw_text}"
-    
-    transit_messages = [
-        {"role": "system", "content": transit_system_prompt},
-        {"role": "user", "content": transit_user_prompt}
-    ]
-    
-    max_retries = 3
-    retry_delay = 5
-    
-    for retry in range(max_retries):
-        try:
-            response = client_gemini.chat.completions.create(
-                model=DIRECTOR_MODEL,
-                messages=transit_messages,
-                temperature=0.1,
-                max_tokens=1024,
-                response_format={"type": "json_object"}
-            )
-            
-            content = response.choices[0].message.content
-            content = content.replace("```json", "").replace("```", "").strip()
-            result = json.loads(content)
-            
-            # 确保所有必需字段都存在
-            if is_coherence and 'expected_end_frame' not in result:
-                result['expected_end_frame'] = 'No expected end frame description provided'
-            return result
-        except Exception as e:
-            print(f"❌ Transit Error: {e}")
-            
-        if retry < max_retries - 1:
-            print(f"🔄 Transit retrying in {retry_delay} seconds... (Attempt {retry + 2}/{max_retries})")
-            time.sleep(retry_delay)
-            retry_delay *= 2
-    
-    if is_coherence:
-        return {"expected_end_frame": "Transit failed to convert to JSON", "score": 0, "reasoning": "Transit failed to convert to JSON"}
-    else:
-        return {"score": 0, "reasoning": "Transit failed to convert to JSON"}
-
 def extract_frames(video_path):
     """
     从视频中提取 3 帧 (Start, Mid, End)
@@ -165,19 +100,10 @@ def call_vlm_evaluator(frame, description, segment_name):
         "score": <0-10, allow decimals>
     }
     """
-
-    # 根据片段类型添加特殊提示
-    segment_special_note = ""
-    if segment_name == "Start":
-        segment_special_note = "⚠️  SPECIAL NOTE FOR START FRAME: If the description contains phrases like 'suddenly appears' or similar, it is reasonable that the object is not yet fully visible or present in this frame."
-    elif segment_name == "End":
-        segment_special_note = "⚠️  SPECIAL NOTE FOR END FRAME: If the description contains phrases like 'disappears' or 'merges with something else', it is reasonable that the object is no longer visible or distinguishable in this frame."
-    
     user_prompt = f"""
     # 🖼️ CURRENT SEGMENT TO EVALUATE:
     **Segment:** {segment_name}
     **Expected Description:** {description}
-    {segment_special_note}
 
     # 🖼️ PROVIDED IMAGE:
     This is the frame from the {segment_name} segment.
@@ -196,7 +122,6 @@ def call_vlm_evaluator(frame, description, segment_name):
         }
     ]
 
-    # 根据模型是否支持JSON格式来决定是否设置response_format
     max_retries = 5  # 增加最大重试次数
     retry_delay = 10  # 增加初始延迟到10秒
     
@@ -206,19 +131,15 @@ def call_vlm_evaluator(frame, description, segment_name):
                 model=DIRECTOR_MODEL,
                 messages=messages,
                 temperature=0.1,
-                max_tokens=512,
-                response_format={"type": "json_object"} if DIRECTOR_MODEL in SUPPORT_JSON_MODELS else None
+                max_tokens=2048,
+                response_format={"type": "json_object"}
             )
             
             content = response.choices[0].message.content
             content = content.replace("```json", "").replace("```", "").strip()
             
-            # 如果模型支持JSON格式，直接解析
-            if DIRECTOR_MODEL in SUPPORT_JSON_MODELS:
-                return json.loads(content)
-            else:
-                # 否则调用中转模型转换格式
-                return call_transit_model(content)
+            # 直接解析JSON响应
+            return json.loads(content)
         except Exception as e:
             print(f"❌ Request Failed: {e}")
             if retry < max_retries - 1:
@@ -251,8 +172,8 @@ def evaluate_coherence(start_frame, end_frame, synopsis, start_description, end_
     2. Read the synopsis to understand what events should happen
     3. Determine what the end frame SHOULD look like after these events
     4. Examine the actual end frame provided
-    5. Compare the expected end frame with the actual end frame
-    6. Score how well they match (0-10 scale)
+    5. Compare: Does the actual end frame match your expectation?
+    6. Score the match (0-10 scale)
     
     EVALUATION CRITERIA:
     - Logical progression: Does the story make visual sense from start to end?
@@ -319,18 +240,15 @@ def evaluate_coherence(start_frame, end_frame, synopsis, start_description, end_
                 model=DIRECTOR_MODEL,
                 messages=messages,
                 temperature=0.1,
-                max_tokens=1024,
+                max_tokens=2048,  # 增加max_tokens的值，确保响应完整返回
                 response_format={"type": "json_object"}
             )
             
             content = response.choices[0].message.content
             content = content.replace("```json", "").replace("```", "").strip()
             
-            if DIRECTOR_MODEL in SUPPORT_JSON_MODELS:
-                result = json.loads(content)
-                return result
-            else:
-                return call_transit_model(content, is_coherence=True)
+            # 直接解析JSON响应
+            return json.loads(content)
         except Exception as e:
             print(f"❌ Coherence Request Failed: {e}")
             if retry < max_retries - 1:

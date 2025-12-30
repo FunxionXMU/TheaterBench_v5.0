@@ -5,6 +5,7 @@ from openai import OpenAI
 
 # Gemini模型API配置
 GEMINI_API_KEY = "sk-hY1PLRISvYRksP0HNJELF2NIv3oqTeW07wAEO0ak432VHHDf"
+# GEMINI_API_KEY = "sk-20b733d2915046919215148e510424e5"
 
 # DeepSeek模型API配置
 DEEPSEEK_API_KEY = "sk-nuzywtfwqsmxwwgheoftmtajhdqmrryqqcisciaxkggzqibz"
@@ -14,6 +15,7 @@ DEEPSEEK_API_KEY = "sk-nuzywtfwqsmxwwgheoftmtajhdqmrryqqcisciaxkggzqibz"
 client_gemini = OpenAI(
     api_key=GEMINI_API_KEY,
     base_url="https://www.dmxapi.cn/v1",
+    # base_url="https://grsai.dakka.com.cn/v1",
     timeout=60.0,
     max_retries=0
 )
@@ -32,7 +34,7 @@ DIRECTOR_MODEL = "gemini-3-flash-preview"
 # HELPER_MODEL = "Qwen/Qwen3-235B-A22B" 
 HELPER_MODEL = "deepseek-ai/DeepSeek-V3.2" 
 # HELPER_MODEL = "moonshotai/Kimi-K2-Thinking" 
-VERSION = "v80_unique"
+VERSION = "v79_unique"
 
 # 测试模式开关："test" 表示测试模式，随机选择5个词生成情景
 TEST_MODE = "all" 

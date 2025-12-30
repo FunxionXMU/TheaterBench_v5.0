@@ -1,0 +1,56 @@
+[
+  {
+    "id": 3,
+    "prompt": "Realistic Style: - [0-3s] A curious toddler stands in a living room, walking slowly toward a brightly lit, colorful freshwater fish tank on a stand.\n- [3-7s] As the toddler taps the glass, the water inside instantly turns into air and the fish transform into hundreds of glowing, solid glass marbles that bounce chaotically off the walls before retreating into the plastic plants.\n- [7-10s] The toddler pulls his hand back in surprise, tilting his head and peering into the plants to see where the fish hid.",
+    "filename_prefix": "Fish_Tank_(鱼缸)_Surprise_1",
+    "status": "completed",
+    "video_url": "https://filesystem.site/cdn/20251230/f0dfa54d3003f630336a5a8884ace8.mp4",
+    "save_path": "t2v_videos/Fish_Tank_(鱼缸)_Surprise_1.mp4",
+    "created_at": "2025-12-30 11:13:37"
+  },
+  {
+    "id": 1,
+    "prompt": "Realistic Style: - [0-3s] A woman in a cocktail dress stands before a vanity mirror, holding a shimmering gold earring close to her earlobe.\n- [3-7s] As the metal touches her skin, the earring melts into a stream of liquid gold that flows down her neck and shoulder, pooling onto the carpet where it instantly hardens back into a solid shape.\n- [7-10s] She gasps, immediately dropping to her knees and patting the carpet frantically to find the lost jewelry before she has to leave.",
+    "filename_prefix": "Earrings_(耳环)_Surprise_1",
+    "status": "completed",
+    "video_url": "https://filesystem.site/cdn/20251230/fc1ccbdafe4e0a9f439b2edd8b8270.mp4",
+    "save_path": "t2v_videos/Earrings_(耳环)_Surprise_1.mp4",
+    "created_at": "2025-12-30 11:13:37"
+  },
+  {
+    "id": 2,
+    "prompt": "Realistic Style: - [0-3s] A hiker in boots walks down a narrow dirt trail; a small brown snake is visible resting in the grass at the edge of the path ahead.\n- [3-7s] As the hiker nears, the snake suddenly stiffens into a brass zipper pull and zips the dirt path open, creating a dark, bottomless void in the soil that it glides across; the hiker jumps back in shock at the spatial rift.\n- [7-10s] The hiker stands perfectly still with wide eyes, watching from a safe distance as the snake disappears into the bushes on the other side.",
+    "filename_prefix": "Snake_(蛇)_Surprise_1",
+    "status": "completed",
+    "video_url": "https://filesystem.site/cdn/20251230/ad2cb9dd3bcb0dbc8621c963fcd137.mp4",
+    "save_path": "t2v_videos/Snake_(蛇)_Surprise_1.mp4",
+    "created_at": "2025-12-30 11:13:37"
+  },
+  {
+    "id": 4,
+    "prompt": "Realistic Style: - [0-3s] A close-up shows a hot, empty cast-iron skillet on a stove; a hand holds a wrapped stick of butter just above the pan's edge.\n- [3-7s] As the butter hits the pan, it suddenly sprouts four tiny legs made of fat and begins sprinting frantically in circles around the skillet, letting out a high-pitched, whistling scream as its limbs dissolve into the heat.\n- [7-10s] The chef tilts the pan to coat the bottom, watching the butter transform into a golden liquid foam.",
+    "filename_prefix": "Butter_Stick_(黄油)_Surprise_1",
+    "status": "completed",
+    "video_url": "https://filesystem.site/cdn/20251230/1c19f18749d7ad332f3c41b4e28ae5.mp4",
+    "save_path": "t2v_videos/Butter_Stick_(黄油)_Surprise_1.mp4",
+    "created_at": "2025-12-30 11:16:43"
+  },
+  {
+    "id": 6,
+    "prompt": "Realistic Style: - [0-3s] A student in a lab coat stands at a workbench; a clear glass graduated cylinder sits empty in front of them while they hold a beaker of blue liquid.\n- [3-7s] As the student pours, the blue liquid refuses to settle at the bottom; it begins to coil upward like a living vine, forming a gravity-defying blue spiral that climbs the center of the cylinder until its tip hovers perfectly level with the 50ml line.\n- [7-10s] The student stops pouring exactly at the line, exhales a sigh of relief, and sets the beaker down with a satisfied smile.",
+    "filename_prefix": "Graduated_Cylinder_(量筒)_Surprise_1",
+    "status": "completed",
+    "video_url": "https://filesystem.site/cdn/20251230/a0c1dc38cf94bf22bbb564d91efe02.mp4",
+    "save_path": "t2v_videos/Graduated_Cylinder_(量筒)_Surprise_1.mp4",
+    "created_at": "2025-12-30 11:17:03"
+  },
+  {
+    "id": 5,
+    "prompt": "Realistic Style: - [0-3s] A soldier in tactical gear stands in a reinforced throwing pit, holding a green M67 hand grenade while looking intently at a target 30 meters away.\n- [3-7s] The soldier pulls the pin and throws the grenade, but as it reaches the apex of its arc, it begins to inflate like a giant green balloon, hovering mid-air and drifting slowly back toward the soldier while pulsing with a heartbeat sound.\n- [7-10s] The soldier immediately ducks behind the concrete wall, pressing his back against it and bracing for the impact.",
+    "filename_prefix": "Hand_Grenade_(手榴弹)_Surprise_1",
+    "status": "completed",
+    "video_url": "https://filesystem.site/cdn/20251230/ba56003c2902d46dc3b3f4d7ee5197.mp4",
+    "save_path": "t2v_videos/Hand_Grenade_(手榴弹)_Surprise_1.mp4",
+    "created_at": "2025-12-30 11:16:57"
+  }
+]

@@ -412,6 +412,100 @@ def reviewer_agent(director_data, obj, s_type="Surprise Scenario"):
         print(f"      ❌ Reviewer API Failed: {e}") 
         return {"passed": False, "reason": "API Error", "is_server_error": True}
 
+# ================= Agent 3: Type Analyzer (Surreal Change Classifier) =================
+
+def analyzer_agent(normal_middle, surreal_middle):
+    """
+    分析超现实变化类型的代理
+    读取两个middle_caption，对比发生的变化，从预定义的类型中选择一个
+    """
+    
+    system_prompt = """
+    You are a Surreal Transformation Classifier. Your task is to analyze the change between a normal scene and a surreal scene,
+    and classify the type of surreal transformation that occurred.
+    
+    # TRANSFORMATION TYPES
+    
+    1. **Biomorphing & Animism**
+    Core Definition: Inanimate objects display clear biological features or transform into animals/insects.
+    
+    Criteria (ANY of these):
+    - Object grows organs (mouth, teeth, lungs, eyes, hands, feet)
+    - Object exhibits physiological functions (breathing, sneezing, eating, swallowing, sweating)
+    - Object transforms into a specific creature (bird, butterfly, pigeon, fish)
+    - Object displays highly intentional anthropomorphic behavior ("running away", "screaming", "wrestling")
+    
+    2. **Dimensional Rift & Metaphor Realization**
+    Core Definition: The object contains an implausibly vast space inside, or acts as a portal to another dimension.
+    
+    Criteria (ANY of these):
+    - Object's surface is "opened" or "torn" to reveal void, cosmos, or abyss
+    - Small object contains a宏大 scene inside (nebula, storm, room)
+    - Object "sucks in" or "compresses" the surrounding real world into itself
+    
+    3. **Liquefaction**
+    Core Definition: Originally hard or solid objects suddenly lose their form and exhibit liquid properties (melting, splashing, flowing).
+    
+    Criteria:
+    - Solid transforms into liquid (water, ink, honey, jelly, oil)
+    - Emphasizes downward flowing, melting, splashing dynamics
+    - Note: If liquid transforms into a hand to grab someone, prioritize "Biomorphing & Animism"
+    
+    4. **Material Transmutation - Non-Liquid**
+    Core Definition: Object's material changes fundamentally, but not through simple melting. It becomes another solid, gas, light beam, or changes hardness/density.
+    
+    Criteria:
+    - Hard becomes soft/elastic: Wood becomes rubber, noodles, vines (but retains shape, not melted)
+    - Intangible becomes tangible: Light becomes graspable solid, film
+    - Phase change (non-liquid): Liquid becomes gas, liquid becomes solid (glass, marble)
+    - Texture sudden change: Becomes dust, smoke, glass shards
+    
+    5. **Physics Defiance**
+    Core Definition: Object's material doesn't change, nor does it become biological, but its movement violates Newtonian mechanics (gravity, time, inertia).
+    
+    Criteria:
+    - Gravity anomalies: Floating, anti-gravity rising
+    - Time anomalies: Frozen in mid-air, slow motion
+    - Autonomous movement: Objects perform regular dance or arrangement without growing limbs (telekinesis)
+    
+    # ANALYSIS INSTRUCTIONS
+    1. Compare the NORMAL MIDDLE caption and the SURREAL MIDDLE caption
+    2. Identify the primary transformation that occurred
+    3. Classify it into ONE of the five categories above
+    4. Provide brief reasoning for your classification
+    
+    # OUTPUT FORMAT
+    Strictly output a JSON object with the following structure:
+    {
+        "transformation_type": "[CHOSEN TYPE]",
+        "reasoning": "[YOUR BRIEF EXPLANATION]"
+    }
+    """
+    
+    user_content = f"""
+    NORMAL MIDDLE: {normal_middle}
+    SURREAL MIDDLE: {surreal_middle}
+    
+    Please classify the transformation type and provide your reasoning.
+    """
+    
+    try:
+        print(f"      ⏳ Type Analyzer API Requesting...")
+        response = client_deepseek.chat.completions.create(
+            model=HELPER_MODEL,
+            messages=[
+                {"role": "system", "content": system_prompt},
+                {"role": "user", "content": user_content}
+            ],
+            temperature=0.1,
+            response_format={"type": "json_object"},
+            timeout=60
+        )
+        return clean_and_parse_json(response.choices[0].message.content)
+    except Exception as e:
+        print(f"      ❌ Type Analyzer Error: {e}")
+        return {"transformation_type": "Unknown", "reasoning": "Analysis failed"}
+        
 # ================= 主程序 =================
 
 def combine_director_data(normal_data, surreal_data):
@@ -573,6 +667,12 @@ def main():
             if audit.get('passed'):
                 print(f"   ✅ Surreal Passed (Score: {audit.get('score')})")
                 
+                # 调用分析器，分析变化类型
+                normal_middle = director_data.get('normal_timeline', {}).get('middle_caption', '')
+                surreal_middle = director_data.get('timeline', {}).get('middle_caption', '')
+                transformation_result = analyzer_agent(normal_middle, surreal_middle)
+                print(f"   📊 Transformation Type: {transformation_result.get('transformation_type')}")
+                
                 entry = {
                     "constraints": {'keyword': obj, 'type': s_type},
                     "reasoning_trace": director_data.get('reasoning_trace'),
@@ -580,7 +680,8 @@ def main():
                     "normal_timeline": director_data.get('normal_timeline'),
                     "timeline": director_data.get('timeline'), 
                     "final_t2v_prompt": final_prompt,
-                    "reviewer_audit": audit
+                    "reviewer_audit": audit,
+                    "transformation_analysis": transformation_result  # 添加变化类型分析结果
                 }
                 final_dataset.append(entry)
                 success = True
@@ -604,3 +705,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+

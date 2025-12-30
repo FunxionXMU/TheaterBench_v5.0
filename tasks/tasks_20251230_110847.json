@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "prompt": "Realistic Style: - [0-3s] A person walks across a grassy lawn covered in autumn leaves toward a shed; a metal rake lies face-up on the ground in their path.\n- [3-7s] The person steps on the tines, causing the wooden handle to soften into a flexible, snake-like vine that slithers through the air, coils around the person’s neck, and precisely thumps them on the forehead.\n- [7-10s] The person winces and stumbles back, rubbing their head with a pained and embarrassed expression while looking down at the rake.",
+    "filename_prefix": "Rake_(耙子)_Surprise_1",
+    "status": "completed",
+    "video_url": "https://filesystem.site/cdn/20251230/2402af24e9f124e20e087377be7d84.mp4",
+    "save_path": "t2v_videos/Rake_(耙子)_Surprise_1.mp4",
+    "created_at": "2025-12-30 11:05:48"
+  },
+  {
+    "id": 2,
+    "prompt": "Realistic Style: - [0-3s] A person stands up from a wooden craft table and begins to walk away; a long, loose thread from their knit sweater is hooked onto a splinter on the table's edge.\n- [3-7s] As the person walks, the thread doesn't just unravel the sweater; it begins to zip open the wooden floor like a garment, pulling long strands of timber-colored yarn out of the floorboards and weaving a bridge of floating thread between the person and the table.\n- [7-10s] The person feels the tug, stops abruptly, and looks back at the long trail of thread connecting them to the table with a look of dismay.",
+    "filename_prefix": "Thread_(线)_Surprise_1",
+    "status": "completed",
+    "video_url": "https://filesystem.site/cdn/20251230/6062b734a278767863883790c9f109.mp4",
+    "save_path": "t2v_videos/Thread_(线)_Surprise_1.mp4",
+    "created_at": "2025-12-30 11:05:48"
+  }
+]

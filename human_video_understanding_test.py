@@ -105,8 +105,7 @@ def get_video_html(video_path, width=600, height=400):
 
 def save_results(results, version):
     """保存测试结果"""
-    timestamp = time.strftime("%Y%m%d_%H%M%S")
-    output_file = f"human_video_test_results_v{version}_{timestamp}.json"
+    output_file = f"human_video_test_results_v{version}.json"
     
     with open(output_file, "w", encoding='utf-8') as f:
         json.dump(results, f, indent=2, ensure_ascii=False)
@@ -207,6 +206,7 @@ def main():
     if 'current_index' not in st.session_state:
         st.session_state.current_index = 0
     if 'results' not in st.session_state:
+        # 尝试加载已保存的结果
         st.session_state.results = []
     if 'show_results' not in st.session_state:
         st.session_state.show_results = False
@@ -220,6 +220,8 @@ def main():
         st.session_state.version = None
     if 'translations' not in st.session_state:
         st.session_state.translations = {}  # 存储翻译结果，避免重复翻译
+    if 'processed_ids' not in st.session_state:
+        st.session_state.processed_ids = set()  # 用于跟踪已处理的题目ID
     
     # 加载数据（仅在首次运行时加载）
     if not st.session_state.data_loaded:
@@ -237,6 +239,44 @@ def main():
         st.session_state.evaluated_videos = evaluated_videos
         st.session_state.version = version
         st.session_state.data_loaded = True
+    
+    # 尝试加载已保存的结果（如果有）
+    version = st.session_state.version
+    if version and 'results' in st.session_state and not st.session_state.results:
+        results_file = f"human_video_test_results_v{version}.json"
+        if os.path.exists(results_file):
+            try:
+                with open(results_file, "r", encoding='utf-8') as f:
+                    saved_results = json.load(f)
+                    st.session_state.results = saved_results
+                    st.info(f"已加载 {len(saved_results)} 个已完成的测试结果")
+            except Exception as e:
+                print(f"加载已保存结果失败: {e}")
+    
+    # 提取已处理的题目ID
+    processed_ids = set()
+    for result in st.session_state.results:
+        if 'id' in result:
+            processed_ids.add(result['id'])
+    st.session_state.processed_ids = processed_ids
+    
+    # 过滤掉已处理的题目
+    evaluated_videos = st.session_state.evaluated_videos
+    remaining_videos = [video for video in evaluated_videos if video['id'] not in processed_ids]
+    
+    # 如果所有题目都已处理完，直接显示结果
+    if not remaining_videos:
+        st.success("🎉 恭喜！您已完成所有测试问题！")
+        st.session_state.show_results = True
+        st.rerun()
+        return
+    
+    # 更新当前视频列表为未处理的题目
+    st.session_state.evaluated_videos = remaining_videos
+    
+    # 确保当前索引不超出范围
+    if st.session_state.current_index >= len(remaining_videos):
+        st.session_state.current_index = 0
     
     # 页面标题（仅渲染一次）
     st.markdown("## 🎬 视频理解人类测试")
@@ -418,8 +458,7 @@ def main():
                 'options': current_video['options'],
                 'selected_answer': selected_answer,
                 'correct_answer': correct_answer,
-                'is_correct': is_correct,
-                'timestamp': time.strftime("%Y-%m-%d %H:%M:%S")
+                'is_correct': is_correct
             }
             
             # 更新结果列表
@@ -431,6 +470,9 @@ def main():
                     break
             if not found:
                 st.session_state.results.append(result)
+            
+            # 自动保存结果到JSON
+            save_results(st.session_state.results, version)
             
             # 显示反馈
             feedback_container = st.container()

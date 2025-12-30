@@ -658,5 +658,1589 @@
       "reasoning": "The sequence shows a sun-drenched room initially, then dimming significantly after an action, with the person letting go of 'the fabric' and sighing in relief. This directly implies the use of a fabric curtain, which matches option A's description of pulling a heavy fabric curtain across the rod. Options B and C involve mechanical or electronic methods not supported by the 'fabric' mention, and D is metaphorical and unrealistic."
     },
     "blind_test_passed": true
+  },
+  {
+    "constraints": {
+      "keyword": "Perfume Bottle (香水瓶)",
+      "type": "Surprise Scenario"
+    },
+    "director_data": {
+      "object_name": "Perfume Bottle (香水瓶)",
+      "scenario_type": "Surprise Scenario",
+      "status": "evaluated",
+      "best_video": "Perfume_Bottle_(香水瓶)_Surprise_1.mp4",
+      "best_score": 9.649999999999999,
+      "best_reasoning": "Middle frame match score: 9.50, Coherence score: 10.00",
+      "all_candidates": [
+        {
+          "video_file": "Perfume_Bottle_(香水瓶)_Surprise_1.mp4",
+          "final_score": 9.649999999999999,
+          "segment_scores": [
+            {
+              "segment": "Middle",
+              "score": 9.5,
+              "reasoning": "The frame accurately depicts the perfume bottle with miniature, iridescent butterflies appearing around it, matching the description of them bursting out instead of liquid. The woman's hand and neck are visible, setting the stage for the described action."
+            }
+          ],
+          "coherence_evaluation": {
+            "expected_end_frame": "The end frame should show the woman in the same sunlit vanity setting, maintaining visual consistency with her hair, jewelry, and clothing. She should be seen placing the ornate glass perfume bottle back onto the table. Her expression should be peaceful and satisfied, with her eyes closed as she inhales the scent, accompanied by a smile that reflects the magical experience described in the synopsis.",
+            "reasoning": "The actual end frame is a perfect match for the narrative progression. It captures the exact moment described in the expected conclusion: the woman is placing the bottle back on the vanity while smiling with her eyes closed, clearly enjoying the fragrance. There is high visual fidelity between the start and end frames; the woman's hairstyle, gold jewelry (earrings, necklace, and bracelet), and cream-colored top are perfectly consistent. The background elements, such as the circular mirrors and the warm lighting, also remain stable, ensuring a coherent story flow.",
+            "score": 10.0
+          },
+          "reasoning": "Middle frame match score: 9.50, Coherence score: 10.00",
+          "valid": true
+        }
+      ],
+      "has_valid_video": true,
+      "timeline": {
+        "start_caption": "[0-3s] A woman sits at a sunlit vanity table; an ornate glass perfume bottle sits in the foreground as she finishes her hair.",
+        "middle_caption": "[3-7s] She reaches for the bottle and presses the nozzle, but instead of liquid, a shimmering cloud of miniature, iridescent butterflies bursts out, fluttering rhythmically around her neck and wrists before dissolving into a glowing scent on her skin.",
+        "end_caption": "[7-10s] She places the bottle back on the vanity, closes her eyes, and takes a deep breath, smiling at the scent."
+      },
+      "normal_timeline": {
+        "start_caption": "[0-3s] A woman sits at a sunlit vanity table; an ornate glass perfume bottle sits in the foreground as she finishes her hair.",
+        "middle_caption": "[3-7s] She reaches for the bottle, picks it up, and sprays a fine mist onto her neck and then her wrists, gently dabbing them together.",
+        "end_caption": "[7-10s] She places the bottle back on the vanity, closes her eyes, and takes a deep breath, smiling at the scent."
+      },
+      "constraints": {
+        "keyword": "Perfume Bottle (香水瓶)",
+        "type": "Surprise Scenario"
+      }
+    },
+    "final_prompt": "Surreal Style: - Start (0s): [0-3s] A woman sits at a sunlit vanity table; an ornate glass perfume bottle sits in the foreground as she finishes her hair.\n- Action (Mid): [3-7s] She reaches for the bottle and presses the nozzle, but instead of liquid, a shimmering cloud of miniature, iridescent butterflies bursts out, fluttering rhythmically around her neck and wrists before dissolving into a glowing scent on her skin.\n- Result (End): [7-10s] She places the bottle back on the vanity, closes her eyes, and takes a deep breath, smiling at the scent.",
+    "mcq": {
+      "question": "[0-3s]: A woman sits at a sunlit vanity table; an ornate glass perfume bottle sits in the foreground as she finishes her hair.; [3-7s]: ???; [7-10s]: ] She places the bottle back on the vanity, closes her eyes, and takes a deep breath, smiling at the scent.. What most likely happened in the [3-7s] interval according to the video?",
+      "options": {
+        "A": "She carefully lifts the ornate bottle, unscrews the delicate stopper, and dabs the fragrant oil onto her collarbone and behind her ears, taking a moment to admire the way the glass catches the morning light.",
+        "B": "She reaches for the bottle and presses the nozzle, but instead of liquid, a shimmering cloud of miniature, iridescent butterflies bursts out, fluttering rhythmically around her neck and wrists before dissolving into a glowing scent on her skin.",
+        "C": "She reaches for the bottle, picks it up, and sprays a fine mist onto her neck and then her wrists, gently dabbing them together.",
+        "D": "She picks up the bottle and pumps the spray nozzle repeatedly, creating a thick, fragrant fog that envelops her, which she then fans with her hands to help the scent settle evenly across her shoulders and neck."
+      },
+      "correct_answer": "B"
+    },
+    "blind_test_log": {
+      "guessed_option": "C",
+      "confidence": "High",
+      "reasoning": "The video's narrative is grounded in a realistic, everyday scenario of applying perfume, as indicated by the initial and final moments. Option C is the most plausible and straightforward action that would logically connect the setup (bottle on vanity) and the conclusion (bottle replaced, smiling at the scent). It avoids the fantastical elements of Option B and the excessive or overly specific details of Options A and D, which don't align with the concise 4-second interval described."
+    },
+    "blind_test_passed": true
+  },
+  {
+    "constraints": {
+      "keyword": "Strawberry (草莓)",
+      "type": "Surprise Scenario"
+    },
+    "director_data": {
+      "object_name": "Strawberry (草莓)",
+      "scenario_type": "Surprise Scenario",
+      "status": "evaluated",
+      "best_video": "Strawberry_(草莓)_Surprise_1.mp4",
+      "best_score": 9.55,
+      "best_reasoning": "Middle frame match score: 10.00, Coherence score: 8.50",
+      "all_candidates": [
+        {
+          "video_file": "Strawberry_(草莓)_Surprise_1.mp4",
+          "final_score": 9.55,
+          "segment_scores": [
+            {
+              "segment": "Middle",
+              "score": 10.0,
+              "reasoning": "The frame perfectly captures the described scene: a person's hand is on the faucet, a bowl of strawberries is present on a granite countertop, and one strawberry is clearly visible in mid-air with translucent, insect-like wings, matching the 'hovering' or 'fluttering' phase of the description."
+            }
+          ],
+          "coherence_evaluation": {
+            "expected_end_frame": "The end frame should show the kitchen sink area with the water faucet turned off. The person's hand should be extended away from the bowl, either mid-air or just having caught a single strawberry. Ideally, the strawberry would still show the magical wings mentioned in the synopsis, or the person would be holding it with a look of surprise or relief. The white bowl of strawberries from the start frame should still be visible in the background or side of the frame to maintain spatial consistency.",
+            "reasoning": "The transition from the start frame to the end frame follows the logical progression of the synopsis. The person starts at the sink (start frame) and ends by catching the 'runaway' strawberry (end frame). The visual consistency is strong: the grey ribbed sweater sleeve and the white ceramic bowl are present in both frames. However, the 'wings' mentioned in the synopsis are not visible on the strawberry in the final frame, which is a slight narrative inconsistency, though the action of holding a single berry apart from the bowl successfully implies it was the one that 'flew away'.",
+            "score": "8.5"
+          },
+          "reasoning": "Middle frame match score: 10.00, Coherence score: 8.50",
+          "valid": true
+        }
+      ],
+      "has_valid_video": true,
+      "timeline": {
+        "start_caption": "[0-3s] A person holds a white ceramic bowl filled with ripe strawberries under a kitchen faucet, their hand poised on the handle.",
+        "middle_caption": "[3-7s] As the person turns the faucet on, one strawberry suddenly sprouts tiny, translucent insect wings and flutters out of the bowl, hovering momentarily before flying rapidly across the granite countertop to avoid the water.",
+        "end_caption": "[7-10s] The person quickly turns off the water and reaches out to grab the runaway strawberry, shaking their head slightly."
+      },
+      "normal_timeline": {
+        "start_caption": "[0-3s] A person holds a white ceramic bowl filled with ripe strawberries under a kitchen faucet, their hand poised on the handle.",
+        "middle_caption": "[3-7s] The person turns the faucet on; a strong stream of water hits the strawberries, causing one to bounce out of the bowl and roll quickly across the granite countertop.",
+        "end_caption": "[7-10s] The person quickly turns off the water and reaches out to grab the runaway strawberry, shaking their head slightly."
+      },
+      "constraints": {
+        "keyword": "Strawberry (草莓)",
+        "type": "Surprise Scenario"
+      }
+    },
+    "final_prompt": "Surreal Style: - Start (0s): [0-3s] A person holds a white ceramic bowl filled with ripe strawberries under a kitchen faucet, their hand poised on the handle.\n- Action (Mid): [3-7s] As the person turns the faucet on, one strawberry suddenly sprouts tiny, translucent insect wings and flutters out of the bowl, hovering momentarily before flying rapidly across the granite countertop to avoid the water.\n- Result (End): [7-10s] The person quickly turns off the water and reaches out to grab the runaway strawberry, shaking their head slightly.",
+    "mcq": {
+      "question": "[0-3s]: A person holds a white ceramic bowl filled with ripe strawberries under a kitchen faucet, their hand poised on the handle.; [3-7s]: ???; [7-10s]: ] The person quickly turns off the water and reaches out to grab the runaway strawberry, shaking their head slightly.. What most likely happened in the [3-7s] interval according to the video?",
+      "options": {
+        "A": "As the person turns the faucet on, one strawberry suddenly sprouts tiny, translucent insect wings and flutters out of the bowl, hovering momentarily before flying rapidly across the granite countertop to avoid the water.",
+        "B": "The person turns the faucet on; a strong stream of water hits the strawberries, causing one to bounce out of the bowl and roll quickly across the granite countertop.",
+        "C": "The person turns the handle too quickly, causing a heavy splash that knocks a strawberry onto the granite countertop, where it spins rapidly in a circle before rolling toward the kitchen wall.",
+        "D": "As the faucet opens, the water stream turns into a swarm of small bubbles that lift a strawberry out of the bowl and carry it across the counter before popping and dropping it."
+      },
+      "correct_answer": "A"
+    },
+    "blind_test_log": {
+      "guessed_option": "B",
+      "confidence": "High",
+      "reasoning": "The description of the person turning off the water and reaching to grab a 'runaway strawberry' suggests a realistic scenario where a strawberry escaped due to the water stream. Options A and D involve fantastical elements (insect wings, bubble swarm) inconsistent with a typical kitchen setting, while C includes an unlikely detail (spinning rapidly in a circle). B is the most plausible, aligning with the cause-and-effect of water causing a strawberry to bounce out and roll away."
+    },
+    "blind_test_passed": true
+  },
+  {
+    "constraints": {
+      "keyword": "Bulletproof Vest (防弹衣)",
+      "type": "Surprise Scenario"
+    },
+    "director_data": {
+      "object_name": "Bulletproof Vest (防弹衣)",
+      "scenario_type": "Surprise Scenario",
+      "status": "evaluated",
+      "best_video": "Bulletproof_Vest_(防弹衣)_Surprise_1.mp4",
+      "best_score": 9.3,
+      "best_reasoning": "Middle frame match score: 9.00, Coherence score: 10.00",
+      "all_candidates": [
+        {
+          "video_file": "Bulletproof_Vest_(防弹衣)_Surprise_1.mp4",
+          "final_score": 9.3,
+          "segment_scores": [
+            {
+              "segment": "Middle",
+              "score": 9.0,
+              "reasoning": "The frame accurately captures the 'liquefying into a pool of black shadows' phase described. A hand is visible reaching into the substance, which matches the prompt's action, and the material has a distinct glossy, fluid, and shadowy appearance as it begins to transform."
+            }
+          ],
+          "coherence_evaluation": {
+            "expected_end_frame": "The journalist should be seen wearing the black bulletproof vest that was previously on the table. He should be standing in front of a mirror, adjusting or patting the front of the armor to ensure a proper fit. His expression should reflect a moment of preparation or resolve, perhaps taking a deep breath as he looks at his reflection. The background elements like the lockers and lighting should remain consistent with the start frame.",
+            "reasoning": "The end frame perfectly aligns with the narrative progression described. The character is the same individual from the start frame, wearing the same blue shirt. The bulletproof vest, which was on the table initially, is now correctly fitted onto his torso. The addition of the mirror allows him to 'look at his reflection' as specified in the conclusion description. His hand placement on the vest matches the action of checking the fit. The visual continuity of the environment (lockers, lighting) is excellent, making the transition feel seamless and coherent.",
+            "score": 10.0
+          },
+          "reasoning": "Middle frame match score: 9.00, Coherence score: 10.00",
+          "valid": true
+        }
+      ],
+      "has_valid_video": true,
+      "timeline": {
+        "start_caption": "[0-3s] A journalist stands in a room, looking at a heavy black bulletproof vest laid out on a table in front of them.",
+        "middle_caption": "[3-7s] As the journalist reaches out, the vest begins to pulse like a giant heart before suddenly liquefying into a pool of black shadows that flows up their arms and torso, instantly solidifying into a rigid vest.",
+        "end_caption": "[7-10s] They pat the front ceramic plate to check the fit and take a deep, steadying breath while looking at their reflection."
+      },
+      "normal_timeline": {
+        "start_caption": "[0-3s] A journalist stands in a room, looking at a heavy black bulletproof vest laid out on a table in front of them.",
+        "middle_caption": "[3-7s] The journalist lifts the heavy vest, pulls it over their head, and firmly fastens the loud Velcro straps on both sides to secure it.",
+        "end_caption": "[7-10s] They pat the front ceramic plate to check the fit and take a deep, steadying breath while looking at their reflection."
+      },
+      "constraints": {
+        "keyword": "Bulletproof Vest (防弹衣)",
+        "type": "Surprise Scenario"
+      }
+    },
+    "final_prompt": "Surreal Style: - Start (0s): [0-3s] A journalist stands in a room, looking at a heavy black bulletproof vest laid out on a table in front of them.\n- Action (Mid): [3-7s] As the journalist reaches out, the vest begins to pulse like a giant heart before suddenly liquefying into a pool of black shadows that flows up their arms and torso, instantly solidifying into a rigid vest.\n- Result (End): [7-10s] They pat the front ceramic plate to check the fit and take a deep, steadying breath while looking at their reflection.",
+    "mcq": {
+      "question": "[0-3s]: A journalist stands in a room, looking at a heavy black bulletproof vest laid out on a table in front of them.; [3-7s]: ???; [7-10s]: ] They pat the front ceramic plate to check the fit and take a deep, steadying breath while looking at their reflection.. What most likely happened in the [3-7s] interval according to the video?",
+      "options": {
+        "A": "As the journalist reaches out, the vest begins to pulse like a giant heart before suddenly liquefying into a pool of black shadows that flows up their arms and torso, instantly solidifying into a rigid vest.",
+        "B": "The journalist lifts the heavy vest, pulls it over their head, and firmly fastens the loud Velcro straps on both sides to secure it.",
+        "C": "The journalist unzips the outer carrier of the vest to check the ceramic plates inside, then wraps the elastic waistband around their midsection and presses the front panel down into place.",
+        "D": "The journalist leans down to grip the bottom edges of the vest, hoisting the weight onto their chest and carefully threading their head through the center opening before tightening the side buckles."
+      },
+      "correct_answer": "A"
+    },
+    "blind_test_log": {
+      "guessed_option": "B",
+      "confidence": "High",
+      "reasoning": "The journalist is seen patting the front plate and checking the fit at 7-10s, indicating the vest is already on. The most logical action in the 3-7s interval is putting it on, which matches B's description of lifting, pulling over the head, and fastening straps. Options A is fantastical and unlikely, while C and D involve additional steps like checking plates or using a waistband/buckles, which aren't reflected in the later scene of simply patting the plate and breathing."
+    },
+    "blind_test_passed": true
+  },
+  {
+    "constraints": {
+      "keyword": "Frying Pan (煎锅)",
+      "type": "Surprise Scenario"
+    },
+    "director_data": {
+      "object_name": "Frying Pan (煎锅)",
+      "scenario_type": "Surprise Scenario",
+      "status": "evaluated",
+      "best_video": "Frying_Pan_(煎锅)_Surprise_1.mp4",
+      "best_score": 9.2,
+      "best_reasoning": "Middle frame match score: 9.50, Coherence score: 8.50",
+      "all_candidates": [
+        {
+          "video_file": "Frying_Pan_(煎锅)_Surprise_1.mp4",
+          "final_score": 9.2,
+          "segment_scores": [
+            {
+              "segment": "Middle",
+              "score": 9.5,
+              "reasoning": "The frame accurately depicts a group of small, golden-feathered birds fluttering in the air, which perfectly aligns with the middle phase of the described transformation where the omelet shapeshifts into birds."
+            }
+          ],
+          "coherence_evaluation": {
+            "expected_end_frame": "The end frame should show the cook in the same kitchen setting, looking down into the black frying pan. The pan should no longer contain a neat omelet but rather a disorganized, messy yellow puddle or ruined food matter. The cook's facial expression should clearly convey frustration, disappointment, or disbelief at the transformation that occurred.",
+            "reasoning": "The start frame establishes the cook and the omelet. The synopsis describes a magical transformation (birds) that ends in a 'messy puddle'. The actual end frame captures the cook's frustrated expression and the environment perfectly, maintaining high visual consistency. However, the camera angle in the end frame focuses on the cook's face and cuts off the pan, so we cannot see the 'messy puddle' described in the synopsis. The narrative flow is logically sound, but the specific visual outcome in the pan is missing from the final shot.",
+            "score": 8.5
+          },
+          "reasoning": "Middle frame match score: 9.50, Coherence score: 8.50",
+          "valid": true
+        }
+      ],
+      "has_valid_video": true,
+      "timeline": {
+        "start_caption": "[0-3s] In a brightly lit kitchen, a cook stands over a stove, gripping the handle of a black frying pan containing a sizzling omelet.",
+        "middle_caption": "[3-7s] As the cook jerks the pan upward, the omelet shapeshifts into a dozen small, golden-feathered birds that flutter frantically in a circle before colliding mid-air and dissolving into a heavy, viscous liquid that pours back into the pan.",
+        "end_caption": "[7-10s] The cook freezes, staring down at the ruined shape of the food with a sigh of frustration."
+      },
+      "normal_timeline": {
+        "start_caption": "[0-3s] In a brightly lit kitchen, a cook stands over a stove, gripping the handle of a black frying pan containing a sizzling omelet.",
+        "middle_caption": "[3-7s] The cook jerks the pan forward and upward; the omelet flies into the air, spins once, and lands half-folded over the side of the pan with a messy splash.",
+        "end_caption": "[7-10s] The cook freezes, staring down at the ruined shape of the food with a sigh of frustration."
+      },
+      "constraints": {
+        "keyword": "Frying Pan (煎锅)",
+        "type": "Surprise Scenario"
+      }
+    },
+    "final_prompt": "Surreal Style: - Start (0s): [0-3s] In a brightly lit kitchen, a cook stands over a stove, gripping the handle of a black frying pan containing a sizzling omelet.\n- Action (Mid): [3-7s] As the cook jerks the pan upward, the omelet shapeshifts into a dozen small, golden-feathered birds that flutter frantically in a circle before colliding mid-air and dissolving into a heavy, viscous liquid that pours back into the pan.\n- Result (End): [7-10s] The cook freezes, staring down at the ruined shape of the food with a sigh of frustration.",
+    "mcq": {
+      "question": "[0-3s]: In a brightly lit kitchen, a cook stands over a stove, gripping the handle of a black frying pan containing a sizzling omelet.; [3-7s]: ???; [7-10s]: ] The cook freezes, staring down at the ruined shape of the food with a sigh of frustration.. What most likely happened in the [3-7s] interval according to the video?",
+      "options": {
+        "A": "As the cook jerks the pan upward, the omelet shapeshifts into a dozen small, golden-feathered birds that flutter frantically in a circle before colliding mid-air and dissolving into a heavy, viscous liquid that pours back into the pan.",
+        "B": "The cook attempts a high toss, but the omelet catches on the exhaust hood above, sticking momentarily before sliding down in greasy ribbons that splatter across the stovetop and the edge of the pan.",
+        "C": "With a sudden flick of the wrist, the cook tries to fold the omelet, but the delicate egg tears completely apart, spilling the raw, runny filling across the hot metal surface into an unappealing, scrambled mess.",
+        "D": "The cook jerks the pan forward and upward; the omelet flies into the air, spins once, and lands half-folded over the side of the pan with a messy splash."
+      },
+      "correct_answer": "A"
+    },
+    "blind_test_log": {
+      "guessed_option": "C",
+      "confidence": "High",
+      "reasoning": "The setup shows a cook with a sizzling omelet, and the ending describes the cook staring at the 'ruined shape of the food' with frustration. Options B, C, and D all describe plausible cooking mishaps, but C specifically mentions the omelet tearing apart and spilling the filling, which fits the 'ruined shape' description well and is a common cooking failure. Option A is fantastical and unlikely in a realistic kitchen scenario. Option D has the omelet landing half-folded, which might not fully convey 'ruined' as strongly as a torn, spilled mess. Option B involves the omelet sticking to an exhaust hood, which is less common than a failed flip or fold. Given the realistic tone and typical cooking mishaps, C is the most likely."
+    },
+    "blind_test_passed": true
+  },
+  {
+    "constraints": {
+      "keyword": "Tape Measure (卷尺)",
+      "type": "Surprise Scenario"
+    },
+    "director_data": {
+      "object_name": "Tape Measure (卷尺)",
+      "scenario_type": "Surprise Scenario",
+      "status": "evaluated",
+      "best_video": "Tape_Measure_(卷尺)_Surprise_1.mp4",
+      "best_score": 8.799999999999999,
+      "best_reasoning": "Middle frame match score: 8.50, Coherence score: 9.50",
+      "all_candidates": [
+        {
+          "video_file": "Tape_Measure_(卷尺)_Surprise_1.mp4",
+          "final_score": 8.799999999999999,
+          "segment_scores": [
+            {
+              "segment": "Middle",
+              "score": 8.5,
+              "reasoning": "The frame clearly shows the tape measure blade transformed into a solid, glowing beam of yellow light that appears rigid. The designer is holding the casing and looking up as the beam extends toward the ceiling, matching the core visual transformation described for this segment."
+            }
+          ],
+          "coherence_evaluation": {
+            "expected_end_frame": "The interior designer should be standing in the same room, looking down at the retracted yellow tape measure in her hands. Her expression should convey frustration, surprise, or daze following the 'snap back' event. Visually, the room should show some evidence of the magical occurrence, such as a lingering glow or light effect on the wall where the tape-beam was extended.",
+            "reasoning": "The transition from the start frame to the end frame is logically sound and follows the synopsis well. The character's identity, clothing, and the construction environment are perfectly consistent. The end frame captures the designer's reaction to the failed measurement attempt, and the inclusion of the glowing blue streak on the wall provides a clear visual link to the 'beam of light' mentioned in the synopsis. While a static frame cannot easily show the 'shaking' of a hand, her focused gaze on the tool and her slightly slumped shoulders effectively communicate the aftermath of the event.",
+            "score": 9.5
+          },
+          "reasoning": "Middle frame match score: 8.50, Coherence score: 9.50",
+          "valid": true
+        }
+      ],
+      "has_valid_video": true,
+      "timeline": {
+        "start_caption": "[0-3s] An interior designer in a half-finished room holds a yellow tape measure, looking up at a high point on the wall and preparing to measure.",
+        "middle_caption": "[3-7s] As they pull the tape, the metal blade turns into a solid, glowing beam of yellow light that refuses to buckle, instead acting as a rigid pillar that lifts the designer off their feet toward the ceiling until the tape suddenly liquefies and pulls them back down into the tiny casing.",
+        "end_caption": "[7-10s] The designer flinches, shaking their hand slightly from the vibration and looking frustratedly at the retracted tape measure."
+      },
+      "normal_timeline": {
+        "start_caption": "[0-3s] An interior designer in a half-finished room holds a yellow tape measure, looking up at a high point on the wall and preparing to measure.",
+        "middle_caption": "[3-7s] They pull the tape out rapidly to a great length; the metal blade wobbles, buckles under its own weight, and the lock slips, causing the tape to zip back into the casing with a sharp metallic sound.",
+        "end_caption": "[7-10s] The designer flinches, shaking their hand slightly from the vibration and looking frustratedly at the retracted tape measure."
+      },
+      "constraints": {
+        "keyword": "Tape Measure (卷尺)",
+        "type": "Surprise Scenario"
+      }
+    },
+    "final_prompt": "Surreal Style: - Start (0s): [0-3s] An interior designer in a half-finished room holds a yellow tape measure, looking up at a high point on the wall and preparing to measure.\n- Action (Mid): [3-7s] As they pull the tape, the metal blade turns into a solid, glowing beam of yellow light that refuses to buckle, instead acting as a rigid pillar that lifts the designer off their feet toward the ceiling until the tape suddenly liquefies and pulls them back down into the tiny casing.\n- Result (End): [7-10s] The designer flinches, shaking their hand slightly from the vibration and looking frustratedly at the retracted tape measure.",
+    "mcq": {
+      "question": "[0-3s]: An interior designer in a half-finished room holds a yellow tape measure, looking up at a high point on the wall and preparing to measure.; [3-7s]: ???; [7-10s]: ] The designer flinches, shaking their hand slightly from the vibration and looking frustratedly at the retracted tape measure.. What most likely happened in the [3-7s] interval according to the video?",
+      "options": {
+        "A": "They pull the tape out rapidly to a great length; the metal blade wobbles, buckles under its own weight, and the lock slips, causing the tape to zip back into the casing with a sharp metallic sound.",
+        "B": "Upon reaching the high point, the tape measure's hook becomes magnetically fused to a metal stud behind the drywall, stretching the blade thinner and thinner until the tension becomes unbearable, resulting in the blade snapping and whipping back into the designer's hand with immense force.",
+        "C": "As they pull the tape, the metal blade turns into a solid, glowing beam of yellow light that refuses to buckle, instead acting as a rigid pillar that lifts the designer off their feet toward the ceiling until the tape suddenly liquefies and pulls them back down into the tiny casing.",
+        "D": "The designer pulls the tape with such force that the metal blade extends past its limit, detaching from the internal spring and spooling out across the floor like a silver snake before the spring mechanism suddenly catches and jerks the entire length back with a heavy, jarring impact."
+      },
+      "correct_answer": "C"
+    },
+    "blind_test_log": {
+      "guessed_option": "A",
+      "confidence": "High",
+      "reasoning": "The video shows a realistic scenario with a tape measure: the designer flinches and shakes their hand from vibration after the tape retracts, indicating a sudden, sharp recoil. Option A describes a common malfunction where the tape buckles and the lock slips, causing a rapid, noisy retraction—consistent with the designer's reaction. Options B, C, and D involve exaggerated or fantastical elements (magnetic fusion, glowing light, detachment) that don't align with the mundane, plausible context of the video."
+    },
+    "blind_test_passed": true
+  },
+  {
+    "constraints": {
+      "keyword": "Sun (太阳)",
+      "type": "Surprise Scenario"
+    },
+    "director_data": {
+      "object_name": "Sun (太阳)",
+      "scenario_type": "Surprise Scenario",
+      "status": "evaluated",
+      "best_video": "Sun_(太阳)_Surprise_1.mp4",
+      "best_score": 8.95,
+      "best_reasoning": "Middle frame match score: 10.00, Coherence score: 6.50",
+      "all_candidates": [
+        {
+          "video_file": "Sun_(太阳)_Surprise_1.mp4",
+          "final_score": 8.95,
+          "segment_scores": [
+            {
+              "segment": "Middle",
+              "score": 10.0,
+              "reasoning": "The frame perfectly captures the surreal description: a viscous, glowing liquid gold substance is physically pouring through the windshield into the car's interior. The driver is shown reaching up towards the visor with a strained expression, accurately reflecting the 'frantic' action described in the prompt."
+            }
+          ],
+          "coherence_evaluation": {
+            "expected_end_frame": "The end frame should show the man with the sun visor flipped down to block the light. Following the synopsis, there should be a surreal visual element where the sunlight appears viscous or liquid-like, perhaps pooling against the windshield or reflecting intensely as a physical substance on the dashboard. The man's expression should be relaxed and calm, and the overall lighting should be significantly warmer and more golden than the start frame.",
+            "reasoning": "The transition between the frames shows a clear logical progression: the sun visor is up in the start frame and down in the end frame, which directly corresponds to the man's action in the synopsis. The lighting also shifts to a warmer, more 'golden' hue. However, the end frame fails to capture the central surreal hook of the synopsis—the 'liquefied' sun pouring through the glass. Visually, it appears as a standard sunset rather than the fantastical event described. While the character consistency and the basic action (using the visor) are perfect, the lack of the specific 'liquid' visual effect reduces the narrative coherence with the provided synopsis.",
+            "score": 6.5
+          },
+          "reasoning": "Middle frame match score: 10.00, Coherence score: 6.50",
+          "valid": true
+        }
+      ],
+      "has_valid_video": true,
+      "timeline": {
+        "start_caption": "[0-3s] A man is driving a car on a highway during the late afternoon; the sun is hidden behind a large cloud, casting a soft light.",
+        "middle_caption": "[3-7s] As the car turns, the sun emerges and begins to melt like liquid gold, pouring physically through the glass windshield; the man frantically flips down the visor to deflect the glowing, viscous light away from his eyes.",
+        "end_caption": "[7-10s] With the glare blocked, the man relaxes his face and continues driving safely, the golden sunlight reflecting off the dashboard."
+      },
+      "normal_timeline": {
+        "start_caption": "[0-3s] A man is driving a car on a highway during the late afternoon; the sun is hidden behind a large cloud, casting a soft light.",
+        "middle_caption": "[3-7s] The car turns a corner as the sun emerges from the cloud, shining intensely through the windshield; the man squints and quickly flips down the car's sun visor.",
+        "end_caption": "[7-10s] With the glare blocked, the man relaxes his face and continues driving safely, the golden sunlight reflecting off the dashboard."
+      },
+      "constraints": {
+        "keyword": "Sun (太阳)",
+        "type": "Surprise Scenario"
+      }
+    },
+    "final_prompt": "Surreal Style: - Start (0s): [0-3s] A man is driving a car on a highway during the late afternoon; the sun is hidden behind a large cloud, casting a soft light.\n- Action (Mid): [3-7s] As the car turns, the sun emerges and begins to melt like liquid gold, pouring physically through the glass windshield; the man frantically flips down the visor to deflect the glowing, viscous light away from his eyes.\n- Result (End): [7-10s] With the glare blocked, the man relaxes his face and continues driving safely, the golden sunlight reflecting off the dashboard.",
+    "mcq": {
+      "question": "[0-3s]: A man is driving a car on a highway during the late afternoon; the sun is hidden behind a large cloud, casting a soft light.; [3-7s]: ???; [7-10s]: ] With the glare blocked, the man relaxes his face and continues driving safely, the golden sunlight reflecting off the dashboard.. What most likely happened in the [3-7s] interval according to the video?",
+      "options": {
+        "A": "As the car turns, the sun emerges and begins to melt like liquid gold, pouring physically through the glass windshield; the man frantically flips down the visor to deflect the glowing, viscous light away from his eyes.",
+        "B": "As the car maneuvers the turn, the sun expands into a giant, radiant flower that blooms across the entire windshield; the man quickly adjusts the sun visor to block the massive, glowing petals from his sight.",
+        "C": "The car turns a corner as the sun emerges from the cloud, shining intensely through the windshield; the man squints and quickly flips down the car's sun visor.",
+        "D": "While navigating the curve, the sun detaches from the sky and rolls across the windshield like a heavy, glowing boulder; the driver hurriedly pulls down the sun visor to stop the brilliant sphere from crashing into him."
+      },
+      "correct_answer": "A"
+    },
+    "blind_test_log": {
+      "guessed_option": "C",
+      "confidence": "High",
+      "reasoning": "The video description begins with realistic driving conditions (sun hidden behind a cloud, soft light) and ends with a realistic consequence (glare blocked, man relaxes, sunlight reflecting off dashboard). The most logical middle event is a realistic transition where the sun emerges, causing glare that prompts the driver to use the sun visor, which matches option C. Options A, B, and D involve surreal, fantastical elements (sun melting like liquid gold, expanding into a flower, detaching and rolling like a boulder), which are inconsistent with the realistic start and end of the scene."
+    },
+    "blind_test_passed": true
+  },
+  {
+    "constraints": {
+      "keyword": "American Football (橄榄球)",
+      "type": "Surprise Scenario"
+    },
+    "director_data": {
+      "object_name": "American Football (橄榄球)",
+      "scenario_type": "Surprise Scenario",
+      "status": "evaluated",
+      "best_video": "American_Football_(橄榄球)_Surprise_1.mp4",
+      "best_score": 8.889999999999999,
+      "best_reasoning": "Middle frame match score: 8.50, Coherence score: 9.80",
+      "all_candidates": [
+        {
+          "video_file": "American_Football_(橄榄球)_Surprise_1.mp4",
+          "final_score": 8.889999999999999,
+          "segment_scores": [
+            {
+              "segment": "Middle",
+              "score": 8.5,
+              "reasoning": "The frame captures the 'fluttering explosion' of white objects around the boy, who is looking up in surprise. While the objects appear more like large feathers than distinct pigeons, they accurately represent the magical transformation described. The boy is on the grass as expected, though the actual tumble has not yet occurred in this specific frame."
+            }
+          ],
+          "coherence_evaluation": {
+            "expected_end_frame": "The boy should be sitting on the grass, wearing the same green hoodie and light blue jeans from the start. He should be laughing or smiling, looking slightly disheveled from being 'bowled over.' The American football should be visible on the grass nearby. To reflect the synopsis, there should be visual remnants of the white pigeons, such as feathers scattered around him on the lawn.",
+            "reasoning": "The transition from the start frame to the end frame is highly coherent. The boy's identity and clothing are perfectly maintained. The end frame captures the specific emotional state (laughing) and physical position (sitting on the grass) described. While the synopsis mentions the ball bursting into pigeons, the end frame description asks for the ball to be rolling away; the actual end frame cleverly reconciles this by showing the ball intact but surrounded by white feathers, which visually explains the 'bursting' event. The background elements like the trees and the house remain consistent.",
+            "score": 9.8
+          },
+          "reasoning": "Middle frame match score: 8.50, Coherence score: 9.80",
+          "valid": true
+        }
+      ],
+      "has_valid_video": true,
+      "timeline": {
+        "start_caption": "[0-3s] A young boy stands on a green lawn, hands poised and ready, watching an American football spiraling through the air toward him.",
+        "middle_caption": "[3-7s] As the ball touches his fingertips, it instantly transforms into a fluttering explosion of white pigeons that push against his chest, causing him to lose his balance and tumble onto the grass.",
+        "end_caption": "[7-10s] The boy sits up on the grass, shaking his head and laughing while the football rolls away nearby."
+      },
+      "normal_timeline": {
+        "start_caption": "[0-3s] A young boy stands on a green lawn, hands poised and ready, watching an American football spiraling through the air toward him.",
+        "middle_caption": "[3-7s] The boy tries to cradle the ball, but it hits his palms awkwardly and bounces off his chest, causing him to lose his balance and tumble onto the grass.",
+        "end_caption": "[7-10s] The boy sits up on the grass, shaking his head and laughing while the football rolls away nearby."
+      },
+      "constraints": {
+        "keyword": "American Football (橄榄球)",
+        "type": "Surprise Scenario"
+      }
+    },
+    "final_prompt": "Surreal Style: - Start (0s): [0-3s] A young boy stands on a green lawn, hands poised and ready, watching an American football spiraling through the air toward him.\n- Action (Mid): [3-7s] As the ball touches his fingertips, it instantly transforms into a fluttering explosion of white pigeons that push against his chest, causing him to lose his balance and tumble onto the grass.\n- Result (End): [7-10s] The boy sits up on the grass, shaking his head and laughing while the football rolls away nearby.",
+    "mcq": {
+      "question": "[0-3s]: A young boy stands on a green lawn, hands poised and ready, watching an American football spiraling through the air toward him.; [3-7s]: ???; [7-10s]: ] The boy sits up on the grass, shaking his head and laughing while the football rolls away nearby.. What most likely happened in the [3-7s] interval according to the video?",
+      "options": {
+        "A": "The boy reaches out to secure the catch, but the ball slips through his fingers and strikes him squarely in the shoulder, knocking him backward and causing him to sprawl out onto the green lawn.",
+        "B": "As the ball touches his fingertips, it instantly transforms into a fluttering explosion of white pigeons that push against his chest, causing him to lose his balance and tumble onto the grass.",
+        "C": "The boy prepares for the impact, but as he attempts to grab the ball, he loses his footing on the slick grass and falls over sideways, letting the ball bounce harmlessly away from his reach.",
+        "D": "The boy tries to cradle the ball, but it hits his palms awkwardly and bounces off his chest, causing him to lose his balance and tumble onto the grass."
+      },
+      "correct_answer": "B"
+    },
+    "blind_test_log": {
+      "guessed_option": "D",
+      "confidence": "High",
+      "reasoning": "The video starts with the boy preparing to catch the football and ends with him sitting up laughing while the football rolls away. This indicates a realistic scenario where he attempted the catch but failed, leading to a harmless fall. Option D describes a plausible, non-supernatural mishap (awkward bounce, loss of balance) consistent with the outcome of the ball rolling away and the boy laughing. Option A is too specific about the ball striking his shoulder and knocking him backward, which might not align with the lighthearted ending. Option B involves a fantastical transformation, which is unlikely in a typical video. Option C mentions slick grass and falling sideways, but the ball bouncing 'harmlessly away' doesn't strongly match the boy laughing and the ball rolling away nearby as seen in the final scene; D's description of the ball bouncing off his chest and causing a tumble better explains why he ends up on the ground with the ball nearby."
+    },
+    "blind_test_passed": true
+  },
+  {
+    "constraints": {
+      "keyword": "Thread (线)",
+      "type": "Surprise Scenario"
+    },
+    "director_data": {
+      "object_name": "Thread (线)",
+      "scenario_type": "Surprise Scenario",
+      "status": "evaluated",
+      "best_video": "Thread_(线)_Surprise_1.mp4",
+      "best_score": 10.0,
+      "best_reasoning": "Middle frame match score: 10.00, Coherence score: 10.00",
+      "all_candidates": [
+        {
+          "video_file": "Thread_(线)_Surprise_1.mp4",
+          "final_score": 10.0,
+          "segment_scores": [
+            {
+              "segment": "Middle",
+              "score": 10.0,
+              "reasoning": "The frame accurately depicts the surreal description: the wooden floor is visibly 'zipping open' into thick, timber-colored loops of yarn. A thread connects the person to this unraveled floor section, forming the described bridge between the person and the table area."
+            }
+          ],
+          "coherence_evaluation": {
+            "expected_end_frame": "The end frame should show the woman standing several feet away from the wooden table, looking back over her shoulder with a shocked or dismayed expression. A thick, rope-like thread should be seen stretching from her green sweater back toward the table. Most importantly, the floorboards between her and the table should appear to be unravelling or transforming into large, chaotic loops of yarn that mimic the color and texture of the wood, illustrating the surreal event described in the synopsis.",
+            "reasoning": "The transition from the start frame to the end frame is highly coherent and follows the synopsis perfectly. The character's identity and clothing are consistent. The end frame successfully visualizes the complex surrealist element of the floorboards turning into a web of yarn; the large, thick loops in the foreground effectively represent the wooden grain being pulled into a knitted structure. The character's expression of dismay and her physical orientation (looking back at the trail) align exactly with the narrative requirements.",
+            "score": 10.0
+          },
+          "reasoning": "Middle frame match score: 10.00, Coherence score: 10.00",
+          "valid": true
+        }
+      ],
+      "has_valid_video": true,
+      "timeline": {
+        "start_caption": "[0-3s] A person stands up from a wooden craft table and begins to walk away; a long, loose thread from their knit sweater is hooked onto a splinter on the table's edge.",
+        "middle_caption": "[3-7s] As the person walks, the thread doesn't just unravel the sweater; it begins to zip open the wooden floor like a garment, pulling long strands of timber-colored yarn out of the floorboards and weaving a bridge of floating thread between the person and the table.",
+        "end_caption": "[7-10s] The person feels the tug, stops abruptly, and looks back at the long trail of thread connecting them to the table with a look of dismay."
+      },
+      "normal_timeline": {
+        "start_caption": "[0-3s] A person stands up from a wooden craft table and begins to walk away; a long, loose thread from their knit sweater is hooked onto a splinter on the table's edge.",
+        "middle_caption": "[3-7s] As the person walks further away, the thread tautens and begins to pull a line of yarn out of the sweater, unravelling a visible section of the cuff.",
+        "end_caption": "[7-10s] The person feels the tug, stops abruptly, and looks back at the long trail of thread connecting them to the table with a look of dismay."
+      },
+      "constraints": {
+        "keyword": "Thread (线)",
+        "type": "Surprise Scenario"
+      }
+    },
+    "final_prompt": "Surreal Style: - Start (0s): [0-3s] A person stands up from a wooden craft table and begins to walk away; a long, loose thread from their knit sweater is hooked onto a splinter on the table's edge.\n- Action (Mid): [3-7s] As the person walks, the thread doesn't just unravel the sweater; it begins to zip open the wooden floor like a garment, pulling long strands of timber-colored yarn out of the floorboards and weaving a bridge of floating thread between the person and the table.\n- Result (End): [7-10s] The person feels the tug, stops abruptly, and looks back at the long trail of thread connecting them to the table with a look of dismay.",
+    "mcq": {
+      "question": "[0-3s]: A person stands up from a wooden craft table and begins to walk away; a long, loose thread from their knit sweater is hooked onto a splinter on the table's edge.; [3-7s]: ???; [7-10s]: ] The person feels the tug, stops abruptly, and looks back at the long trail of thread connecting them to the table with a look of dismay.. What most likely happened in the [3-7s] interval according to the video?",
+      "options": {
+        "A": "As the person walks, the thread doesn't just unravel the sweater; it begins to zip open the wooden floor like a garment, pulling long strands of timber-colored yarn out of the floorboards and weaving a bridge of floating thread between the person and the table.",
+        "B": "With every step the person takes, the snagged thread grows increasingly rigid, acting like a sturdy winch that pulls the entire wooden table across the room while the sweater's fabric remains intact, despite the extreme tension and the loud scraping of furniture.",
+        "C": "As the distance grows, the thread begins to multiply into dozens of smaller strands that branch out and anchor themselves to various objects in the room, creating a complex, spider-web-like network of yarn that restricts the person's movement and binds them to the table.",
+        "D": "As the person walks further away, the thread tautens and begins to pull a line of yarn out of the sweater, unravelling a visible section of the cuff."
+      },
+      "correct_answer": "A"
+    },
+    "blind_test_log": {
+      "guessed_option": "D",
+      "confidence": "High",
+      "reasoning": "The scenario is grounded in a realistic, everyday mishap where a loose thread from a knit sweater snags on a splinter. Options A, B, and C introduce fantastical or exaggerated elements (e.g., unzipping wooden floors, pulling tables, or multiplying into webs), which are inconsistent with the mundane context. Option D directly follows the logical consequence: as the person walks away, the thread tightens and unravels the sweater, leading naturally to the tug felt at 7-10 seconds. This is the most plausible and coherent progression within the given timeframe."
+    },
+    "blind_test_passed": true
+  },
+  {
+    "constraints": {
+      "keyword": "Earrings (耳环)",
+      "type": "Surprise Scenario"
+    },
+    "director_data": {
+      "object_name": "Earrings (耳环)",
+      "scenario_type": "Surprise Scenario",
+      "status": "evaluated",
+      "best_video": "Earrings_(耳环)_Surprise_1.mp4",
+      "best_score": 9.649999999999999,
+      "best_reasoning": "Middle frame match score: 9.50, Coherence score: 10.00",
+      "all_candidates": [
+        {
+          "video_file": "Earrings_(耳环)_Surprise_1.mp4",
+          "final_score": 9.649999999999999,
+          "segment_scores": [
+            {
+              "segment": "Middle",
+              "score": 9.5,
+              "reasoning": "The frame accurately depicts a stream of molten, reflective gold flowing down the skin of a person's neck/chest area, which perfectly matches the core action described for this segment. While the pooling on the carpet is not yet visible, the liquid flow is captured with high fidelity."
+            }
+          ],
+          "coherence_evaluation": {
+            "expected_end_frame": "The end frame should show the woman from the first frame, still wearing the same green cocktail dress, but positioned on the floor. She should have a frantic or worried facial expression. Her hands should be reaching toward or touching a solidified gold mass on the carpet, which represents the earring that melted and then re-hardened as described in the synopsis.",
+            "reasoning": "The progression from the start frame to the end frame is logically sound and perfectly follows the provided synopsis. The visual consistency is excellent; the woman's facial features, hairstyle, and the unique structured shoulders of her green dress are identical in both frames. The end frame successfully captures the aftermath of the magical event, showing her on the carpet searching for the gold that has now solidified into a puddle-like shape. The camera angle shift from a mirror reflection to a close-up on the floor effectively communicates her change in posture.",
+            "score": 10.0
+          },
+          "reasoning": "Middle frame match score: 9.50, Coherence score: 10.00",
+          "valid": true
+        }
+      ],
+      "has_valid_video": true,
+      "timeline": {
+        "start_caption": "[0-3s] A woman in a cocktail dress stands before a vanity mirror, holding a shimmering gold earring close to her earlobe.",
+        "middle_caption": "[3-7s] As the metal touches her skin, the earring melts into a stream of liquid gold that flows down her neck and shoulder, pooling onto the carpet where it instantly hardens back into a solid shape.",
+        "end_caption": "[7-10s] She gasps, immediately dropping to her knees and patting the carpet frantically to find the lost jewelry before she has to leave."
+      },
+      "normal_timeline": {
+        "start_caption": "[0-3s] A woman in a cocktail dress stands before a vanity mirror, holding a shimmering gold earring close to her earlobe.",
+        "middle_caption": "[3-7s] As she tries to thread the post through her piercing, the earring slips from her nervous fingers and bounces off the vanity onto the carpet.",
+        "end_caption": "[7-10s] She gasps, immediately dropping to her knees and patting the carpet frantically to find the lost jewelry before she has to leave."
+      },
+      "constraints": {
+        "keyword": "Earrings (耳环)",
+        "type": "Surprise Scenario"
+      }
+    },
+    "final_prompt": "Surreal Style: - Start (0s): [0-3s] A woman in a cocktail dress stands before a vanity mirror, holding a shimmering gold earring close to her earlobe.\n- Action (Mid): [3-7s] As the metal touches her skin, the earring melts into a stream of liquid gold that flows down her neck and shoulder, pooling onto the carpet where it instantly hardens back into a solid shape.\n- Result (End): [7-10s] She gasps, immediately dropping to her knees and patting the carpet frantically to find the lost jewelry before she has to leave.",
+    "mcq": {
+      "question": "[0-3s]: A woman in a cocktail dress stands before a vanity mirror, holding a shimmering gold earring close to her earlobe.; [3-7s]: ???; [7-10s]: ] She gasps, immediately dropping to her knees and patting the carpet frantically to find the lost jewelry before she has to leave.. What most likely happened in the [3-7s] interval according to the video?",
+      "options": {
+        "A": "She tries to clasp the jewelry, but her hand trembles, causing the earring to strike the edge of the mirror and ricochet into the deep pile of the room's floor.",
+        "B": "As she tries to thread the post through her piercing, the earring slips from her nervous fingers and bounces off the vanity onto the carpet.",
+        "C": "Just as she is about to secure the earring, the gold post snaps in half, and the heavy decorative piece tumbles off her shoulder and vanishes into the carpet's shadow.",
+        "D": "As the metal touches her skin, the earring melts into a stream of liquid gold that flows down her neck and shoulder, pooling onto the carpet where it instantly hardens back into a solid shape."
+      },
+      "correct_answer": "D"
+    },
+    "blind_test_log": {
+      "guessed_option": "B",
+      "confidence": "High",
+      "reasoning": "The setup shows the woman holding the earring close to her earlobe, and the later scene involves her frantically searching on the carpet. This progression suggests the earring was dropped, likely due to a slip or fumble while trying to put it on. Option B directly describes this—slipping from nervous fingers and bouncing onto the carpet—which aligns with the realistic, non-supernatural context implied by the video description. Option A involves a more complex ricochet off a mirror, which is less straightforward; Option C involves the earring breaking, which seems less common for a simple dropping scenario; and Option D is fantastical and inconsistent with the realistic tone."
+    },
+    "blind_test_passed": true
+  },
+  {
+    "constraints": {
+      "keyword": "Fish Tank (鱼缸)",
+      "type": "Surprise Scenario"
+    },
+    "director_data": {
+      "object_name": "Fish Tank (鱼缸)",
+      "scenario_type": "Surprise Scenario",
+      "status": "evaluated",
+      "best_video": "Fish_Tank_(鱼缸)_Surprise_1.mp4",
+      "best_score": 9.85,
+      "best_reasoning": "Middle frame match score: 10.00, Coherence score: 9.50",
+      "all_candidates": [
+        {
+          "video_file": "Fish_Tank_(鱼缸)_Surprise_1.mp4",
+          "final_score": 9.85,
+          "segment_scores": [
+            {
+              "segment": "Middle",
+              "score": 10.0,
+              "reasoning": "The frame perfectly captures the described scene: a toddler's finger is touching the glass, and the interior of the tank is filled with hundreds of glowing, colorful glass marbles instead of fish and water. The environment inside the tank appears to be air, matching the prompt's transformation sequence."
+            }
+          ],
+          "coherence_evaluation": {
+            "expected_end_frame": "The toddler should be positioned closer to the fish tank than in the start frame, showing a reaction of surprise or curiosity. His hand should be pulled back from the glass. Inside the tank, the environment should show the aftermath of the marble transformation, with colorful glass marbles settled among the plants or on the floor of the tank, and the fish should be absent or hidden.",
+            "reasoning": "The transition between the frames is highly coherent. The toddler has moved closer to the tank, and his posture—leaning in with a focused gaze—perfectly captures the 'surprise' and 'peering' described in the expected conclusion. Most importantly, the substrate at the bottom of the tank in the end frame has clearly changed from standard gravel to a collection of colorful, translucent spheres that look exactly like the 'glass marbles' mentioned in the synopsis. This visual detail confirms the magical event occurred. The lighting, character model, and background elements remain perfectly consistent.",
+            "score": 9.5
+          },
+          "reasoning": "Middle frame match score: 10.00, Coherence score: 9.50",
+          "valid": true
+        }
+      ],
+      "has_valid_video": true,
+      "timeline": {
+        "start_caption": "[0-3s] A curious toddler stands in a living room, walking slowly toward a brightly lit, colorful freshwater fish tank on a stand.",
+        "middle_caption": "[3-7s] As the toddler taps the glass, the water inside instantly turns into air and the fish transform into hundreds of glowing, solid glass marbles that bounce chaotically off the walls before retreating into the plastic plants.",
+        "end_caption": "[7-10s] The toddler pulls his hand back in surprise, tilting his head and peering into the plants to see where the fish hid."
+      },
+      "normal_timeline": {
+        "start_caption": "[0-3s] A curious toddler stands in a living room, walking slowly toward a brightly lit, colorful freshwater fish tank on a stand.",
+        "middle_caption": "[3-7s] The toddler reaches out and taps his fingers rapidly against the glass; inside, a school of neon tetras and a goldfish suddenly scatter in different directions.",
+        "end_caption": "[7-10s] The toddler pulls his hand back in surprise, tilting his head and peering into the plants to see where the fish hid."
+      },
+      "constraints": {
+        "keyword": "Fish Tank (鱼缸)",
+        "type": "Surprise Scenario"
+      }
+    },
+    "final_prompt": "Surreal Style: - Start (0s): [0-3s] A curious toddler stands in a living room, walking slowly toward a brightly lit, colorful freshwater fish tank on a stand.\n- Action (Mid): [3-7s] As the toddler taps the glass, the water inside instantly turns into air and the fish transform into hundreds of glowing, solid glass marbles that bounce chaotically off the walls before retreating into the plastic plants.\n- Result (End): [7-10s] The toddler pulls his hand back in surprise, tilting his head and peering into the plants to see where the fish hid.",
+    "mcq": {
+      "question": "[0-3s]: A curious toddler stands in a living room, walking slowly toward a brightly lit, colorful freshwater fish tank on a stand.; [3-7s]: ???; [7-10s]: ] The toddler pulls his hand back in surprise, tilting his head and peering into the plants to see where the fish hid.. What most likely happened in the [3-7s] interval according to the video?",
+      "options": {
+        "A": "The toddler reaches out and taps his fingers rapidly against the glass; inside, a school of neon tetras and a goldfish suddenly scatter in different directions.",
+        "B": "As the toddler gently taps the side of the tank, the water suddenly evaporates into a swirling cloud of glitter, and the fish sprout small mechanical legs, scurrying quickly across the gravel floor to hide behind the decorative rocks.",
+        "C": "As the toddler taps the glass, the water inside instantly turns into air and the fish transform into hundreds of glowing, solid glass marbles that bounce chaotically off the walls before retreating into the plastic plants.",
+        "D": "When the toddler reaches for the glass, the entire fish tank begins to rotate slowly, and the water turns into a vibrant, swirling galaxy where the fish transform into tiny, silver stars that shoot across the space and vanish into the dark corners."
+      },
+      "correct_answer": "C"
+    },
+    "blind_test_log": {
+      "guessed_option": "A",
+      "confidence": "High",
+      "reasoning": "The video setup involves a realistic, everyday scenario with a toddler and a fish tank. Options B, C, and D contain fantastical elements (e.g., water evaporating into glitter, fish sprouting mechanical legs, water turning into air or a galaxy) that are inconsistent with the grounded context. In contrast, option A describes a common, plausible interaction: a toddler tapping the glass and startling the fish, which aligns with the subsequent reaction of the toddler pulling his hand back in surprise and looking for the fish."
+    },
+    "blind_test_passed": true
+  },
+  {
+    "constraints": {
+      "keyword": "Snake (蛇)",
+      "type": "Surprise Scenario"
+    },
+    "director_data": {
+      "object_name": "Snake (蛇)",
+      "scenario_type": "Surprise Scenario",
+      "status": "evaluated",
+      "best_video": "Snake_(蛇)_Surprise_1.mp4",
+      "best_score": 9.15,
+      "best_reasoning": "Middle frame match score: 9.00, Coherence score: 9.50",
+      "all_candidates": [
+        {
+          "video_file": "Snake_(蛇)_Surprise_1.mp4",
+          "final_score": 9.15,
+          "segment_scores": [
+            {
+              "segment": "Middle",
+              "score": 9.0,
+              "reasoning": "The frame accurately depicts the surreal concept of a brass zipper opening a dark, bottomless void in the ground. The zipper teeth and pull are clearly visible, and the snake-like body is present in the foreground. The hiker's legs are visible in the background, though the specific reaction is hard to gauge from a single frame."
+            }
+          ],
+          "coherence_evaluation": {
+            "expected_end_frame": "The end frame should show the hiker standing at a safe distance on the trail, looking down in astonishment at a dark, elongated rift or 'unzipped' opening in the dirt path. The snake should be absent or seen disappearing into the rift or the adjacent foliage, having completed its transformation and travel as described in the synopsis.",
+            "reasoning": "The transition from the start frame to the end frame is highly coherent with the provided synopsis. The start frame establishes the hiker and the snake on a dirt path. The end frame clearly depicts a dark, physical rift in the ground exactly where the snake was located, which directly visualizes the 'unzipped path' mentioned in the story events. The hiker's posture and gaze toward the rift effectively communicate the reaction to the surreal event. The visual consistency of the environment (trees, mountains, and trail) is maintained throughout.",
+            "score": 9.5
+          },
+          "reasoning": "Middle frame match score: 9.00, Coherence score: 9.50",
+          "valid": true
+        }
+      ],
+      "has_valid_video": true,
+      "timeline": {
+        "start_caption": "[0-3s] A hiker in boots walks down a narrow dirt trail; a small brown snake is visible resting in the grass at the edge of the path ahead.",
+        "middle_caption": "[3-7s] As the hiker nears, the snake suddenly stiffens into a brass zipper pull and zips the dirt path open, creating a dark, bottomless void in the soil that it glides across; the hiker jumps back in shock at the spatial rift.",
+        "end_caption": "[7-10s] The hiker stands perfectly still with wide eyes, watching from a safe distance as the snake disappears into the bushes on the other side."
+      },
+      "normal_timeline": {
+        "start_caption": "[0-3s] A hiker in boots walks down a narrow dirt trail; a small brown snake is visible resting in the grass at the edge of the path ahead.",
+        "middle_caption": "[3-7s] As the hiker nears, the snake begins to slither quickly across the dirt path; the hiker sees it and abruptly jumps back, stopping in their tracks.",
+        "end_caption": "[7-10s] The hiker stands perfectly still with wide eyes, watching from a safe distance as the snake disappears into the bushes on the other side."
+      },
+      "constraints": {
+        "keyword": "Snake (蛇)",
+        "type": "Surprise Scenario"
+      }
+    },
+    "final_prompt": "Surreal Style: - Start (0s): [0-3s] A hiker in boots walks down a narrow dirt trail; a small brown snake is visible resting in the grass at the edge of the path ahead.\n- Action (Mid): [3-7s] As the hiker nears, the snake suddenly stiffens into a brass zipper pull and zips the dirt path open, creating a dark, bottomless void in the soil that it glides across; the hiker jumps back in shock at the spatial rift.\n- Result (End): [7-10s] The hiker stands perfectly still with wide eyes, watching from a safe distance as the snake disappears into the bushes on the other side.",
+    "mcq": {
+      "question": "[0-3s]: A hiker in boots walks down a narrow dirt trail; a small brown snake is visible resting in the grass at the edge of the path ahead.; [3-7s]: ???; [7-10s]: ] The hiker stands perfectly still with wide eyes, watching from a safe distance as the snake disappears into the bushes on the other side.. What most likely happened in the [3-7s] interval according to the video?",
+      "options": {
+        "A": "As the hiker nears, the snake begins to slither quickly across the dirt path; the hiker sees it and abruptly jumps back, stopping in their tracks.",
+        "B": "As the hiker nears, the snake begins to glow brightly and then melts into a pool of liquid gold that flows rapidly uphill against gravity; the hiker recoils in disbelief while shielding their eyes from the intense, metallic shimmer.",
+        "C": "As the hiker nears, the snake suddenly stiffens into a brass zipper pull and zips the dirt path open, creating a dark, bottomless void in the soil that it glides across; the hiker jumps back in shock at the spatial rift.",
+        "D": "As the hiker nears, the snake transforms into a coil of thick nautical rope that suddenly whips across the path and ties itself into a complex knot; the hiker jumps back, startled by the rope's autonomous and rapid movement."
+      },
+      "correct_answer": "C"
+    },
+    "blind_test_log": {
+      "guessed_option": "A",
+      "confidence": "High",
+      "reasoning": "The video depicts a realistic outdoor hiking scenario with a snake. The ending shows the hiker standing still, watching the snake disappear into the bushes, implying a natural, plausible sequence of events. Options B, C, and D involve impossible, fantastical transformations, which are inconsistent with the realistic setup and conclusion. Option A describes a typical, believable reaction: the hiker notices the snake moving, jumps back, and then watches it leave, directly leading to the calm observation in the final segment."
+    },
+    "blind_test_passed": true
+  },
+  {
+    "constraints": {
+      "keyword": "Butter Stick (黄油)",
+      "type": "Surprise Scenario"
+    },
+    "director_data": {
+      "object_name": "Butter Stick (黄油)",
+      "scenario_type": "Surprise Scenario",
+      "status": "evaluated",
+      "best_video": "Butter_Stick_(黄油)_Surprise_1.mp4",
+      "best_score": 9.649999999999999,
+      "best_reasoning": "Middle frame match score: 9.50, Coherence score: 10.00",
+      "all_candidates": [
+        {
+          "video_file": "Butter_Stick_(黄油)_Surprise_1.mp4",
+          "final_score": 9.649999999999999,
+          "segment_scores": [
+            {
+              "segment": "Middle",
+              "score": 9.5,
+              "reasoning": "The frame perfectly captures the surreal moment described, showing a block of butter in a skillet with four distinct 'legs' made of melted fat. The visual representation of the butter standing on these limbs matches the prompt's specific requirement for sprouting legs as it hits the pan."
+            }
+          ],
+          "coherence_evaluation": {
+            "expected_end_frame": "A close-up of the same cast-iron skillet, now tilted to one side. The bottom of the pan should be covered in a layer of bubbling, golden-yellow liquid foam, representing the butter after it has completely melted and 'dissolved' following its frantic run.",
+            "reasoning": "The start frame correctly sets up the scene with a stick of butter poised over a hot skillet. The synopsis describes a surreal sequence where the butter runs around before dissolving. The actual end frame perfectly captures the aftermath of this 'dissolving' process, showing the pan tilted and filled with the expected golden liquid foam. There is strong visual consistency in the cookware and the stove environment between the two frames.",
+            "score": 10.0
+          },
+          "reasoning": "Middle frame match score: 9.50, Coherence score: 10.00",
+          "valid": true
+        }
+      ],
+      "has_valid_video": true,
+      "timeline": {
+        "start_caption": "[0-3s] A close-up shows a hot, empty cast-iron skillet on a stove; a hand holds a wrapped stick of butter just above the pan's edge.",
+        "middle_caption": "[3-7s] As the butter hits the pan, it suddenly sprouts four tiny legs made of fat and begins sprinting frantically in circles around the skillet, letting out a high-pitched, whistling scream as its limbs dissolve into the heat.",
+        "end_caption": "[7-10s] The chef tilts the pan to coat the bottom, watching the butter transform into a golden liquid foam."
+      },
+      "normal_timeline": {
+        "start_caption": "[0-3s] A close-up shows a hot, empty cast-iron skillet on a stove; a hand holds a wrapped stick of butter just above the pan's edge.",
+        "middle_caption": "[3-7s] The hand unwraps the butter and drops the solid stick into the center; it immediately begins to sizzle, melting at the base and sliding wildly around the hot surface.",
+        "end_caption": "[7-10s] The chef tilts the pan to coat the bottom, watching the butter transform into a golden liquid foam."
+      },
+      "constraints": {
+        "keyword": "Butter Stick (黄油)",
+        "type": "Surprise Scenario"
+      }
+    },
+    "final_prompt": "Surreal Style: - Start (0s): [0-3s] A close-up shows a hot, empty cast-iron skillet on a stove; a hand holds a wrapped stick of butter just above the pan's edge.\n- Action (Mid): [3-7s] As the butter hits the pan, it suddenly sprouts four tiny legs made of fat and begins sprinting frantically in circles around the skillet, letting out a high-pitched, whistling scream as its limbs dissolve into the heat.\n- Result (End): [7-10s] The chef tilts the pan to coat the bottom, watching the butter transform into a golden liquid foam.",
+    "mcq": {
+      "question": "[0-3s]: A close-up shows a hot, empty cast-iron skillet on a stove; a hand holds a wrapped stick of butter just above the pan's edge.; [3-7s]: ???; [7-10s]: ] The chef tilts the pan to coat the bottom, watching the butter transform into a golden liquid foam.. What most likely happened in the [3-7s] interval according to the video?",
+      "options": {
+        "A": "Upon contact with the heated metal, the butter stick rapidly shrinks while spinning like a top, releasing a loud hiss and creating a spiraling pattern of liquid fat that spreads toward the edges of the skillet.",
+        "B": "The hand drops the unwrapped butter into the pan where it instantly explodes into a cloud of fragrant steam, rapidly browning and releasing a nutty aroma as it covers the entire surface with tiny, popping bubbles.",
+        "C": "The hand unwraps the butter and drops the solid stick into the center; it immediately begins to sizzle, melting at the base and sliding wildly around the hot surface.",
+        "D": "As the butter hits the pan, it suddenly sprouts four tiny legs made of fat and begins sprinting frantically in circles around the skillet, letting out a high-pitched, whistling scream as its limbs dissolve into the heat."
+      },
+      "correct_answer": "D"
+    },
+    "blind_test_log": {
+      "guessed_option": "C",
+      "confidence": "High",
+      "reasoning": "The scene described before and after the missing interval involves realistic cooking actions: starting with a hand holding a wrapped butter stick above a hot skillet, and ending with the chef tilting the pan to coat the bottom as the butter becomes a golden liquid foam. Option C is the most plausible, as it logically bridges these moments—unwrapping, dropping the solid stick, and initial sizzling and melting—without introducing fantastical or exaggerated elements like explosions, spinning, or personified butter. This matches typical cooking video sequences and maintains a coherent narrative."
+    },
+    "blind_test_passed": true
+  },
+  {
+    "constraints": {
+      "keyword": "Hand Grenade (手榴弹)",
+      "type": "Surprise Scenario"
+    },
+    "director_data": {
+      "object_name": "Hand Grenade (手榴弹)",
+      "scenario_type": "Surprise Scenario",
+      "status": "evaluated",
+      "best_video": "Hand_Grenade_(手榴弹)_Surprise_1.mp4",
+      "best_score": 9.059999999999999,
+      "best_reasoning": "Middle frame match score: 9.00, Coherence score: 9.20",
+      "all_candidates": [
+        {
+          "video_file": "Hand_Grenade_(手榴弹)_Surprise_1.mp4",
+          "final_score": 9.059999999999999,
+          "segment_scores": [
+            {
+              "segment": "Middle",
+              "score": 9.0,
+              "reasoning": "The frame accurately depicts a large green balloon-like object hovering in mid-air over a field, which matches the description of the grenade inflating at its apex. While the soldier is not visible in this specific frame, the primary visual requirement of the 'giant green balloon' is clearly met."
+            }
+          ],
+          "coherence_evaluation": {
+            "expected_end_frame": "The end frame should show the soldier inside the concrete throwing pit, having moved from a standing throwing position to a defensive crouch. He should be positioned low against the wall for protection. Based on the synopsis, a large, metallic, green spherical object (the inflated grenade) should be visible in the air near or above the pit, or the frame should show the immediate aftermath of it popping while the soldier remains in a braced, defensive posture.",
+            "reasoning": "The transition from the start frame to the end frame is highly coherent. The soldier's gear and the environment remain consistent. The end frame successfully captures the surreal element described in the synopsis—the grenade inflating into a giant metallic balloon and drifting back to the pit. While the synopsis mentions the balloon 'pops', the end frame captures the tense moment just before or during that event, with the soldier ducking in reaction to the hovering object. The visual representation of the 'metallic balloon' is distinct and follows the narrative prompt perfectly.",
+            "score": 9.2
+          },
+          "reasoning": "Middle frame match score: 9.00, Coherence score: 9.20",
+          "valid": true
+        }
+      ],
+      "has_valid_video": true,
+      "timeline": {
+        "start_caption": "[0-3s] A soldier in tactical gear stands in a reinforced throwing pit, holding a green M67 hand grenade while looking intently at a target 30 meters away.",
+        "middle_caption": "[3-7s] The soldier pulls the pin and throws the grenade, but as it reaches the apex of its arc, it begins to inflate like a giant green balloon, hovering mid-air and drifting slowly back toward the soldier while pulsing with a heartbeat sound.",
+        "end_caption": "[7-10s] The soldier immediately ducks behind the concrete wall, pressing his back against it and bracing for the impact."
+      },
+      "normal_timeline": {
+        "start_caption": "[0-3s] A soldier in tactical gear stands in a reinforced throwing pit, holding a green M67 hand grenade while looking intently at a target 30 meters away.",
+        "middle_caption": "[3-7s] The soldier hooks his finger through the safety ring, pulls the pin with a sharp tug, and hurls the grenade in a high arc toward the target area.",
+        "end_caption": "[7-10s] The soldier immediately ducks behind the concrete wall, pressing his back against it and bracing for the impact."
+      },
+      "constraints": {
+        "keyword": "Hand Grenade (手榴弹)",
+        "type": "Surprise Scenario"
+      }
+    },
+    "final_prompt": "Surreal Style: - Start (0s): [0-3s] A soldier in tactical gear stands in a reinforced throwing pit, holding a green M67 hand grenade while looking intently at a target 30 meters away.\n- Action (Mid): [3-7s] The soldier pulls the pin and throws the grenade, but as it reaches the apex of its arc, it begins to inflate like a giant green balloon, hovering mid-air and drifting slowly back toward the soldier while pulsing with a heartbeat sound.\n- Result (End): [7-10s] The soldier immediately ducks behind the concrete wall, pressing his back against it and bracing for the impact.",
+    "mcq": {
+      "question": "[0-3s]: A soldier in tactical gear stands in a reinforced throwing pit, holding a green M67 hand grenade while looking intently at a target 30 meters away.; [3-7s]: ???; [7-10s]: ] The soldier immediately ducks behind the concrete wall, pressing his back against it and bracing for the impact.. What most likely happened in the [3-7s] interval according to the video?",
+      "options": {
+        "A": "The soldier prepares to throw by removing the safety clip, but the grenade slips from his sweaty palm, falling directly into the safety trench at his feet and prompting an emergency evacuation maneuver.",
+        "B": "The soldier pulls the pin and throws the grenade, but as it reaches the apex of its arc, it begins to inflate like a giant green balloon, hovering mid-air and drifting slowly back toward the soldier while pulsing with a heartbeat sound.",
+        "C": "The soldier firmly grips the lever, pulls the safety pin, and launches the grenade with a powerful overhand throw, watching as it lands precisely on the target and kicks up a massive cloud of dust.",
+        "D": "The soldier hooks his finger through the safety ring, pulls the pin with a sharp tug, and hurls the grenade in a high arc toward the target area."
+      },
+      "correct_answer": "B"
+    },
+    "blind_test_log": {
+      "guessed_option": "D",
+      "confidence": "High",
+      "reasoning": "The video description shows a soldier in a throwing pit, then after 3-7 seconds, he ducks behind a concrete wall and braces for impact. This sequence strongly suggests a standard, successful grenade throw: pulling the pin, throwing in a high arc (as grenades are typically thrown to cover distance and allow time to take cover), and then taking cover to avoid the blast. Option D matches this realistic military procedure, while A involves an accidental drop (unlikely given the later bracing for impact), B is fantastical, and C describes a throw that lands precisely but doesn't necessarily explain the immediate ducking—though it's plausible, D is more specific about the high arc, which is tactically standard for grenade throws to ensure safety and accuracy."
+    },
+    "blind_test_passed": true
+  },
+  {
+    "constraints": {
+      "keyword": "Graduated Cylinder (量筒)",
+      "type": "Surprise Scenario"
+    },
+    "director_data": {
+      "object_name": "Graduated Cylinder (量筒)",
+      "scenario_type": "Surprise Scenario",
+      "status": "evaluated",
+      "best_video": "Graduated_Cylinder_(量筒)_Surprise_1.mp4",
+      "best_score": 9.59,
+      "best_reasoning": "Middle frame match score: 9.50, Coherence score: 9.80",
+      "all_candidates": [
+        {
+          "video_file": "Graduated_Cylinder_(量筒)_Surprise_1.mp4",
+          "final_score": 9.59,
+          "segment_scores": [
+            {
+              "segment": "Middle",
+              "score": 9.5,
+              "reasoning": "The frame accurately depicts the blue liquid being poured and forming a gravity-defying spiral inside the graduated cylinder. The liquid is coiling upward as described, rather than settling at the bottom, and the visual matches the 'living vine' and 'spiral' descriptors perfectly."
+            }
+          ],
+          "coherence_evaluation": {
+            "expected_end_frame": "The student should be standing at the workbench with the beaker placed on the table. They should have a satisfied expression or a smile. Inside the graduated cylinder, the blue liquid should have formed a vertical, self-supporting spiral structure as described in the synopsis.",
+            "reasoning": "The transition from the start frame to the end frame follows the narrative logic perfectly. The student has completed the action of pouring, and the resulting 'sentient' spiral is clearly visible within the graduated cylinder. The character's expression shifts from intense focus to a satisfied smile, and the beaker is placed back on the table as expected. Visual consistency regarding the character's attire, the blue liquid, and the laboratory environment is excellent.",
+            "score": 9.8
+          },
+          "reasoning": "Middle frame match score: 9.50, Coherence score: 9.80",
+          "valid": true
+        }
+      ],
+      "has_valid_video": true,
+      "timeline": {
+        "start_caption": "[0-3s] A student in a lab coat stands at a workbench; a clear glass graduated cylinder sits empty in front of them while they hold a beaker of blue liquid.",
+        "middle_caption": "[3-7s] As the student pours, the blue liquid refuses to settle at the bottom; it begins to coil upward like a living vine, forming a gravity-defying blue spiral that climbs the center of the cylinder until its tip hovers perfectly level with the 50ml line.",
+        "end_caption": "[7-10s] The student stops pouring exactly at the line, exhales a sigh of relief, and sets the beaker down with a satisfied smile."
+      },
+      "normal_timeline": {
+        "start_caption": "[0-3s] A student in a lab coat stands at a workbench; a clear glass graduated cylinder sits empty in front of them while they hold a beaker of blue liquid.",
+        "middle_caption": "[3-7s] The student slowly pours the blue liquid into the graduated cylinder, crouching down to eye level to watch the liquid rise toward the 50ml mark.",
+        "end_caption": "[7-10s] The student stops pouring exactly at the line, exhales a sigh of relief, and sets the beaker down with a satisfied smile."
+      },
+      "constraints": {
+        "keyword": "Graduated Cylinder (量筒)",
+        "type": "Surprise Scenario"
+      }
+    },
+    "final_prompt": "Surreal Style: - Start (0s): [0-3s] A student in a lab coat stands at a workbench; a clear glass graduated cylinder sits empty in front of them while they hold a beaker of blue liquid.\n- Action (Mid): [3-7s] As the student pours, the blue liquid refuses to settle at the bottom; it begins to coil upward like a living vine, forming a gravity-defying blue spiral that climbs the center of the cylinder until its tip hovers perfectly level with the 50ml line.\n- Result (End): [7-10s] The student stops pouring exactly at the line, exhales a sigh of relief, and sets the beaker down with a satisfied smile.",
+    "mcq": {
+      "question": "[0-3s]: A student in a lab coat stands at a workbench; a clear glass graduated cylinder sits empty in front of them while they hold a beaker of blue liquid.; [3-7s]: ???; [7-10s]: ] The student stops pouring exactly at the line, exhales a sigh of relief, and sets the beaker down with a satisfied smile.. What most likely happened in the [3-7s] interval according to the video?",
+      "options": {
+        "A": "The student carefully decants the blue liquid, and when it reaches the 40ml mark, they use a glass stirring rod to guide the flow, ensuring no splashes occur on the sides until the liquid reaches the precise 50ml measurement.",
+        "B": "The student slowly pours the blue liquid into the graduated cylinder, crouching down to eye level to watch the liquid rise toward the 50ml mark.",
+        "C": "As the student pours, the blue liquid refuses to settle at the bottom; it begins to coil upward like a living vine, forming a gravity-defying blue spiral that climbs the center of the cylinder until its tip hovers perfectly level with the 50ml line.",
+        "D": "The student pours the blue liquid, which immediately begins to crystallize into a solid neon-blue pillar that grows vertically from the base of the cylinder until its peak reaches the 50ml mark, emitting a soft humming sound as it solidifies."
+      },
+      "correct_answer": "C"
+    },
+    "blind_test_log": {
+      "guessed_option": "B",
+      "confidence": "High",
+      "reasoning": "The video appears to show a realistic lab scenario where a student is measuring liquid volume. The beginning (0-3s) sets up a typical lab setting with a graduated cylinder and beaker of blue liquid, and the ending (7-10s) describes the student stopping pouring at the line with relief and satisfaction, indicating a precise measurement was achieved. Option B describes a plausible, realistic action—pouring slowly and watching the meniscus at eye level to reach the 50ml mark—consistent with standard lab techniques. Options A, C, and D involve either overly detailed or fantastical elements (like a glass rod guiding flow, liquid coiling upward, or crystallization with sound) that do not align with the realistic tone suggested by the start and end clips, making B the most likely."
+    },
+    "blind_test_passed": true
+  },
+  {
+    "constraints": {
+      "keyword": "Post-it Note (便利贴)",
+      "type": "Surprise Scenario"
+    },
+    "director_data": {
+      "object_name": "Post-it Note (便利贴)",
+      "scenario_type": "Surprise Scenario",
+      "status": "evaluated",
+      "best_video": "Post-it_Note_(便利贴)_Surprise_1.mp4",
+      "best_score": 8.95,
+      "best_reasoning": "Middle frame match score: 10.00, Coherence score: 6.50",
+      "all_candidates": [
+        {
+          "video_file": "Post-it_Note_(便利贴)_Surprise_1.mp4",
+          "final_score": 8.95,
+          "segment_scores": [
+            {
+              "segment": "Middle",
+              "score": 10.0,
+              "reasoning": "The frame perfectly captures the surreal description: a yellow sticky note held by a hand near a monitor has dozens of white, leg-like appendages sprouting from its adhesive side, matching the 'frantic paper legs' described."
+            }
+          ],
+          "coherence_evaluation": {
+            "expected_end_frame": "A medium or close-up shot showing the yellow Post-it note lying on the keyboard or desk surface, possibly with its corner curled. The man from the start frame should be visible, looking down at the note with an expression of frustration or exhaustion, maintaining the same office setting and lighting.",
+            "reasoning": "The start frame establishes the character and the object (Post-it). The synopsis describes a fantastical event ending with the note falling. The actual end frame shows the character looking down with a frustrated expression, which aligns with the emotional beat of the story. However, it fails to show the Post-it note itself, which is the central subject of the synopsis. The framing is too tight to confirm the 'Expected Conclusion' of the note resting on the keyboard. While the character's reaction is consistent, the lack of the primary prop reduces the narrative clarity.",
+            "score": 6.5
+          },
+          "reasoning": "Middle frame match score: 10.00, Coherence score: 6.50",
+          "valid": true
+        }
+      ],
+      "has_valid_video": true,
+      "timeline": {
+        "start_caption": "[0-3s] A person sits at a cluttered office desk, holding a bright yellow Post-it note and looking intently at their computer screen.",
+        "middle_caption": "[3-7s] As the note touches the monitor, dozens of tiny, frantic paper legs sprout from its adhesive strip, scuttling across the frame in an attempt to run away before the person presses it down.",
+        "end_caption": "[7-10s] The corner of the Post-it slowly curls up and the note falls onto the keyboard; the person notices and sighs in frustration."
+      },
+      "normal_timeline": {
+        "start_caption": "[0-3s] A person sits at a cluttered office desk, holding a bright yellow Post-it note and looking intently at their computer screen.",
+        "middle_caption": "[3-7s] The person presses the Post-it note firmly onto the side of the monitor frame and turns away to pick up a coffee mug.",
+        "end_caption": "[7-10s] The corner of the Post-it slowly curls up and the note falls onto the keyboard; the person notices and sighs in frustration."
+      },
+      "constraints": {
+        "keyword": "Post-it Note (便利贴)",
+        "type": "Surprise Scenario"
+      }
+    },
+    "final_prompt": "Surreal Style: - Start (0s): [0-3s] A person sits at a cluttered office desk, holding a bright yellow Post-it note and looking intently at their computer screen.\n- Action (Mid): [3-7s] As the note touches the monitor, dozens of tiny, frantic paper legs sprout from its adhesive strip, scuttling across the frame in an attempt to run away before the person presses it down.\n- Result (End): [7-10s] The corner of the Post-it slowly curls up and the note falls onto the keyboard; the person notices and sighs in frustration.",
+    "mcq": {
+      "question": "[0-3s]: A person sits at a cluttered office desk, holding a bright yellow Post-it note and looking intently at their computer screen.; [3-7s]: ???; [7-10s]: ] The corner of the Post-it slowly curls up and the note falls onto the keyboard; the person notices and sighs in frustration.. What most likely happened in the [3-7s] interval according to the video?",
+      "options": {
+        "A": "As the note touches the monitor, dozens of tiny, frantic paper legs sprout from its adhesive strip, scuttling across the frame in an attempt to run away before the person presses it down.",
+        "B": "The person meticulously lines up the yellow note with a row of existing reminders on the monitor's bezel, smoothing the surface with a finger while glancing back at the document on their screen.",
+        "C": "The person attempts to stick the note onto the dusty monitor edge, but the adhesive fails immediately, leading them to repeatedly press their thumb against the paper to make it stay.",
+        "D": "The person presses the Post-it note firmly onto the side of the monitor frame and turns away to pick up a coffee mug."
+      },
+      "correct_answer": "A"
+    },
+    "blind_test_log": {
+      "guessed_option": "B",
+      "confidence": "High",
+      "reasoning": "The video's [0-3s] shows the person holding the Post-it and looking at the screen, and the [7-10s] shows the note curling up and falling off, causing frustration. Option B fits logically between these moments: it depicts the person carefully placing the note on the monitor, which aligns with the initial action and sets up the subsequent failure when the adhesive gives way. Options A and D are less likely—A involves fantastical elements inconsistent with a realistic office scene, and D shows the person turning away, which doesn't lead directly to the note falling without an intermediate step. Option C involves immediate adhesive failure, which would likely cause the note to fall sooner, not after several seconds of curling up."
+    },
+    "blind_test_passed": true
+  },
+  {
+    "constraints": {
+      "keyword": "Wood Carving (木雕)",
+      "type": "Surprise Scenario"
+    },
+    "director_data": {
+      "object_name": "Wood Carving (木雕)",
+      "scenario_type": "Surprise Scenario",
+      "status": "evaluated",
+      "best_video": "Wood_Carving_(木雕)_Surprise_1.mp4",
+      "best_score": 7.139999999999999,
+      "best_reasoning": "Middle frame match score: 6.00, Coherence score: 9.80",
+      "all_candidates": [
+        {
+          "video_file": "Wood_Carving_(木雕)_Surprise_1.mp4",
+          "final_score": 7.139999999999999,
+          "segment_scores": [
+            {
+              "segment": "Middle",
+              "score": 6.0,
+              "reasoning": "The frame captures the dragon with a reactive, 'living' expression (open mouth and wide eye) as a finger approaches. However, the finger is near the dragon's jaw/neck rather than touching the wing as specified. Additionally, the dragon is still upright in a close-up and has not yet begun the leap or tumble described in the action sequence."
+            }
+          ],
+          "coherence_evaluation": {
+            "expected_end_frame": "The end frame should show the man from the first frame with a look of intense shock or fear. His hands should be pulled back away from the pedestal in a defensive or startled gesture. The wooden dragon should no longer be in its original position on the pedestal, reflecting its 'jump' described in the synopsis. The lighting and the man's attire (green jacket with fleece collar) must remain consistent with the start frame.",
+            "reasoning": "The transition between the frames perfectly captures the narrative arc described in the synopsis. In the start frame, the man is curious and close to the carving. In the end frame, his posture and facial expression (wide eyes, open mouth, raised hands) clearly indicate a sudden, startling event has occurred. The visual consistency of the character's clothing and the shop environment is excellent. The absence of the dragon from its original spot on the pedestal aligns with the synopsis stating it jumped off, and the blurred object in the foreground suggests movement.",
+            "score": 9.8
+          },
+          "reasoning": "Middle frame match score: 6.00, Coherence score: 9.80",
+          "valid": true
+        }
+      ],
+      "has_valid_video": true,
+      "timeline": {
+        "start_caption": "[0-3s] A customer leans in closely to admire a highly detailed wood carving of a dragon displayed on a wooden pedestal in a dimly lit shop.",
+        "middle_caption": "[3-7s] As the customer's finger touches the wing, the wooden dragon suddenly flinches and shudders like living flesh, causing the entire carving to leap off the pedestal and tumble onto the table.",
+        "end_caption": "[7-10s] The customer pulls their hands back in shock, eyes wide with a panicked expression as they look at the fallen artwork."
+      },
+      "normal_timeline": {
+        "start_caption": "[0-3s] A customer leans in closely to admire a highly detailed wood carving of a dragon displayed on a wooden pedestal in a dimly lit shop.",
+        "middle_caption": "[3-7s] The customer reaches out to feel the texture of the carving; as they touch the wing, the carving wobbles and tips over, hitting the table surface.",
+        "end_caption": "[7-10s] The customer pulls their hands back in shock, eyes wide with a panicked expression as they look at the fallen artwork."
+      },
+      "constraints": {
+        "keyword": "Wood Carving (木雕)",
+        "type": "Surprise Scenario"
+      }
+    },
+    "final_prompt": "Surreal Style: - Start (0s): [0-3s] A customer leans in closely to admire a highly detailed wood carving of a dragon displayed on a wooden pedestal in a dimly lit shop.\n- Action (Mid): [3-7s] As the customer's finger touches the wing, the wooden dragon suddenly flinches and shudders like living flesh, causing the entire carving to leap off the pedestal and tumble onto the table.\n- Result (End): [7-10s] The customer pulls their hands back in shock, eyes wide with a panicked expression as they look at the fallen artwork.",
+    "mcq": {
+      "question": "[0-3s]: A customer leans in closely to admire a highly detailed wood carving of a dragon displayed on a wooden pedestal in a dimly lit shop.; [3-7s]: ???; [7-10s]: ] The customer pulls their hands back in shock, eyes wide with a panicked expression as they look at the fallen artwork.. What most likely happened in the [3-7s] interval according to the video?",
+      "options": {
+        "A": "As the customer gets closer, a sudden loud noise from the street startles them, causing their arm to strike the pedestal and knock the wooden dragon onto the table below.",
+        "B": "The customer reaches out to feel the texture of the carving; as they touch the wing, the carving wobbles and tips over, hitting the table surface.",
+        "C": "As the customer's finger touches the wing, the wooden dragon suddenly flinches and shudders like living flesh, causing the entire carving to leap off the pedestal and tumble onto the table.",
+        "D": "The customer tries to gently lift the carving by its base to examine the craftsmanship; however, the dragon slips from their grasp and falls heavily onto the wooden table surface."
+      },
+      "correct_answer": "C"
+    },
+    "blind_test_log": {
+      "guessed_option": "B",
+      "confidence": "High",
+      "reasoning": "The customer's shocked reaction suggests they accidentally caused the fall, not an external noise or supernatural event. Options C is unrealistic, A involves an external cause not implied in the setup, and D involves lifting the entire carving, which seems less likely given the initial admiration. B aligns best with a natural accident from touching a delicate display."
+    },
+    "blind_test_passed": true
+  },
+  {
+    "constraints": {
+      "keyword": "Bird Cage (鸟笼)",
+      "type": "Surprise Scenario"
+    },
+    "director_data": {
+      "object_name": "Bird Cage (鸟笼)",
+      "scenario_type": "Surprise Scenario",
+      "status": "evaluated",
+      "best_video": "Bird_Cage_(鸟笼)_Surprise_1.mp4",
+      "best_score": 9.59,
+      "best_reasoning": "Middle frame match score: 9.50, Coherence score: 9.80",
+      "all_candidates": [
+        {
+          "video_file": "Bird_Cage_(鸟笼)_Surprise_1.mp4",
+          "final_score": 9.59,
+          "segment_scores": [
+            {
+              "segment": "Middle",
+              "score": 9.5,
+              "reasoning": "The frame accurately depicts the surreal action described: a birdcage is tilted, and its structure appears to be pouring out like a viscous liquid onto a tree branch. The visual effect of the bamboo bars turning into a liquid state is clearly visible and matches the core of the prompt."
+            }
+          ],
+          "coherence_evaluation": {
+            "expected_end_frame": "The end frame should show the elderly man standing under the willow tree, looking up at a bamboo bird cage that is now hanging from a branch. The cage should be uncovered, revealing the bird inside. Given the synopsis, the cage might show some visual evidence of having been 'liquefied,' such as a slightly melted or organic shape where it meets the branch or at its base. The man should appear to be whistling or smiling at the bird.",
+            "reasoning": "The end frame perfectly captures the aftermath of the surreal event described in the synopsis. The man's appearance (hat, glasses, scarf, coat) is identical to the start frame, maintaining character consistency. The environment (willow tree, pond, rocks) is also consistent. Most impressively, the bird cage features a long, liquid-like 'drip' extending from its base, which provides a clear visual link to the synopsis's mention of the cage being 'liquefied' and 'reformed.' The man's upward gaze and expression align with the instruction that he is whistling to the bird.",
+            "score": 9.8
+          },
+          "reasoning": "Middle frame match score: 9.50, Coherence score: 9.80",
+          "valid": true
+        }
+      ],
+      "has_valid_video": true,
+      "timeline": {
+        "start_caption": "[0-3s] An elderly man walks slowly through a park holding a covered bamboo bird cage; he approaches a large willow tree.",
+        "middle_caption": "[3-7s] He removes the fabric cover and tilts the cage, pouring the bamboo bars like liquid water onto the branch, where they instantly freeze back into a solid cage structure.",
+        "end_caption": "[7-10s] The man steps back, smiles, and begins to whistle a melody to the bird inside the cage."
+      },
+      "normal_timeline": {
+        "start_caption": "[0-3s] An elderly man walks slowly through a park holding a covered bamboo bird cage; he approaches a large willow tree.",
+        "middle_caption": "[3-7s] He lifts the cage with both hands, hooks it securely onto a sturdy branch, and removes the fabric cover.",
+        "end_caption": "[7-10s] The man steps back, smiles, and begins to whistle a melody to the bird inside the cage."
+      },
+      "constraints": {
+        "keyword": "Bird Cage (鸟笼)",
+        "type": "Surprise Scenario"
+      }
+    },
+    "final_prompt": "Surreal Style: - Start (0s): [0-3s] An elderly man walks slowly through a park holding a covered bamboo bird cage; he approaches a large willow tree.\n- Action (Mid): [3-7s] He removes the fabric cover and tilts the cage, pouring the bamboo bars like liquid water onto the branch, where they instantly freeze back into a solid cage structure.\n- Result (End): [7-10s] The man steps back, smiles, and begins to whistle a melody to the bird inside the cage.",
+    "mcq": {
+      "question": "[0-3s]: An elderly man walks slowly through a park holding a covered bamboo bird cage; he approaches a large willow tree.; [3-7s]: ???; [7-10s]: ] The man steps back, smiles, and begins to whistle a melody to the bird inside the cage.. What most likely happened in the [3-7s] interval according to the video?",
+      "options": {
+        "A": "He holds the cage aloft as the fabric cover dissolves into a cloud of butterflies, leaving the bamboo cage hanging mid-air without any visible support from the tree.",
+        "B": "He removes the fabric cover and tilts the cage, pouring the bamboo bars like liquid water onto the branch, where they instantly freeze back into a solid cage structure.",
+        "C": "He reaches up to find a stable fork in the willow branch, sets the cage down firmly, and slowly slides the fabric cover off to let the sun hit the bars.",
+        "D": "He lifts the cage with both hands, hooks it securely onto a sturdy branch, and removes the fabric cover."
+      },
+      "correct_answer": "B"
+    },
+    "blind_test_log": {
+      "guessed_option": "D",
+      "confidence": "High",
+      "reasoning": "The scene before (0-3s) shows the man walking with a covered cage toward a tree, and after (7-10s) he steps back and whistles to the bird, implying the cage is now open or accessible. Option D is the most logical and mundane action: hanging the cage on a branch and removing the cover, which aligns with typical bird care. The other options involve surreal or magical transformations (A, B) or an incomplete action (C doesn't mention hanging, which is needed for stability), making them less likely in a realistic context."
+    },
+    "blind_test_passed": true
+  },
+  {
+    "constraints": {
+      "keyword": "Stand Mixer (厨师机)",
+      "type": "Surprise Scenario"
+    },
+    "director_data": {
+      "object_name": "Stand Mixer (厨师机)",
+      "scenario_type": "Surprise Scenario",
+      "status": "evaluated",
+      "best_video": "Stand_Mixer_(厨师机)_Surprise_1.mp4",
+      "best_score": 8.95,
+      "best_reasoning": "Middle frame match score: 8.50, Coherence score: 10.00",
+      "all_candidates": [
+        {
+          "video_file": "Stand_Mixer_(厨师机)_Surprise_1.mp4",
+          "final_score": 8.95,
+          "segment_scores": [
+            {
+              "segment": "Middle",
+              "score": 8.5,
+              "reasoning": "The frame accurately depicts the white flour swirling upward in a vertical, tornado-like column after being tipped from the bowl. It is clearly in the process of moving toward the woman's head as described, though it has not yet fully engulfed her."
+            }
+          ],
+          "coherence_evaluation": {
+            "expected_end_frame": "The end frame should show the same woman in the same sunlit kitchen, now with white flour visibly coating her face, particularly around her eyes and cheeks. She should be smiling or laughing, reflecting the 'small laugh' mentioned in the conclusion. One of her hands should be near her face as if wiping away the dust. The silver stand mixer and her orange apron should also show signs of flour residue, maintaining consistency with the chaotic event described in the synopsis.",
+            "reasoning": "The transition from the start frame to the end frame is highly coherent. The start frame establishes the woman, her attire (white shirt and orange apron), and the setting. The synopsis describes a 'physics-defying' flour explosion, and the end frame perfectly captures the aftermath: the woman has flour on her face and eyelashes, she is smiling/laughing, and her hand is positioned to wipe her cheek. Visual consistency is excellent, with the character's features, hair, and clothing remaining identical across both frames.",
+            "score": 10.0
+          },
+          "reasoning": "Middle frame match score: 8.50, Coherence score: 10.00",
+          "valid": true
+        }
+      ],
+      "has_valid_video": true,
+      "timeline": {
+        "start_caption": "[0-3s] A woman stands in a sunlit kitchen, holding a measuring cup of flour next to a silver stand mixer that is already spinning.",
+        "middle_caption": "[3-7s] As she tips the flour, the white powder becomes sentient, swirling upward into a miniature, localized tornado that leaps out of the bowl to deliberately engulf her entire head in a dense white cloud.",
+        "end_caption": "[7-10s] She stops pouring, blinks through the white dust, and lets out a small laugh while wiping her cheek."
+      },
+      "normal_timeline": {
+        "start_caption": "[0-3s] A woman stands in a sunlit kitchen, holding a measuring cup of flour next to a silver stand mixer that is already spinning.",
+        "middle_caption": "[3-7s] She tips the flour into the bowl; as it hits the moving whisk, a plume of white flour puffs up, dusting her nose and the counter.",
+        "end_caption": "[7-10s] She stops pouring, blinks through the white dust, and lets out a small laugh while wiping her cheek."
+      },
+      "constraints": {
+        "keyword": "Stand Mixer (厨师机)",
+        "type": "Surprise Scenario"
+      }
+    },
+    "final_prompt": "Surreal Style: - Start (0s): [0-3s] A woman stands in a sunlit kitchen, holding a measuring cup of flour next to a silver stand mixer that is already spinning.\n- Action (Mid): [3-7s] As she tips the flour, the white powder becomes sentient, swirling upward into a miniature, localized tornado that leaps out of the bowl to deliberately engulf her entire head in a dense white cloud.\n- Result (End): [7-10s] She stops pouring, blinks through the white dust, and lets out a small laugh while wiping her cheek.",
+    "mcq": {
+      "question": "[0-3s]: A woman stands in a sunlit kitchen, holding a measuring cup of flour next to a silver stand mixer that is already spinning.; [3-7s]: ???; [7-10s]: ] She stops pouring, blinks through the white dust, and lets out a small laugh while wiping her cheek.. What most likely happened in the [3-7s] interval according to the video?",
+      "options": {
+        "A": "As she tips the flour, the white powder becomes sentient, swirling upward into a miniature, localized tornado that leaps out of the bowl to deliberately engulf her entire head in a dense white cloud.",
+        "B": "As the flour makes contact with the fast-moving beaters, the bowl vibrates violently, causing the fine powder to erupt in a sudden, volcanic burst that fills the air around her with a dense, white fog.",
+        "C": "She pours the flour too rapidly; the spinning whisk creates a powerful centrifugal force that sprays the dry powder horizontally across the room, leaving a thick trail of white dust on her face and clothing.",
+        "D": "She tips the flour into the bowl; as it hits the moving whisk, a plume of white flour puffs up, dusting her nose and the counter."
+      },
+      "correct_answer": "A"
+    },
+    "blind_test_log": {
+      "guessed_option": "D",
+      "confidence": "High",
+      "reasoning": "The video's description suggests a realistic, minor kitchen mishap: flour puffing up from a stand mixer. Options A and B are exaggerated (sentient flour, volcanic burst), while C involves spraying across the room, which contradicts the later scene where she only wipes her cheek and laughs. D aligns best with the subtle, localized result described."
+    },
+    "blind_test_passed": true
+  },
+  {
+    "constraints": {
+      "keyword": "Ruler (尺子)",
+      "type": "Surprise Scenario"
+    },
+    "director_data": {
+      "object_name": "Ruler (尺子)",
+      "scenario_type": "Surprise Scenario",
+      "status": "evaluated",
+      "best_video": "Ruler_(尺子)_Surprise_1.mp4",
+      "best_score": 10.0,
+      "best_reasoning": "Middle frame match score: 10.00, Coherence score: 10.00",
+      "all_candidates": [
+        {
+          "video_file": "Ruler_(尺子)_Surprise_1.mp4",
+          "final_score": 10.0,
+          "segment_scores": [
+            {
+              "segment": "Middle",
+              "score": 10.0,
+              "reasoning": "The frame accurately depicts the wooden ruler losing its rigidity and sagging against the wall as if melting. The pencil is pressed against the ruler, and the yellow, liquid-like substance flowing down the wall perfectly matches the description of it melting like liquid wax."
+            }
+          ],
+          "coherence_evaluation": {
+            "expected_end_frame": "The end frame should show the woman in her green shirt, having moved the ruler away from the wall. On the wall, instead of a straight pencil line, there should be a surreal, dripping, honey-like residue or a warped, drooping mark. The woman should be expressing frustration, specifically by rubbing the bridge of her nose or her eyes, reflecting her annoyance at the surreal failure of her task.",
+            "reasoning": "The end frame perfectly captures the aftermath of the surreal event described in the synopsis. The woman's pose (rubbing her nose/eyes) matches the 'annoyance' mentioned in the expected conclusion. The visual evidence of the 'melted' ruler is clearly visible on the wall as a vertical, dripping yellow streak, which aligns with the 'thick honey' and 'drooping puddle' description. Character and environmental consistency are maintained from the start frame.",
+            "score": 10.0
+          },
+          "reasoning": "Middle frame match score: 10.00, Coherence score: 10.00",
+          "valid": true
+        }
+      ],
+      "has_valid_video": true,
+      "timeline": {
+        "start_caption": "[0-3s] A woman holds a pencil and looks at a long wooden ruler resting against a white wall, planning her mark.",
+        "middle_caption": "[3-7s] As she presses the pencil against it, the wooden ruler loses its rigidity and begins to melt like liquid wax down the wall, turning the straight mark into a sagging, gelatinous streak.",
+        "end_caption": "[7-10s] She pulls the ruler away from the wall, sighs, and rubs the bridge of her nose in annoyance."
+      },
+      "normal_timeline": {
+        "start_caption": "[0-3s] A woman holds a pencil and looks at a long wooden ruler resting against a white wall, planning her mark.",
+        "middle_caption": "[3-7s] She presses the ruler against the wall and begins to draw a line, but the ruler slides downward, resulting in a crooked pencil mark.",
+        "end_caption": "[7-10s] She pulls the ruler away from the wall, sighs, and rubs the bridge of her nose in annoyance."
+      },
+      "constraints": {
+        "keyword": "Ruler (尺子)",
+        "type": "Surprise Scenario"
+      }
+    },
+    "final_prompt": "Surreal Style: - Start (0s): [0-3s] A woman holds a pencil and looks at a long wooden ruler resting against a white wall, planning her mark.\n- Action (Mid): [3-7s] As she presses the pencil against it, the wooden ruler loses its rigidity and begins to melt like liquid wax down the wall, turning the straight mark into a sagging, gelatinous streak.\n- Result (End): [7-10s] She pulls the ruler away from the wall, sighs, and rubs the bridge of her nose in annoyance.",
+    "mcq": {
+      "question": "[0-3s]: A woman holds a pencil and looks at a long wooden ruler resting against a white wall, planning her mark.; [3-7s]: ???; [7-10s]: ] She pulls the ruler away from the wall, sighs, and rubs the bridge of her nose in annoyance.. What most likely happened in the [3-7s] interval according to the video?",
+      "options": {
+        "A": "As she begins to draw, the pencil tip snaps off and gets wedged between the ruler and the wall, leaving a dark, messy smudge that ruins the pristine white paint.",
+        "B": "She tries to stabilize the ruler, but it suddenly vibrates intensely, causing her pencil to jitter uncontrollably and create a series of messy, jagged zig-zags instead of a clean line.",
+        "C": "She presses the ruler against the wall and begins to draw a line, but the ruler slides downward, resulting in a crooked pencil mark.",
+        "D": "As she presses the pencil against it, the wooden ruler loses its rigidity and begins to melt like liquid wax down the wall, turning the straight mark into a sagging, gelatinous streak."
+      },
+      "correct_answer": "D"
+    },
+    "blind_test_log": {
+      "guessed_option": "C",
+      "confidence": "High",
+      "reasoning": "The scene begins with the woman planning a mark, and ends with her annoyed after pulling the ruler away. Option C describes a common, realistic mishap—the ruler sliding while drawing—that would lead to a crooked line and frustration, fitting the context perfectly. The other options involve fantastical or exaggerated events (melting, intense vibration, pencil tip snapping and wedging) that are less likely in a mundane setting and would likely cause more dramatic reactions than just a sigh and nose rub."
+    },
+    "blind_test_passed": true
+  },
+  {
+    "constraints": {
+      "keyword": "Road Barrier (路障)",
+      "type": "Surprise Scenario"
+    },
+    "director_data": {
+      "object_name": "Road Barrier (路障)",
+      "scenario_type": "Surprise Scenario",
+      "status": "evaluated",
+      "best_video": "Road_Barrier_(路障)_Surprise_1.mp4",
+      "best_score": 9.41,
+      "best_reasoning": "Middle frame match score: 9.50, Coherence score: 9.20",
+      "all_candidates": [
+        {
+          "video_file": "Road_Barrier_(路障)_Surprise_1.mp4",
+          "final_score": 9.41,
+          "segment_scores": [
+            {
+              "segment": "Middle",
+              "score": 9.5,
+              "reasoning": "The frame accurately depicts the orange barrier in a liquefied state, appearing as a flat, viscous pool with ripples. The skateboarder is positioned directly over this liquid mass in a stumbling posture, perfectly capturing the surreal transformation described."
+            }
+          ],
+          "coherence_evaluation": {
+            "expected_end_frame": "The end frame should show the skateboarder further down the road, having come to a stop. He should be looking back toward the location of the barriers. Instead of the upright orange barriers seen in the start frame, there should be a flattened or overturned orange mass on the asphalt, representing the solidified 'molten' substance. The skateboarder should be visible with a frustrated expression, perhaps looking down at his feet or board. The lighting and suburban background must remain consistent with the golden hour setting of the first frame.",
+            "reasoning": "The end frame is highly coherent with the start frame and the synopsis. The character's attire (tan beanie, olive jacket) is perfectly consistent. His facial expression and the action of looking back over his shoulder align exactly with the 'huffing in frustration' and 'looking back' described in the conclusion. While the transformed barrier is not visible in this specific close-up shot, the character's positioning and the background houses confirm he has moved past the initial point of contact. The narrative flow from the approach to the reaction is logically sound.",
+            "score": 9.2
+          },
+          "reasoning": "Middle frame match score: 9.50, Coherence score: 9.20",
+          "valid": true
+        }
+      ],
+      "has_valid_video": true,
+      "timeline": {
+        "start_caption": "[0-3s] A skateboarder rolls down a paved suburban road toward a bright orange plastic road barrier set up near a pothole.",
+        "middle_caption": "[3-7s] As the board clips the barrier, the orange plastic instantly liquefies into a thick, splashing jelly; the skateboarder’s feet sink through the viscous mass as it ripples like water, causing him to stumble through the liquid before it suddenly re-solidifies into its hard form mid-tumble.",
+        "end_caption": "[7-10s] The skateboarder comes to a stop and looks back at the overturned barrier, huffing in frustration while checking his board."
+      },
+      "normal_timeline": {
+        "start_caption": "[0-3s] A skateboarder rolls down a paved suburban road toward a bright orange plastic road barrier set up near a pothole.",
+        "middle_caption": "[3-7s] The skateboarder jumps to clear the barrier, but his board clips the top edge, sending the barrier tumbling across the asphalt while he wobbles and lands off-balance.",
+        "end_caption": "[7-10s] The skateboarder comes to a stop and looks back at the overturned barrier, huffing in frustration while checking his board."
+      },
+      "constraints": {
+        "keyword": "Road Barrier (路障)",
+        "type": "Surprise Scenario"
+      }
+    },
+    "final_prompt": "Surreal Style: - Start (0s): [0-3s] A skateboarder rolls down a paved suburban road toward a bright orange plastic road barrier set up near a pothole.\n- Action (Mid): [3-7s] As the board clips the barrier, the orange plastic instantly liquefies into a thick, splashing jelly; the skateboarder’s feet sink through the viscous mass as it ripples like water, causing him to stumble through the liquid before it suddenly re-solidifies into its hard form mid-tumble.\n- Result (End): [7-10s] The skateboarder comes to a stop and looks back at the overturned barrier, huffing in frustration while checking his board.",
+    "mcq": {
+      "question": "[0-3s]: A skateboarder rolls down a paved suburban road toward a bright orange plastic road barrier set up near a pothole.; [3-7s]: ???; [7-10s]: ] The skateboarder comes to a stop and looks back at the overturned barrier, huffing in frustration while checking his board.. What most likely happened in the [3-7s] interval according to the video?",
+      "options": {
+        "A": "The skateboarder braces for impact and tries to shove the barrier out of his path with his lead foot, but the heavy plastic base catches on the asphalt, causing him to trip forward while the barrier spins wildly away from the pothole.",
+        "B": "As the board clips the barrier, the orange plastic instantly liquefies into a thick, splashing jelly; the skateboarder’s feet sink through the viscous mass as it ripples like water, causing him to stumble through the liquid before it suddenly re-solidifies into its hard form mid-tumble.",
+        "C": "The skateboarder jumps to clear the barrier, but his board clips the top edge, sending the barrier tumbling across the asphalt while he wobbles and lands off-balance.",
+        "D": "Upon reaching the pothole, the skateboarder attempts a sharp carve to avoid the obstacle, but his wheels lose grip on the dusty pavement, sending him sliding sideways into the orange plastic barrier which tips over with a loud hollow thud."
+      },
+      "correct_answer": "B"
+    },
+    "blind_test_log": {
+      "guessed_option": "C",
+      "confidence": "Low",
+      "reasoning": "The video likely depicts a realistic scenario of a skateboarder hitting a road barrier. Option A is overly detailed and specific about shoving with a foot and the barrier spinning wildly, which may not match a typical clip. Option B involves fantastical elements (liquefying plastic), which seems improbable for a mundane suburban setting. Option D describes losing grip due to dusty pavement and sliding sideways, but the initial description focuses on the barrier being set up near a pothole, not necessarily that the skateboarder is carving to avoid it. Option C is the most straightforward: jumping to clear but clipping the barrier, leading to it tumbling and the skateboarder wobbling, which aligns with the aftermath of him stopping, looking back, and checking his board in frustration. However, without seeing the video, this is a guess based on plausibility and common skateboarding mishaps."
+    },
+    "blind_test_passed": true
+  },
+  {
+    "constraints": {
+      "keyword": "Landmine (地雷)",
+      "type": "Surprise Scenario"
+    },
+    "director_data": {
+      "object_name": "Landmine (地雷)",
+      "scenario_type": "Surprise Scenario",
+      "status": "evaluated",
+      "best_video": "Landmine_(地雷)_Surprise_1.mp4",
+      "best_score": 10.0,
+      "best_reasoning": "Middle frame match score: 10.00, Coherence score: 10.00",
+      "all_candidates": [
+        {
+          "video_file": "Landmine_(地雷)_Surprise_1.mp4",
+          "final_score": 10.0,
+          "segment_scores": [
+            {
+              "segment": "Middle",
+              "score": 10.0,
+              "reasoning": "The frame accurately depicts a glowing digital screen embedded in the soil, showing a clear close-up of the man's face looking down, which perfectly matches the description of the landmine transforming into a screen."
+            }
+          ],
+          "coherence_evaluation": {
+            "expected_end_frame": "The end frame should show the man in the same field during sunset, wearing the same brown jacket and fingerless gloves. He should be positioned near the ground where he discovered the object. On the ground, there should be a glowing, circular blue light representing the 'liquefied screen' of the mine. A small, bright red flag should be planted in the grass immediately next to this glowing object. The man should be in the process of standing up or looking down at the object with a shocked expression.",
+            "reasoning": "The transition from the start frame to the end frame is highly coherent. The character's appearance (jacket, gloves, jeans) and the environment (field, sunset lighting) are perfectly consistent. The end frame successfully incorporates the sci-fi element described in the synopsis—the glowing blue circular screen on the ground—and follows the specific instruction of the end frame description by showing the red flag planted next to the discovery. The narrative flow from searching to finding a strange object and marking it is logically depicted.",
+            "score": 10.0
+          },
+          "reasoning": "Middle frame match score: 10.00, Coherence score: 10.00",
+          "valid": true
+        }
+      ],
+      "has_valid_video": true,
+      "timeline": {
+        "start_caption": "[0-3s] A man in a field sweeps a metal detector back and forth; he stops when the device emits a loud, continuous alert tone.",
+        "middle_caption": "[3-7s] As he brushes away the soil, the rusted metal of the landmine liquefies into a glowing digital screen that displays a high-definition, live-streamed close-up of the man's own face looking down at it.",
+        "end_caption": "[7-10s] The man freezes, his eyes widening in realization, and he slowly stands up to place a bright red flag next to the spot."
+      },
+      "normal_timeline": {
+        "start_caption": "[0-3s] A man in a field sweeps a metal detector back and forth; he stops when the device emits a loud, continuous alert tone.",
+        "middle_caption": "[3-7s] He kneels down and uses a small hand trowel to gently brush away soil, revealing the rusted metallic pressure plate of a landmine.",
+        "end_caption": "[7-10s] The man freezes, his eyes widening in realization, and he slowly stands up to place a bright red flag next to the spot."
+      },
+      "constraints": {
+        "keyword": "Landmine (地雷)",
+        "type": "Surprise Scenario"
+      }
+    },
+    "final_prompt": "Surreal Style: - Start (0s): [0-3s] A man in a field sweeps a metal detector back and forth; he stops when the device emits a loud, continuous alert tone.\n- Action (Mid): [3-7s] As he brushes away the soil, the rusted metal of the landmine liquefies into a glowing digital screen that displays a high-definition, live-streamed close-up of the man's own face looking down at it.\n- Result (End): [7-10s] The man freezes, his eyes widening in realization, and he slowly stands up to place a bright red flag next to the spot.",
+    "mcq": {
+      "question": "[0-3s]: A man in a field sweeps a metal detector back and forth; he stops when the device emits a loud, continuous alert tone.; [3-7s]: ???; [7-10s]: ] The man freezes, his eyes widening in realization, and he slowly stands up to place a bright red flag next to the spot.. What most likely happened in the [3-7s] interval according to the video?",
+      "options": {
+        "A": "He carefully digs into the soft earth to uncover a rusted metal canister which, upon being opened, reveals a stack of perfectly preserved, vintage photographs of the very field where he is standing.",
+        "B": "He kneels down and uses a small hand trowel to gently brush away soil, revealing the rusted metallic pressure plate of a landmine.",
+        "C": "After removing the top layer of dry sod, he finds a buried metallic box that, when touched, projects a shimmering holographic map of the surrounding field with a blinking cursor at his current location.",
+        "D": "As he brushes away the soil, the rusted metal of the landmine liquefies into a glowing digital screen that displays a high-definition, live-streamed close-up of the man's own face looking down at it."
+      },
+      "correct_answer": "D"
+    },
+    "blind_test_log": {
+      "guessed_option": "B",
+      "confidence": "High",
+      "reasoning": "The video context involves a metal detector alerting, the man's shocked reaction, and placing a red flag—a common marker for dangerous or significant finds. Landmines are hazardous metal objects often found with detectors, prompting caution and flagging. The other options involve improbable sci-fi or non-threatening items that don't align with the realistic, tense reaction shown."
+    },
+    "blind_test_passed": true
+  },
+  {
+    "constraints": {
+      "keyword": "Microscope (显微镜)",
+      "type": "Surprise Scenario"
+    },
+    "director_data": {
+      "object_name": "Microscope (显微镜)",
+      "scenario_type": "Surprise Scenario",
+      "status": "evaluated",
+      "best_video": "Microscope_(显微镜)_Surprise_1.mp4",
+      "best_score": 8.95,
+      "best_reasoning": "Middle frame match score: 8.50, Coherence score: 10.00",
+      "all_candidates": [
+        {
+          "video_file": "Microscope_(显微镜)_Surprise_1.mp4",
+          "final_score": 8.95,
+          "segment_scores": [
+            {
+              "segment": "Middle",
+              "score": 8.5,
+              "reasoning": "The frame clearly shows the student at the microscope with the surrounding environment undergoing a surreal liquefaction effect. The walls and furniture are distorted into vertical streaks that appear to be funneling toward the center, matching the core concept of the room being sucked into the microscope."
+            }
+          ],
+          "coherence_evaluation": {
+            "expected_end_frame": "The student should be seen in the same lab coat and glasses, sitting at the same desk. However, the background should no longer show the windows, plants, or wall charts from the start frame, as the synopsis states the laboratory was sucked into the eyepiece. The student should be pulling back from the microscope with a look of excitement or amazement, pointing toward the eyepiece or the slide area where the 'miniaturized world' now resides.",
+            "reasoning": "The transition between the frames is highly coherent with the provided synopsis. The start frame establishes a detailed laboratory setting. The end frame shows the student pointing and smiling in excitement, which matches the 'Expected Conclusion' description. Most importantly, the background in the end frame has transformed into a plain white void, which logically follows the synopsis event of the surrounding laboratory being 'sucked into the eyepiece like a swirling vortex.' The character's appearance and the microscope's position remain consistent throughout.",
+            "score": 10.0
+          },
+          "reasoning": "Middle frame match score: 8.50, Coherence score: 10.00",
+          "valid": true
+        }
+      ],
+      "has_valid_video": true,
+      "timeline": {
+        "start_caption": "[0-3s] A student in a lab coat sits at a desk, leaning toward a professional microscope while holding a glass slide.",
+        "middle_caption": "[3-7s] As the student turns the adjustment knob, the surrounding lab walls and furniture begin to liquefy and get sucked into the tiny eyepiece like a vortex, funneling the entire room into the microscopic slide.",
+        "end_caption": "[7-10s] The student gasps and pulls back slightly, a wide smile spreading across their face as they point at the eyepiece in excitement."
+      },
+      "normal_timeline": {
+        "start_caption": "[0-3s] A student in a lab coat sits at a desk, leaning toward a professional microscope while holding a glass slide.",
+        "middle_caption": "[3-7s] The student places the slide on the stage, peers through the eyepiece, and slowly turns the fine adjustment knob to focus.",
+        "end_caption": "[7-10s] The student gasps and pulls back slightly, a wide smile spreading across their face as they point at the eyepiece in excitement."
+      },
+      "constraints": {
+        "keyword": "Microscope (显微镜)",
+        "type": "Surprise Scenario"
+      }
+    },
+    "final_prompt": "Surreal Style: - Start (0s): [0-3s] A student in a lab coat sits at a desk, leaning toward a professional microscope while holding a glass slide.\n- Action (Mid): [3-7s] As the student turns the adjustment knob, the surrounding lab walls and furniture begin to liquefy and get sucked into the tiny eyepiece like a vortex, funneling the entire room into the microscopic slide.\n- Result (End): [7-10s] The student gasps and pulls back slightly, a wide smile spreading across their face as they point at the eyepiece in excitement.",
+    "mcq": {
+      "question": "[0-3s]: A student in a lab coat sits at a desk, leaning toward a professional microscope while holding a glass slide.; [3-7s]: ???; [7-10s]: ] The student gasps and pulls back slightly, a wide smile spreading across their face as they point at the eyepiece in excitement.. What most likely happened in the [3-7s] interval according to the video?",
+      "options": {
+        "A": "The student places the slide on the stage, peers through the eyepiece, and slowly turns the fine adjustment knob to focus.",
+        "B": "As the student turns the adjustment knob, the surrounding lab walls and furniture begin to liquefy and get sucked into the tiny eyepiece like a vortex, funneling the entire room into the microscopic slide.",
+        "C": "Upon placing the slide, the microscopic sample rapidly grows into a giant, iridescent crystal structure that shatters the glass and expands until it fills the desk with shimmering, multi-colored light reflections.",
+        "D": "While looking through the lens, the student observes the slide transform into a miniature ocean with waves that splash out of the eyepiece, soaking their lab coat and the surrounding workspace."
+      },
+      "correct_answer": "B"
+    },
+    "blind_test_log": {
+      "guessed_option": "A",
+      "confidence": "High",
+      "reasoning": "The video appears to depict a realistic lab scenario where a student is using a microscope. The initial scene shows them preparing to use it, and the later reaction suggests they have successfully observed something exciting. Option A describes a standard, plausible sequence of focusing the microscope to view the slide, which would naturally lead to the gasp and smile of discovery. The other options involve fantastical, impossible events (liquefying walls, giant crystals, or miniature oceans) that are inconsistent with a typical educational lab setting and would likely evoke a more extreme reaction than just a gasp and smile."
+    },
+    "blind_test_passed": true
+  },
+  {
+    "constraints": {
+      "keyword": "Pinecone (松果)",
+      "type": "Surprise Scenario"
+    },
+    "director_data": {
+      "object_name": "Pinecone (松果)",
+      "scenario_type": "Surprise Scenario",
+      "status": "evaluated",
+      "best_video": "Pinecone_(松果)_Surprise_1.mp4",
+      "best_score": 9.59,
+      "best_reasoning": "Middle frame match score: 9.50, Coherence score: 9.80",
+      "all_candidates": [
+        {
+          "video_file": "Pinecone_(松果)_Surprise_1.mp4",
+          "final_score": 9.59,
+          "segment_scores": [
+            {
+              "segment": "Middle",
+              "score": 9.5,
+              "reasoning": "The frame accurately depicts the squirrel sniffing a pinecone that has sprouted multiple rows of translucent, feathered wings, exactly as described in the prompt for this segment."
+            }
+          ],
+          "coherence_evaluation": {
+            "expected_end_frame": "A ground-level shot showing the pinecone lying stationary in the green grass. The squirrel should be positioned nearby, standing on its hind legs in an alert posture, looking directly down at the pinecone. The weathered wooden bench from the start frame should be visible in the background to maintain spatial continuity, confirming the pinecone has moved from the bench to the ground.",
+            "reasoning": "The actual end frame aligns perfectly with the narrative progression described in the synopsis. The pinecone has successfully transitioned from the bench (seen in the start frame) to the grass, following its 'flight' and 'collapse.' The squirrel is visible in the background, standing upright and observing the pinecone, which matches the expected behavioral response to the strange event. The visual consistency of the assets (squirrel, pinecone, bench) and the logical change in camera angle to follow the action to the ground result in high narrative coherence.",
+            "score": 9.8
+          },
+          "reasoning": "Middle frame match score: 9.50, Coherence score: 9.80",
+          "valid": true
+        }
+      ],
+      "has_valid_video": true,
+      "timeline": {
+        "start_caption": "[0-3s] A bushy-tailed squirrel hops onto a weathered wooden park bench where a large, brown pinecone sits perfectly still.",
+        "middle_caption": "[3-7s] The squirrel sniffs the pinecone, which suddenly sprouts several rows of translucent, feathered wings that flap frantically; the pinecone hovers briefly in mid-air before its wings snap shut like a trap, causing it to drop like a lead weight onto the grass.",
+        "end_caption": "[7-10s] The squirrel stands on its hind legs, twitching its nose and staring down at the pinecone on the ground in surprise."
+      },
+      "normal_timeline": {
+        "start_caption": "[0-3s] A bushy-tailed squirrel hops onto a weathered wooden park bench where a large, brown pinecone sits perfectly still.",
+        "middle_caption": "[3-7s] The squirrel sniffs the pinecone and tries to grab it with its paws; the pinecone wobbles, rolls off the edge of the bench, and thumps onto the grass.",
+        "end_caption": "[7-10s] The squirrel stands on its hind legs, twitching its nose and staring down at the pinecone on the ground in surprise."
+      },
+      "constraints": {
+        "keyword": "Pinecone (松果)",
+        "type": "Surprise Scenario"
+      }
+    },
+    "final_prompt": "Surreal Style: - Start (0s): [0-3s] A bushy-tailed squirrel hops onto a weathered wooden park bench where a large, brown pinecone sits perfectly still.\n- Action (Mid): [3-7s] The squirrel sniffs the pinecone, which suddenly sprouts several rows of translucent, feathered wings that flap frantically; the pinecone hovers briefly in mid-air before its wings snap shut like a trap, causing it to drop like a lead weight onto the grass.\n- Result (End): [7-10s] The squirrel stands on its hind legs, twitching its nose and staring down at the pinecone on the ground in surprise.",
+    "mcq": {
+      "question": "[0-3s]: A bushy-tailed squirrel hops onto a weathered wooden park bench where a large, brown pinecone sits perfectly still.; [3-7s]: ???; [7-10s]: ] The squirrel stands on its hind legs, twitching its nose and staring down at the pinecone on the ground in surprise.. What most likely happened in the [3-7s] interval according to the video?",
+      "options": {
+        "A": "The squirrel sniffs the pinecone, which suddenly sprouts several rows of translucent, feathered wings that flap frantically; the pinecone hovers briefly in mid-air before its wings snap shut like a trap, causing it to drop like a lead weight onto the grass.",
+        "B": "The squirrel sniffs the pinecone and tries to grab it with its paws; the pinecone wobbles, rolls off the edge of the bench, and thumps onto the grass.",
+        "C": "The squirrel pokes the pinecone with a curious paw, triggering it to expand rapidly and change into a metallic silver color; it pulses with a mechanical hum before shrinking back to its original size and bouncing off the bench into the grass.",
+        "D": "The squirrel cautiously approaches the pinecone, which begins to spin like a top at high speed, creating a small whirlwind around it; the force of the rotation pushes the pinecone toward the edge until it falls silently onto the soft lawn."
+      },
+      "correct_answer": "A"
+    },
+    "blind_test_log": {
+      "guessed_option": "B",
+      "confidence": "High",
+      "reasoning": "The question describes a realistic park scene with a squirrel and a pinecone. The initial state (0-3s) shows the pinecone sitting still on the bench, and the final state (7-10s) shows the squirrel looking at the pinecone on the ground in surprise. This suggests a mundane cause for the pinecone falling, likely due to the squirrel interacting with it. Option B involves the squirrel sniffing and trying to grab the pinecone, causing it to roll off the bench—a simple, plausible explanation consistent with typical squirrel behavior and physics. The other options involve fantastical or mechanical transformations (wings, metallic changes, spinning whirlwinds), which are less likely in a normal park setting and would likely elicit more than just surprise from the squirrel."
+    },
+    "blind_test_passed": true
+  },
+  {
+    "constraints": {
+      "keyword": "Suit (西装)",
+      "type": "Surprise Scenario"
+    },
+    "director_data": {
+      "object_name": "Suit (西装)",
+      "scenario_type": "Surprise Scenario",
+      "status": "evaluated",
+      "best_video": "Suit_(西装)_Surprise_1.mp4",
+      "best_score": 7.4,
+      "best_reasoning": "Middle frame match score: 6.50, Coherence score: 9.50",
+      "all_candidates": [
+        {
+          "video_file": "Suit_(西装)_Surprise_1.mp4",
+          "final_score": 7.4,
+          "segment_scores": [
+            {
+              "segment": "Middle",
+              "score": 6.5,
+              "reasoning": "The frame accurately depicts the jacket's fabric liquefying into a dark navy viscous fluid that appears to be leaping. However, the person mentioned in the description (arms, torso) is not visible in this frame, making it impossible to verify the interaction or the autonomous crawling and buttoning aspects."
+            }
+          ],
+          "coherence_evaluation": {
+            "expected_end_frame": "The man should be wearing the navy suit jacket, which appears poorly constructed or lopsided as a result of the ink solidification. He should be looking into the vanity mirror with a visible expression of frustration or disappointment. The valet stand that previously held the jacket should be empty.",
+            "reasoning": "The end frame aligns well with the narrative progression. The man has transitioned from wearing just a white shirt to wearing the navy jacket described in the synopsis. The 'poorly-buttoned' and 'lopsided' requirement is visually represented by the unusual fabric band around his neck and the slightly awkward fit of the lapels. His facial expression in the mirror reflection captures the 'sigh of frustration' mentioned in the end frame description. The character's appearance and the environment remain consistent with the start frame.",
+            "score": 9.5
+          },
+          "reasoning": "Middle frame match score: 6.50, Coherence score: 9.50",
+          "valid": true
+        }
+      ],
+      "has_valid_video": true,
+      "timeline": {
+        "start_caption": "[0-3s] A man in a crisp white dress shirt stands before a vanity mirror; a sharp navy suit jacket hangs on a valet stand next to him.",
+        "middle_caption": "[3-7s] As he reaches for the jacket, the fabric suddenly liquefies into a dark navy viscous fluid that leaps onto his arms and autonomously crawls up his torso, hardening into a solid garment that buttons itself incorrectly.",
+        "end_caption": "[7-10s] He stops and looks in the mirror, sighing in frustration as he realizes the buttons are misaligned and the jacket is lopsided."
+      },
+      "normal_timeline": {
+        "start_caption": "[0-3s] A man in a crisp white dress shirt stands before a vanity mirror; a sharp navy suit jacket hangs on a valet stand next to him.",
+        "middle_caption": "[3-7s] He quickly grabs the jacket, slides his arms into the sleeves, and hurriedly fumbles with the buttons while looking at his watch.",
+        "end_caption": "[7-10s] He stops and looks in the mirror, sighing in frustration as he realizes the buttons are misaligned and the jacket is lopsided."
+      },
+      "constraints": {
+        "keyword": "Suit (西装)",
+        "type": "Surprise Scenario"
+      }
+    },
+    "final_prompt": "Surreal Style: - Start (0s): [0-3s] A man in a crisp white dress shirt stands before a vanity mirror; a sharp navy suit jacket hangs on a valet stand next to him.\n- Action (Mid): [3-7s] As he reaches for the jacket, the fabric suddenly liquefies into a dark navy viscous fluid that leaps onto his arms and autonomously crawls up his torso, hardening into a solid garment that buttons itself incorrectly.\n- Result (End): [7-10s] He stops and looks in the mirror, sighing in frustration as he realizes the buttons are misaligned and the jacket is lopsided.",
+    "mcq": {
+      "question": "[0-3s]: A man in a crisp white dress shirt stands before a vanity mirror; a sharp navy suit jacket hangs on a valet stand next to him.; [3-7s]: ???; [7-10s]: ] He stops and looks in the mirror, sighing in frustration as he realizes the buttons are misaligned and the jacket is lopsided.. What most likely happened in the [3-7s] interval according to the video?",
+      "options": {
+        "A": "He picks up the suit jacket, shakes it out to remove any wrinkles, and then struggles to find the sleeve openings before eventually pulling it onto his shoulders and fastening the middle button.",
+        "B": "As he reaches for the jacket, the fabric suddenly liquefies into a dark navy viscous fluid that leaps onto his arms and autonomously crawls up his torso, hardening into a solid garment that buttons itself incorrectly.",
+        "C": "He quickly grabs the jacket, slides his arms into the sleeves, and hurriedly fumbles with the buttons while looking at his watch.",
+        "D": "He carefully lifts the jacket from the valet stand, meticulously slides one arm in at a time, and tries to align the buttons properly while adjusting his collar in the mirror."
+      },
+      "correct_answer": "B"
+    },
+    "blind_test_log": {
+      "guessed_option": "A",
+      "confidence": "Low",
+      "reasoning": "All options are plausible, but option A best matches the narrative flow from setting up the jacket to a likely struggle that leads to the misalignment and frustration shown later. It includes actions that could naturally result in a lopsided fit, unlike the more deliberate or unnatural actions in the other options."
+    },
+    "blind_test_passed": true
   }
 ]

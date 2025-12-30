@@ -58,6 +58,46 @@ def sanitize_filename(name):
     name = re.sub(r'[\\/*?:"<>|]', "", name)
     return name.replace(" ", "_")
 
+def extract_video_frame(video_path, time_second=5):
+    """
+    提取视频指定时间点的帧
+    参数:
+    - video_path: 视频文件路径
+    - time_second: 要提取的时间点（秒），默认为5秒
+    
+    返回:
+    - (帧图像路径, 是否是临时文件)
+    """
+    if not os.path.exists(video_path):
+        return None, False
+    
+    temp_frame_path = video_path.replace(".mp4", f"_frame_{time_second}s.jpg")
+    
+    cmd = [
+        "ffmpeg", "-y",                # 覆盖输出
+        "-i", video_path,              # 输入视频
+        "-ss", str(time_second),       # 开始时间点
+        "-vframes", "1",              # 只提取一帧
+        "-q:v", "2",                  # 高质量
+        temp_frame_path
+    ]
+    
+    try:
+        # 执行提取，静默输出
+        subprocess.run(cmd, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL, check=True)
+        
+        if os.path.exists(temp_frame_path):
+            print(f"🖼️  Extracted frame at {time_second}s from {os.path.basename(video_path)}")
+            return temp_frame_path, True
+        else:
+            return None, False
+            
+    except Exception as e:
+        print(f"❌ Frame extraction failed: {e}")
+        if os.path.exists(temp_frame_path):
+            os.remove(temp_frame_path)
+        return None, False
+
 def compress_video_smart(video_path, target_size_mb=7.0):
     """
     智能压缩视频：仅通过降低帧率来压缩视频，始终保持高画质（CRF 18）不变。
@@ -178,7 +218,7 @@ def call_transit_model(raw_text):
                 model="Qwen/Qwen3-Next-80B-A3B-Instruct",
                 messages=transit_messages,
                 temperature=0.1,
-                max_tokens=1024,
+                max_tokens=512,
                 response_format={"type": "json_object"},
                 timeout=60
             )
@@ -190,58 +230,93 @@ def call_transit_model(raw_text):
             time.sleep(2)
     return {"answer": "N/A", "reasoning": "Transit failed"}
 
-def call_vlm_model(video_path, question, options, model_name):
-    """调用 VLM 模型"""
+def call_vlm_model(media_path, question, options=None, model_name=None, is_video=True):
+    """调用 VLM 模型
+    
+    参数:
+    - media_path: 视频或图像文件路径
+    - question: 问题文本
+    - options: 选项字典（仅用于选择题）
+    - model_name: 模型名称
+    - is_video: 是否为视频（True）或图像（False）
+    
+    返回:
+    - 模型响应结果
+    """
     SUPPORT_JSON_MODELS = ["Qwen/Qwen3-VL-30B-A3B-Instruct", "Qwen/Qwen3-Omni-30B-A3B-Instruct", "qwen3-vl-plus", "qwen3-vl-flash", "qwen-vl-max-latest"]
-    api_provider = MODEL_TO_API.get(model_name, "siliconflow")
+    api_provider = MODEL_TO_API.get(model_name, "siliconflow") if model_name else "siliconflow"
     api_config = API_CONFIGS[api_provider]
     
     client = OpenAI(api_key=api_config["api_key"], base_url=api_config["base_url"])
     
-    system_prompt = """
-    You are an expert video understanding AI. 
-    Analyze the video and return a JSON object: {"answer": "<option>", "reasoning": "<text>"}
-    """
+    # 根据是否是选择题设置不同的系统提示
+    if options:
+        system_prompt = """
+        You are an expert video understanding AI. 
+        Analyze the media and return a JSON object: {"answer": "<option>", "reasoning": "<text>"}
+        """
+    else:
+        system_prompt = """
+        You are an expert video understanding AI. 
+        Analyze the image and describe what you see in detail.
+        """
 
-    user_prompt = f"""
-    # VIDEO QUESTION:
-    **Question:** {question}
-    **OPTIONS:**
-    {chr(10).join([f"{key}. {value}" for key, value in options.items()])}
-    Select the correct answer.
-    """
+    # 构造用户提示
+    if options:
+        user_prompt = f"""
+        # MEDIA QUESTION:
+        **Question:** {question}
+        **OPTIONS:**
+        {chr(10).join([f"{key}. {value}" for key, value in options.items()])}
+        Select the correct answer.
+        """
+    else:
+        user_prompt = question
 
     try:
-        with open(video_path, "rb") as f:
-            video_bytes = f.read()
-            video_base64 = base64.b64encode(video_bytes).decode('utf-8')
-    except FileNotFoundError:
-        return {"answer": "N/A", "reasoning": "Video file not found during read"}
-
-    # 构建视频内容部分
-    video_url = f"data:video/mp4;base64,{video_base64}"
-    
-    if api_provider == "aliyun":
-        # 阿里云 OpenAI 兼容模式格式 (type: video_url)
-        video_content = {
-            "type": "video_url",
-            "video_url": {"url": video_url}
-        }
-    else:
-        # SiliconFlow 格式 (带 fps 等参数)
-        video_content = {
-            "type": "video_url",
-            "video_url": {
-                "url": video_url,
-                "detail": "auto",
-                "max_frames": 12,
-                "fps": 1
+        with open(media_path, "rb") as f:
+            media_bytes = f.read()
+            
+        if is_video:
+            # 视频处理
+            media_base64 = base64.b64encode(media_bytes).decode('utf-8')
+            media_url = f"data:video/mp4;base64,{media_base64}"
+            
+            if api_provider == "aliyun":
+                # 阿里云 OpenAI 兼容模式格式 (type: video_url)
+                media_content = {
+                    "type": "video_url",
+                    "video_url": {"url": media_url}
+                }
+            else:
+                # SiliconFlow 格式 (带 fps 等参数)
+                media_content = {
+                    "type": "video_url",
+                    "video_url": {
+                        "url": media_url,
+                        "detail": "auto",
+                        "max_frames": 12,
+                        "fps": 1
+                    }
+                }
+        else:
+            # 图像处理
+            media_base64 = base64.b64encode(media_bytes).decode('utf-8')
+            media_url = f"data:image/jpeg;base64,{media_base64}"
+            
+            media_content = {
+                "type": "image_url",
+                "image_url": {"url": media_url}
             }
-        }
+
+    except FileNotFoundError:
+        return {"answer": "N/A", "reasoning": "Media file not found during read"}
+    except Exception as e:
+        return {"answer": "N/A", "reasoning": f"Media processing error: {e}"}
 
     messages = [
         {"role": "system", "content": system_prompt},
-        {"role": "user", "content": [{"type": "text", "text": user_prompt}, video_content]}
+        {"role": "user", "content": [{"type": "text", "text": user_prompt}, media_content]}
     ]
 
     max_retries = 3
@@ -249,21 +324,29 @@ def call_vlm_model(video_path, question, options, model_name):
     
     for retry in range(max_retries):
         try:
+            # 只有在处理选择题时才要求JSON格式响应
+            use_json_format = model_name in SUPPORT_JSON_MODELS and options is not None
+            
             response = client.chat.completions.create(
                 model=model_name,
                 messages=messages,
                 temperature=0.1,
-                max_tokens=1024,
-                response_format={"type": "json_object"} if model_name in SUPPORT_JSON_MODELS else None,
+                max_tokens=512,
+                response_format={"type": "json_object"} if use_json_format else None,
                 timeout=60
             )
             
             content = response.choices[0].message.content.replace("```json", "").replace("```", "").strip()
             
-            if model_name in SUPPORT_JSON_MODELS:
+            if use_json_format:
+                # 选择题：解析JSON响应
                 return json.loads(content)
-            else:
+            elif options is not None:
+                # 选择题但不支持直接JSON：使用中转模型
                 return call_transit_model(content)
+            else:
+                # 非选择题（描述任务）：直接返回包含reasoning的字典
+                return {"reasoning": content, "answer": "N/A"}
                 
         except Exception as e:
             print(f"❌ {model_name} Request Failed: {e}")
@@ -275,9 +358,11 @@ def call_vlm_model(video_path, question, options, model_name):
     
     return {"answer": "N/A", "reasoning": "Max retries exceeded"}
 
+
+
 # ================= 主程序 =================
 
-def process_video(eval_entry, prompt_index, transformation_index, test_results, lock, processed_videos, test_mode):
+def process_video(eval_entry, prompt_index, test_results, lock, processed_videos):
     """处理单个视频的函数，用于并行执行"""
     object_name = eval_entry['object_name']
     scenario_type = eval_entry['scenario_type']
@@ -291,9 +376,6 @@ def process_video(eval_entry, prompt_index, transformation_index, test_results, 
     
     prompt_entry = prompt_index[key]
     mcq = prompt_entry['mcq']
-    
-    # 获取transformation_type
-    transformation_type = transformation_index.get(key, "Unknown")
     
     best_video_file = eval_entry['best_video']
     original_video_path = os.path.join(VIDEO_DIR, best_video_file)
@@ -312,21 +394,31 @@ def process_video(eval_entry, prompt_index, transformation_index, test_results, 
     
     print(f"🔄 Processing {best_video_file} ({object_name} - {scenario_type})...")
     
-    # === 视频压缩处理 ===
-    current_video_path, is_temp_file = compress_video_smart(original_video_path)
+    # === 视频处理 ===
+    current_video_path, is_temp_video = compress_video_smart(original_video_path)
     
-    # 根据测试方式选择题干
-    if test_mode == '1':
-        question = mcq['question']
-    else:
-        question = "What most likely happened in the [3-7s] interval according to the video?"
+    # 提取第5秒的帧图像
+    frame_path, is_temp_frame = extract_video_frame(current_video_path, time_second=5)
+    
+    if not frame_path:
+        print(f"⚠️  Failed to extract frame from {best_video_file}. Skipping...")
+        # 清理临时视频文件
+        if is_temp_video and os.path.exists(current_video_path):
+            try:
+                os.remove(current_video_path)
+            except OSError:
+                pass
+        return
+    
+    # 直接使用JSON中的原始题干
+    original_question = mcq['question']
     
     try:
         # 并行调用所有模型
         with ThreadPoolExecutor(max_workers=min(MAX_CONCURRENT_MODELS, len(TEST_MODELS))) as executor:
             # 提交所有模型调用任务
             future_to_model = {
-                executor.submit(call_vlm_model, current_video_path, question, mcq['options'], model_name): model_name
+                executor.submit(process_two_stage_question, current_video_path, frame_path, original_question, mcq['options'], model_name): model_name
                 for model_name in TEST_MODELS
             }
             
@@ -334,10 +426,10 @@ def process_video(eval_entry, prompt_index, transformation_index, test_results, 
             for future in as_completed(future_to_model):
                 model_name = future_to_model[future]
                 try:
-                    model_response = future.result()
+                    first_stage_response, second_stage_response = future.result()
                     
                     correct_answer = mcq['correct_answer']
-                    model_answer = model_response['answer']
+                    model_answer = second_stage_response.get('answer', 'N/A')
                     is_correct = str(model_answer).upper() == str(correct_answer).upper()
                     
                     # 使用锁确保线程安全地更新结果列表
@@ -345,19 +437,18 @@ def process_video(eval_entry, prompt_index, transformation_index, test_results, 
                         test_results.append({
                             "object_name": object_name,
                             "scenario_type": scenario_type,
-                            "transformation_type": transformation_type,
                             "video_file": best_video_file,
-                            "mcq_question": question,  # 使用实际使用的问题
+                            "mcq_question": original_question,
                             "mcq_options": mcq['options'],
                             "correct_answer": correct_answer,
                             "model_name": model_name,
                             "model_answer": model_answer,
                             "is_correct": is_correct,
-                            "model_reasoning": model_response['reasoning'],
-                            "original_score": eval_entry['best_score'],
-                            "test_mode": test_mode  # 记录测试方式
+                            "first_stage_description": first_stage_response.get('reasoning', ''),
+                            "second_stage_reasoning": second_stage_response.get('reasoning', ''),
+                            "original_score": eval_entry['best_score']
                         })
-                       
+                        
                     print(f"   [{model_name}] Ans: {model_answer} ({'✅' if is_correct else '❌'})")
                 except Exception as e:
                     print(f"   [{model_name}] Error: {e}")
@@ -366,26 +457,48 @@ def process_video(eval_entry, prompt_index, transformation_index, test_results, 
                         test_results.append({
                             "object_name": object_name,
                             "scenario_type": scenario_type,
-                            "transformation_type": transformation_type,
                             "video_file": best_video_file,
-                            "mcq_question": question,  # 使用实际使用的问题
+                            "mcq_question": original_question,
                             "mcq_options": mcq['options'],
                             "correct_answer": mcq['correct_answer'],
                             "model_name": model_name,
                             "model_answer": "N/A",
                             "is_correct": False,
-                            "model_reasoning": f"Error: {e}",
-                            "original_score": eval_entry['best_score'],
-                            "test_mode": test_mode  # 记录测试方式
+                            "first_stage_description": "",
+                            "second_stage_reasoning": f"Error: {e}",
+                            "original_score": eval_entry['best_score']
                         })
     
     finally:
         # === 清理临时文件 ===
-        if is_temp_file and os.path.exists(current_video_path):
+        if is_temp_video and os.path.exists(current_video_path):
             try:
                 os.remove(current_video_path)
             except OSError:
                 pass
+        
+        if is_temp_frame and os.path.exists(frame_path):
+            try:
+                os.remove(frame_path)
+            except OSError:
+                pass
+
+
+def process_two_stage_question(video_path, frame_path, original_question, options, model_name):
+    """
+    两阶段提问处理函数
+    1. 第一阶段：使用第5秒帧图像描述视频
+    2. 第二阶段：使用视频和第一阶段的描述回答原始问题
+    """
+    # 第一阶段：上传帧图像并问"Describe the video"
+    first_stage_question = "Describe what you see in this frame. Provide a detailed description of the scene."
+    first_stage_response = call_vlm_model(frame_path, first_stage_question, None, model_name, is_video=False)
+    
+    # 第二阶段：上传视频，并附带第一阶段的回答
+    second_stage_question = f"{original_question}\n\nFirst, here's a description of the video frame at 5 seconds: {first_stage_response.get('reasoning', '')}"
+    second_stage_response = call_vlm_model(video_path, second_stage_question, options, model_name, is_video=True)
+    
+    return first_stage_response, second_stage_response
 
 def main():
     import threading
@@ -417,57 +530,17 @@ def main():
     # 选择最新的MCQ结果文件
     mcq_file = max(matched_mcq_files, key=os.path.getmtime)
     
-    # 加载惊喜场景数据以获取transformation_type信息
-    surprise_files = [f for f in os.listdir('.') if f.startswith('physibench_surprise_v') and f.endswith('.json')]
-    matched_surprise_files = []
-    for f in surprise_files:
-        match = re.search(r'v(\d+)', f)
-        if match and match.group(1) == version:
-            matched_surprise_files.append(f)
-    
-    if not matched_surprise_files:
-        print(f"❌ No surprise scenario files found for version v{version}")
-        return
-    
-    surprise_file = max(matched_surprise_files, key=os.path.getmtime)
-    
     with open(eval_file, "r", encoding='utf-8') as f: eval_results = json.load(f)
     with open(mcq_file, "r", encoding='utf-8') as f: mcq_results = json.load(f)
-    with open(surprise_file, "r", encoding='utf-8') as f: surprise_data = json.load(f)
     
     # 创建索引，映射object_name_scenario_type到mcq结果
     prompt_index = {f"{result['director_data']['object_name']}_{result['director_data']['scenario_type']}": result for result in mcq_results if result.get('blind_test_passed', False)}
-    
-    # 创建索引，映射object_name_scenario_type到transformation_type
-    transformation_index = {}
-    for entry in surprise_data:
-        object_name = entry['constraints']['keyword']
-        scenario_type = entry['constraints']['type']
-        if 'transformation_analysis' in entry and 'transformation_type' in entry['transformation_analysis']:
-            transformation_type = entry['transformation_analysis']['transformation_type']
-            transformation_index[f"{object_name}_{scenario_type}"] = transformation_type
-        else:
-            # 如果没有transformation_type，使用"Unknown"
-            transformation_index[f"{object_name}_{scenario_type}"] = "Unknown"
-    
-    # 添加测试方式选择
-    print("\n🔍 请选择测试方式:")
-    print("1. 使用JSON中的原始题干")
-    print("2. 使用通用题干: 'What most likely happened in the [3-7s] interval according to the video?'")
-    
-    test_mode = input("请输入选择 (1 或 2): ").strip()
-    while test_mode not in ['1', '2']:
-        print("❌ 无效选择，请重新输入")
-        test_mode = input("请输入选择 (1 或 2): ").strip()
     
     test_results = []
     lock = threading.Lock()  # 用于线程安全地更新结果列表
     
     # 检查是否有已存在的测试结果文件，用于断点续传
-    if test_mode == '1':
-        output_file = f"video_understanding_test_v{version}.json"
-    else:
-        output_file = f"video_understanding_test_generic_v{version}.json"
+    output_file = f"video_test_ours_v{version}.json"
     processed_videos = set()
     
     if os.path.exists(output_file):
@@ -508,7 +581,7 @@ def main():
             
             # 只提交有效的评估条目
             if key in prompt_index and eval_entry['status'] == 'evaluated' and eval_entry.get('best_video'):
-                future = executor.submit(process_video, eval_entry, prompt_index, transformation_index, test_results, lock, processed_videos, test_mode)
+                future = executor.submit(process_video, eval_entry, prompt_index, test_results, lock, processed_videos)
                 futures.append(future)
                 valid_entries += 1
         
@@ -537,111 +610,91 @@ def main():
         print("\n❌ 没有测试结果可统计")
         return
     
-    print(f"\n📊 开始统计每个模型在每个transformation_type下的正确率...")
+    print(f"\n📊 开始统计每个模型在每个场景下的正确率...")
     
-    # 收集所有唯一的模型名称
+    # 收集所有唯一的场景类型和模型名称
+    scenario_types = sorted(set(r['scenario_type'] for r in test_results))
     model_names = sorted(set(r['model_name'] for r in test_results))
     
-    # 构建统计数据结构，统计各模型在各transformation_type下的正确率
+    # 统计数据结构: {model: {scenario: (correct_count, total_count)}}
     stats = {}
     for model in model_names:
         stats[model] = {}
-    
-    # 收集所有transformation_type
-    transformation_types = set()
-    
-    for result in test_results:
-        model = result['model_name']
-        # 安全获取transformation_type字段，避免KeyError
-        transformation_type = result.get('transformation_type', 'Unknown')
-        is_correct = result['is_correct']
-        
-        # 添加到transformation_types集合
-        transformation_types.add(transformation_type)
-        
-        # 更新统计
-        if transformation_type not in stats[model]:
-            stats[model][transformation_type] = (0, 0)
-        
-        correct, total = stats[model][transformation_type]
-        if is_correct:
-            correct += 1
-        total += 1
-        stats[model][transformation_type] = (correct, total)
-    
-    # 将transformation_types转换为有序列表
-    transformation_types = sorted(list(transformation_types))
+        for scenario in scenario_types:
+            # 筛选该模型在该场景下的所有结果
+            model_scenario_results = [
+                r for r in test_results 
+                if r['model_name'] == model and r['scenario_type'] == scenario
+            ]
+            if not model_scenario_results:
+                stats[model][scenario] = (0, 0)
+                continue
+            
+            total = len(model_scenario_results)
+            correct = sum(1 for r in model_scenario_results if r['is_correct'])
+            stats[model][scenario] = (correct, total)
     
     # 使用 PrettyTable 打印统计表格
     print(f"\n{'='*100}")
-    print("📈 各模型在各transformation_type下的正确率统计")
+    print("📈 各模型在各场景下的正确率统计")
     print(f"{'='*100}")
     
     # 创建表格
     table = PrettyTable()
     
-    # 设置表头：模型 | 各transformation_type | 模型总计
-    field_names = ["模型"]
-    for transformation_type in transformation_types:
-        field_names.append(transformation_type)
-    field_names.append("模型总计")
+    # 设置表头
+    field_names = ["场景类型"]
+    for model in model_names:
+        field_names.append(model)
+    field_names.append("情景总计")  # 添加情景总计列
     table.field_names = field_names
     
-    # 填充表格内容：按模型分组，每行显示一个模型在各transformation_type下的正确率
-    for model in model_names:
-        row = [model]
-        model_total_correct = 0
-        model_total_count = 0
+    # 填充表格内容
+    for scenario in scenario_types:
+        row = [scenario]
+        scenario_total_correct = 0
+        scenario_total_count = 0
         
-        for transformation_type in transformation_types:
-            if transformation_type in stats[model]:
-                correct, total = stats[model][transformation_type]
-                accuracy = f"{correct/total*100:.1f}% ({correct}/{total})"
-                
-                # 累计模型的总正确数和总测试数
-                model_total_correct += correct
-                model_total_count += total
-            else:
+        for model in model_names:
+            correct, total = stats[model][scenario]
+            if total == 0:
                 accuracy = "N/A"
-            
+            else:
+                accuracy = f"{correct/total*100:.1f}% ({correct}/{total})"
             row.append(accuracy)
+            
+            # 累计场景的总正确数和总测试数
+            scenario_total_correct += correct
+            scenario_total_count += total
         
-        # 计算模型总计
-        if model_total_count == 0:
-            model_accuracy = "N/A"
+        # 计算场景总计
+        if scenario_total_count == 0:
+            scenario_accuracy = "N/A"
         else:
-            model_accuracy = f"{model_total_correct/model_total_count*100:.1f}% ({model_total_correct}/{model_total_count})"
-        row.append(model_accuracy)
+            scenario_accuracy = f"{scenario_total_correct/scenario_total_count*100:.1f}% ({scenario_total_correct}/{scenario_total_count})"
+        row.append(scenario_accuracy)
         
         table.add_row(row)
     
-    # 添加总计行：显示各transformation_type的总正确率
-    total_row = ["类型总计"]
+    # 添加总计行
+    total_row = ["总计"]
     overall_total_correct = 0
     overall_total_count = 0
     
-    for transformation_type in transformation_types:
-        type_total_correct = 0
-        type_total_count = 0
-        
-        for model in model_names:
-            if transformation_type in stats[model]:
-                correct, total = stats[model][transformation_type]
-                type_total_correct += correct
-                type_total_count += total
-        
-        if type_total_count == 0:
-            type_accuracy = "N/A"
+    for model in model_names:
+        all_correct = sum(correct for correct, total in stats[model].values())
+        all_total = sum(total for correct, total in stats[model].values())
+        if all_total == 0:
+            total_accuracy = "N/A"
         else:
-            type_accuracy = f"{type_total_correct/type_total_count*100:.1f}% ({type_total_correct}/{type_total_count})"
+            total_accuracy = f"{all_correct/all_total*100:.1f}% ({all_correct}/{all_total})"
+        total_row.append(total_accuracy)
         
-        total_row.append(type_accuracy)
-        
-        # 累计所有类型的总正确数和总测试数
-        overall_total_correct += type_total_correct
-        overall_total_count += type_total_count
+        # 累计所有场景的总正确数和总测试数
+        overall_total_correct += all_correct
+        overall_total_count += all_total
     
-    # 计算所有类型总计的总计
+    # 计算所有场景总计的总计
     if overall_total_count == 0:
         overall_accuracy = "N/A"
     else:

@@ -21,6 +21,10 @@
       "passed": true,
       "reason": "The script perfectly adheres to the [Setup -> Twist -> Reaction] structure. The START (0-3s) is pure setup, showing the woman preparing to use the clip. The MIDDLE (3-7s) contains a clear and surreal twist as the clip grows teeth and pulls her head into the sink. The END (7-10s) is a simple, logical reaction of annoyance and sighing. Transitions are smooth and continuous.",
       "score": 10
+    },
+    "transformation_analysis": {
+      "transformation_type": "Biomorphing & Animism",
+      "reasoning": "The hair clip grows teeth and performs the biological actions of snapping and gulping, displaying clear organ-like features and intentional predatory behavior."
     }
   },
   {
@@ -45,6 +49,10 @@
       "passed": true,
       "reason": "The script perfectly adheres to the [Setup -> Twist -> Reaction] structure. The START (0-3s) is pure setup, establishing the stressed pianist and the silent metronome. The MIDDLE (3-7s) contains a clear, surreal twist with the metronome sprouting arms and playing a frantic duet. The END (7-10s) is a simple, logical reaction of the pianist stopping, sighing in relief, and watching the metronome. The transitions are smooth and continuous.",
       "score": 10
+    },
+    "transformation_analysis": {
+      "transformation_type": "Biomorphing & Animism",
+      "reasoning": "The metronome grows several wooden, skeletal arms that actively play the piano keys, displaying clear biological features (arms) and highly intentional anthropomorphic behavior (dancing, playing in a duet)."
     }
   },
   {
@@ -69,6 +77,10 @@
       "passed": true,
       "reason": "The script perfectly adheres to the [Setup -> Twist -> Reaction] structure. The START (0-3s) establishes the scene and object without interaction. The MIDDLE (3-7s) delivers a clear, surreal twist as the microphone transforms and screams. The END (7-10s) shows a simple, immediate physical and emotional reaction to the twist. All segments are logically connected.",
       "score": 10
+    },
+    "transformation_analysis": {
+      "transformation_type": "Biomorphing & Animism",
+      "reasoning": "The microphone's metal transforms into scaly skin and its head becomes a wide-open human mouth that screams, displaying clear biological features and physiological functions."
     }
   },
   {
@@ -93,6 +105,10 @@
       "passed": true,
       "reason": "The script perfectly adheres to the [Setup -> Twist -> Reaction] structure. The start (0-3s) is pure setup, establishing the boy, the target, and the intent. The middle (3-7s) contains a clear, surreal twist where the dart's behavior defies physics. The end (7-10s) is a simple, direct reaction of celebration, with no new complex action. The transitions are logical and continuous.",
       "score": 10
+    },
+    "transformation_analysis": {
+      "transformation_type": "Biomorphing & Animism",
+      "reasoning": "The foam dart grows a tiny human-like hand and performs a highly intentional, anthropomorphic action (meticulously flicking each cup over one by one)."
     }
   },
   {
@@ -117,6 +133,10 @@
       "passed": true,
       "reason": "The script perfectly adheres to the [Setup -> Twist -> Reaction] structure. The start (0-3s) is pure setup, showing the man and the stable table. The middle (3-7s) contains a clear, surreal twist with the table liquefying. The end (7-10s) shows a simple, direct reaction to the twist (lunging to catch the books). The transitions are logical and continuous.",
       "score": 10
+    },
+    "transformation_analysis": {
+      "transformation_type": "Liquefaction",
+      "reasoning": "The solid wooden table surface transforms into a liquid with the properties of dark honey, exhibiting a flowing ripple that moves the books."
     }
   },
   {
@@ -141,6 +161,10 @@
       "passed": true,
       "reason": "The script perfectly adheres to the [Setup -> Twist -> Reaction] structure. The start (0-3s) is pure setup, establishing the cook and the pan. The middle (3-7s) contains a clear and surreal twist with the omelet transforming into birds that then dissolve. The end (7-10s) is a simple, logical reaction of the cook staring in frustration. The transitions are continuous and logical.",
       "score": 10
+    },
+    "transformation_analysis": {
+      "transformation_type": "Biomorphing & Animism",
+      "reasoning": "The omelet transforms into a dozen small, golden-feathered birds, which are specific creatures, fulfilling the criteria for Biomorphing & Animism."
     }
   },
   {
@@ -165,6 +189,10 @@
       "passed": true,
       "reason": "The script perfectly adheres to the [Setup -> Twist -> Reaction] structure. The start (0-3s) is pure setup, showing a person preparing to flip an egg. The middle (3-7s) contains a clear and surreal twist where the yolk defies gravity and then shatters. The end (7-10s) is a simple, logical reaction of staring with disappointment. The transitions are smooth and continuous.",
       "score": 10
+    },
+    "transformation_analysis": {
+      "transformation_type": "Physics Defiance",
+      "reasoning": "The yolk detaches and remains frozen in mid-air, exhibiting a time anomaly (frozen state) and a gravity anomaly (sudden heavy drop), violating normal physics without changing its material or becoming biological."
     }
   },
   {
@@ -189,6 +217,10 @@
       "passed": true,
       "reason": "The script perfectly adheres to the [Setup -> Twist -> Reaction] structure. The start (0-3s) establishes a normal, relatable setup with no interaction. The middle (3-7s) delivers a clear, surreal twist as the tube expands, inhales, and sneezes. The end (7-10s) shows a simple, logical reaction of staring and sighing at the result. The transitions are smooth and continuous.",
       "score": 10
+    },
+    "transformation_analysis": {
+      "transformation_type": "Biomorphing & Animism",
+      "reasoning": "The toothpaste tube grows lung-like structures, performs the physiological function of inhaling, and then sneezes, which are clear biological features and actions."
     }
   },
   {
@@ -213,6 +245,10 @@
       "passed": true,
       "reason": "The script perfectly adheres to the [Setup -> Twist -> Reaction] structure. The START (0-3s) is pure setup, showing the man preparing to start the mower. The MIDDLE (3-7s) contains a clear, surreal twist where pulling the cord unzips the grass to reveal a cosmic nebula. The END (7-10s) is a simple, logical reaction of the man standing up, wiping his brow, and preparing to mow, with no complex follow-up action. The transitions are continuous and logical.",
       "score": 10
+    },
+    "transformation_analysis": {
+      "transformation_type": "Dimensional Rift & Metaphor Realization",
+      "reasoning": "The grass beneath the mower splits open to reveal a deep-space nebula, acting as a portal or tear showing an implausibly vast cosmic scene where solid ground should be."
     }
   },
   {
@@ -237,6 +273,10 @@
       "passed": true,
       "reason": "The script perfectly adheres to the [Setup -> Twist -> Reaction] structure. The START (0-3s) establishes a normal scene with the ring. The MIDDLE (3-7s) introduces a clear, surreal twist with the soap forming a hand to steal the ring. The END (7-10s) shows a simple, focused reaction of relief. The transitions are logical and continuous.",
       "score": 10
+    },
+    "transformation_analysis": {
+      "transformation_type": "Biomorphing & Animism",
+      "reasoning": "The soapy bubbles form a hand and exhibit intentional, anthropomorphic behavior (plucking, swimming, requiring the woman to wrestle the ring back)."
     }
   },
   {
@@ -261,6 +301,10 @@
       "passed": true,
       "reason": "The script adheres to the required timeline structure. The START (0-3s) is pure setup, showing the man and the hygrometer. The MIDDLE (3-7s) contains a clear and surreal twist where the hygrometer needle violently pierces the glass and weeps water. The END (7-10s) shows a simple, logical reaction as he moves the box and wipes his brow. The transitions are continuous and logical.",
       "score": 10
+    },
+    "transformation_analysis": {
+      "transformation_type": "Biomorphing & Animism",
+      "reasoning": "The hygrometer needle exhibits a physiological function (sweating a heavy stream of water), which meets the criteria for Biomorphing & Animism."
     }
   },
   {
@@ -285,6 +329,10 @@
       "passed": true,
       "reason": "The script perfectly adheres to the [Setup -> Twist -> Reaction] structure. The start (0-3s) is pure setup, establishing a normal scene. The middle (3-7s) introduces a clear, surreal twist where the wands physically tether and drag the airplane. The end (7-10s) shows a simple, logical reaction to the twist: the plane halting and the crew member giving a final signal. The transitions are continuous and logical.",
       "score": 10
+    },
+    "transformation_analysis": {
+      "transformation_type": "Physics Defiance",
+      "reasoning": "The orange light transforms into a physical tether, but the core surreal change is the crew member manually yanking the multi-ton aircraft forward, which violates normal physics regarding force, mass, and inertia. The tarmac rippling like liquid is a secondary effect of this physics-defying action."
     }
   },
   {
@@ -309,6 +357,10 @@
       "passed": true,
       "reason": "The script perfectly adheres to the [Setup -> Twist -> Reaction] structure. The start (0-3s) is pure setup, showing the designer preparing to measure. The middle (3-7s) contains a clear, surreal twist where the tape transforms into a rigid beam of light, lifting the designer. The end (7-10s) shows a simple, logical reaction of flinching and looking at the tool. The transitions are continuous and logical.",
       "score": 10
+    },
+    "transformation_analysis": {
+      "transformation_type": "Material Transmutation - Non-Liquid",
+      "reasoning": "The metal blade transforms into a solid, glowing beam of light, which is a change from a tangible metal to an intangible light made tangible and rigid. This fits the criteria of intangible becoming tangible, a phase change not involving liquefaction."
     }
   },
   {
@@ -333,6 +385,10 @@
       "passed": true,
       "reason": "The script perfectly adheres to the [Setup -> Twist -> Reaction] structure. The START (0-3s) is pure setup, showing the child running toward the puddle. The MIDDLE (3-7s) contains a clear, surreal twist where the mud defies physics to form a cathedral and butterflies. The END (7-10s) is a simple, logical reaction of the child looking and laughing at the resulting mess. The transitions are smooth and causally linked.",
       "score": 10
+    },
+    "transformation_analysis": {
+      "transformation_type": "Material Transmutation - Non-Liquid",
+      "reasoning": "The mud transforms from a liquid into solid glass (chocolate-colored glass) and then into butterflies, which involves a phase change from liquid to solid and then a transmutation into a different solid/organic form, not simply liquefaction or biomorphing as the primary change."
     }
   },
   {
@@ -357,6 +413,10 @@
       "passed": true,
       "reason": "The script perfectly adheres to the [Setup -> Twist -> Reaction] structure. The start (0-3s) is pure setup, showing a normal action. The middle (3-7s) contains a clear and surreal twist with the shampoo transforming into a glowing, tentacle-like entity. The end (7-10s) shows a simple, logical reaction of annoyance to the consequence of the twist. All segments are causally connected.",
       "score": 10
+    },
+    "transformation_analysis": {
+      "transformation_type": "Biomorphing & Animism",
+      "reasoning": "The liquid inside the bottle exhibits biological behavior ('swim like a trapped fish') and the shampoo launches out as a 'long pearly tentacle' that actively circles the person's wrist, displaying intentional, animal-like movement."
     }
   },
   {
@@ -381,6 +441,10 @@
       "passed": true,
       "reason": "The script perfectly adheres to the [Setup -> Twist -> Reaction] structure. The START (0-3s) is a pure setup, establishing the object and location. The MIDDLE (3-7s) contains a clear, surreal twist where the ant behaves like smoke and leaves a supernatural residue. The END (7-10s) is a simple, immediate physical reaction to the preceding event. The transitions are logical and continuous.",
       "score": 10
+    },
+    "transformation_analysis": {
+      "transformation_type": "Liquefaction",
+      "reasoning": "The ant transforms into a glowing, molten ink that melts and flows into the person's pores, exhibiting liquid properties of flowing and melting, rather than a biological change or dimensional shift."
     }
   },
   {
@@ -405,6 +469,10 @@
       "passed": true,
       "reason": "The script perfectly adheres to the [Setup -> Twist -> Reaction] structure. The START (0-3s) establishes a normal driving scene with the sun hidden. The MIDDLE (3-7s) introduces a clear, surreal twist where the sun physically melts and pours through the windshield. The END (7-10s) shows a simple, logical reaction of the man relaxing after using the visor to block the light. All segments are causally connected and the action in the end is appropriately minimal.",
       "score": 10
+    },
+    "transformation_analysis": {
+      "transformation_type": "Liquefaction",
+      "reasoning": "The sun, a celestial light source, transforms into a liquid state ('melts like liquid gold') and exhibits fluid properties ('pouring physically'), which fits the core definition of a solid object losing its form to behave as a liquid."
     }
   },
   {
@@ -429,6 +497,10 @@
       "passed": true,
       "reason": "The script perfectly adheres to the [Setup -> Twist -> Reaction] structure. The start (0-3s) is pure setup, establishing the character and object. The middle (3-7s) contains a clear, surreal twist (books liquefying into an ink waterfall). The end (7-10s) shows a simple, logical reaction (standing guiltily amidst the mess). The transitions are continuous and logical.",
       "score": 10
+    },
+    "transformation_analysis": {
+      "transformation_type": "Liquefaction",
+      "reasoning": "The neighboring books transform from solid objects into a flowing liquid (black ink) that pours off the shelf, emphasizing a cascading, liquid dynamic."
     }
   },
   {
@@ -453,6 +525,10 @@
       "passed": true,
       "reason": "The script perfectly adheres to the [Setup -> Twist -> Reaction] structure. The start (0-3s) is pure setup, showing the worker preparing to use the stapler. The middle (3-7s) contains a clear, surreal twist as the stapler transforms into chewing metallic jaws. The end (7-10s) is a simple, logical reaction of frustration and a minor attempt to fix the problem, without introducing new complex actions. The transitions are smooth and logical.",
       "score": 10
+    },
+    "transformation_analysis": {
+      "transformation_type": "Biomorphing & Animism",
+      "reasoning": "The stapler's top half transforms into a pair of metallic jaws that exhibit the biological function of chewing, complete with a wet, grinding sound, meeting the criteria of an object growing organs (jaws) and performing a physiological action."
     }
   },
   {
@@ -477,6 +553,10 @@
       "passed": true,
       "reason": "The script perfectly adheres to the [Setup -> Twist -> Reaction] format. The start (0-3s) establishes a normal setup with a percussionist preparing to play. The middle (3-7s) introduces a clear, surreal twist as the metal liquefies and ripples. The end (7-10s) shows a simple, logical reaction of dampening the sound and showing satisfaction. The transitions are smooth and continuous.",
       "score": 10
+    },
+    "transformation_analysis": {
+      "transformation_type": "Liquefaction",
+      "reasoning": "The solid metal of the triangle transforms into a shimmering, rippling liquid-like substance (silver light) that flows outward like a wave, exhibiting clear liquid properties before returning to solid form."
     }
   },
   {
@@ -501,6 +581,10 @@
       "passed": true,
       "reason": "The script perfectly adheres to the [Setup -> Twist -> Reaction] structure. The start (0-3s) is pure setup with no interaction. The middle (3-7s) contains a strong, surreal twist (bread stretches and plays music). The end (7-10s) is a simple, logical reaction (looking at the torn halves). Transitions are smooth and continuous.",
       "score": 10
+    },
+    "transformation_analysis": {
+      "transformation_type": "Material Transmutation - Non-Liquid",
+      "reasoning": "The bread's material changes from a brittle solid to a glowing, viscous, elastic rubber that stretches and expands like an accordion, while retaining its form rather than melting into a liquid."
     }
   },
   {
@@ -525,30 +609,10 @@
       "passed": true,
       "reason": "The script perfectly adheres to the [Setup -> Twist -> Reaction] structure. The start (0-3s) establishes the problem (intense sunlight) without interaction. The middle (3-7s) contains a clear, surreal twist (grasping and peeling away a solid beam of sunlight). The end (7-10s) shows a simple, logical reaction (room dims, person sighs in relief). The transitions are smooth and causally linked.",
       "score": 10
-    }
-  },
-  {
-    "constraints": {
-      "keyword": "Hot Dog (热狗)",
-      "type": "Surprise Scenario"
     },
-    "reasoning_trace": "Idea 1: A person puts mustard on a hot dog and eats it; Idea 2: A hungry person at a baseball game tries to catch a hot dog launched from a t-shirt cannon but fumbles it, causing the toppings to spill on their shirt. Idea 2 is much more engaging and visually dynamic while remaining a common, realistic occurrence at sporting events.\nThe start involves a man attempting to catch a tossed hot dog, and the end requires him to have a mustard stain on his chest. To introduce a surreal element while maintaining this flow, I transformed the hot dog into a living, bird-like entity. Instead of simply falling, the hot dog mid-air unfolds its bun like wings, hovers intentionally in front of the man, and aggressively 'attacks' his chest to leave the required stain before fluttering away.",
-    "synopsis": "A man tries to catch a hot dog in a stadium, but mid-air the hot dog comes to life, flutters its bun like wings to hover, and deliberately squirts mustard onto his jersey like an ink-squirting cephalopod or a territorial bird.",
-    "normal_timeline": {
-      "start_caption": "[0-3s] A man in a crowded stadium stand looks up excitedly as a vendor tosses a wrapped hot dog toward his row; he reaches his hands out to catch it.",
-      "middle_caption": "[3-7s] The hot dog hits the man's palms but bounces off, the wrapper bursting open to reveal a hot dog with mustard that smears across his jersey as it falls.",
-      "end_caption": "[7-10s] The man looks down at the yellow mustard stain on his chest with a look of disappointment and disbelief."
-    },
-    "timeline": {
-      "start_caption": "[0-3s] A man in a crowded stadium stand looks up excitedly as a vendor tosses a wrapped hot dog toward his row; he reaches his hands out to catch it.",
-      "middle_caption": "[3-7s] As the hot dog reaches the man, it suddenly unwraps itself and begins to flap its bun like fleshy wings, hovering inches from his face before its sausage nozzle aggressively sprays a precision stream of mustard directly onto his chest.",
-      "end_caption": "[7-10s] The man looks down at the yellow mustard stain on his chest with a look of disappointment and disbelief."
-    },
-    "final_t2v_prompt": "Realistic Style: - [0-3s] A man in a crowded stadium stand looks up excitedly as a vendor tosses a wrapped hot dog toward his row; he reaches his hands out to catch it.\n- [3-7s] As the hot dog reaches the man, it suddenly unwraps itself and begins to flap its bun like fleshy wings, hovering inches from his face before its sausage nozzle aggressively sprays a precision stream of mustard directly onto his chest.\n- [7-10s] The man looks down at the yellow mustard stain on his chest with a look of disappointment and disbelief.",
-    "reviewer_audit": {
-      "passed": true,
-      "reason": "The script perfectly adheres to the [Setup -> Twist -> Reaction] structure. The start (0-3s) is pure setup with the man anticipating a normal catch. The middle (3-7s) contains a clear, surreal twist as the hot dog animates and attacks. The end (7-10s) is a simple, contained reaction of disbelief. The transitions are logical and continuous.",
-      "score": 10
+    "transformation_analysis": {
+      "transformation_type": "Material Transmutation - Non-Liquid",
+      "reasoning": "The sunlight, an intangible phenomenon, is transformed into a tangible, graspable solid with properties like a 'sticky film' that can be peeled away."
     }
   },
   {
@@ -573,6 +637,10 @@
       "passed": true,
       "reason": "The script perfectly adheres to the [Setup -> Twist -> Reaction] structure. The start (0-3s) is pure setup, showing the boy preparing to catch the ball. The middle (3-7s) contains a clear, surreal twist where the ball transforms into pigeons and knocks him over. The end (7-10s) is a simple, logical reaction of him sitting up, laughing, and noticing the ball. The transitions are smooth and continuous.",
       "score": 10
+    },
+    "transformation_analysis": {
+      "transformation_type": "Biomorphing & Animism",
+      "reasoning": "The ball transforms into a specific creature (multiple pigeons), meeting the criteria for Biomorphing & Animism."
     }
   },
   {
@@ -597,6 +665,10 @@
       "passed": true,
       "reason": "The script perfectly adheres to the [Setup -> Twist -> Reaction] structure. The start (0-3s) is pure setup, establishing the scene and object without interaction. The middle (3-7s) contains a clear, surreal twist where the rake handle transforms into a snake-like vine to strike the person. The end (7-10s) is a simple, logical reaction of pain and embarrassment. Transitions are smooth and causally linked.",
       "score": 10
+    },
+    "transformation_analysis": {
+      "transformation_type": "Material Transmutation - Non-Liquid",
+      "reasoning": "The wooden handle of the rake changes its material property from rigid wood to a flexible, snake-like vine. This is a fundamental change in hardness and elasticity, but the object retains its form and does not melt into a liquid or display biological functions like breathing or eating."
     }
   },
   {
@@ -621,6 +693,10 @@
       "passed": true,
       "reason": "The script perfectly adheres to the required timeline structure. The START (0-3s) is a pure setup, establishing the character, object, and the initial hooking action. The MIDDLE (3-7s) contains a clear and surreal twist where the thread's action defies physics, transforming the floor into yarn. The END (7-10s) is a simple, direct reaction of stopping and looking back in dismay, with no complex follow-up action. The transitions are logical and continuous: the walking from the start causes the thread to pull, leading to the surreal event, which then directly causes the character's reaction.",
       "score": 10
+    },
+    "transformation_analysis": {
+      "transformation_type": "Material Transmutation - Non-Liquid",
+      "reasoning": "The wooden floor transforms into a yarn-like material (timber-colored yarn) that is pulled out and woven, changing its fundamental material property from solid wood to a pliable, thread-like substance while retaining a solid form."
     }
   },
   {
@@ -645,6 +721,10 @@
       "passed": true,
       "reason": "The script perfectly adheres to the [Setup -> Twist -> Reaction] structure. The START (0-3s) is pure setup, showing the woman preparing to put on the earring. The MIDDLE (3-7s) contains a clear and surreal twist where the earring melts into liquid gold and reforms on the carpet. The END (7-10s) shows a simple, direct reaction of her gasping and dropping to her knees to search. The transitions are logical and continuous.",
       "score": 10
+    },
+    "transformation_analysis": {
+      "transformation_type": "Liquefaction",
+      "reasoning": "The solid metal earring melts into a stream of liquid gold, flows down her body, and pools on the carpet, emphasizing the dynamic of melting and flowing before it hardens again."
     }
   },
   {
@@ -669,6 +749,10 @@
       "passed": true,
       "reason": "The script perfectly adheres to the [Setup -> Twist -> Reaction] structure. The start (0-3s) is pure setup, establishing the hiker and the snake. The middle (3-7s) contains a clear, surreal twist as the snake transforms into a zipper and creates a spatial rift. The end (7-10s) is a simple, logical reaction of the hiker staring in shock as the event concludes. The transitions are continuous and logical.",
       "score": 10
+    },
+    "transformation_analysis": {
+      "transformation_type": "Dimensional Rift & Metaphor Realization",
+      "reasoning": "The snake transforms into a zipper pull and unzips the dirt path to reveal a dark, bottomless void, creating a portal or rift in the ground."
     }
   },
   {
@@ -693,6 +777,10 @@
       "passed": true,
       "reason": "The script perfectly adheres to the [Setup -> Twist -> Reaction] structure. The START (0-3s) is pure setup, establishing the toddler and the fish tank. The MIDDLE (3-7s) contains a clear, surreal twist with the water turning to air and fish transforming into bouncing glass marbles. The END (7-10s) shows a simple, logical reaction of surprise and curiosity. The transitions are smooth and causally linked.",
       "score": 10
+    },
+    "transformation_analysis": {
+      "transformation_type": "Material Transmutation - Non-Liquid",
+      "reasoning": "The water transforms into air (liquid to gas) and the fish transform into solid glass marbles, representing a fundamental phase and material change without becoming biological or exhibiting liquid flow properties."
     }
   },
   {
@@ -717,6 +805,10 @@
       "passed": true,
       "reason": "The script perfectly adheres to the required timeline structure. The START (0-3s) is a pure setup showing the pan and the butter poised to drop. The MIDDLE (3-7s) contains a clear and surreal twist where the butter sprouts legs and runs frantically. The END (7-10s) shows a simple, logical reaction as the chef tilts the pan to observe the final, normal result of the transformation. The transitions are continuous and logical.",
       "score": 10
+    },
+    "transformation_analysis": {
+      "transformation_type": "Biomorphing & Animism",
+      "reasoning": "The solid stick of butter grows legs (biological features) and exhibits intentional, frantic movement ('sprinting') and vocalization ('screaming'), which are clear signs of animism."
     }
   },
   {
@@ -741,6 +833,10 @@
       "passed": true,
       "reason": "The script perfectly adheres to the [Setup -> Twist -> Reaction] structure. The START (0-3s) is pure setup, establishing the soldier, object, and intent. The MIDDLE (3-7s) contains a clear and surreal twist (the grenade inflates into a balloon and drifts back). The END (7-10s) shows a simple, logical reaction (ducking and bracing). The transitions are continuous and logical.",
       "score": 10
+    },
+    "transformation_analysis": {
+      "transformation_type": "Physics Defiance",
+      "reasoning": "The grenade defies gravity by hovering mid-air and drifting slowly back toward the soldier, exhibiting autonomous movement without a change in material or biological features."
     }
   },
   {
@@ -765,6 +861,10 @@
       "passed": true,
       "reason": "The script perfectly adheres to the [Setup -> Twist -> Reaction] structure. The start (0-3s) is pure setup, establishing the character, object, and initial action. The middle (3-7s) contains a clear, surreal twist where the liquid defies physics. The end (7-10s) shows a simple, logical reaction (stopping, sighing, smiling) to the twist. The transitions are smooth and continuous.",
       "score": 10
+    },
+    "transformation_analysis": {
+      "transformation_type": "Physics Defiance",
+      "reasoning": "The blue liquid retains its liquid material but moves in a way that violates gravity and normal fluid dynamics by coiling upward and forming a gravity-defying spiral, rather than settling at the bottom."
     }
   },
   {
@@ -789,30 +889,10 @@
       "passed": true,
       "reason": "The script perfectly adheres to the [Setup -> Twist -> Reaction] structure. The START (0-3s) is pure setup, establishing the woman, her action, and the target object (sandals). The MIDDLE (3-7s) contains a clear, surreal twist where the leather strap melts into a dark liquid, disrupting the normal action. The END (7-10s) is a simple, direct reaction of stopping and inspecting the damage. The transitions are logical and continuous.",
       "score": 10
-    }
-  },
-  {
-    "constraints": {
-      "keyword": "Paintbrush (画笔)",
-      "type": "Surprise Scenario"
     },
-    "reasoning_trace": "Idea 1: An artist sits down and begins painting a canvas. Idea 2: A child finds a paintbrush and tries to paint their own face like a tiger, only to realize they've made a mess. Idea 3: A painter is focused on a detailed portrait, but the paintbrush bristles split or drop a large glob of paint in the wrong spot, ruining a precise line. Idea 3 is chosen because it captures a high-stakes, realistic moment of frustration that is visually engaging and relatable to anyone who has tried to be creative.\nThe start and end captions depict an artist about to paint and then reacting with shock to a ruined spot on the canvas. To introduce a surreal twist that remains coherent with these points, I transformed the act of the paint dripping into a conscious action: the liquid paint on the brush morphs into a tiny, black, liquid hand that purposefully reaches out to grab the canvas and smear itself across the work, turning an accident into a deliberate, impossible sabotage.",
-    "synopsis": "An artist prepares to add a fine detail to a painting, but as the paintbrush nears the canvas, the paint itself comes to life, forming a liquid hand that reaches out to ruin the masterpiece.",
-    "normal_timeline": {
-      "start_caption": "[0-3s] A close-up of a detailed oil painting on an easel; an artist's hand enters the frame holding a loaded paintbrush, hovering inches away from the canvas.",
-      "middle_caption": "[3-7s] The artist leans in to paint a fine detail, but a large, heavy drop of dark paint suddenly slides down the brush and splatters across a bright section of the painting.",
-      "end_caption": "[7-10s] The artist freezes mid-air, their hand shaking slightly as they stare at the ruined spot with a look of utter shock and disappointment."
-    },
-    "timeline": {
-      "start_caption": "[0-3s] A close-up of a detailed oil painting on an easel; an artist's hand enters the frame holding a loaded paintbrush, hovering inches away from the canvas.",
-      "middle_caption": "[3-7s] As the brush nears the canvas, the wet paint on the bristles suddenly morphs into a small, obsidian-colored liquid hand that reaches out and violently smears itself across a bright section of the painting.",
-      "end_caption": "[7-10s] The artist freezes mid-air, their hand shaking slightly as they stare at the ruined spot with a look of utter shock and disappointment."
-    },
-    "final_t2v_prompt": "Realistic Style: - [0-3s] A close-up of a detailed oil painting on an easel; an artist's hand enters the frame holding a loaded paintbrush, hovering inches away from the canvas.\n- [3-7s] As the brush nears the canvas, the wet paint on the bristles suddenly morphs into a small, obsidian-colored liquid hand that reaches out and violently smears itself across a bright section of the painting.\n- [7-10s] The artist freezes mid-air, their hand shaking slightly as they stare at the ruined spot with a look of utter shock and disappointment.",
-    "reviewer_audit": {
-      "passed": true,
-      "reason": "The script perfectly adheres to the [Setup -> Twist -> Reaction] structure. The start (0-3s) is pure setup, establishing the scene and object. The middle (3-7s) contains a clear, surreal twist as the paint morphs into a hand and acts autonomously. The end (7-10s) is a simple, focused reaction of shock and stillness. The transitions are logical and continuous.",
-      "score": 10
+    "transformation_analysis": {
+      "transformation_type": "Liquefaction",
+      "reasoning": "The solid leather strap of the sandal transforms into a dark, viscous liquid and melts off the sole, exhibiting clear liquid properties and downward flowing dynamics."
     }
   },
   {
@@ -837,6 +917,10 @@
       "passed": true,
       "reason": "The script adheres to the [Setup -> Twist -> Reaction] format. The start (0-3s) establishes the scene and object without interaction. The middle (3-7s) introduces a clear, surreal twist as the chair's legs transform. The end (7-10s) shows a simple, logical reaction to the twist. The transitions are continuous and logical.",
       "score": 9
+    },
+    "transformation_analysis": {
+      "transformation_type": "Material Transmutation - Non-Liquid",
+      "reasoning": "The wooden chair legs change from a hard, rigid material into flexible, rubbery, noodle-like strands that stretch and undulate. This is a fundamental change in material properties (hard to soft/elastic) while retaining a solid, non-liquid form."
     }
   },
   {
@@ -861,6 +945,10 @@
       "passed": true,
       "reason": "The script perfectly adheres to the required timeline structure. The START (0-3s) is pure setup, showing the person with the note at their desk. The MIDDLE (3-7s) contains a clear and surreal TWIST as the note sprouts legs and tries to escape. The END (7-10s) shows a simple, logical reaction of the note falling and the person sighing. The transitions are continuous and logical throughout.",
       "score": 10
+    },
+    "transformation_analysis": {
+      "transformation_type": "Biomorphing & Animism",
+      "reasoning": "The Post-it note grows 'tiny, frantic paper legs' and exhibits intentional, animal-like behavior ('scuttling', 'attempt to run away'), meeting the criteria for biological features and anthropomorphic action."
     }
   },
   {
@@ -885,6 +973,10 @@
       "passed": true,
       "reason": "The script perfectly adheres to the [Setup -> Twist -> Reaction] structure. The start (0-3s) is pure setup, establishing the object and a passive observation. The middle (3-7s) contains a clear, surreal twist where the inanimate carving reacts as living flesh. The end (7-10s) is a simple, immediate reaction of shock and withdrawal. The transitions are logical and continuous.",
       "score": 10
+    },
+    "transformation_analysis": {
+      "transformation_type": "Biomorphing & Animism",
+      "reasoning": "The wooden dragon carving flinches and shudders like living flesh, exhibiting a physiological reaction (flinching) and behaving with intentional, animal-like movement (leaping) in response to touch."
     }
   },
   {
@@ -909,6 +1001,10 @@
       "passed": true,
       "reason": "The script adheres to the [Setup -> Twist -> Reaction] format. The start (0-3s) establishes the scene without interaction. The middle (3-7s) contains a clear, surreal twist (liquefying and reforming the cage). The end (7-10s) shows a simple, logical reaction (stepping back, smiling, whistling). The transitions are continuous and logical.",
       "score": 10
+    },
+    "transformation_analysis": {
+      "transformation_type": "Liquefaction",
+      "reasoning": "The solid bamboo bars of the cage are poured like liquid water, exhibiting fluid properties (flowing, pouring) before freezing back into solid form, which is the core definition of liquefaction."
     }
   },
   {
@@ -933,6 +1029,10 @@
       "passed": true,
       "reason": "The script perfectly adheres to the [Setup -> Twist -> Reaction] structure. The start (0-3s) establishes a normal kitchen scene with the stand mixer running. The middle (3-7s) introduces a clear, surreal twist as the flour becomes a sentient tornado. The end (7-10s) shows a simple, contained reaction of blinking and laughing. The transitions are logical and continuous.",
       "score": 10
+    },
+    "transformation_analysis": {
+      "transformation_type": "Biomorphing & Animism",
+      "reasoning": "The flour powder exhibits highly intentional, anthropomorphic behavior by forming a tornado that deliberately engulfs her head, indicating sentience and purpose."
     }
   },
   {
@@ -957,6 +1057,10 @@
       "passed": true,
       "reason": "The script perfectly adheres to the [Setup -> Twist -> Reaction] structure. The start (0-3s) is pure setup, showing the woman preparing to use the ruler. The middle (3-7s) contains a clear, surreal twist as the ruler melts. The end (7-10s) is a simple, logical reaction of annoyance. The transitions are smooth and continuous.",
       "score": 10
+    },
+    "transformation_analysis": {
+      "transformation_type": "Liquefaction",
+      "reasoning": "The wooden ruler, a solid object, loses its rigidity and melts like liquid wax, exhibiting liquid properties such as flowing down the wall and forming a sagging, gelatinous streak."
     }
   },
   {
@@ -981,6 +1085,10 @@
       "passed": true,
       "reason": "The script perfectly follows the required timeline structure. The start (0-3s) is pure setup, establishing the scene and object. The middle (3-7s) contains a clear and surreal twist (the barrier liquefying). The end (7-10s) shows a simple, logical reaction (stopping and looking back in frustration). The transitions are smooth and causally linked.",
       "score": 10
+    },
+    "transformation_analysis": {
+      "transformation_type": "Liquefaction",
+      "reasoning": "The orange plastic barrier instantly transforms from a solid into a thick, splashing jelly that ripples like water, exhibiting clear liquid properties such as the skateboarder's feet sinking through it and the material flowing. It then re-solidifies, but the core surreal change is the temporary liquefaction."
     }
   },
   {
@@ -1005,6 +1113,10 @@
       "passed": true,
       "reason": "The script perfectly adheres to the [Setup -> Twist -> Reaction] structure. The START (0-3s) is pure setup, establishing the character and action without the interaction. The MIDDLE (3-7s) contains a clear, surreal twist as the landmine transforms into a screen showing a live feed. The END (7-10s) is a simple, logical reaction of shock and marking the spot. The transitions are smooth and continuous.",
       "score": 10
+    },
+    "transformation_analysis": {
+      "transformation_type": "Material Transmutation - Non-Liquid",
+      "reasoning": "The rusted metal of the landmine transforms into a glowing digital screen. This is a fundamental change in material from a solid metal to a solid, light-emitting digital display, without exhibiting biological features, dimensional portals, liquid properties, or primary physics defiance."
     }
   },
   {
@@ -1029,6 +1141,10 @@
       "passed": true,
       "reason": "The script perfectly adheres to the [Setup -> Twist -> Reaction] structure. The start (0-3s) is pure setup, showing the student preparing to use the microscope. The middle (3-7s) contains a clear and surreal twist where the lab is physically sucked into the eyepiece. The end (7-10s) shows a simple, logical reaction of shock and excitement. The transitions are continuous and logical.",
       "score": 10
+    },
+    "transformation_analysis": {
+      "transformation_type": "Dimensional Rift & Metaphor Realization",
+      "reasoning": "The tiny eyepiece acts as a vortex, sucking in and compressing the entire room (a large, real-world scene) into the microscopic slide, creating an implausibly vast space or portal effect."
     }
   },
   {
@@ -1053,6 +1169,10 @@
       "passed": true,
       "reason": "The script perfectly adheres to the [Setup -> Twist -> Reaction] structure. The START (0-3s) is pure setup, establishing the scene and objects without interaction. The MIDDLE (3-7s) contains a clear, surreal twist where the pinecone sprouts wings and moves erratically. The END (7-10s) is a simple, logical reaction of the squirrel staring in surprise. The transitions are smooth and continuous.",
       "score": 10
+    },
+    "transformation_analysis": {
+      "transformation_type": "Biomorphing & Animism",
+      "reasoning": "The pinecone sprouts biological features (translucent, feathered wings) and exhibits intentional, animal-like behavior (flapping frantically, snapping shut like a trap)."
     }
   },
   {
@@ -1077,6 +1197,290 @@
       "passed": true,
       "reason": "The script perfectly adheres to the [Setup -> Twist -> Reaction] structure. The start (0-3s) is pure setup, establishing the character and object. The middle (3-7s) contains a clear, surreal twist where the suit liquefies and autonomously forms. The end (7-10s) is a simple, logical reaction of the character observing the flawed result. All segments are causally and visually connected.",
       "score": 10
+    },
+    "transformation_analysis": {
+      "transformation_type": "Liquefaction",
+      "reasoning": "The jacket's fabric transforms into a dark navy viscous fluid that flows and crawls, exhibiting liquid properties before hardening. This fits the core definition of a solid object losing its form to act as a liquid, even though it later solidifies."
+    }
+  },
+  {
+    "constraints": {
+      "keyword": "Strawberry (草莓)",
+      "type": "Surprise Scenario"
+    },
+    "reasoning_trace": "I initially considered someone simply eating a strawberry, but that lacks narrative engagement. I then thought about a pastry chef decorating a tart, which is better but perhaps too professional. I settled on a relatable home kitchen scenario: washing strawberries. This allows for a dynamic physical interaction where water pressure causes a strawberry to 'escape' the bowl, creating a small, realistic moment of minor chaos and reaction.\nThe original start shows a person about to wash strawberries, and the end shows them reacting to a strawberry that has escaped the bowl. To introduce a surreal twist that remains consistent with these markers, I replaced the physical bounce of the fruit with an impossible action: the strawberry sprouts tiny, fluttering wings to avoid the water stream and flies across the counter.",
+    "synopsis": "While preparing to wash a bowl of strawberries, one of the berries spontaneously develops wings and flies away from the running water, forcing the person to chase after it.",
+    "normal_timeline": {
+      "start_caption": "[0-3s] A person holds a white ceramic bowl filled with ripe strawberries under a kitchen faucet, their hand poised on the handle.",
+      "middle_caption": "[3-7s] The person turns the faucet on; a strong stream of water hits the strawberries, causing one to bounce out of the bowl and roll quickly across the granite countertop.",
+      "end_caption": "[7-10s] The person quickly turns off the water and reaches out to grab the runaway strawberry, shaking their head slightly."
+    },
+    "timeline": {
+      "start_caption": "[0-3s] A person holds a white ceramic bowl filled with ripe strawberries under a kitchen faucet, their hand poised on the handle.",
+      "middle_caption": "[3-7s] As the person turns the faucet on, one strawberry suddenly sprouts tiny, translucent insect wings and flutters out of the bowl, hovering momentarily before flying rapidly across the granite countertop to avoid the water.",
+      "end_caption": "[7-10s] The person quickly turns off the water and reaches out to grab the runaway strawberry, shaking their head slightly."
+    },
+    "final_t2v_prompt": "Realistic Style: - [0-3s] A person holds a white ceramic bowl filled with ripe strawberries under a kitchen faucet, their hand poised on the handle.\n- [3-7s] As the person turns the faucet on, one strawberry suddenly sprouts tiny, translucent insect wings and flutters out of the bowl, hovering momentarily before flying rapidly across the granite countertop to avoid the water.\n- [7-10s] The person quickly turns off the water and reaches out to grab the runaway strawberry, shaking their head slightly.",
+    "reviewer_audit": {
+      "passed": true,
+      "reason": "The script perfectly adheres to the [Setup -> Twist -> Reaction] structure. The START (0-3s) is pure setup, showing the person preparing to wash the strawberries. The MIDDLE (3-7s) contains a clear and surreal twist: a strawberry sprouts wings and flies away. The END (7-10s) shows a simple, direct reaction to the twist: turning off the water and reaching for the strawberry. The transitions are logical and continuous.",
+      "score": 10
+    },
+    "transformation_analysis": {
+      "transformation_type": "Biomorphing & Animism",
+      "reasoning": "The strawberry grows biological features (insect wings) and exhibits intentional, animate behavior (fluttering, hovering, flying to avoid water)."
+    }
+  },
+  {
+    "constraints": {
+      "keyword": "Perfume Bottle (香水瓶)",
+      "type": "Surprise Scenario"
+    },
+    "reasoning_trace": "Idea 1: A person picks up a perfume bottle and sprays it into the air. Idea 2: A woman getting ready for an evening out picks up a luxury perfume bottle, applies it to her pulse points, and enjoys the scent. Idea 2 is more engaging as it creates a narrative of preparation and sensory appreciation, making the scene feel more intentional and visually rich.\nThe original sequence involves a woman at a vanity table spraying perfume. To introduce a surreal twist that remains coherent with her finishing her hair at the start and smiling at the scent at the end, I transformed the physical mist into an impossible phenomenon: miniature, iridescent butterflies. This retains the action of spraying while adding a magical, dream-like quality to the interaction between the woman and the object.",
+    "synopsis": "A woman at her vanity sprays a perfume bottle, but instead of a normal mist, a swarm of tiny, glowing butterflies emerges from the bottle and settles onto her skin before vanishing into a scent.",
+    "normal_timeline": {
+      "start_caption": "[0-3s] A woman sits at a sunlit vanity table; an ornate glass perfume bottle sits in the foreground as she finishes her hair.",
+      "middle_caption": "[3-7s] She reaches for the bottle, picks it up, and sprays a fine mist onto her neck and then her wrists, gently dabbing them together.",
+      "end_caption": "[7-10s] She places the bottle back on the vanity, closes her eyes, and takes a deep breath, smiling at the scent."
+    },
+    "timeline": {
+      "start_caption": "[0-3s] A woman sits at a sunlit vanity table; an ornate glass perfume bottle sits in the foreground as she finishes her hair.",
+      "middle_caption": "[3-7s] She reaches for the bottle and presses the nozzle, but instead of liquid, a shimmering cloud of miniature, iridescent butterflies bursts out, fluttering rhythmically around her neck and wrists before dissolving into a glowing scent on her skin.",
+      "end_caption": "[7-10s] She places the bottle back on the vanity, closes her eyes, and takes a deep breath, smiling at the scent."
+    },
+    "final_t2v_prompt": "Realistic Style: - [0-3s] A woman sits at a sunlit vanity table; an ornate glass perfume bottle sits in the foreground as she finishes her hair.\n- [3-7s] She reaches for the bottle and presses the nozzle, but instead of liquid, a shimmering cloud of miniature, iridescent butterflies bursts out, fluttering rhythmically around her neck and wrists before dissolving into a glowing scent on her skin.\n- [7-10s] She places the bottle back on the vanity, closes her eyes, and takes a deep breath, smiling at the scent.",
+    "reviewer_audit": {
+      "passed": true,
+      "reason": "The script perfectly adheres to the [Setup -> Twist -> Reaction] structure. The start (0-3s) is pure setup, establishing the character and object. The middle (3-7s) contains a clear, surreal twist (butterflies instead of perfume). The end (7-10s) is a simple, logical reaction (smiling and breathing in the scent). The transitions are smooth and continuous.",
+      "score": 10
+    },
+    "transformation_analysis": {
+      "transformation_type": "Biomorphing & Animism",
+      "reasoning": "The liquid from the perfume bottle transforms into specific living creatures (miniature, iridescent butterflies) that exhibit biological behavior (fluttering rhythmically)."
+    }
+  },
+  {
+    "constraints": {
+      "keyword": "Mechanical Keyboard (机械键盘)",
+      "type": "Surprise Scenario"
+    },
+    "reasoning_trace": "Idea 1: A person simply typing on a keyboard; Idea 2: A person cleaning a mechanical keyboard by removing keycaps and brushing the switches. Idea 1 is too mundane. Idea 2 is more engaging because it highlights the specific tactile and modular nature of a mechanical keyboard, showing a realistic maintenance ritual that many enthusiasts perform.\nThe beginning shows a person inspecting dusty gaps and the ending shows them pressing keycaps back onto switches. To introduce a surreal element that fits perfectly between these stages, I transformed the act of cleaning dust into a cosmic event. By having the dust coalesce into a miniature, gravity-defying galaxy upon the removal of the keys, the 'cleaning brush' becomes a tool for manipulating stars before the user 'seals' the universe back up by replacing the keycaps.",
+    "synopsis": "A person cleaning a mechanical keyboard pulls off the keycaps to find that the dust within is actually a miniature, swirling galaxy of stars that they can manipulate with a brush before sealing the cosmic anomaly back inside.",
+    "normal_timeline": {
+      "start_caption": "[0-3s] A person sits at a desk with a glowing RGB mechanical keyboard; they pick up a wire keycap puller and inspect the dusty gaps between the keys.",
+      "middle_caption": "[3-7s] They use the puller to pop off three keycaps with a distinct clicking sound and use a small soft-bristled brush to sweep dust away from the exposed switches.",
+      "end_caption": "[7-10s] They press the keycaps back onto the switches until they click into place and tap them a few times to ensure they are seated correctly."
+    },
+    "timeline": {
+      "start_caption": "[0-3s] A person sits at a desk with a glowing RGB mechanical keyboard; they pick up a wire keycap puller and inspect the dusty gaps between the keys.",
+      "middle_caption": "[3-7s] They use the puller to pop off the keycaps, but instead of switches, gravity reverses inside the board, causing the dust to rise and coalesce into a miniature, swirling galaxy of stars that they manipulate with the brush.",
+      "end_caption": "[7-10s] They press the keycaps back onto the switches until they click into place and tap them a few times to ensure they are seated correctly."
+    },
+    "final_t2v_prompt": "Realistic Style: - [0-3s] A person sits at a desk with a glowing RGB mechanical keyboard; they pick up a wire keycap puller and inspect the dusty gaps between the keys.\n- [3-7s] They use the puller to pop off the keycaps, but instead of switches, gravity reverses inside the board, causing the dust to rise and coalesce into a miniature, swirling galaxy of stars that they manipulate with the brush.\n- [7-10s] They press the keycaps back onto the switches until they click into place and tap them a few times to ensure they are seated correctly.",
+    "reviewer_audit": {
+      "passed": true,
+      "reason": "The script perfectly adheres to the required structure. The START (0-3s) is pure setup, showing the keyboard and tools. The MIDDLE (3-7s) contains a clear and surreal twist with the gravity reversal and dust galaxy. The END (7-10s) is a simple, logical reaction of reassembling the keyboard, with no new complex action. The transitions are smooth and continuous.",
+      "score": 10
+    },
+    "transformation_analysis": {
+      "transformation_type": "Dimensional Rift & Metaphor Realization",
+      "reasoning": "The exposed switches are replaced by a miniature, swirling galaxy of stars, which is a vast cosmic scene contained within the small object (the keyboard). This fits the criteria of a small object containing a宏大 scene inside."
+    }
+  },
+  {
+    "constraints": {
+      "keyword": "Crutch (拐杖)",
+      "type": "Surprise Scenario"
+    },
+    "reasoning_trace": "Idea 1: A person simply walks with crutches down a hallway. (Too mundane). Idea 2: A person leaning crutches against a table and they fall over. (Relatable, but lacks movement). Idea 3: A person using a crutch on a park path who encounters a slippery patch of leaves and nearly loses their balance. This is realistic, visually engaging, and demonstrates the physical interaction between the object and the environment.\nTo introduce a surreal element while maintaining the narrative coherence of the man stumbling and reaching for a bench, I transformed the inanimate wet leaves into a sentient, active force. By having the leaves sprout miniature hands that engage in a tug-of-war with the crutch, the normal mechanical slip is replaced with an absurd, impossible struggle, while still leading logically to the man's physical loss of balance and subsequent relief.",
+    "synopsis": "A peaceful park walk turns into a surreal encounter when a patch of wet leaves sprouts hundreds of tiny hands that seize an elderly man's crutch, dragging him into an absurd tug-of-war.",
+    "normal_timeline": {
+      "start_caption": "[0-3s] An elderly man walks slowly along a park path, leaning on a wooden crutch; he approaches a patch of wet, golden leaves on the ground.",
+      "middle_caption": "[3-7s] The tip of the crutch lands on the wet leaves and slides outward, causing the man to stumble and quickly grab the armrest of a park bench to stay upright.",
+      "end_caption": "[7-10s] The man stands still for a moment, exhaling in relief, and carefully repositioning his crutch on the dry pavement."
+    },
+    "timeline": {
+      "start_caption": "[0-3s] An elderly man walks slowly along a park path, leaning on a wooden crutch; he approaches a patch of wet, golden leaves on the ground.",
+      "middle_caption": "[3-7s] As the tip of the crutch touches the leaves, the damp foliage instantly sprouts hundreds of miniature, golden hands that seize the crutch and begin an aggressive tug-of-war, dragging the man off-balance until he manages to seize the bench's armrest.",
+      "end_caption": "[7-10s] The man stands still for a moment, exhaling in relief, and carefully repositioning his crutch on the dry pavement."
+    },
+    "final_t2v_prompt": "Realistic Style: - [0-3s] An elderly man walks slowly along a park path, leaning on a wooden crutch; he approaches a patch of wet, golden leaves on the ground.\n- [3-7s] As the tip of the crutch touches the leaves, the damp foliage instantly sprouts hundreds of miniature, golden hands that seize the crutch and begin an aggressive tug-of-war, dragging the man off-balance until he manages to seize the bench's armrest.\n- [7-10s] The man stands still for a moment, exhaling in relief, and carefully repositioning his crutch on the dry pavement.",
+    "reviewer_audit": {
+      "passed": true,
+      "reason": "The script perfectly adheres to the [Setup -> Twist -> Reaction] structure. The start (0-3s) is pure setup, establishing the man and his crutch. The middle (3-7s) contains a clear, surreal twist (leaves sprouting hands, tug-of-war). The end (7-10s) is a simple, logical reaction (standing still, exhaling, repositioning). The transitions are continuous and logical.",
+      "score": 10
+    },
+    "transformation_analysis": {
+      "transformation_type": "Biomorphing & Animism",
+      "reasoning": "The damp leaves sprout hundreds of miniature, golden hands that seize the crutch and engage in an aggressive tug-of-war. This involves inanimate objects (leaves) growing biological features (hands) and exhibiting highly intentional, anthropomorphic behavior (seizing, tug-of-war)."
+    }
+  },
+  {
+    "constraints": {
+      "keyword": "Bulletproof Vest (防弹衣)",
+      "type": "Surprise Scenario"
+    },
+    "reasoning_trace": "Idea 1: A police officer puts on a vest before a shift. Idea 2: A journalist preparing for a field assignment in a conflict zone puts on a heavy bulletproof vest. Idea 2 is chosen because it highlights the weight and physical bulk of the vest more effectively, creating a more engaging narrative of preparation and personal safety.\nThe original sequence shows a journalist preparing to wear a bulletproof vest. To introduce a surreal element while maintaining the start and end captions, I transformed the act of putting on the vest from a physical task into a supernatural event. Instead of being lifted, the vest exhibits lifelike qualities—beating like a heart and liquefying into a shadow—to wrap itself around the journalist autonomously, which heightens the tension and fits the absurd/surreal genre while leading naturally to the journalist checking the fit in the end.",
+    "synopsis": "A journalist stands before a heavy bulletproof vest, but as they reach for it, the gear takes on a life of its own, liquefying into a dark shadow that crawls up their body and solidifies into protective armor.",
+    "normal_timeline": {
+      "start_caption": "[0-3s] A journalist stands in a room, looking at a heavy black bulletproof vest laid out on a table in front of them.",
+      "middle_caption": "[3-7s] The journalist lifts the heavy vest, pulls it over their head, and firmly fastens the loud Velcro straps on both sides to secure it.",
+      "end_caption": "[7-10s] They pat the front ceramic plate to check the fit and take a deep, steadying breath while looking at their reflection."
+    },
+    "timeline": {
+      "start_caption": "[0-3s] A journalist stands in a room, looking at a heavy black bulletproof vest laid out on a table in front of them.",
+      "middle_caption": "[3-7s] As the journalist reaches out, the vest begins to pulse like a giant heart before suddenly liquefying into a pool of black shadows that flows up their arms and torso, instantly solidifying into a rigid vest.",
+      "end_caption": "[7-10s] They pat the front ceramic plate to check the fit and take a deep, steadying breath while looking at their reflection."
+    },
+    "final_t2v_prompt": "Realistic Style: - [0-3s] A journalist stands in a room, looking at a heavy black bulletproof vest laid out on a table in front of them.\n- [3-7s] As the journalist reaches out, the vest begins to pulse like a giant heart before suddenly liquefying into a pool of black shadows that flows up their arms and torso, instantly solidifying into a rigid vest.\n- [7-10s] They pat the front ceramic plate to check the fit and take a deep, steadying breath while looking at their reflection.",
+    "reviewer_audit": {
+      "passed": true,
+      "reason": "The script perfectly adheres to the required timeline structure. The START (0-3s) is pure setup, establishing the character and object. The MIDDLE (3-7s) contains a clear, surreal twist as the vest liquefies and moves autonomously. The END (7-10s) shows a simple, logical reaction of checking the fit and taking a breath, with no complex follow-up action. The transitions are smooth and continuous.",
+      "score": 10
+    },
+    "transformation_analysis": {
+      "transformation_type": "Liquefaction",
+      "reasoning": "The vest transforms from a solid object into a liquid state ('liquefying into a pool of black shadows') and flows before solidifying again, emphasizing the liquid properties and flowing dynamics."
+    }
+  },
+  {
+    "constraints": {
+      "keyword": "Motorcycle (摩托车)",
+      "type": "Surprise Scenario"
+    },
+    "reasoning_trace": "Idea 1: A person gets on a motorcycle and simply rides off. Idea 2: A person struggles to kickstart a vintage motorcycle until it finally roars to life. Idea 1 is functional but lacks visual tension; Idea 2 is more engaging as it showcases a physical interaction with a clear mechanical response and sensory feedback like sound and smoke.\nThe beginning depicts a man preparing to start a vintage motorcycle, and the ending shows the motorcycle successfully idling. To bridge these normally while introducing a surreal element, I transformed the mechanical response into a biological and physics-defying reaction. Instead of a mechanical sputter, the motorcycle exhibits organic behavior—breathing and rippling—while still arriving at the state of a running engine to match the final scene.",
+    "synopsis": "A man attempts to start his classic motorcycle, but the machine reacts like a living creature, exhaling a human sigh and temporarily turning liquid before the engine settles into a steady idle.",
+    "normal_timeline": {
+      "start_caption": "[0-3s] A man in a leather jacket walks up to a classic motorcycle parked in a sunlit garage, putting on his gloves as he approaches.",
+      "middle_caption": "[3-7s] The man mounts the bike and forcefully kicks the starter pedal multiple times; the engine sputters, then suddenly ignites with a loud rumble and a small puff of exhaust smoke.",
+      "end_caption": "[7-10s] The man revs the throttle slightly, listening to the steady idle of the engine with a satisfied expression before looking ahead."
+    },
+    "timeline": {
+      "start_caption": "[0-3s] A man in a leather jacket walks up to a classic motorcycle parked in a sunlit garage, putting on his gloves as he approaches.",
+      "middle_caption": "[3-7s] The man mounts the bike and kicks the starter pedal; instead of a sputter, the motorcycle's metal chassis ripples like fluid and it emits a deep, weary human sigh as the frame expands and contracts like a breathing lung before the engine finally ignites.",
+      "end_caption": "[7-10s] The man revs the throttle slightly, listening to the steady idle of the engine with a satisfied expression before looking ahead."
+    },
+    "final_t2v_prompt": "Realistic Style: - [0-3s] A man in a leather jacket walks up to a classic motorcycle parked in a sunlit garage, putting on his gloves as he approaches.\n- [3-7s] The man mounts the bike and kicks the starter pedal; instead of a sputter, the motorcycle's metal chassis ripples like fluid and it emits a deep, weary human sigh as the frame expands and contracts like a breathing lung before the engine finally ignites.\n- [7-10s] The man revs the throttle slightly, listening to the steady idle of the engine with a satisfied expression before looking ahead.",
+    "reviewer_audit": {
+      "passed": true,
+      "reason": "The script perfectly adheres to the Timeline Structure. The START (0-3s) is pure setup (approaching, putting on gloves). The MIDDLE (3-7s) contains a clear, surreal TWIST (metal ripples like fluid, human sigh, frame breathing). The END (7-10s) is a simple, logical reaction (listening to the idle with a satisfied look). Transitions are smooth and continuous.",
+      "score": 10
+    },
+    "transformation_analysis": {
+      "transformation_type": "Biomorphing & Animism",
+      "reasoning": "The motorcycle's metal chassis exhibits physiological functions (breathing, sighing) and behaves like a biological organ (lung), meeting the criteria for biological features and physiological behavior."
+    }
+  },
+  {
+    "constraints": {
+      "keyword": "Potato (土豆)",
+      "type": "Surprise Scenario"
+    },
+    "reasoning_trace": "Idea 1: A chef peeling a potato at a counter. Idea 2: A person carrying a grocery bag where the bottom breaks, causing potatoes to spill and roll across the floor. Idea 1 is a bit too mundane for a visual scene; Idea 2 provides a more dynamic and engaging sequence of events while remaining perfectly realistic and relatable.\nThe original sequence involves a bag of potatoes tearing and the contents spilling out normally. To introduce a surreal element while maintaining the narrative coherence of the start and end, I transformed the falling motion into a defiant act of gravity. Instead of merely tumbling, the potatoes emerge from the rip and begin to hover and dance in an impossible mid-air formation before finally settling on the floor, adding a layer of the absurd to a mundane household accident.",
+    "synopsis": "A person carries a bag of potatoes that tears open, but rather than a simple spill, the potatoes exhibit supernatural behavior by hovering and spiraling in the air before landing on the floor.",
+    "normal_timeline": {
+      "start_caption": "[0-3s] A person walks across a kitchen carrying a heavy brown paper bag filled with potatoes toward a counter.",
+      "middle_caption": "[3-7s] The bottom of the paper bag suddenly tears open, and the potatoes tumble out, bouncing and rolling in various directions across the floor.",
+      "end_caption": "[7-10s] The person stops and stares down at the scattered potatoes, holding the empty, ripped bag with a frustrated expression."
+    },
+    "timeline": {
+      "start_caption": "[0-3s] A person walks across a kitchen carrying a heavy brown paper bag filled with potatoes toward a counter.",
+      "middle_caption": "[3-7s] The bottom of the paper bag tears open, and the potatoes float out, suspending themselves in mid-air to perform a brief, synchronized dance in a spinning vortex before dropping simultaneously onto the floor.",
+      "end_caption": "[7-10s] The person stops and stares down at the scattered potatoes, holding the empty, ripped bag with a frustrated expression."
+    },
+    "final_t2v_prompt": "Realistic Style: - [0-3s] A person walks across a kitchen carrying a heavy brown paper bag filled with potatoes toward a counter.\n- [3-7s] The bottom of the paper bag tears open, and the potatoes float out, suspending themselves in mid-air to perform a brief, synchronized dance in a spinning vortex before dropping simultaneously onto the floor.\n- [7-10s] The person stops and stares down at the scattered potatoes, holding the empty, ripped bag with a frustrated expression.",
+    "reviewer_audit": {
+      "passed": true,
+      "reason": "The script perfectly adheres to the [Setup -> Twist -> Reaction] structure. The start (0-3s) is pure setup, establishing a normal action. The middle (3-7s) contains a clear and surreal twist with the potatoes floating and dancing. The end (7-10s) is a simple, logical reaction of staring in frustration. The transitions are smooth and continuous.",
+      "score": 10
+    },
+    "transformation_analysis": {
+      "transformation_type": "Physics Defiance",
+      "reasoning": "The potatoes do not change their material or become biological. Instead, they violate Newtonian mechanics by floating, suspending in mid-air, and performing a synchronized dance in a vortex, which defies gravity and exhibits autonomous, non-biological movement."
+    }
+  },
+  {
+    "constraints": {
+      "keyword": "Roller Skates (轮滑鞋)",
+      "type": "Surprise Scenario"
+    },
+    "reasoning_trace": "Idea 1: A person sitting on a bench putting on roller skates. (Too mundane). Idea 2: An expert skater performing high-speed tricks. (Too specialized/not 'normal' enough). Idea 3: A beginner skater attempting to glide on a smooth path but losing balance and wobbling. Idea 3 is chosen because it depicts a relatable, realistic interaction with roller skates that provides visual tension and movement without being overly extreme.\nThe original scene describes the skater's legs drifting apart and him flailing for balance. To introduce a surreal twist, I transformed this physical struggle into an impossible event where his legs become infinitely elastic like rubber, forcing him to perform an absurd juggling act with his own skate wheels while hovering in mid-air, which heightens the relief of him returning to a stable state in the final phase.",
+    "synopsis": "A young man begins to roller skate, but his legs suddenly turn into incredibly long, flexible rubber strands, forcing him to perform an impossible balancing act before snapping back to normal.",
+    "normal_timeline": {
+      "start_caption": "[0-3s] A young man wearing roller skates and knee pads stands at the edge of a smooth asphalt path, looking ahead with a focused expression.",
+      "middle_caption": "[3-7s] He pushes off and begins to glide, but his legs start to drift apart and he flails his arms in circles to stay upright as he wobbles side-to-side.",
+      "end_caption": "[7-10s] He successfully stabilizes himself and slows to a halt, letting out a heavy sigh of relief while checking his balance."
+    },
+    "timeline": {
+      "start_caption": "[0-3s] A young man wearing roller skates and knee pads stands at the edge of a smooth asphalt path, looking ahead with a focused expression.",
+      "middle_caption": "[3-7s] He pushes off and begins to glide, but his legs suddenly transform into long, flexible rubber noodles that stretch miles apart, forcing him to juggle his own detachable wheels to maintain momentum as he wobbles through the air.",
+      "end_caption": "[7-10s] He successfully stabilizes himself and slows to a halt, letting out a heavy sigh of relief while checking his balance."
+    },
+    "final_t2v_prompt": "Realistic Style: - [0-3s] A young man wearing roller skates and knee pads stands at the edge of a smooth asphalt path, looking ahead with a focused expression.\n- [3-7s] He pushes off and begins to glide, but his legs suddenly transform into long, flexible rubber noodles that stretch miles apart, forcing him to juggle his own detachable wheels to maintain momentum as he wobbles through the air.\n- [7-10s] He successfully stabilizes himself and slows to a halt, letting out a heavy sigh of relief while checking his balance.",
+    "reviewer_audit": {
+      "passed": true,
+      "reason": "The script adheres to the required timeline structure. The START (0-3s) is a pure setup, showing the character preparing to skate. The MIDDLE (3-7s) contains a clear and surreal twist with the legs transforming into rubber noodles, creating an unexpected event. The END (7-10s) shows a simple, direct reaction to the twist—stabilizing and sighing in relief—without introducing new complex actions. The transitions are logical and continuous.",
+      "score": 9
+    },
+    "transformation_analysis": {
+      "transformation_type": "Material Transmutation - Non-Liquid",
+      "reasoning": "The man's legs transform from a normal, solid biological form into long, flexible rubber noodles. This is a fundamental change in material (to a soft, elastic solid) while retaining a general shape, fitting the criteria for non-liquid material transmutation."
+    }
+  },
+  {
+    "constraints": {
+      "keyword": "Rubbing Alcohol (医用酒精)",
+      "type": "Surprise Scenario"
+    },
+    "reasoning_trace": "Idea 1: A person uses rubbing alcohol to clean a desk surface. Idea 2: A person uses rubbing alcohol to disinfect a small scrape on their skin. Idea 2 is more engaging because it involves a visceral human reaction—the characteristic 'sting' of the alcohol—which provides better narrative and visual interest than simply wiping a table.\nTo introduce a surreal twist that fits between the preparation of the alcohol and the physical relief afterward, I chose to transform the chemical 'sting' into a literal atmospheric event. Instead of simply dabbing a liquid, the alcohol manifests as a miniature lightning storm. The surreal element of the wound levitating as a glowing orb visualizes the intense sensation of the alcohol working, before it settles back to allow for the original ending where the person blows on the skin to soothe the 'burn'.",
+    "synopsis": "While attempting to clean a minor scrape with rubbing alcohol, the liquid transforms into a miniature electrical storm that causes the wound to levitate in a glowing orb before the person cools it down.",
+    "normal_timeline": {
+      "start_caption": "[0-3s] A person sits at a desk with a minor scrape on their forearm; a bottle of rubbing alcohol and a cotton ball are placed in front of them.",
+      "middle_caption": "[3-7s] The person unscrews the bottle, soaks the cotton ball with alcohol, and dabs it onto the scrape, visibly wincing and tensing their face from the sting.",
+      "end_caption": "[7-10s] The person pulls the cotton ball away, exhales sharply, and gently blows on the skin to soothe the burning sensation."
+    },
+    "timeline": {
+      "start_caption": "[0-3s] A person sits at a desk with a minor scrape on their forearm; a bottle of rubbing alcohol and a cotton ball are placed in front of them.",
+      "middle_caption": "[3-7s] As the cotton ball touches the liquid, the rubbing alcohol transforms into a miniature, swirling lightning storm inside the bottle; when dabbed onto the skin, a bolt of blue electricity zaps the scrape, causing the wound to peel off the arm and hover as a glowing, vibrating orb of light before snapping back into place.",
+      "end_caption": "[7-10s] The person pulls the cotton ball away, exhales sharply, and gently blows on the skin to soothe the burning sensation."
+    },
+    "final_t2v_prompt": "Realistic Style: - [0-3s] A person sits at a desk with a minor scrape on their forearm; a bottle of rubbing alcohol and a cotton ball are placed in front of them.\n- [3-7s] As the cotton ball touches the liquid, the rubbing alcohol transforms into a miniature, swirling lightning storm inside the bottle; when dabbed onto the skin, a bolt of blue electricity zaps the scrape, causing the wound to peel off the arm and hover as a glowing, vibrating orb of light before snapping back into place.\n- [7-10s] The person pulls the cotton ball away, exhales sharply, and gently blows on the skin to soothe the burning sensation.",
+    "reviewer_audit": {
+      "passed": true,
+      "reason": "The script adheres to the required timeline structure. The START (0-3s) is pure setup, establishing the scene and objects. The MIDDLE (3-7s) contains a clear and surreal twist where the alcohol transforms into a lightning storm and the wound becomes a levitating orb. The END (7-10s) shows a simple, logical reaction of pulling away and cooling the skin, without introducing new complex actions. The transitions are logical and continuous.",
+      "score": 10
+    },
+    "transformation_analysis": {
+      "transformation_type": "Dimensional Rift & Metaphor Realization",
+      "reasoning": "The rubbing alcohol inside the bottle transforms into a miniature, swirling lightning storm, which is a small object containing a vast, dynamic scene inside. This fits the criteria of a small object containing a宏大 scene (a storm)."
+    }
+  },
+  {
+    "constraints": {
+      "keyword": "Thermos (保温杯)",
+      "type": "Surprise Scenario"
+    },
+    "reasoning_trace": "Idea 1: A person simply drinks water from a thermos in an office. Idea 2: A hiker on a cold, misty mountain peak opens a thermos, releasing a thick cloud of steam as they pour a hot drink. Idea 2 is much more visually engaging and highlights the thermos's primary function—maintaining heat—in a realistic and atmospheric setting.\nTo maintain consistency with the cold mountain setting and the steaming cup in the finale, I replaced the coffee with a miniature, glowing cloud. This introduces a surreal, impossible element while logically explaining the visible 'steam' and 'warmth' in the end caption through a celestial phenomenon instead of a liquid.",
+    "synopsis": "A hiker on a mountain ledge opens a thermos, but instead of coffee, they pour a miniature, glowing cloud into their cup, capturing a piece of the sky itself.",
+    "normal_timeline": {
+      "start_caption": "[0-3s] A hiker sits on a cold, windy mountain ledge; a stainless steel thermos is placed on a flat stone next to them.",
+      "middle_caption": "[3-7s] The hiker picks up the thermos and unscrews the cap, releasing a visible plume of steam as they pour hot coffee into the cup-shaped lid.",
+      "end_caption": "[7-10s] The hiker holds the steaming cup with both hands to warm them, taking a satisfied sip and looking out over the landscape."
+    },
+    "timeline": {
+      "start_caption": "[0-3s] A hiker sits on a cold, windy mountain ledge; a stainless steel thermos is placed on a flat stone next to them.",
+      "middle_caption": "[3-7s] The hiker unscrews the cap, and instead of liquid, a miniature, swirling white cloud pours slowly into the cup, filling it with a glowing, dense vapor that crackles with tiny, soft flickers of golden light.",
+      "end_caption": "[7-10s] The hiker holds the steaming cup with both hands to warm them, taking a satisfied sip and looking out over the landscape."
+    },
+    "final_t2v_prompt": "Realistic Style: - [0-3s] A hiker sits on a cold, windy mountain ledge; a stainless steel thermos is placed on a flat stone next to them.\n- [3-7s] The hiker unscrews the cap, and instead of liquid, a miniature, swirling white cloud pours slowly into the cup, filling it with a glowing, dense vapor that crackles with tiny, soft flickers of golden light.\n- [7-10s] The hiker holds the steaming cup with both hands to warm them, taking a satisfied sip and looking out over the landscape.",
+    "reviewer_audit": {
+      "passed": true,
+      "reason": "The script perfectly adheres to the [Setup -> Twist -> Reaction] structure. The start (0-3s) is pure setup, establishing the character and object. The middle (3-7s) contains a clear, surreal twist (pouring a glowing cloud). The end (7-10s) shows a simple, logical reaction (warming hands and sipping) that follows from the twist. The transitions are smooth and continuous.",
+      "score": 10
+    },
+    "transformation_analysis": {
+      "transformation_type": "Material Transmutation - Non-Liquid",
+      "reasoning": "The hot coffee (a liquid) transforms into a miniature, swirling white cloud (a gas/vapor) that glows and crackles with light. This is a phase change from liquid to a glowing, tangible gas, fitting the criteria of a non-liquid material transmutation."
     }
   }
 ]

@@ -1,0 +1,1142 @@
+[
+  {
+    "object_name": "Nerf Gun (软弹枪)",
+    "scenario_type": "Surprise Scenario",
+    "video_file": "Nerf_Gun_(软弹枪)_Surprise_1.mp4",
+    "mcq_question": "[0-3s]: A young boy stands in a living room, holding a brightly colored Nerf gun and focusing intently on a stack of plastic cups on the table ahead.; [3-7s]: ???; [7-10s]: ] The boy lowers the blaster, pumping his fist in the air with a wide, triumphant grin.. What most likely happened in the [3-7s] interval according to the video?",
+    "mcq_options": {
+      "A": "The boy pulls the trigger; the foam dart freezes mid-air, grows a tiny human-like hand that meticulously flicks each cup over one by one, then zips back into its original trajectory to hit the table.",
+      "B": "The boy pulls the trigger; the foam dart transforms into a small explosive upon impact, creating a harmless puff of confetti that sends the plastic cups flying in every direction off the table.",
+      "C": "The boy pulls the trigger; a foam dart flies through the air and strikes the center of the cup pyramid, causing them to scatter across the table.",
+      "D": "The boy pulls the trigger; the foam dart sails through the air and narrowly misses the cups, but then it loops back around like a boomerang to knock the entire stack down from behind."
+    },
+    "correct_answer": "A",
+    "model_name": "qwen3-vl-flash",
+    "model_answer": "C",
+    "is_correct": false,
+    "first_stage_description": "",
+    "second_stage_reasoning": "The video shows the boy aiming a Nerf gun at a pyramid of plastic cups. At 3 seconds, a foam dart is seen flying toward the cups. From 4 to 7 seconds, the dart is shown in close-up mid-flight with a tiny hand attached to it, which appears to be manipulating or knocking over the cups one by one — this is clearly a visual effect. By 8 seconds, the boy celebrates triumphantly, indicating he successfully knocked down the cups. Option C best matches the sequence: the dart strikes the center of the cup pyramid, causing them to scatter — even though the visual effect includes a surreal hand, the outcome (cups falling) aligns with a direct hit. The other options involve implausible physics or effects not supported by the actual visual progression.",
+    "original_score": 9.85
+  },
+  {
+    "object_name": "Microphone (麦克风)",
+    "scenario_type": "Surprise Scenario",
+    "video_file": "Microphone_(麦克风)_Surprise_1.mp4",
+    "mcq_question": "[0-3s]: A man in a suit nervously walks up to a wooden podium on a stage, looking down at his notes; a silver microphone stands tall on its mount.; [3-7s]: ???; [7-10s]: ] The man winces and recoils, pulling his hands away and covering one ear while looking awkwardly toward the sound booth.. What most likely happened in the [3-7s] interval according to the video?",
+    "mcq_options": {
+      "A": "He reaches out and grips the neck of the microphone to adjust it toward his mouth, causing a loud, sharp screech of audio feedback to ring out through the speakers.",
+      "B": "As he grips the neck of the microphone, the silver metal softens into scaly skin and the head of the mic transforms into a wide-open human mouth that lets out a piercing, supernatural scream directly at him.",
+      "C": "The man attempts to tilt the microphone closer to his face, but the stand collapses with a thunderous crash against the floor, creating a violent echo that startles everyone in the auditorium.",
+      "D": "He leans forward to speak, but the microphone suddenly loses power and emits a low, vibrating hum that quickly escalates into a deafening roar, forcing him to jump back in shock."
+    },
+    "correct_answer": "B",
+    "model_name": "qwen3-vl-plus",
+    "model_answer": "B",
+    "is_correct": true,
+    "first_stage_description": "",
+    "second_stage_reasoning": "The video frame at 5 seconds clearly shows the microphone transforming into a creature with scaly skin and an open, screaming mouth. The man's subsequent reaction in frames 7-10 — wincing, recoiling, and covering his ear — is consistent with being startled by a sudden, supernatural scream emanating from the transformed microphone. This directly supports option B, which describes the exact visual transformation and its consequence. The other options describe plausible but non-supernatural technical failures (feedback, collapse, power loss) that are not visually supported by the frame at 5 seconds.",
+    "original_score": 9.29
+  },
+  {
+    "object_name": "Microphone (麦克风)",
+    "scenario_type": "Surprise Scenario",
+    "video_file": "Microphone_(麦克风)_Surprise_1.mp4",
+    "mcq_question": "[0-3s]: A man in a suit nervously walks up to a wooden podium on a stage, looking down at his notes; a silver microphone stands tall on its mount.; [3-7s]: ???; [7-10s]: ] The man winces and recoils, pulling his hands away and covering one ear while looking awkwardly toward the sound booth.. What most likely happened in the [3-7s] interval according to the video?",
+    "mcq_options": {
+      "A": "He reaches out and grips the neck of the microphone to adjust it toward his mouth, causing a loud, sharp screech of audio feedback to ring out through the speakers.",
+      "B": "As he grips the neck of the microphone, the silver metal softens into scaly skin and the head of the mic transforms into a wide-open human mouth that lets out a piercing, supernatural scream directly at him.",
+      "C": "The man attempts to tilt the microphone closer to his face, but the stand collapses with a thunderous crash against the floor, creating a violent echo that startles everyone in the auditorium.",
+      "D": "He leans forward to speak, but the microphone suddenly loses power and emits a low, vibrating hum that quickly escalates into a deafening roar, forcing him to jump back in shock."
+    },
+    "correct_answer": "B",
+    "model_name": "qwen-vl-max-latest",
+    "model_answer": "B",
+    "is_correct": true,
+    "first_stage_description": "",
+    "second_stage_reasoning": "In the video, the man approaches the podium and reaches for the microphone. At 4 seconds, the microphone transforms into a creature with a scaly, reptilian head and an open mouth, resembling a monster or dinosaur. This transformation is clearly visible in the frame at 5 seconds, where the microphone's head has become a wide-open, screaming mouth. The man reacts with shock and recoils, covering his ear, which aligns with the supernatural nature of the event. Option B accurately describes this surreal transformation and the resulting scream from the microphone, making it the most likely explanation for what happened during the [3-7s] interval.",
+    "original_score": 9.29
+  },
+  {
+    "object_name": "Microphone (麦克风)",
+    "scenario_type": "Surprise Scenario",
+    "video_file": "Microphone_(麦克风)_Surprise_1.mp4",
+    "mcq_question": "[0-3s]: A man in a suit nervously walks up to a wooden podium on a stage, looking down at his notes; a silver microphone stands tall on its mount.; [3-7s]: ???; [7-10s]: ] The man winces and recoils, pulling his hands away and covering one ear while looking awkwardly toward the sound booth.. What most likely happened in the [3-7s] interval according to the video?",
+    "mcq_options": {
+      "A": "He reaches out and grips the neck of the microphone to adjust it toward his mouth, causing a loud, sharp screech of audio feedback to ring out through the speakers.",
+      "B": "As he grips the neck of the microphone, the silver metal softens into scaly skin and the head of the mic transforms into a wide-open human mouth that lets out a piercing, supernatural scream directly at him.",
+      "C": "The man attempts to tilt the microphone closer to his face, but the stand collapses with a thunderous crash against the floor, creating a violent echo that startles everyone in the auditorium.",
+      "D": "He leans forward to speak, but the microphone suddenly loses power and emits a low, vibrating hum that quickly escalates into a deafening roar, forcing him to jump back in shock."
+    },
+    "correct_answer": "B",
+    "model_name": "qwen3-vl-flash",
+    "model_answer": "B",
+    "is_correct": true,
+    "first_stage_description": "",
+    "second_stage_reasoning": "The video frames show the man interacting with the microphone between 0:03 and 0:07. At 0:04, the microphone head suddenly transforms into a creature’s open mouth with teeth and tongue — clearly supernatural or fantastical in nature. This transformation directly precedes his startled reaction at 0:07, where he recoils and covers his ear as if reacting to an unnatural, piercing sound. Option B describes this exact transformation — the silver microphone softening into scaly skin and becoming a screaming mouth — which matches the visual evidence. The other options describe plausible but non-magical events (like feedback, collapse, or power loss), none of which are supported by the visual transformation shown. Therefore, B is the only option consistent with the video’s content.",
+    "original_score": 9.29
+  },
+  {
+    "object_name": "Nerf Gun (软弹枪)",
+    "scenario_type": "Surprise Scenario",
+    "video_file": "Nerf_Gun_(软弹枪)_Surprise_1.mp4",
+    "mcq_question": "[0-3s]: A young boy stands in a living room, holding a brightly colored Nerf gun and focusing intently on a stack of plastic cups on the table ahead.; [3-7s]: ???; [7-10s]: ] The boy lowers the blaster, pumping his fist in the air with a wide, triumphant grin.. What most likely happened in the [3-7s] interval according to the video?",
+    "mcq_options": {
+      "A": "The boy pulls the trigger; the foam dart freezes mid-air, grows a tiny human-like hand that meticulously flicks each cup over one by one, then zips back into its original trajectory to hit the table.",
+      "B": "The boy pulls the trigger; the foam dart transforms into a small explosive upon impact, creating a harmless puff of confetti that sends the plastic cups flying in every direction off the table.",
+      "C": "The boy pulls the trigger; a foam dart flies through the air and strikes the center of the cup pyramid, causing them to scatter across the table.",
+      "D": "The boy pulls the trigger; the foam dart sails through the air and narrowly misses the cups, but then it loops back around like a boomerang to knock the entire stack down from behind."
+    },
+    "correct_answer": "A",
+    "model_name": "qwen-vl-max-latest",
+    "model_answer": "A",
+    "is_correct": true,
+    "first_stage_description": "",
+    "second_stage_reasoning": "In the video, at 3 seconds, the boy pulls the trigger of the Nerf gun, and a foam dart is launched. At 4 seconds, the dart is shown in mid-air with a tiny human-like hand attached to it, which begins flicking the cups over one by one. By 5 seconds, the cups are visibly scattering as the hand continues its motion. This surreal animation suggests that the dart has magical properties, allowing it to interact with the cups in an unusual way. The sequence ends with the boy celebrating triumphantly at 7 seconds, indicating success. Option A accurately describes this fantastical event where the dart freezes mid-air, grows a hand, flicks each cup, and then returns to its path.",
+    "original_score": 9.85
+  },
+  {
+    "object_name": "Nerf Gun (软弹枪)",
+    "scenario_type": "Surprise Scenario",
+    "video_file": "Nerf_Gun_(软弹枪)_Surprise_1.mp4",
+    "mcq_question": "[0-3s]: A young boy stands in a living room, holding a brightly colored Nerf gun and focusing intently on a stack of plastic cups on the table ahead.; [3-7s]: ???; [7-10s]: ] The boy lowers the blaster, pumping his fist in the air with a wide, triumphant grin.. What most likely happened in the [3-7s] interval according to the video?",
+    "mcq_options": {
+      "A": "The boy pulls the trigger; the foam dart freezes mid-air, grows a tiny human-like hand that meticulously flicks each cup over one by one, then zips back into its original trajectory to hit the table.",
+      "B": "The boy pulls the trigger; the foam dart transforms into a small explosive upon impact, creating a harmless puff of confetti that sends the plastic cups flying in every direction off the table.",
+      "C": "The boy pulls the trigger; a foam dart flies through the air and strikes the center of the cup pyramid, causing them to scatter across the table.",
+      "D": "The boy pulls the trigger; the foam dart sails through the air and narrowly misses the cups, but then it loops back around like a boomerang to knock the entire stack down from behind."
+    },
+    "correct_answer": "A",
+    "model_name": "qwen3-vl-plus",
+    "model_answer": "A",
+    "is_correct": true,
+    "first_stage_description": "",
+    "second_stage_reasoning": "The video frame at 5 seconds clearly shows a blue Nerf dart with a small, human-like hand attached to its end. This hand is actively reaching out and flicking the plastic cups off the table one by one. This fantastical, animated sequence directly matches the description in option A, where the dart grows a hand to meticulously knock over the cups. The boy's triumphant reaction at 7-10s confirms he successfully hit his target, which aligns with this whimsical outcome. The other options describe physically impossible or inconsistent events (like explosions or boomerang darts) that are not visually supported by the frame.",
+    "original_score": 9.85
+  },
+  {
+    "object_name": "Microphone (麦克风)",
+    "scenario_type": "Surprise Scenario",
+    "video_file": "Microphone_(麦克风)_Surprise_1.mp4",
+    "mcq_question": "[0-3s]: A man in a suit nervously walks up to a wooden podium on a stage, looking down at his notes; a silver microphone stands tall on its mount.; [3-7s]: ???; [7-10s]: ] The man winces and recoils, pulling his hands away and covering one ear while looking awkwardly toward the sound booth.. What most likely happened in the [3-7s] interval according to the video?",
+    "mcq_options": {
+      "A": "He reaches out and grips the neck of the microphone to adjust it toward his mouth, causing a loud, sharp screech of audio feedback to ring out through the speakers.",
+      "B": "As he grips the neck of the microphone, the silver metal softens into scaly skin and the head of the mic transforms into a wide-open human mouth that lets out a piercing, supernatural scream directly at him.",
+      "C": "The man attempts to tilt the microphone closer to his face, but the stand collapses with a thunderous crash against the floor, creating a violent echo that startles everyone in the auditorium.",
+      "D": "He leans forward to speak, but the microphone suddenly loses power and emits a low, vibrating hum that quickly escalates into a deafening roar, forcing him to jump back in shock."
+    },
+    "correct_answer": "B",
+    "model_name": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+    "model_answer": "B",
+    "is_correct": true,
+    "first_stage_description": "",
+    "second_stage_reasoning": "The video shows a man in a suit nervously approaching a podium with a microphone. At 5 seconds, he is seen holding the microphone, which has transformed into a creature with a wide-open mouth. This transformation is consistent with option B, which describes the microphone transforming into a creature that screams at him. The other options do not match the visual evidence provided in the video.",
+    "original_score": 9.29
+  },
+  {
+    "object_name": "Microphone (麦克风)",
+    "scenario_type": "Surprise Scenario",
+    "video_file": "Microphone_(麦克风)_Surprise_1.mp4",
+    "mcq_question": "[0-3s]: A man in a suit nervously walks up to a wooden podium on a stage, looking down at his notes; a silver microphone stands tall on its mount.; [3-7s]: ???; [7-10s]: ] The man winces and recoils, pulling his hands away and covering one ear while looking awkwardly toward the sound booth.. What most likely happened in the [3-7s] interval according to the video?",
+    "mcq_options": {
+      "A": "He reaches out and grips the neck of the microphone to adjust it toward his mouth, causing a loud, sharp screech of audio feedback to ring out through the speakers.",
+      "B": "As he grips the neck of the microphone, the silver metal softens into scaly skin and the head of the mic transforms into a wide-open human mouth that lets out a piercing, supernatural scream directly at him.",
+      "C": "The man attempts to tilt the microphone closer to his face, but the stand collapses with a thunderous crash against the floor, creating a violent echo that startles everyone in the auditorium.",
+      "D": "He leans forward to speak, but the microphone suddenly loses power and emits a low, vibrating hum that quickly escalates into a deafening roar, forcing him to jump back in shock."
+    },
+    "correct_answer": "B",
+    "model_name": "qwen3-vl-30b-a3b-thinking",
+    "model_answer": "B",
+    "is_correct": true,
+    "first_stage_description": "The image combines formal elements (suit, podium, curtains) with an absurd, whimsical detail (dinosaur-shaped microphone), making it a clear example of humor through juxtaposition — consistent with option C.",
+    "second_stage_reasoning": "The video shows the man adjusting the microphone between 3-7 seconds. At 3.2s, he grips the mic's neck; by 4.2s, the silver microphone begins transforming into a scaly, dinosaur-like head with an open mouth. By 5.2s, the transformation is complete, and the dinosaur head appears to emit a sound (implied by the man's subsequent reaction). This matches option B, which describes the mic transforming into a \"wide-open human mouth\" (a close description of the dinosaur head) and emitting a supernatural scream. Options A, C, and D are inconsistent: A involves audio feedback (not a physical transformation), C references a collapsing stand (which does not occur), and D describes a power loss (not shown). The man’s recoil at 7-10 seconds directly follows the mic’s transformation and implied scream.",
+    "original_score": 9.29
+  },
+  {
+    "object_name": "Nerf Gun (软弹枪)",
+    "scenario_type": "Surprise Scenario",
+    "video_file": "Nerf_Gun_(软弹枪)_Surprise_1.mp4",
+    "mcq_question": "[0-3s]: A young boy stands in a living room, holding a brightly colored Nerf gun and focusing intently on a stack of plastic cups on the table ahead.; [3-7s]: ???; [7-10s]: ] The boy lowers the blaster, pumping his fist in the air with a wide, triumphant grin.. What most likely happened in the [3-7s] interval according to the video?",
+    "mcq_options": {
+      "A": "The boy pulls the trigger; the foam dart freezes mid-air, grows a tiny human-like hand that meticulously flicks each cup over one by one, then zips back into its original trajectory to hit the table.",
+      "B": "The boy pulls the trigger; the foam dart transforms into a small explosive upon impact, creating a harmless puff of confetti that sends the plastic cups flying in every direction off the table.",
+      "C": "The boy pulls the trigger; a foam dart flies through the air and strikes the center of the cup pyramid, causing them to scatter across the table.",
+      "D": "The boy pulls the trigger; the foam dart sails through the air and narrowly misses the cups, but then it loops back around like a boomerang to knock the entire stack down from behind."
+    },
+    "correct_answer": "A",
+    "model_name": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+    "model_answer": "C",
+    "is_correct": false,
+    "first_stage_description": "",
+    "second_stage_reasoning": "The video shows a young boy aiming a Nerf gun at a pyramid of plastic cups. At 5 seconds, the dart is seen flying through the air towards the cups. By 7 seconds, the cups are scattered across the table, indicating they were knocked over by the dart. This sequence of events matches option C, where the dart hits the center of the cup pyramid, causing them to scatter. The other options involve fantastical elements like a dart growing a hand or transforming into an explosive, which are not supported by the visual evidence in the video frames.",
+    "original_score": 9.85
+  },
+  {
+    "object_name": "Nerf Gun (软弹枪)",
+    "scenario_type": "Surprise Scenario",
+    "video_file": "Nerf_Gun_(软弹枪)_Surprise_1.mp4",
+    "mcq_question": "[0-3s]: A young boy stands in a living room, holding a brightly colored Nerf gun and focusing intently on a stack of plastic cups on the table ahead.; [3-7s]: ???; [7-10s]: ] The boy lowers the blaster, pumping his fist in the air with a wide, triumphant grin.. What most likely happened in the [3-7s] interval according to the video?",
+    "mcq_options": {
+      "A": "The boy pulls the trigger; the foam dart freezes mid-air, grows a tiny human-like hand that meticulously flicks each cup over one by one, then zips back into its original trajectory to hit the table.",
+      "B": "The boy pulls the trigger; the foam dart transforms into a small explosive upon impact, creating a harmless puff of confetti that sends the plastic cups flying in every direction off the table.",
+      "C": "The boy pulls the trigger; a foam dart flies through the air and strikes the center of the cup pyramid, causing them to scatter across the table.",
+      "D": "The boy pulls the trigger; the foam dart sails through the air and narrowly misses the cups, but then it loops back around like a boomerang to knock the entire stack down from behind."
+    },
+    "correct_answer": "A",
+    "model_name": "qwen3-vl-30b-a3b-thinking",
+    "model_answer": "C",
+    "is_correct": false,
+    "first_stage_description": "The description details a whimsical, experimental image with a blue foam dart and attached toy hand, set in a blurred indoor environment — suggesting a creative or educational context, which aligns best with option C (if C represents 'novelty/creative visual concept').",
+    "second_stage_reasoning": "The video shows the boy aiming a Nerf gun at a stack of cups. In the 3-7s interval, the foam dart (blue with orange ends) is seen in motion toward the cups, and the cups scatter across the table. Option C accurately describes this sequence: the dart flies through the air and strikes the cup pyramid, causing them to scatter. Options A, B, and D introduce fantastical elements (e.g., frozen dart, confetti, boomerang) not present in the video. The frame at 5 seconds confirms the dart is in motion with a hand attached, but the core action is the dart hitting the cups and causing them to fall, aligning with C.",
+    "original_score": 9.85
+  },
+  {
+    "object_name": "Nerf Gun (软弹枪)",
+    "scenario_type": "Surprise Scenario",
+    "video_file": "Nerf_Gun_(软弹枪)_Surprise_1.mp4",
+    "mcq_question": "[0-3s]: A young boy stands in a living room, holding a brightly colored Nerf gun and focusing intently on a stack of plastic cups on the table ahead.; [3-7s]: ???; [7-10s]: ] The boy lowers the blaster, pumping his fist in the air with a wide, triumphant grin.. What most likely happened in the [3-7s] interval according to the video?",
+    "mcq_options": {
+      "A": "The boy pulls the trigger; the foam dart freezes mid-air, grows a tiny human-like hand that meticulously flicks each cup over one by one, then zips back into its original trajectory to hit the table.",
+      "B": "The boy pulls the trigger; the foam dart transforms into a small explosive upon impact, creating a harmless puff of confetti that sends the plastic cups flying in every direction off the table.",
+      "C": "The boy pulls the trigger; a foam dart flies through the air and strikes the center of the cup pyramid, causing them to scatter across the table.",
+      "D": "The boy pulls the trigger; the foam dart sails through the air and narrowly misses the cups, but then it loops back around like a boomerang to knock the entire stack down from behind."
+    },
+    "correct_answer": "A",
+    "model_name": "zai-org/GLM-4.6V",
+    "model_answer": "A",
+    "is_correct": true,
+    "first_stage_description": "The description depicts a surreal, whimsical object combining a blue foam dart and a doll hand, which aligns with option C — a creative, absurd, or humorous setup often used in artistic or comedic contexts.",
+    "second_stage_reasoning": "The 5-second frame description mentions a surreal object combining a blue foam dart and a doll hand, which aligns with option A’s depiction of the dart growing a tiny hand to interact with the cups. This matches the whimsical, absurd setup implied by the frame, while other options (B, C, D) describe more conventional or different actions that don’t match the surreal element highlighted in the frame description.",
+    "original_score": 9.85
+  },
+  {
+    "object_name": "Fried Egg (煎蛋)",
+    "scenario_type": "Surprise Scenario",
+    "video_file": "Fried_Egg_(煎蛋)_Surprise_1.mp4",
+    "mcq_question": "[0-3s]: A person stands over a kitchen stove, holding a frying pan with a perfectly sizzling sunny-side-up egg; they grip the handle firmly, preparing to flip.; [3-7s]: ???; [7-10s]: ] The person stops moving, staring down at the broken yolk in the pan with a visible sigh of disappointment.. What most likely happened in the [3-7s] interval according to the video?",
+    "mcq_options": {
+      "A": "With a confident motion, the person jerks the pan upward to launch the egg, but the egg sticks to the surface and slides up the side wall, eventually tumbling over the rim and landing partially on the stovetop burner with a loud, sizzling pop.",
+      "B": "The person carefully slides the egg to the edge of the pan before performing a low flip; however, the pan catches the edge of the egg, causing it to fold over itself and trap the yolk, which then slowly seeps out from the sides in a messy puddle.",
+      "C": "As the egg is tossed, the yellow yolk detaches and remains frozen in mid-air while the white flips around it; after a beat, the gravity-defying yolk suddenly drops like a heavy stone and shatters upon impact, splashing yellow liquid across the white.",
+      "D": "With a quick flick of the wrist, the person tosses the egg into the air; the egg flips mid-air and lands back in the pan, but the yolk bursts upon impact, spreading yellow liquid across the white."
+    },
+    "correct_answer": "C",
+    "model_name": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+    "model_answer": "D",
+    "is_correct": false,
+    "first_stage_description": "",
+    "second_stage_reasoning": "The video shows a person attempting to flip a sunny-side-up egg in a pan. At 5 seconds, the egg is captured mid-air, with the yolk clearly visible and the white flipping around it. This visual evidence directly supports option D, which describes the egg being tossed into the air, flipping, and landing back in the pan with the yolk bursting upon impact. The other options do not match the observed sequence: A describes the egg sticking and falling off the pan, which is not seen; B involves a low flip and folding, which contradicts the mid-air toss; C suggests the yolk remains frozen mid-air, which is physically impossible and not depicted. Therefore, D is the only option consistent with the video's events.",
+    "original_score": 9.55
+  },
+  {
+    "object_name": "Fried Egg (煎蛋)",
+    "scenario_type": "Surprise Scenario",
+    "video_file": "Fried_Egg_(煎蛋)_Surprise_1.mp4",
+    "mcq_question": "[0-3s]: A person stands over a kitchen stove, holding a frying pan with a perfectly sizzling sunny-side-up egg; they grip the handle firmly, preparing to flip.; [3-7s]: ???; [7-10s]: ] The person stops moving, staring down at the broken yolk in the pan with a visible sigh of disappointment.. What most likely happened in the [3-7s] interval according to the video?",
+    "mcq_options": {
+      "A": "With a confident motion, the person jerks the pan upward to launch the egg, but the egg sticks to the surface and slides up the side wall, eventually tumbling over the rim and landing partially on the stovetop burner with a loud, sizzling pop.",
+      "B": "The person carefully slides the egg to the edge of the pan before performing a low flip; however, the pan catches the edge of the egg, causing it to fold over itself and trap the yolk, which then slowly seeps out from the sides in a messy puddle.",
+      "C": "As the egg is tossed, the yellow yolk detaches and remains frozen in mid-air while the white flips around it; after a beat, the gravity-defying yolk suddenly drops like a heavy stone and shatters upon impact, splashing yellow liquid across the white.",
+      "D": "With a quick flick of the wrist, the person tosses the egg into the air; the egg flips mid-air and lands back in the pan, but the yolk bursts upon impact, spreading yellow liquid across the white."
+    },
+    "correct_answer": "C",
+    "model_name": "qwen3-vl-flash",
+    "model_answer": "D",
+    "is_correct": false,
+    "first_stage_description": "",
+    "second_stage_reasoning": "The video frames show the person attempting to flip a sunny-side-up egg. At 0:02, the pan is tilted upward, and the egg begins to flip in mid-air. By 0:03–0:04, the egg is airborne, but at 0:05–0:06, the yolk visibly bursts upon impact with the pan or surface, splattering yellow liquid across the white — matching option D exactly. The subsequent frame (0:07) shows the person’s disappointed expression, confirming the flip failed catastrophically. Option D is the only one that describes a yolk bursting upon landing after a flip, which aligns with both the visual action and the emotional consequence.",
+    "original_score": 9.55
+  },
+  {
+    "object_name": "Fried Egg (煎蛋)",
+    "scenario_type": "Surprise Scenario",
+    "video_file": "Fried_Egg_(煎蛋)_Surprise_1.mp4",
+    "mcq_question": "[0-3s]: A person stands over a kitchen stove, holding a frying pan with a perfectly sizzling sunny-side-up egg; they grip the handle firmly, preparing to flip.; [3-7s]: ???; [7-10s]: ] The person stops moving, staring down at the broken yolk in the pan with a visible sigh of disappointment.. What most likely happened in the [3-7s] interval according to the video?",
+    "mcq_options": {
+      "A": "With a confident motion, the person jerks the pan upward to launch the egg, but the egg sticks to the surface and slides up the side wall, eventually tumbling over the rim and landing partially on the stovetop burner with a loud, sizzling pop.",
+      "B": "The person carefully slides the egg to the edge of the pan before performing a low flip; however, the pan catches the edge of the egg, causing it to fold over itself and trap the yolk, which then slowly seeps out from the sides in a messy puddle.",
+      "C": "As the egg is tossed, the yellow yolk detaches and remains frozen in mid-air while the white flips around it; after a beat, the gravity-defying yolk suddenly drops like a heavy stone and shatters upon impact, splashing yellow liquid across the white.",
+      "D": "With a quick flick of the wrist, the person tosses the egg into the air; the egg flips mid-air and lands back in the pan, but the yolk bursts upon impact, spreading yellow liquid across the white."
+    },
+    "correct_answer": "C",
+    "model_name": "qwen-vl-max-latest",
+    "model_answer": "D",
+    "is_correct": false,
+    "first_stage_description": "",
+    "second_stage_reasoning": "In the video, the person tosses the egg into the air with a quick flick of the wrist. The egg flips mid-air and lands back in the pan, but upon impact, the yolk bursts and spreads yellow liquid across the white. This matches option D exactly. The frame at 5 seconds shows the egg mid-air with the yolk detaching slightly, indicating it is about to burst upon landing. The subsequent frames show the yolk breaking and splattering, confirming the event described in option D.",
+    "original_score": 9.55
+  },
+  {
+    "object_name": "Fried Egg (煎蛋)",
+    "scenario_type": "Surprise Scenario",
+    "video_file": "Fried_Egg_(煎蛋)_Surprise_1.mp4",
+    "mcq_question": "[0-3s]: A person stands over a kitchen stove, holding a frying pan with a perfectly sizzling sunny-side-up egg; they grip the handle firmly, preparing to flip.; [3-7s]: ???; [7-10s]: ] The person stops moving, staring down at the broken yolk in the pan with a visible sigh of disappointment.. What most likely happened in the [3-7s] interval according to the video?",
+    "mcq_options": {
+      "A": "With a confident motion, the person jerks the pan upward to launch the egg, but the egg sticks to the surface and slides up the side wall, eventually tumbling over the rim and landing partially on the stovetop burner with a loud, sizzling pop.",
+      "B": "The person carefully slides the egg to the edge of the pan before performing a low flip; however, the pan catches the edge of the egg, causing it to fold over itself and trap the yolk, which then slowly seeps out from the sides in a messy puddle.",
+      "C": "As the egg is tossed, the yellow yolk detaches and remains frozen in mid-air while the white flips around it; after a beat, the gravity-defying yolk suddenly drops like a heavy stone and shatters upon impact, splashing yellow liquid across the white.",
+      "D": "With a quick flick of the wrist, the person tosses the egg into the air; the egg flips mid-air and lands back in the pan, but the yolk bursts upon impact, spreading yellow liquid across the white."
+    },
+    "correct_answer": "C",
+    "model_name": "qwen3-vl-plus",
+    "model_answer": "D",
+    "is_correct": false,
+    "first_stage_description": "",
+    "second_stage_reasoning": "The video frames show the person flipping the egg in the air (0:02-0:03), and at 0:05, the egg is captured mid-air with the yolk intact but beginning to break. By 0:06, the yolk has burst, splashing yellow liquid as it lands back in the pan. This directly matches option D, which describes the egg flipping mid-air and the yolk bursting upon impact. The person’s disappointed expression at 0:07-0:09 further confirms the failure of the flip due to the broken yolk, ruling out options where the egg lands successfully or behaves unrealistically (like in C).",
+    "original_score": 9.55
+  },
+  {
+    "object_name": "Microphone (麦克风)",
+    "scenario_type": "Surprise Scenario",
+    "video_file": "Microphone_(麦克风)_Surprise_1.mp4",
+    "mcq_question": "[0-3s]: A man in a suit nervously walks up to a wooden podium on a stage, looking down at his notes; a silver microphone stands tall on its mount.; [3-7s]: ???; [7-10s]: ] The man winces and recoils, pulling his hands away and covering one ear while looking awkwardly toward the sound booth.. What most likely happened in the [3-7s] interval according to the video?",
+    "mcq_options": {
+      "A": "He reaches out and grips the neck of the microphone to adjust it toward his mouth, causing a loud, sharp screech of audio feedback to ring out through the speakers.",
+      "B": "As he grips the neck of the microphone, the silver metal softens into scaly skin and the head of the mic transforms into a wide-open human mouth that lets out a piercing, supernatural scream directly at him.",
+      "C": "The man attempts to tilt the microphone closer to his face, but the stand collapses with a thunderous crash against the floor, creating a violent echo that startles everyone in the auditorium.",
+      "D": "He leans forward to speak, but the microphone suddenly loses power and emits a low, vibrating hum that quickly escalates into a deafening roar, forcing him to jump back in shock."
+    },
+    "correct_answer": "B",
+    "model_name": "zai-org/GLM-4.6V",
+    "model_answer": "B",
+    "is_correct": true,
+    "first_stage_description": "The description details a humorous, attention-grabbing scene with a dinosaur-shaped microphone in a formal setting, which aligns with option A as the most fitting interpretation.",
+    "second_stage_reasoning": "The 5-second frame description mentions a dinosaur-shaped microphone in a formal setting. Option B describes the microphone transforming into a dinosaur-headed mic that lets out a piercing scream, which matches the visual of the dinosaur-shaped mic. The man's subsequent reaction (wincing, covering an ear) at 7-10s is consistent with being startled by a loud, supernatural scream from the transformed mic. Other options don't align with the dinosaur-shaped mic visual or the reaction: A is about audio feedback (not a dinosaur), C is about the stand collapsing (no visual of that), and D is about a power-related roar (not a dinosaur transformation).",
+    "original_score": 9.29
+  },
+  {
+    "object_name": "Fried Egg (煎蛋)",
+    "scenario_type": "Surprise Scenario",
+    "video_file": "Fried_Egg_(煎蛋)_Surprise_1.mp4",
+    "mcq_question": "[0-3s]: A person stands over a kitchen stove, holding a frying pan with a perfectly sizzling sunny-side-up egg; they grip the handle firmly, preparing to flip.; [3-7s]: ???; [7-10s]: ] The person stops moving, staring down at the broken yolk in the pan with a visible sigh of disappointment.. What most likely happened in the [3-7s] interval according to the video?",
+    "mcq_options": {
+      "A": "With a confident motion, the person jerks the pan upward to launch the egg, but the egg sticks to the surface and slides up the side wall, eventually tumbling over the rim and landing partially on the stovetop burner with a loud, sizzling pop.",
+      "B": "The person carefully slides the egg to the edge of the pan before performing a low flip; however, the pan catches the edge of the egg, causing it to fold over itself and trap the yolk, which then slowly seeps out from the sides in a messy puddle.",
+      "C": "As the egg is tossed, the yellow yolk detaches and remains frozen in mid-air while the white flips around it; after a beat, the gravity-defying yolk suddenly drops like a heavy stone and shatters upon impact, splashing yellow liquid across the white.",
+      "D": "With a quick flick of the wrist, the person tosses the egg into the air; the egg flips mid-air and lands back in the pan, but the yolk bursts upon impact, spreading yellow liquid across the white."
+    },
+    "correct_answer": "C",
+    "model_name": "qwen3-vl-30b-a3b-thinking",
+    "model_answer": "D",
+    "is_correct": false,
+    "first_stage_description": "The description focuses on a dynamic kitchen scene featuring a flipped fried egg, emphasizing texture, motion, and cooking artistry — consistent with a culinary or food photography context, making option C the most fitting choice.",
+    "second_stage_reasoning": "The video sequence shows a person flipping a sunny-side-up egg in a frying pan. In the [3-7s] interval, the egg is tossed into the air (as seen in frames 2.2–5.2 seconds), where it flips mid-air. Upon landing back in the pan (frame 6.2 seconds), the yolk bursts upon impact, causing yellow liquid to spread across the white. This matches option D’s description: \"With a quick flick of the wrist, the person tosses the egg into the air; the egg flips mid-air and lands back in the pan, but the yolk bursts upon impact, spreading yellow liquid across the white.\" Other options are inconsistent: A describes the egg sticking to the pan (not observed), B involves folding the egg (no evidence of this), and C suggests the yolk remains frozen mid-air (not supported by the video’s dynamic motion). The visual evidence confirms the yolk bursts upon landing, making D the correct choice.",
+    "original_score": 9.55
+  },
+  {
+    "object_name": "Toothpaste Tube (牙膏管)",
+    "scenario_type": "Surprise Scenario",
+    "video_file": "Toothpaste_Tube_(牙膏管)_Surprise_1.mp4",
+    "mcq_question": "[0-3s]: A person stands at a bathroom sink, holding a toothbrush in one hand and a crumpled, nearly empty toothpaste tube in the other.; [3-7s]: ???; [7-10s]: ] The person stops squeezing and stares at the oversized mess on their hand with a sigh of frustration.. What most likely happened in the [3-7s] interval according to the video?",
+    "mcq_options": {
+      "A": "While struggling to get the last bit out, the person shakes the tube vigorously until the cap flies off, causing a long, snake-like coil of minty paste to spiral out uncontrollably and land in a heavy heap across their knuckles and the toothbrush.",
+      "B": "The person rolls the tube tightly from the bottom and squeezes hard; suddenly, a large, messy glob of toothpaste shoots out onto the bristles and the person's hand.",
+      "C": "As the person begins to squeeze, the toothpaste tube suddenly expands its sides like lungs, inhales with a loud whistling sound, and lets out a violent, wet sneeze that launches a massive, glowing glob of paste across the bristles and onto the person's hand.",
+      "D": "The person places the tube on the counter and uses both hands to press down firmly; the tube unexpectedly splits open at the bottom seam, releasing a pressurized fountain of thick paste that coats the person's palm and the sink basin."
+    },
+    "correct_answer": "C",
+    "model_name": "qwen3-vl-flash",
+    "model_answer": "A",
+    "is_correct": false,
+    "first_stage_description": "",
+    "second_stage_reasoning": "The video frames from 3-7 seconds show the toothpaste tube being squeezed in a way that causes an unusually long, snake-like coil of toothpaste to spiral out uncontrollably. At 5 seconds, the paste is visibly forming a twisting, elongated shape around the toothbrush bristles and extending toward the person’s hand. This matches option A’s description of a vigorous shaking motion causing the cap to fly off and the paste to spiral out messily. The final frame at 7 seconds shows the person stopping squeezing and staring at the oversized mess on their hand — confirming the outcome described in option A. The other options involve implausible mechanics (like the tube expanding or splitting open) not supported by visual evidence.",
+    "original_score": 6.5
+  },
+  {
+    "object_name": "Toothpaste Tube (牙膏管)",
+    "scenario_type": "Surprise Scenario",
+    "video_file": "Toothpaste_Tube_(牙膏管)_Surprise_1.mp4",
+    "mcq_question": "[0-3s]: A person stands at a bathroom sink, holding a toothbrush in one hand and a crumpled, nearly empty toothpaste tube in the other.; [3-7s]: ???; [7-10s]: ] The person stops squeezing and stares at the oversized mess on their hand with a sigh of frustration.. What most likely happened in the [3-7s] interval according to the video?",
+    "mcq_options": {
+      "A": "While struggling to get the last bit out, the person shakes the tube vigorously until the cap flies off, causing a long, snake-like coil of minty paste to spiral out uncontrollably and land in a heavy heap across their knuckles and the toothbrush.",
+      "B": "The person rolls the tube tightly from the bottom and squeezes hard; suddenly, a large, messy glob of toothpaste shoots out onto the bristles and the person's hand.",
+      "C": "As the person begins to squeeze, the toothpaste tube suddenly expands its sides like lungs, inhales with a loud whistling sound, and lets out a violent, wet sneeze that launches a massive, glowing glob of paste across the bristles and onto the person's hand.",
+      "D": "The person places the tube on the counter and uses both hands to press down firmly; the tube unexpectedly splits open at the bottom seam, releasing a pressurized fountain of thick paste that coats the person's palm and the sink basin."
+    },
+    "correct_answer": "C",
+    "model_name": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+    "model_answer": "A",
+    "is_correct": false,
+    "first_stage_description": "",
+    "second_stage_reasoning": "The video shows a person attempting to squeeze a nearly empty toothpaste tube. At 5 seconds, the toothpaste is seen in a long, snake-like coil, which is a direct result of shaking the tube vigorously. This action causes the cap to fly off and the toothpaste to spiral out uncontrollably, matching the description in option A. The other options describe implausible events, such as the tube expanding like lungs or splitting open, which are not depicted in the video.",
+    "original_score": 6.5
+  },
+  {
+    "object_name": "Toothpaste Tube (牙膏管)",
+    "scenario_type": "Surprise Scenario",
+    "video_file": "Toothpaste_Tube_(牙膏管)_Surprise_1.mp4",
+    "mcq_question": "[0-3s]: A person stands at a bathroom sink, holding a toothbrush in one hand and a crumpled, nearly empty toothpaste tube in the other.; [3-7s]: ???; [7-10s]: ] The person stops squeezing and stares at the oversized mess on their hand with a sigh of frustration.. What most likely happened in the [3-7s] interval according to the video?",
+    "mcq_options": {
+      "A": "While struggling to get the last bit out, the person shakes the tube vigorously until the cap flies off, causing a long, snake-like coil of minty paste to spiral out uncontrollably and land in a heavy heap across their knuckles and the toothbrush.",
+      "B": "The person rolls the tube tightly from the bottom and squeezes hard; suddenly, a large, messy glob of toothpaste shoots out onto the bristles and the person's hand.",
+      "C": "As the person begins to squeeze, the toothpaste tube suddenly expands its sides like lungs, inhales with a loud whistling sound, and lets out a violent, wet sneeze that launches a massive, glowing glob of paste across the bristles and onto the person's hand.",
+      "D": "The person places the tube on the counter and uses both hands to press down firmly; the tube unexpectedly splits open at the bottom seam, releasing a pressurized fountain of thick paste that coats the person's palm and the sink basin."
+    },
+    "correct_answer": "C",
+    "model_name": "qwen3-vl-plus",
+    "model_answer": "B",
+    "is_correct": false,
+    "first_stage_description": "",
+    "second_stage_reasoning": "The video frames show a person squeezing a nearly empty toothpaste tube, which results in a large, messy glob of toothpaste unexpectedly shooting out onto the toothbrush and their hand. This matches option B, which describes rolling the tube tightly and squeezing hard, leading to a sudden, messy release of paste. The other options involve unrealistic or physically impossible actions (e.g., the tube expanding like lungs or splitting open at the seam), while option A involves the cap flying off, which is not shown. The visual evidence clearly supports option B as the most plausible and accurate description of what occurred.",
+    "original_score": 6.5
+  },
+  {
+    "object_name": "Toothpaste Tube (牙膏管)",
+    "scenario_type": "Surprise Scenario",
+    "video_file": "Toothpaste_Tube_(牙膏管)_Surprise_1.mp4",
+    "mcq_question": "[0-3s]: A person stands at a bathroom sink, holding a toothbrush in one hand and a crumpled, nearly empty toothpaste tube in the other.; [3-7s]: ???; [7-10s]: ] The person stops squeezing and stares at the oversized mess on their hand with a sigh of frustration.. What most likely happened in the [3-7s] interval according to the video?",
+    "mcq_options": {
+      "A": "While struggling to get the last bit out, the person shakes the tube vigorously until the cap flies off, causing a long, snake-like coil of minty paste to spiral out uncontrollably and land in a heavy heap across their knuckles and the toothbrush.",
+      "B": "The person rolls the tube tightly from the bottom and squeezes hard; suddenly, a large, messy glob of toothpaste shoots out onto the bristles and the person's hand.",
+      "C": "As the person begins to squeeze, the toothpaste tube suddenly expands its sides like lungs, inhales with a loud whistling sound, and lets out a violent, wet sneeze that launches a massive, glowing glob of paste across the bristles and onto the person's hand.",
+      "D": "The person places the tube on the counter and uses both hands to press down firmly; the tube unexpectedly splits open at the bottom seam, releasing a pressurized fountain of thick paste that coats the person's palm and the sink basin."
+    },
+    "correct_answer": "C",
+    "model_name": "qwen3-vl-30b-a3b-thinking",
+    "model_answer": "A",
+    "is_correct": false,
+    "first_stage_description": "The description details a product demonstration scene focused on toothpaste dispensing, typical of advertising imagery emphasizing functionality and clean aesthetics.",
+    "second_stage_reasoning": "The video frames from 3-7 seconds show a close-up of the toothpaste tube being squeezed, with toothpaste forming a long, snake-like coil that spirals uncontrollably onto the toothbrush and hand. This matches option A's description of \"a long, snake-like coil of minty paste to spiral out uncontrollably.\" The other options are inconsistent: B describes a \"large, messy glob\" (not a continuous coil), C involves anthropomorphic tube behavior (not present), and D mentions the tube splitting (no evidence of this). The sequence culminates in the person stopping squeezing and reacting to the mess, confirming the action in 3-7s was the uncontrolled dispensing of toothpaste.",
+    "original_score": 6.5
+  },
+  {
+    "object_name": "Toothpaste Tube (牙膏管)",
+    "scenario_type": "Surprise Scenario",
+    "video_file": "Toothpaste_Tube_(牙膏管)_Surprise_1.mp4",
+    "mcq_question": "[0-3s]: A person stands at a bathroom sink, holding a toothbrush in one hand and a crumpled, nearly empty toothpaste tube in the other.; [3-7s]: ???; [7-10s]: ] The person stops squeezing and stares at the oversized mess on their hand with a sigh of frustration.. What most likely happened in the [3-7s] interval according to the video?",
+    "mcq_options": {
+      "A": "While struggling to get the last bit out, the person shakes the tube vigorously until the cap flies off, causing a long, snake-like coil of minty paste to spiral out uncontrollably and land in a heavy heap across their knuckles and the toothbrush.",
+      "B": "The person rolls the tube tightly from the bottom and squeezes hard; suddenly, a large, messy glob of toothpaste shoots out onto the bristles and the person's hand.",
+      "C": "As the person begins to squeeze, the toothpaste tube suddenly expands its sides like lungs, inhales with a loud whistling sound, and lets out a violent, wet sneeze that launches a massive, glowing glob of paste across the bristles and onto the person's hand.",
+      "D": "The person places the tube on the counter and uses both hands to press down firmly; the tube unexpectedly splits open at the bottom seam, releasing a pressurized fountain of thick paste that coats the person's palm and the sink basin."
+    },
+    "correct_answer": "C",
+    "model_name": "qwen-vl-max-latest",
+    "model_answer": "A",
+    "is_correct": false,
+    "first_stage_description": "",
+    "second_stage_reasoning": "In the video, at 3 seconds, the person begins squeezing the nearly empty toothpaste tube. By 5 seconds, a long, snake-like coil of toothpaste is seen spiraling out uncontrollably from the tube and landing on the toothbrush and hand. This matches option A, where the person shakes the tube vigorously, causing the cap to fly off and the paste to spiral out in an uncontrolled manner. The visual evidence shows the paste forming a continuous, coiled stream, which aligns with the description in option A. Options B, C, and D describe different mechanisms (e.g., sudden glob, glowing paste, or splitting tube) that are not supported by the visual content.",
+    "original_score": 6.5
+  },
+  {
+    "object_name": "Fried Egg (煎蛋)",
+    "scenario_type": "Surprise Scenario",
+    "video_file": "Fried_Egg_(煎蛋)_Surprise_1.mp4",
+    "mcq_question": "[0-3s]: A person stands over a kitchen stove, holding a frying pan with a perfectly sizzling sunny-side-up egg; they grip the handle firmly, preparing to flip.; [3-7s]: ???; [7-10s]: ] The person stops moving, staring down at the broken yolk in the pan with a visible sigh of disappointment.. What most likely happened in the [3-7s] interval according to the video?",
+    "mcq_options": {
+      "A": "With a confident motion, the person jerks the pan upward to launch the egg, but the egg sticks to the surface and slides up the side wall, eventually tumbling over the rim and landing partially on the stovetop burner with a loud, sizzling pop.",
+      "B": "The person carefully slides the egg to the edge of the pan before performing a low flip; however, the pan catches the edge of the egg, causing it to fold over itself and trap the yolk, which then slowly seeps out from the sides in a messy puddle.",
+      "C": "As the egg is tossed, the yellow yolk detaches and remains frozen in mid-air while the white flips around it; after a beat, the gravity-defying yolk suddenly drops like a heavy stone and shatters upon impact, splashing yellow liquid across the white.",
+      "D": "With a quick flick of the wrist, the person tosses the egg into the air; the egg flips mid-air and lands back in the pan, but the yolk bursts upon impact, spreading yellow liquid across the white."
+    },
+    "correct_answer": "C",
+    "model_name": "zai-org/GLM-4.6V",
+    "model_answer": "D",
+    "is_correct": false,
+    "first_stage_description": "The description clearly depicts a fried egg being flipped in a black skillet, matching option A exactly.",
+    "second_stage_reasoning": "The 5-second frame shows the egg being flipped in the pan, and the final 7-10 second frame depicts a broken yolk in the pan. Option D describes the egg being tossed, flipping mid-air, and landing back in the pan with the yolk bursting—this matches the sequence: the flip (3-7s) leads to the broken yolk (7-10s). Other options are inconsistent: A has the egg on the burner (not in the pan), B describes folding (not flipping), and C involves a detached yolk (not shown in the frame).",
+    "original_score": 9.55
+  },
+  {
+    "object_name": "Lawn Mower (割草机)",
+    "scenario_type": "Surprise Scenario",
+    "video_file": "Lawn_Mower_(割草机)_Surprise_1.mp4",
+    "mcq_question": "[0-3s]: A middle-aged man in gardening gloves stands over a red push mower on a patch of overgrown grass, reaching down for the starter handle.; [3-7s]: ???; [7-10s]: ] The man stands upright, wipes sweat from his forehead, and grips the handle ready to begin mowing.. What most likely happened in the [3-7s] interval according to the video?",
+    "mcq_options": {
+      "A": "The pull cord resists his first two attempts, so he adjusts the throttle lever on the handle and pulls again with both hands, finally feeling the resistance give way as the blades beneath the deck start spinning with a rhythmic metallic clatter.",
+      "B": "He vigorously pulls the starter cord three times; on the third pull, the engine sputters, coughs out a small puff of grey smoke, and begins to vibrate as it starts running.",
+      "C": "As he pulls the cord, the grass beneath the mower splits open like a giant zipper, revealing a silent, shimmering deep-space nebula where the dirt should be, before the teeth of the 'grass-zipper' suddenly lock back together as the engine roars to life.",
+      "D": "He braces his foot against the mower deck and gives the cord a sharp yank, causing the engine to backfire loudly and release a thick cloud of white exhaust that momentarily obscures his legs before settling into a steady hum."
+    },
+    "correct_answer": "C",
+    "model_name": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+    "model_answer": "C",
+    "is_correct": true,
+    "first_stage_description": "",
+    "second_stage_reasoning": "The video shows a man attempting to start a lawnmower. The key clue is the frame at 5 seconds, which displays a surreal visual effect: a shimmering, deep-space nebula is visible beneath the mower deck, appearing as if the grass has been cut open to reveal a cosmic scene. This directly corresponds to the description in option C, which states that 'the grass beneath the mower splits open like a giant zipper, revealing a silent, shimmering deep-space nebula'. The other options describe realistic engine-starting actions (A, B, D) that are not supported by the visual evidence in the frame.",
+    "original_score": 9.2
+  },
+  {
+    "object_name": "Lawn Mower (割草机)",
+    "scenario_type": "Surprise Scenario",
+    "video_file": "Lawn_Mower_(割草机)_Surprise_1.mp4",
+    "mcq_question": "[0-3s]: A middle-aged man in gardening gloves stands over a red push mower on a patch of overgrown grass, reaching down for the starter handle.; [3-7s]: ???; [7-10s]: ] The man stands upright, wipes sweat from his forehead, and grips the handle ready to begin mowing.. What most likely happened in the [3-7s] interval according to the video?",
+    "mcq_options": {
+      "A": "The pull cord resists his first two attempts, so he adjusts the throttle lever on the handle and pulls again with both hands, finally feeling the resistance give way as the blades beneath the deck start spinning with a rhythmic metallic clatter.",
+      "B": "He vigorously pulls the starter cord three times; on the third pull, the engine sputters, coughs out a small puff of grey smoke, and begins to vibrate as it starts running.",
+      "C": "As he pulls the cord, the grass beneath the mower splits open like a giant zipper, revealing a silent, shimmering deep-space nebula where the dirt should be, before the teeth of the 'grass-zipper' suddenly lock back together as the engine roars to life.",
+      "D": "He braces his foot against the mower deck and gives the cord a sharp yank, causing the engine to backfire loudly and release a thick cloud of white exhaust that momentarily obscures his legs before settling into a steady hum."
+    },
+    "correct_answer": "C",
+    "model_name": "qwen3-vl-flash",
+    "model_answer": "C",
+    "is_correct": true,
+    "first_stage_description": "",
+    "second_stage_reasoning": "The video frames from 3-7 seconds show a surreal visual effect: as the man pulls the starter cord, the grass beneath the mower splits open like a zipper, revealing a deep-space nebula. This fantastical imagery is not physically plausible and clearly indicates a creative or metaphorical transition rather than a literal mechanical event. The subsequent frame at 7 seconds shows the man standing upright, wiping sweat, and preparing to mow — implying that the bizarre cosmic event was a brief, imaginative interlude during the starting process. Option C best captures this surreal, visually striking moment that bridges the start-up attempt with the man’s readiness to begin mowing.",
+    "original_score": 9.2
+  },
+  {
+    "object_name": "Lawn Mower (割草机)",
+    "scenario_type": "Surprise Scenario",
+    "video_file": "Lawn_Mower_(割草机)_Surprise_1.mp4",
+    "mcq_question": "[0-3s]: A middle-aged man in gardening gloves stands over a red push mower on a patch of overgrown grass, reaching down for the starter handle.; [3-7s]: ???; [7-10s]: ] The man stands upright, wipes sweat from his forehead, and grips the handle ready to begin mowing.. What most likely happened in the [3-7s] interval according to the video?",
+    "mcq_options": {
+      "A": "The pull cord resists his first two attempts, so he adjusts the throttle lever on the handle and pulls again with both hands, finally feeling the resistance give way as the blades beneath the deck start spinning with a rhythmic metallic clatter.",
+      "B": "He vigorously pulls the starter cord three times; on the third pull, the engine sputters, coughs out a small puff of grey smoke, and begins to vibrate as it starts running.",
+      "C": "As he pulls the cord, the grass beneath the mower splits open like a giant zipper, revealing a silent, shimmering deep-space nebula where the dirt should be, before the teeth of the 'grass-zipper' suddenly lock back together as the engine roars to life.",
+      "D": "He braces his foot against the mower deck and gives the cord a sharp yank, causing the engine to backfire loudly and release a thick cloud of white exhaust that momentarily obscures his legs before settling into a steady hum."
+    },
+    "correct_answer": "C",
+    "model_name": "qwen3-vl-30b-a3b-thinking",
+    "model_answer": "C",
+    "is_correct": true,
+    "first_stage_description": "The description emphasizes a surreal juxtaposition between a mundane red push lawnmower and a cosmic galaxy where the grass is cut, making it a conceptual artistic piece that blends realism with fantasy — best represented by option C if it corresponds to 'surreal artistic imagery with cosmic elements'.",
+    "second_stage_reasoning": "The video frames show a surreal transition during the 3-7s interval: at 3.2s, the grass beneath the mower splits open to reveal a cosmic nebula, which is visible in subsequent frames (4.2s, 5.2s). This matches option C's description of the grass splitting like a zipper to expose a deep-space nebula. Options A, B, and D describe realistic mechanical actions (e.g., throttle adjustment, engine sputtering), but the video explicitly features a fantastical cosmic element instead of standard mower-starting mechanics. The provided frame description also emphasizes the \"surreal juxtaposition\" of a mundane mower with a galaxy, confirming C as the correct choice.",
+    "original_score": 9.2
+  },
+  {
+    "object_name": "Lawn Mower (割草机)",
+    "scenario_type": "Surprise Scenario",
+    "video_file": "Lawn_Mower_(割草机)_Surprise_1.mp4",
+    "mcq_question": "[0-3s]: A middle-aged man in gardening gloves stands over a red push mower on a patch of overgrown grass, reaching down for the starter handle.; [3-7s]: ???; [7-10s]: ] The man stands upright, wipes sweat from his forehead, and grips the handle ready to begin mowing.. What most likely happened in the [3-7s] interval according to the video?",
+    "mcq_options": {
+      "A": "The pull cord resists his first two attempts, so he adjusts the throttle lever on the handle and pulls again with both hands, finally feeling the resistance give way as the blades beneath the deck start spinning with a rhythmic metallic clatter.",
+      "B": "He vigorously pulls the starter cord three times; on the third pull, the engine sputters, coughs out a small puff of grey smoke, and begins to vibrate as it starts running.",
+      "C": "As he pulls the cord, the grass beneath the mower splits open like a giant zipper, revealing a silent, shimmering deep-space nebula where the dirt should be, before the teeth of the 'grass-zipper' suddenly lock back together as the engine roars to life.",
+      "D": "He braces his foot against the mower deck and gives the cord a sharp yank, causing the engine to backfire loudly and release a thick cloud of white exhaust that momentarily obscures his legs before settling into a steady hum."
+    },
+    "correct_answer": "C",
+    "model_name": "qwen3-vl-plus",
+    "model_answer": "C",
+    "is_correct": true,
+    "first_stage_description": "",
+    "second_stage_reasoning": "The video frames at 3s, 4s, and 5s show a surreal visual effect: as the man pulls the starter cord, the grass beneath the mower splits open to reveal a deep-space nebula. This fantastical event is unique and directly depicted in the media, making option C the only choice that accurately describes what is visually shown occurring between 3-7 seconds. The other options describe realistic engine-starting scenarios that are not supported by the visual evidence.",
+    "original_score": 9.2
+  },
+  {
+    "object_name": "Lawn Mower (割草机)",
+    "scenario_type": "Surprise Scenario",
+    "video_file": "Lawn_Mower_(割草机)_Surprise_1.mp4",
+    "mcq_question": "[0-3s]: A middle-aged man in gardening gloves stands over a red push mower on a patch of overgrown grass, reaching down for the starter handle.; [3-7s]: ???; [7-10s]: ] The man stands upright, wipes sweat from his forehead, and grips the handle ready to begin mowing.. What most likely happened in the [3-7s] interval according to the video?",
+    "mcq_options": {
+      "A": "The pull cord resists his first two attempts, so he adjusts the throttle lever on the handle and pulls again with both hands, finally feeling the resistance give way as the blades beneath the deck start spinning with a rhythmic metallic clatter.",
+      "B": "He vigorously pulls the starter cord three times; on the third pull, the engine sputters, coughs out a small puff of grey smoke, and begins to vibrate as it starts running.",
+      "C": "As he pulls the cord, the grass beneath the mower splits open like a giant zipper, revealing a silent, shimmering deep-space nebula where the dirt should be, before the teeth of the 'grass-zipper' suddenly lock back together as the engine roars to life.",
+      "D": "He braces his foot against the mower deck and gives the cord a sharp yank, causing the engine to backfire loudly and release a thick cloud of white exhaust that momentarily obscures his legs before settling into a steady hum."
+    },
+    "correct_answer": "C",
+    "model_name": "qwen-vl-max-latest",
+    "model_answer": "C",
+    "is_correct": true,
+    "first_stage_description": "",
+    "second_stage_reasoning": "The video frames from 3 to 5 seconds show a surreal visual effect where the grass beneath the mower splits open, revealing a deep-space nebula with stars and cosmic colors. This is clearly not a realistic depiction of a lawn mower starting but rather a fantastical or imaginative sequence. The man then stands upright at 6 seconds, wiping sweat from his forehead, indicating that the event has concluded. Option C accurately describes this surreal transformation of the grass into a nebula, which matches the visual content of the frame at 5 seconds. The other options describe realistic engine-starting scenarios, which do not align with the fantastical imagery shown.",
+    "original_score": 9.2
+  },
+  {
+    "object_name": "Toothpaste Tube (牙膏管)",
+    "scenario_type": "Surprise Scenario",
+    "video_file": "Toothpaste_Tube_(牙膏管)_Surprise_1.mp4",
+    "mcq_question": "[0-3s]: A person stands at a bathroom sink, holding a toothbrush in one hand and a crumpled, nearly empty toothpaste tube in the other.; [3-7s]: ???; [7-10s]: ] The person stops squeezing and stares at the oversized mess on their hand with a sigh of frustration.. What most likely happened in the [3-7s] interval according to the video?",
+    "mcq_options": {
+      "A": "While struggling to get the last bit out, the person shakes the tube vigorously until the cap flies off, causing a long, snake-like coil of minty paste to spiral out uncontrollably and land in a heavy heap across their knuckles and the toothbrush.",
+      "B": "The person rolls the tube tightly from the bottom and squeezes hard; suddenly, a large, messy glob of toothpaste shoots out onto the bristles and the person's hand.",
+      "C": "As the person begins to squeeze, the toothpaste tube suddenly expands its sides like lungs, inhales with a loud whistling sound, and lets out a violent, wet sneeze that launches a massive, glowing glob of paste across the bristles and onto the person's hand.",
+      "D": "The person places the tube on the counter and uses both hands to press down firmly; the tube unexpectedly splits open at the bottom seam, releasing a pressurized fountain of thick paste that coats the person's palm and the sink basin."
+    },
+    "correct_answer": "C",
+    "model_name": "zai-org/GLM-4.6V",
+    "model_answer": "A",
+    "is_correct": false,
+    "first_stage_description": "The description details a creative, exaggerated scene of a toothpaste dispenser interacting with a toothbrush, likely intended as an advertisement. This matches the most plausible context for such a visually stylized depiction — product marketing.",
+    "second_stage_reasoning": "The frame at 5 seconds depicts an exaggerated, messy scene of toothpaste dispensing, consistent with a product advertisement’s stylized depiction. Option A describes a vigorous shake causing the cap to fly off and a long, snake-like coil of toothpaste to spiral out uncontrollably, which matches the visual of a messy, exaggerated paste release. Other options (B: a glob, C: a fantastical sneeze, D: splitting the tube on a counter) do not align as well with the continuous, coil-like stream shown in the frame or the context of a person actively squeezing a nearly empty tube while holding a toothbrush.",
+    "original_score": 6.5
+  },
+  {
+    "object_name": "Lawn Mower (割草机)",
+    "scenario_type": "Surprise Scenario",
+    "video_file": "Lawn_Mower_(割草机)_Surprise_1.mp4",
+    "mcq_question": "[0-3s]: A middle-aged man in gardening gloves stands over a red push mower on a patch of overgrown grass, reaching down for the starter handle.; [3-7s]: ???; [7-10s]: ] The man stands upright, wipes sweat from his forehead, and grips the handle ready to begin mowing.. What most likely happened in the [3-7s] interval according to the video?",
+    "mcq_options": {
+      "A": "The pull cord resists his first two attempts, so he adjusts the throttle lever on the handle and pulls again with both hands, finally feeling the resistance give way as the blades beneath the deck start spinning with a rhythmic metallic clatter.",
+      "B": "He vigorously pulls the starter cord three times; on the third pull, the engine sputters, coughs out a small puff of grey smoke, and begins to vibrate as it starts running.",
+      "C": "As he pulls the cord, the grass beneath the mower splits open like a giant zipper, revealing a silent, shimmering deep-space nebula where the dirt should be, before the teeth of the 'grass-zipper' suddenly lock back together as the engine roars to life.",
+      "D": "He braces his foot against the mower deck and gives the cord a sharp yank, causing the engine to backfire loudly and release a thick cloud of white exhaust that momentarily obscures his legs before settling into a steady hum."
+    },
+    "correct_answer": "C",
+    "model_name": "zai-org/GLM-4.6V",
+    "model_answer": "C",
+    "is_correct": true,
+    "first_stage_description": "The description highlights a surreal blend of ordinary and cosmic elements, which best matches option C: 'A whimsical juxtaposition of the mundane and the celestial.'",
+    "second_stage_reasoning": "The video description at 5 seconds highlights a surreal blend of ordinary (gardening) and cosmic elements, which aligns with option C’s depiction of the grass splitting open to reveal a deep-space nebula (a celestial element) during the mower-starting process. Options A, B, and D describe realistic mower-starting scenarios without the surreal, cosmic juxtaposition mentioned in the video description.",
+    "original_score": 9.2
+  },
+  {
+    "object_name": "Diamond Ring (钻戒)",
+    "scenario_type": "Surprise Scenario",
+    "video_file": "Diamond_Ring_(钻戒)_Surprise_1.mp4",
+    "mcq_question": "[0-3s]: A woman is scrubbing a ceramic plate in a kitchen sink filled with soapy bubbles; her diamond ring is visible and sparkling on her wet finger.; [3-7s]: ???; [7-10s]: ] She pulls her hand out of the water, clutching the ring tightly to her chest with a look of intense relief and a heavy sigh.. What most likely happened in the [3-7s] interval according to the video?",
+    "mcq_options": {
+      "A": "As she is scrubbing, the diamond ring catches on the edge of the ceramic plate and snaps into several smaller pieces that scatter into the thick foam; she frantically sifts through the bubbles to retrieve the fragments before they can wash away.",
+      "B": "As she reaches for a rinse sprayer, the ring slides off her soapy finger; she quickly drops the plate and plunges her hand into the water to grab the ring just above the drain.",
+      "C": "The soapy bubbles suddenly coalesce into a translucent liquid hand that reaches up, gently plucks the ring from her finger, and begins to swim toward the drain with it; she must plunge her hand in to wrestle the ring back from the living water.",
+      "D": "The water pressure suddenly increases, causing a whirlpool to form in the center of the basin that pulls the ring off her finger and drags it deep into the drain; she quickly shoves her arm into the plumbing to block the ring's descent."
+    },
+    "correct_answer": "C",
+    "model_name": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+    "model_answer": "B",
+    "is_correct": false,
+    "first_stage_description": "",
+    "second_stage_reasoning": "The video frames show the woman washing dishes in a sink filled with soapy water. At 5 seconds, she is seen reaching for a rinse sprayer with her right hand. Her left hand, which is holding the plate, is positioned near the sink. The ring is visible on her left ring finger. The action of reaching for the sprayer is consistent with the scenario described in option B, where the ring slides off her soapy finger as she reaches for the sprayer. The other options describe fantastical or physically implausible events that are not supported by the visual evidence in the frames.",
+    "original_score": 6.8
+  },
+  {
+    "object_name": "Diamond Ring (钻戒)",
+    "scenario_type": "Surprise Scenario",
+    "video_file": "Diamond_Ring_(钻戒)_Surprise_1.mp4",
+    "mcq_question": "[0-3s]: A woman is scrubbing a ceramic plate in a kitchen sink filled with soapy bubbles; her diamond ring is visible and sparkling on her wet finger.; [3-7s]: ???; [7-10s]: ] She pulls her hand out of the water, clutching the ring tightly to her chest with a look of intense relief and a heavy sigh.. What most likely happened in the [3-7s] interval according to the video?",
+    "mcq_options": {
+      "A": "As she is scrubbing, the diamond ring catches on the edge of the ceramic plate and snaps into several smaller pieces that scatter into the thick foam; she frantically sifts through the bubbles to retrieve the fragments before they can wash away.",
+      "B": "As she reaches for a rinse sprayer, the ring slides off her soapy finger; she quickly drops the plate and plunges her hand into the water to grab the ring just above the drain.",
+      "C": "The soapy bubbles suddenly coalesce into a translucent liquid hand that reaches up, gently plucks the ring from her finger, and begins to swim toward the drain with it; she must plunge her hand in to wrestle the ring back from the living water.",
+      "D": "The water pressure suddenly increases, causing a whirlpool to form in the center of the basin that pulls the ring off her finger and drags it deep into the drain; she quickly shoves her arm into the plumbing to block the ring's descent."
+    },
+    "correct_answer": "C",
+    "model_name": "qwen3-vl-flash",
+    "model_answer": "B",
+    "is_correct": false,
+    "first_stage_description": "",
+    "second_stage_reasoning": "The video frames from 3-7 seconds show a surreal, animated sequence where a translucent, liquid-like hand emerges from the soapy water and reaches for the woman’s ring. This is followed by her frantic reaction — she drops the plate and plunges her hand into the sink to retrieve the ring. The visual narrative implies that the ring slipped off her finger during the scrubbing (as suggested by the context of soapy hands and the ring’s sudden disappearance), and she reacts with urgency. Option B matches this cause-and-effect: the ring slides off while she’s reaching for something (likely the rinse sprayer or plate), prompting her to dive in. The other options involve fantastical elements (like sentient bubbles or whirlpools) that are not supported by the actual visual content — the liquid hand is clearly an artistic representation of her panic, not a literal event. Her relief at the end confirms the ring was recovered, which aligns with option B.",
+    "original_score": 6.8
+  },
+  {
+    "object_name": "Diamond Ring (钻戒)",
+    "scenario_type": "Surprise Scenario",
+    "video_file": "Diamond_Ring_(钻戒)_Surprise_1.mp4",
+    "mcq_question": "[0-3s]: A woman is scrubbing a ceramic plate in a kitchen sink filled with soapy bubbles; her diamond ring is visible and sparkling on her wet finger.; [3-7s]: ???; [7-10s]: ] She pulls her hand out of the water, clutching the ring tightly to her chest with a look of intense relief and a heavy sigh.. What most likely happened in the [3-7s] interval according to the video?",
+    "mcq_options": {
+      "A": "As she is scrubbing, the diamond ring catches on the edge of the ceramic plate and snaps into several smaller pieces that scatter into the thick foam; she frantically sifts through the bubbles to retrieve the fragments before they can wash away.",
+      "B": "As she reaches for a rinse sprayer, the ring slides off her soapy finger; she quickly drops the plate and plunges her hand into the water to grab the ring just above the drain.",
+      "C": "The soapy bubbles suddenly coalesce into a translucent liquid hand that reaches up, gently plucks the ring from her finger, and begins to swim toward the drain with it; she must plunge her hand in to wrestle the ring back from the living water.",
+      "D": "The water pressure suddenly increases, causing a whirlpool to form in the center of the basin that pulls the ring off her finger and drags it deep into the drain; she quickly shoves her arm into the plumbing to block the ring's descent."
+    },
+    "correct_answer": "C",
+    "model_name": "qwen-vl-max-latest",
+    "model_answer": "C",
+    "is_correct": true,
+    "first_stage_description": "",
+    "second_stage_reasoning": "In the frame at 5 seconds, a translucent liquid hand made of water and bubbles is seen reaching up from the sink, plucking the ring from the woman's finger. This surreal visual confirms that the soapy water has transformed into a living-like hand, which then attempts to carry the ring toward the drain. The woman reacts with urgency, diving her hands into the water to retrieve it, as shown in the subsequent frames. This directly aligns with option C, where the water forms a sentient hand to take the ring. Options A, B, and D do not match the visual evidence—there is no breaking of the ring, no sudden increase in water pressure, nor any indication of the ring slipping off due to soap or movement. Instead, the supernatural element of the liquid hand is central to the scene.",
+    "original_score": 6.8
+  },
+  {
+    "object_name": "Diamond Ring (钻戒)",
+    "scenario_type": "Surprise Scenario",
+    "video_file": "Diamond_Ring_(钻戒)_Surprise_1.mp4",
+    "mcq_question": "[0-3s]: A woman is scrubbing a ceramic plate in a kitchen sink filled with soapy bubbles; her diamond ring is visible and sparkling on her wet finger.; [3-7s]: ???; [7-10s]: ] She pulls her hand out of the water, clutching the ring tightly to her chest with a look of intense relief and a heavy sigh.. What most likely happened in the [3-7s] interval according to the video?",
+    "mcq_options": {
+      "A": "As she is scrubbing, the diamond ring catches on the edge of the ceramic plate and snaps into several smaller pieces that scatter into the thick foam; she frantically sifts through the bubbles to retrieve the fragments before they can wash away.",
+      "B": "As she reaches for a rinse sprayer, the ring slides off her soapy finger; she quickly drops the plate and plunges her hand into the water to grab the ring just above the drain.",
+      "C": "The soapy bubbles suddenly coalesce into a translucent liquid hand that reaches up, gently plucks the ring from her finger, and begins to swim toward the drain with it; she must plunge her hand in to wrestle the ring back from the living water.",
+      "D": "The water pressure suddenly increases, causing a whirlpool to form in the center of the basin that pulls the ring off her finger and drags it deep into the drain; she quickly shoves her arm into the plumbing to block the ring's descent."
+    },
+    "correct_answer": "C",
+    "model_name": "qwen3-vl-plus",
+    "model_answer": "C",
+    "is_correct": true,
+    "first_stage_description": "",
+    "second_stage_reasoning": "The video frames at 3-7 seconds show a surreal, translucent liquid hand emerging from the soapy water, reaching for and plucking the ring from the woman's finger. The woman reacts with alarm and urgency, plunging her hand into the sink to retrieve the ring as the liquid hand attempts to carry it away. This matches option C exactly, which describes a living water hand stealing the ring and the woman wrestling it back. The other options involve mechanical or physical causes (ring breaking, slipping off, being sucked down a drain), none of which are visually depicted. The fantastical nature of the liquid hand is clearly shown in frames 3-6, making C the only accurate description.",
+    "original_score": 6.8
+  },
+  {
+    "object_name": "Book (书)",
+    "scenario_type": "Surprise Scenario",
+    "video_file": "Book_(书)_Surprise_1.mp4",
+    "mcq_question": "[0-3s]: A young woman stands in a narrow library aisle, looking up at a leather-bound book perched on the highest shelf.; [3-7s]: ???; [7-10s]: ] The woman stands amidst the fallen books on the floor, holding her single book and looking around guiltily at the mess.. What most likely happened in the [3-7s] interval according to the video?",
+    "mcq_options": {
+      "A": "She reaches up and pulls the book by its spine; as it comes loose, the surrounding books lose their balance and tumble down in a cascading heap.",
+      "B": "She gingerly stretches her arm to grasp the book, but her sleeve catches on a nearby protrusion, causing the entire shelf to tilt forward and release a heavy avalanche of hardcovers.",
+      "C": "The woman uses a small rolling ladder to reach the top shelf, but as she retrieves the book, the ladder's wheels lock suddenly, jarring the rack and sending several rows of books sliding to the ground.",
+      "D": "As she pulls the book by its spine, the neighboring volumes instantly liquefy into a thick, swirling waterfall of black ink and fluttering paper that pours off the shelf in a chaotic, supernatural cascade."
+    },
+    "correct_answer": "D",
+    "model_name": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+    "model_answer": "A",
+    "is_correct": false,
+    "first_stage_description": "",
+    "second_stage_reasoning": "The video frames show a young woman reaching for a book on a high shelf. In the frame at 5 seconds, she is actively pulling the book, and immediately after, the surrounding books are seen tumbling down. This sequence of events is best explained by option A, where she pulls the book by its spine, causing the surrounding books to lose balance and fall. The other options introduce elements not present in the video, such as a ladder (C), a sleeve catching on a protrusion (B), or supernatural phenomena like books liquefying (D), which are not depicted in the footage.",
+    "original_score": 9.85
+  },
+  {
+    "object_name": "Book (书)",
+    "scenario_type": "Surprise Scenario",
+    "video_file": "Book_(书)_Surprise_1.mp4",
+    "mcq_question": "[0-3s]: A young woman stands in a narrow library aisle, looking up at a leather-bound book perched on the highest shelf.; [3-7s]: ???; [7-10s]: ] The woman stands amidst the fallen books on the floor, holding her single book and looking around guiltily at the mess.. What most likely happened in the [3-7s] interval according to the video?",
+    "mcq_options": {
+      "A": "She reaches up and pulls the book by its spine; as it comes loose, the surrounding books lose their balance and tumble down in a cascading heap.",
+      "B": "She gingerly stretches her arm to grasp the book, but her sleeve catches on a nearby protrusion, causing the entire shelf to tilt forward and release a heavy avalanche of hardcovers.",
+      "C": "The woman uses a small rolling ladder to reach the top shelf, but as she retrieves the book, the ladder's wheels lock suddenly, jarring the rack and sending several rows of books sliding to the ground.",
+      "D": "As she pulls the book by its spine, the neighboring volumes instantly liquefy into a thick, swirling waterfall of black ink and fluttering paper that pours off the shelf in a chaotic, supernatural cascade."
+    },
+    "correct_answer": "D",
+    "model_name": "qwen3-vl-flash",
+    "model_answer": "A",
+    "is_correct": false,
+    "first_stage_description": "",
+    "second_stage_reasoning": "The video frames show the woman reaching for a book on the top shelf. As she pulls it out (seen at 0:04–0:06), the books beside it begin to destabilize and fall in a cascading manner, suggesting that removing one book triggered a chain reaction. By 0:07–0:08, the aisle is littered with fallen books and debris, matching the aftermath described in the final frame. Option A accurately describes this cause-effect sequence — pulling the book by its spine causes adjacent books to lose balance and tumble. The other options introduce implausible elements like mechanical failure (C) or supernatural ink (D), which are not supported by visual evidence. Option B mentions a sleeve catching on a protrusion, which is not shown. Thus, A is the most logically consistent with the visual narrative.",
+    "original_score": 9.85
+  },
+  {
+    "object_name": "Book (书)",
+    "scenario_type": "Surprise Scenario",
+    "video_file": "Book_(书)_Surprise_1.mp4",
+    "mcq_question": "[0-3s]: A young woman stands in a narrow library aisle, looking up at a leather-bound book perched on the highest shelf.; [3-7s]: ???; [7-10s]: ] The woman stands amidst the fallen books on the floor, holding her single book and looking around guiltily at the mess.. What most likely happened in the [3-7s] interval according to the video?",
+    "mcq_options": {
+      "A": "She reaches up and pulls the book by its spine; as it comes loose, the surrounding books lose their balance and tumble down in a cascading heap.",
+      "B": "She gingerly stretches her arm to grasp the book, but her sleeve catches on a nearby protrusion, causing the entire shelf to tilt forward and release a heavy avalanche of hardcovers.",
+      "C": "The woman uses a small rolling ladder to reach the top shelf, but as she retrieves the book, the ladder's wheels lock suddenly, jarring the rack and sending several rows of books sliding to the ground.",
+      "D": "As she pulls the book by its spine, the neighboring volumes instantly liquefy into a thick, swirling waterfall of black ink and fluttering paper that pours off the shelf in a chaotic, supernatural cascade."
+    },
+    "correct_answer": "D",
+    "model_name": "qwen-vl-max-latest",
+    "model_answer": "D",
+    "is_correct": true,
+    "first_stage_description": "",
+    "second_stage_reasoning": "In the video, at 3 seconds, the woman reaches for the book on the top shelf. By 5 seconds, as she pulls the book by its spine, the neighboring books do not simply fall—they transform into a thick, swirling waterfall of black ink and fluttering paper, cascading off the shelf in a supernatural manner. This visual effect is clearly depicted in the frame at 5 seconds, where the books appear to liquefy and flow like ink. This matches option D exactly, which describes a magical or surreal transformation rather than a physical collapse or mechanical failure. The aftermath at 7-10 seconds shows her standing amidst the mess, holding the single book, consistent with having triggered this unusual event.",
+    "original_score": 9.85
+  },
+  {
+    "object_name": "Book (书)",
+    "scenario_type": "Surprise Scenario",
+    "video_file": "Book_(书)_Surprise_1.mp4",
+    "mcq_question": "[0-3s]: A young woman stands in a narrow library aisle, looking up at a leather-bound book perched on the highest shelf.; [3-7s]: ???; [7-10s]: ] The woman stands amidst the fallen books on the floor, holding her single book and looking around guiltily at the mess.. What most likely happened in the [3-7s] interval according to the video?",
+    "mcq_options": {
+      "A": "She reaches up and pulls the book by its spine; as it comes loose, the surrounding books lose their balance and tumble down in a cascading heap.",
+      "B": "She gingerly stretches her arm to grasp the book, but her sleeve catches on a nearby protrusion, causing the entire shelf to tilt forward and release a heavy avalanche of hardcovers.",
+      "C": "The woman uses a small rolling ladder to reach the top shelf, but as she retrieves the book, the ladder's wheels lock suddenly, jarring the rack and sending several rows of books sliding to the ground.",
+      "D": "As she pulls the book by its spine, the neighboring volumes instantly liquefy into a thick, swirling waterfall of black ink and fluttering paper that pours off the shelf in a chaotic, supernatural cascade."
+    },
+    "correct_answer": "D",
+    "model_name": "qwen3-vl-plus",
+    "model_answer": "D",
+    "is_correct": true,
+    "first_stage_description": "",
+    "second_stage_reasoning": "The video frames from 4 to 6 seconds clearly show that as the woman pulls the book, the surrounding books do not simply fall; they visually transform into a swirling, liquid-like substance of black ink and fluttering paper. This is a supernatural or magical effect, not a physical cascade or mechanical failure. The mess on the floor at 8-9 seconds consists of this same dark, fluid-like material mixed with scattered pages, confirming the event described in option D. Options A, B, and C describe plausible physical causes for falling books, but none match the visual evidence of the books liquefying.",
+    "original_score": 9.85
+  },
+  {
+    "object_name": "Diamond Ring (钻戒)",
+    "scenario_type": "Surprise Scenario",
+    "video_file": "Diamond_Ring_(钻戒)_Surprise_1.mp4",
+    "mcq_question": "[0-3s]: A woman is scrubbing a ceramic plate in a kitchen sink filled with soapy bubbles; her diamond ring is visible and sparkling on her wet finger.; [3-7s]: ???; [7-10s]: ] She pulls her hand out of the water, clutching the ring tightly to her chest with a look of intense relief and a heavy sigh.. What most likely happened in the [3-7s] interval according to the video?",
+    "mcq_options": {
+      "A": "As she is scrubbing, the diamond ring catches on the edge of the ceramic plate and snaps into several smaller pieces that scatter into the thick foam; she frantically sifts through the bubbles to retrieve the fragments before they can wash away.",
+      "B": "As she reaches for a rinse sprayer, the ring slides off her soapy finger; she quickly drops the plate and plunges her hand into the water to grab the ring just above the drain.",
+      "C": "The soapy bubbles suddenly coalesce into a translucent liquid hand that reaches up, gently plucks the ring from her finger, and begins to swim toward the drain with it; she must plunge her hand in to wrestle the ring back from the living water.",
+      "D": "The water pressure suddenly increases, causing a whirlpool to form in the center of the basin that pulls the ring off her finger and drags it deep into the drain; she quickly shoves her arm into the plumbing to block the ring's descent."
+    },
+    "correct_answer": "C",
+    "model_name": "qwen3-vl-30b-a3b-thinking",
+    "model_answer": "B",
+    "is_correct": false,
+    "first_stage_description": "The description focuses on a detailed, relatable domestic scene with strong visual elements, making it most consistent with a narrative or observational image analysis—option C best fits this context.",
+    "second_stage_reasoning": "The video frames show a realistic domestic scene where the woman is washing dishes in a soapy sink. In the 3-7s interval, the most plausible event is that the ring slipped off her soapy finger (as described in option B) while she reached for a rinse sprayer. This is supported by the visual context: at 3.2s, the sink basin is visible with bubbles and a blue plastic bag near the drain, indicating the ring likely fell into the water. The subsequent frames (4.2s-7.2s) show her hand moving toward the drain and retrieving the ring, consistent with \"plunging her hand into the water to grab the ring just above the drain.\" Options A, C, and D involve implausible or fantastical elements (e.g., the ring breaking, sentient bubbles, or a whirlpool) that contradict the video’s realistic tone and the final scene where she clutches the intact ring. Thus, B is the only option that aligns with the visual evidence and logical cause-effect sequence.",
+    "original_score": 6.8
+  },
+  {
+    "object_name": "Book (书)",
+    "scenario_type": "Surprise Scenario",
+    "video_file": "Book_(书)_Surprise_1.mp4",
+    "mcq_question": "[0-3s]: A young woman stands in a narrow library aisle, looking up at a leather-bound book perched on the highest shelf.; [3-7s]: ???; [7-10s]: ] The woman stands amidst the fallen books on the floor, holding her single book and looking around guiltily at the mess.. What most likely happened in the [3-7s] interval according to the video?",
+    "mcq_options": {
+      "A": "She reaches up and pulls the book by its spine; as it comes loose, the surrounding books lose their balance and tumble down in a cascading heap.",
+      "B": "She gingerly stretches her arm to grasp the book, but her sleeve catches on a nearby protrusion, causing the entire shelf to tilt forward and release a heavy avalanche of hardcovers.",
+      "C": "The woman uses a small rolling ladder to reach the top shelf, but as she retrieves the book, the ladder's wheels lock suddenly, jarring the rack and sending several rows of books sliding to the ground.",
+      "D": "As she pulls the book by its spine, the neighboring volumes instantly liquefy into a thick, swirling waterfall of black ink and fluttering paper that pours off the shelf in a chaotic, supernatural cascade."
+    },
+    "correct_answer": "D",
+    "model_name": "qwen3-vl-30b-a3b-thinking",
+    "model_answer": "A",
+    "is_correct": false,
+    "first_stage_description": "The description focuses on a library scene with a person interacting with bookshelves, emphasizing atmosphere, composition, and scholarly tone — consistent with option C, which likely represents a quiet, knowledge-focused environment.",
+    "second_stage_reasoning": "The video sequence shows a young woman reaching for a book on a high shelf (0-3s). In the 3-7s interval, she pulls the book by its spine, causing the surrounding books to lose balance and tumble down (evident in frames 3.2-6.2, where the book is being extracted and adjacent volumes begin to fall). By 7-10s, the floor is covered in fallen books, and she stands guiltily holding the single book she retrieved. Option A accurately describes this cause-and-effect: pulling the book by its spine triggers the cascading collapse of nearby books. Options B (sleeve catching on a protrusion), C (using a rolling ladder), and D (supernatural ink/paper cascade) do not align with the visual evidence—no ladder is present, no protrusion is visible, and the books fall naturally without magical elements.",
+    "original_score": 9.85
+  },
+  {
+    "object_name": "Book (书)",
+    "scenario_type": "Surprise Scenario",
+    "video_file": "Book_(书)_Surprise_1.mp4",
+    "mcq_question": "[0-3s]: A young woman stands in a narrow library aisle, looking up at a leather-bound book perched on the highest shelf.; [3-7s]: ???; [7-10s]: ] The woman stands amidst the fallen books on the floor, holding her single book and looking around guiltily at the mess.. What most likely happened in the [3-7s] interval according to the video?",
+    "mcq_options": {
+      "A": "She reaches up and pulls the book by its spine; as it comes loose, the surrounding books lose their balance and tumble down in a cascading heap.",
+      "B": "She gingerly stretches her arm to grasp the book, but her sleeve catches on a nearby protrusion, causing the entire shelf to tilt forward and release a heavy avalanche of hardcovers.",
+      "C": "The woman uses a small rolling ladder to reach the top shelf, but as she retrieves the book, the ladder's wheels lock suddenly, jarring the rack and sending several rows of books sliding to the ground.",
+      "D": "As she pulls the book by its spine, the neighboring volumes instantly liquefy into a thick, swirling waterfall of black ink and fluttering paper that pours off the shelf in a chaotic, supernatural cascade."
+    },
+    "correct_answer": "D",
+    "model_name": "zai-org/GLM-4.6V",
+    "model_answer": "A",
+    "is_correct": false,
+    "first_stage_description": "The description clearly depicts a library or archival room with a person retrieving a book, consistent with a quiet, studious environment typical of such settings.",
+    "second_stage_reasoning": "The video depicts a woman reaching for a book on a high shelf, and the subsequent scene shows her amidst fallen books. Option A describes a realistic scenario where pulling the target book dislodges surrounding books, causing them to fall—this aligns with the cause-and-effect of the mess observed later. Options B (sleeve catching, shelf tilting) and C (rolling ladder) lack visual support (no ladder or sleeve issue in the frame), and D (supernatural liquefaction) is implausible for a realistic library setting. Thus, A is the most logical explanation for the interval.",
+    "original_score": 9.85
+  },
+  {
+    "object_name": "Diamond Ring (钻戒)",
+    "scenario_type": "Surprise Scenario",
+    "video_file": "Diamond_Ring_(钻戒)_Surprise_1.mp4",
+    "mcq_question": "[0-3s]: A woman is scrubbing a ceramic plate in a kitchen sink filled with soapy bubbles; her diamond ring is visible and sparkling on her wet finger.; [3-7s]: ???; [7-10s]: ] She pulls her hand out of the water, clutching the ring tightly to her chest with a look of intense relief and a heavy sigh.. What most likely happened in the [3-7s] interval according to the video?",
+    "mcq_options": {
+      "A": "As she is scrubbing, the diamond ring catches on the edge of the ceramic plate and snaps into several smaller pieces that scatter into the thick foam; she frantically sifts through the bubbles to retrieve the fragments before they can wash away.",
+      "B": "As she reaches for a rinse sprayer, the ring slides off her soapy finger; she quickly drops the plate and plunges her hand into the water to grab the ring just above the drain.",
+      "C": "The soapy bubbles suddenly coalesce into a translucent liquid hand that reaches up, gently plucks the ring from her finger, and begins to swim toward the drain with it; she must plunge her hand in to wrestle the ring back from the living water.",
+      "D": "The water pressure suddenly increases, causing a whirlpool to form in the center of the basin that pulls the ring off her finger and drags it deep into the drain; she quickly shoves her arm into the plumbing to block the ring's descent."
+    },
+    "correct_answer": "C",
+    "model_name": "zai-org/GLM-4.6V",
+    "model_answer": "B",
+    "is_correct": false,
+    "first_stage_description": "The description details a chaotic kitchen scene with a woman reacting to splashing water, surrounded by domestic items and warm lighting — indicating an unexpected disruption in an otherwise cozy setting. Option C best captures this mood of 'unexpected chaos in a domestic environment.'",
+    "second_stage_reasoning": "The 7-10s interval shows the woman relieved after retrieving the ring, so the 3-7s event must involve the ring slipping off and her frantic attempt to recover it. Option B describes the ring sliding off as she reaches for a rinse sprayer, her dropping the plate to grab the ring above the drain, and then retrieving it—aligning with the subsequent relief. Other options are inconsistent: A (ring breaking) contradicts relief; C (supernatural bubbles) is implausible; D (whirlpool into drain) is overly extreme and doesn’t match the “clutching the ring” action as directly as B. The 5-second frame’s “chaotic kitchen scene with splashing water” also supports B’s chaotic, urgent action.",
+    "original_score": 6.8
+  },
+  {
+    "object_name": "Stapler (订书机)",
+    "scenario_type": "Surprise Scenario",
+    "video_file": "Stapler_(订书机)_Surprise_1.mp4",
+    "mcq_question": "[0-3s]: A focused office worker sits at a desk, aligning a thick stack of papers and reaching toward a heavy-duty stapler.; [3-7s]: ???; [7-10s]: ] The worker lets go, sighs in frustration, and tries to pry the jammed staple out with their fingernail.. What most likely happened in the [3-7s] interval according to the video?",
+    "mcq_options": {
+      "A": "As the worker presses down, the stapler's top half transforms into a pair of rowdy, metallic jaws that begin rhythmically chewing the stack of papers, emitting a wet, grinding sound.",
+      "B": "The worker slams the stapler down forcefully, but the device unexpectedly slides across the smooth desk surface and falls onto the floor with a loud clatter.",
+      "C": "The stapler operates smoothly at first, yet it suddenly runs out of staples mid-press, leaving only a faint indentation on the top page without binding the documents.",
+      "D": "The worker presses down hard on the stapler with their palm, but it makes a crunching sound and gets stuck halfway through the stack."
+    },
+    "correct_answer": "A",
+    "model_name": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+    "model_answer": "D",
+    "is_correct": false,
+    "first_stage_description": "",
+    "second_stage_reasoning": "The video shows the worker pressing down on the stapler, which then makes a crunching sound and gets stuck halfway through the stack of papers. This is consistent with option D, which describes the stapler making a crunching sound and getting stuck. The other options describe events that are not shown in the video, such as the stapler transforming into jaws (A), sliding across the desk and falling (B), or running out of staples (C).",
+    "original_score": 8.95
+  },
+  {
+    "object_name": "Triangle (三角铁)",
+    "scenario_type": "Surprise Scenario",
+    "video_file": "Triangle_(三角铁)_Surprise_1.mp4",
+    "mcq_question": "[0-3s]: A focused percussionist in a formal tuxedo stands in an orchestra pit, holding a metal beater, staring intensely at the sheet music while a triangle hangs from a stand in front of him.; [3-7s]: ???; [7-10s]: ] The percussionist gently dampens the vibrating metal with his fingers to stop the sound and exhales a breath of relief, looking satisfied with the performance.. What most likely happened in the [3-7s] interval according to the video?",
+    "mcq_options": {
+      "A": "The percussionist counts the final beat, raises the beater, and strikes the inner bottom bar of the triangle, causing it to vibrate and ring out clearly.",
+      "B": "The percussionist waits for the conductor's cue, then delivers a swift, precise strike to the side of the triangle, producing a resonant and crystalline tone that echoes throughout the silent concert hall.",
+      "C": "The percussionist strikes the triangle, but upon impact, the metal liquifies into a shimmering ripple of silver light that expands outward like a wave in a pond, distorting the air before snapping back into a solid shape.",
+      "D": "The percussionist carefully adjusts the tension of the hanging string, takes a deep breath, and strikes the corner of the triangle multiple times to create a rapid, shimmering tremolo effect for the climax."
+    },
+    "correct_answer": "C",
+    "model_name": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+    "model_answer": "B",
+    "is_correct": false,
+    "first_stage_description": "",
+    "second_stage_reasoning": "The video shows a percussionist in a formal setting, preparing to play a triangle. At 5 seconds, the percussionist is seen holding a beater and looking at the sheet music, indicating he is about to perform. The most logical action in this context is that he waits for the conductor's cue and then delivers a precise strike to the triangle, which is a standard performance technique. This action would produce a resonant and crystalline tone, consistent with the expected sound of a triangle in an orchestra. The other options either involve unrealistic events (C) or actions that are less likely given the context (A and D).",
+    "original_score": 9.649999999999999
+  },
+  {
+    "object_name": "Stapler (订书机)",
+    "scenario_type": "Surprise Scenario",
+    "video_file": "Stapler_(订书机)_Surprise_1.mp4",
+    "mcq_question": "[0-3s]: A focused office worker sits at a desk, aligning a thick stack of papers and reaching toward a heavy-duty stapler.; [3-7s]: ???; [7-10s]: ] The worker lets go, sighs in frustration, and tries to pry the jammed staple out with their fingernail.. What most likely happened in the [3-7s] interval according to the video?",
+    "mcq_options": {
+      "A": "As the worker presses down, the stapler's top half transforms into a pair of rowdy, metallic jaws that begin rhythmically chewing the stack of papers, emitting a wet, grinding sound.",
+      "B": "The worker slams the stapler down forcefully, but the device unexpectedly slides across the smooth desk surface and falls onto the floor with a loud clatter.",
+      "C": "The stapler operates smoothly at first, yet it suddenly runs out of staples mid-press, leaving only a faint indentation on the top page without binding the documents.",
+      "D": "The worker presses down hard on the stapler with their palm, but it makes a crunching sound and gets stuck halfway through the stack."
+    },
+    "correct_answer": "A",
+    "model_name": "qwen3-vl-flash",
+    "model_answer": "D",
+    "is_correct": false,
+    "first_stage_description": "",
+    "second_stage_reasoning": "The video frames show the worker preparing to staple a thick stack of papers. At 3-7 seconds, the stapler is shown in close-up with its jaws open and ready — but no staple is visible being fired or inserted. The worker then reacts with frustration (at 6s), and later tries to pry out a jammed staple (implied by the final frame at 10s). Option D correctly describes the stapler getting stuck halfway through the stack — which would explain both the mechanical failure (no staple ejected) and the worker’s subsequent frustration and manual intervention. The other options involve implausible events (like the stapler transforming into jaws or sliding off the desk) that are not supported by visual evidence.",
+    "original_score": 8.95
+  },
+  {
+    "object_name": "Triangle (三角铁)",
+    "scenario_type": "Surprise Scenario",
+    "video_file": "Triangle_(三角铁)_Surprise_1.mp4",
+    "mcq_question": "[0-3s]: A focused percussionist in a formal tuxedo stands in an orchestra pit, holding a metal beater, staring intensely at the sheet music while a triangle hangs from a stand in front of him.; [3-7s]: ???; [7-10s]: ] The percussionist gently dampens the vibrating metal with his fingers to stop the sound and exhales a breath of relief, looking satisfied with the performance.. What most likely happened in the [3-7s] interval according to the video?",
+    "mcq_options": {
+      "A": "The percussionist counts the final beat, raises the beater, and strikes the inner bottom bar of the triangle, causing it to vibrate and ring out clearly.",
+      "B": "The percussionist waits for the conductor's cue, then delivers a swift, precise strike to the side of the triangle, producing a resonant and crystalline tone that echoes throughout the silent concert hall.",
+      "C": "The percussionist strikes the triangle, but upon impact, the metal liquifies into a shimmering ripple of silver light that expands outward like a wave in a pond, distorting the air before snapping back into a solid shape.",
+      "D": "The percussionist carefully adjusts the tension of the hanging string, takes a deep breath, and strikes the corner of the triangle multiple times to create a rapid, shimmering tremolo effect for the climax."
+    },
+    "correct_answer": "C",
+    "model_name": "qwen3-vl-flash",
+    "model_answer": "A",
+    "is_correct": false,
+    "first_stage_description": "",
+    "second_stage_reasoning": "The video frames from 0-3 seconds show the percussionist in a formal tuxedo, holding a metal beater and staring intently at sheet music — indicating he is preparing to play. At 4-5 seconds, the triangle glows brightly as the beater strikes it, producing a visual effect of energy waves, which suggests a deliberate, dramatic strike. By 6-7 seconds, the triangle is visibly vibrating with light trails, confirming the impact. In frame 8-9, the percussionist gently dampens the triangle with his hand, consistent with stopping the sound after playing. Option A correctly describes this sequence: counting the final beat, raising the beater, and striking the triangle to produce a clear ring — matching both the timing and the physical actions shown. The other options either introduce fantastical elements (C) or describe unnecessary techniques (D) not supported by visual evidence. B is plausible but less precise than A regarding the action’s immediacy and outcome.",
+    "original_score": 9.649999999999999
+  },
+  {
+    "object_name": "Triangle (三角铁)",
+    "scenario_type": "Surprise Scenario",
+    "video_file": "Triangle_(三角铁)_Surprise_1.mp4",
+    "mcq_question": "[0-3s]: A focused percussionist in a formal tuxedo stands in an orchestra pit, holding a metal beater, staring intensely at the sheet music while a triangle hangs from a stand in front of him.; [3-7s]: ???; [7-10s]: ] The percussionist gently dampens the vibrating metal with his fingers to stop the sound and exhales a breath of relief, looking satisfied with the performance.. What most likely happened in the [3-7s] interval according to the video?",
+    "mcq_options": {
+      "A": "The percussionist counts the final beat, raises the beater, and strikes the inner bottom bar of the triangle, causing it to vibrate and ring out clearly.",
+      "B": "The percussionist waits for the conductor's cue, then delivers a swift, precise strike to the side of the triangle, producing a resonant and crystalline tone that echoes throughout the silent concert hall.",
+      "C": "The percussionist strikes the triangle, but upon impact, the metal liquifies into a shimmering ripple of silver light that expands outward like a wave in a pond, distorting the air before snapping back into a solid shape.",
+      "D": "The percussionist carefully adjusts the tension of the hanging string, takes a deep breath, and strikes the corner of the triangle multiple times to create a rapid, shimmering tremolo effect for the climax."
+    },
+    "correct_answer": "C",
+    "model_name": "qwen3-vl-plus",
+    "model_answer": "C",
+    "is_correct": true,
+    "first_stage_description": "",
+    "second_stage_reasoning": "The video frame at 5 seconds shows a highly stylized, non-realistic visual effect: the triangle is glowing with bright light and surrounded by swirling, ripple-like energy patterns that distort the air around it. This is not a physical or acoustic phenomenon but a visual metaphor for sound or vibration. Option C is the only one that describes this surreal, magical transformation — the metal 'liquifying into a shimmering ripple of silver light' — which directly matches the visual evidence. The other options describe realistic actions (striking, adjusting, counting) without any mention of the fantastical visual effects seen in the frame.",
+    "original_score": 9.649999999999999
+  },
+  {
+    "object_name": "Stapler (订书机)",
+    "scenario_type": "Surprise Scenario",
+    "video_file": "Stapler_(订书机)_Surprise_1.mp4",
+    "mcq_question": "[0-3s]: A focused office worker sits at a desk, aligning a thick stack of papers and reaching toward a heavy-duty stapler.; [3-7s]: ???; [7-10s]: ] The worker lets go, sighs in frustration, and tries to pry the jammed staple out with their fingernail.. What most likely happened in the [3-7s] interval according to the video?",
+    "mcq_options": {
+      "A": "As the worker presses down, the stapler's top half transforms into a pair of rowdy, metallic jaws that begin rhythmically chewing the stack of papers, emitting a wet, grinding sound.",
+      "B": "The worker slams the stapler down forcefully, but the device unexpectedly slides across the smooth desk surface and falls onto the floor with a loud clatter.",
+      "C": "The stapler operates smoothly at first, yet it suddenly runs out of staples mid-press, leaving only a faint indentation on the top page without binding the documents.",
+      "D": "The worker presses down hard on the stapler with their palm, but it makes a crunching sound and gets stuck halfway through the stack."
+    },
+    "correct_answer": "A",
+    "model_name": "qwen3-vl-30b-a3b-thinking",
+    "model_answer": "D",
+    "is_correct": false,
+    "first_stage_description": "The description details a black stapler with specific visual and functional features, but no multiple-choice options are provided. Since the task requires selecting an answer letter and no options are given, 'A' is selected by default as a placeholder to satisfy the required JSON format.",
+    "second_stage_reasoning": "The video shows the worker attempting to staple papers. At 3-7 seconds, the stapler likely jams during use (evidenced by the close-up of the stapler’s mechanism and the subsequent frustration). Option D describes the stapler getting stuck mid-press with a crunching sound, which aligns with the worker’s later action of prying out a jammed staple. Other options are inconsistent: A involves unrealistic \"metallic jaws\" (not in the video), B suggests the stapler falling (no evidence of this), and C implies a lack of staples (the issue is jamming, not empty staples).",
+    "original_score": 8.95
+  },
+  {
+    "object_name": "Stapler (订书机)",
+    "scenario_type": "Surprise Scenario",
+    "video_file": "Stapler_(订书机)_Surprise_1.mp4",
+    "mcq_question": "[0-3s]: A focused office worker sits at a desk, aligning a thick stack of papers and reaching toward a heavy-duty stapler.; [3-7s]: ???; [7-10s]: ] The worker lets go, sighs in frustration, and tries to pry the jammed staple out with their fingernail.. What most likely happened in the [3-7s] interval according to the video?",
+    "mcq_options": {
+      "A": "As the worker presses down, the stapler's top half transforms into a pair of rowdy, metallic jaws that begin rhythmically chewing the stack of papers, emitting a wet, grinding sound.",
+      "B": "The worker slams the stapler down forcefully, but the device unexpectedly slides across the smooth desk surface and falls onto the floor with a loud clatter.",
+      "C": "The stapler operates smoothly at first, yet it suddenly runs out of staples mid-press, leaving only a faint indentation on the top page without binding the documents.",
+      "D": "The worker presses down hard on the stapler with their palm, but it makes a crunching sound and gets stuck halfway through the stack."
+    },
+    "correct_answer": "A",
+    "model_name": "qwen3-vl-plus",
+    "model_answer": "D",
+    "is_correct": false,
+    "first_stage_description": "",
+    "second_stage_reasoning": "The video shows the worker attempting to staple a thick stack of papers. At 5 seconds, a close-up reveals the stapler's mechanism under pressure, with its metal parts visibly straining. In the following frames (6-7s), the worker is seen sighing and looking frustrated, then trying to pry something out with her fingernail — consistent with a jammed staple. Option D correctly describes the stapler getting stuck halfway through the stack with a crunching sound, which logically leads to the frustration and manual intervention shown later. The other options involve implausible events (A), physical displacement of the stapler (B), or a failure to staple at all (C), none of which align with the visual evidence of a mechanical jam.",
+    "original_score": 8.95
+  },
+  {
+    "object_name": "Stapler (订书机)",
+    "scenario_type": "Surprise Scenario",
+    "video_file": "Stapler_(订书机)_Surprise_1.mp4",
+    "mcq_question": "[0-3s]: A focused office worker sits at a desk, aligning a thick stack of papers and reaching toward a heavy-duty stapler.; [3-7s]: ???; [7-10s]: ] The worker lets go, sighs in frustration, and tries to pry the jammed staple out with their fingernail.. What most likely happened in the [3-7s] interval according to the video?",
+    "mcq_options": {
+      "A": "As the worker presses down, the stapler's top half transforms into a pair of rowdy, metallic jaws that begin rhythmically chewing the stack of papers, emitting a wet, grinding sound.",
+      "B": "The worker slams the stapler down forcefully, but the device unexpectedly slides across the smooth desk surface and falls onto the floor with a loud clatter.",
+      "C": "The stapler operates smoothly at first, yet it suddenly runs out of staples mid-press, leaving only a faint indentation on the top page without binding the documents.",
+      "D": "The worker presses down hard on the stapler with their palm, but it makes a crunching sound and gets stuck halfway through the stack."
+    },
+    "correct_answer": "A",
+    "model_name": "qwen-vl-max-latest",
+    "model_answer": "D",
+    "is_correct": false,
+    "first_stage_description": "",
+    "second_stage_reasoning": "In the video, the worker aligns a thick stack of papers and reaches for the stapler. The camera then zooms in on the stapler at 3 seconds, showing its mechanism in detail. At 5 seconds, the stapler is shown with its top half raised and the internal mechanism visible, suggesting it has been pressed down but failed to complete the action. The worker then reacts with frustration, sighs, and attempts to pry out a jammed staple. This sequence indicates that the stapler made a crunching sound and got stuck halfway through the stack, which matches option D. The other options are inconsistent with the visual evidence: there is no transformation into metallic jaws (A), no sliding or falling (B), and no indication of running out of staples (C).",
+    "original_score": 8.95
+  },
+  {
+    "object_name": "Triangle (三角铁)",
+    "scenario_type": "Surprise Scenario",
+    "video_file": "Triangle_(三角铁)_Surprise_1.mp4",
+    "mcq_question": "[0-3s]: A focused percussionist in a formal tuxedo stands in an orchestra pit, holding a metal beater, staring intensely at the sheet music while a triangle hangs from a stand in front of him.; [3-7s]: ???; [7-10s]: ] The percussionist gently dampens the vibrating metal with his fingers to stop the sound and exhales a breath of relief, looking satisfied with the performance.. What most likely happened in the [3-7s] interval according to the video?",
+    "mcq_options": {
+      "A": "The percussionist counts the final beat, raises the beater, and strikes the inner bottom bar of the triangle, causing it to vibrate and ring out clearly.",
+      "B": "The percussionist waits for the conductor's cue, then delivers a swift, precise strike to the side of the triangle, producing a resonant and crystalline tone that echoes throughout the silent concert hall.",
+      "C": "The percussionist strikes the triangle, but upon impact, the metal liquifies into a shimmering ripple of silver light that expands outward like a wave in a pond, distorting the air before snapping back into a solid shape.",
+      "D": "The percussionist carefully adjusts the tension of the hanging string, takes a deep breath, and strikes the corner of the triangle multiple times to create a rapid, shimmering tremolo effect for the climax."
+    },
+    "correct_answer": "C",
+    "model_name": "qwen3-vl-30b-a3b-thinking",
+    "model_answer": "C",
+    "is_correct": true,
+    "first_stage_description": "The description centers on a dramatic, glowing light sculpture as the focal point in a formal performance setting, indicating a fusion of technology and art—most aligned with option C, which typically represents 'a high-tech artistic installation at a formal event.'",
+    "second_stage_reasoning": "The video frames from 3-7 seconds show a dramatic visual effect where the triangle emits a glowing, swirling light pattern upon impact (evident in frames 4.2–6.2 seconds), which aligns with Option C's description of the metal \"liquifying into a shimmering ripple of silver light.\" Options A, B, and D describe conventional percussion techniques without the surreal light effect, which is the defining feature of the interval. The frame at 5 seconds explicitly emphasizes a \"dramatic, glowing light sculpture,\" confirming the non-realistic, artistic transformation described in Option C.",
+    "original_score": 9.649999999999999
+  },
+  {
+    "object_name": "Triangle (三角铁)",
+    "scenario_type": "Surprise Scenario",
+    "video_file": "Triangle_(三角铁)_Surprise_1.mp4",
+    "mcq_question": "[0-3s]: A focused percussionist in a formal tuxedo stands in an orchestra pit, holding a metal beater, staring intensely at the sheet music while a triangle hangs from a stand in front of him.; [3-7s]: ???; [7-10s]: ] The percussionist gently dampens the vibrating metal with his fingers to stop the sound and exhales a breath of relief, looking satisfied with the performance.. What most likely happened in the [3-7s] interval according to the video?",
+    "mcq_options": {
+      "A": "The percussionist counts the final beat, raises the beater, and strikes the inner bottom bar of the triangle, causing it to vibrate and ring out clearly.",
+      "B": "The percussionist waits for the conductor's cue, then delivers a swift, precise strike to the side of the triangle, producing a resonant and crystalline tone that echoes throughout the silent concert hall.",
+      "C": "The percussionist strikes the triangle, but upon impact, the metal liquifies into a shimmering ripple of silver light that expands outward like a wave in a pond, distorting the air before snapping back into a solid shape.",
+      "D": "The percussionist carefully adjusts the tension of the hanging string, takes a deep breath, and strikes the corner of the triangle multiple times to create a rapid, shimmering tremolo effect for the climax."
+    },
+    "correct_answer": "C",
+    "model_name": "qwen-vl-max-latest",
+    "model_answer": "C",
+    "is_correct": true,
+    "first_stage_description": "",
+    "second_stage_reasoning": "In the video, at 5 seconds, the triangle is shown emitting a bright, glowing light with swirling patterns of energy radiating outward, suggesting a supernatural or visual effect rather than a normal physical vibration. This indicates that the triangle did not simply ring out in a conventional way but instead underwent a dramatic transformation—liquifying into a shimmering ripple of silver light before returning to its solid form. This matches option C, which describes such an unusual and visually striking phenomenon. The other options describe realistic musical actions (e.g., striking, damping), but none account for the magical visual effects seen in the frame.",
+    "original_score": 9.649999999999999
+  },
+  {
+    "object_name": "Stapler (订书机)",
+    "scenario_type": "Surprise Scenario",
+    "video_file": "Stapler_(订书机)_Surprise_1.mp4",
+    "mcq_question": "[0-3s]: A focused office worker sits at a desk, aligning a thick stack of papers and reaching toward a heavy-duty stapler.; [3-7s]: ???; [7-10s]: ] The worker lets go, sighs in frustration, and tries to pry the jammed staple out with their fingernail.. What most likely happened in the [3-7s] interval according to the video?",
+    "mcq_options": {
+      "A": "As the worker presses down, the stapler's top half transforms into a pair of rowdy, metallic jaws that begin rhythmically chewing the stack of papers, emitting a wet, grinding sound.",
+      "B": "The worker slams the stapler down forcefully, but the device unexpectedly slides across the smooth desk surface and falls onto the floor with a loud clatter.",
+      "C": "The stapler operates smoothly at first, yet it suddenly runs out of staples mid-press, leaving only a faint indentation on the top page without binding the documents.",
+      "D": "The worker presses down hard on the stapler with their palm, but it makes a crunching sound and gets stuck halfway through the stack."
+    },
+    "correct_answer": "A",
+    "model_name": "zai-org/GLM-4.6V",
+    "model_answer": "D",
+    "is_correct": false,
+    "first_stage_description": "The description matches the boxed text exactly, which summarizes the key elements: close-up of stapler, staple-loading area, black base, black-and-silver mechanism, visible staples, yellow warning label, and blurred background.",
+    "second_stage_reasoning": "The 7-10s interval describes the worker dealing with a jammed staple, so the 3-7s interval must show the cause of the jam. Option D describes the stapler getting stuck mid-press (a jam) after the worker presses hard, which logically leads to the frustration and attempts to fix the jam in the later interval. Other options (A: fantastical transformation; B: stapler falling, not jamming; C: running out of staples, not jamming) do not align with the jammed staple scenario.",
+    "original_score": 8.95
+  },
+  {
+    "object_name": "Curtain (窗帘)",
+    "scenario_type": "Surprise Scenario",
+    "video_file": "Curtain_(窗帘)_Surprise_1.mp4",
+    "mcq_question": "[0-3s]: A person stands in a sun-drenched room, squinting and shielding their eyes from the intense light hitting the window.; [3-7s]: ???; [7-10s]: ] The room dims significantly; the person lets go of the fabric and sighs in relief, standing in the shadow.. What most likely happened in the [3-7s] interval according to the video?",
+    "mcq_options": {
+      "A": "The person reaches out, grabs the edge of the heavy fabric curtain, and pulls it firmly across the rod to block the window.",
+      "B": "The person reaches toward the window frame, finds the small crank handle at the bottom corner, and turns it steadily until the automatic blinds lower completely.",
+      "C": "The person reaches for the remote control on the side table, presses a button, and watches as the smart glass tinting gradually darkens to an opaque charcoal color.",
+      "D": "The person reaches into the air and grasps the solid beam of sunlight, peeling it away from the glass like a sheet of sticky film to reveal the dark curtain already waiting underneath."
+    },
+    "correct_answer": "D",
+    "model_name": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+    "model_answer": "A",
+    "is_correct": false,
+    "first_stage_description": "",
+    "second_stage_reasoning": "Based on the visual evidence, the most logical explanation for the change in lighting is that the person physically pulled a curtain across the window. Here is a breakdown of the reasoning:\n\n1. **Initial State (0-3s):** The person is standing in a very bright room, squinting and shielding their eyes. This indicates intense, direct sunlight is entering through the window.\n2. **Action (3-7s):** The person reaches out with their right hand and pulls a heavy, dark-colored fabric curtain across the window. The motion is consistent with pulling a curtain from one side to the other.\n3. **Final State (7-10s):** The room is now in shadow, and the person is no longer shielding their eyes. This confirms that the light source was successfully blocked.\n\nEvaluating the options:\n*   **A** describes the action of pulling a curtain, which is exactly what is shown.\n*   **B** describes operating blinds, which would typically involve a crank or a cord and would not produce the same visual effect of a heavy fabric being pulled across the window.\n*   **C** describes smart glass, which would darken gradually and silently. The action shown is a physical pull, not a button press.\n*   **D** is a fantastical and physically impossible action, not a realistic depiction of how light is blocked.\n\nTherefore, option A is the only one that accurately describes the real-world action taking place in the video.",
+    "original_score": 9.85
+  },
+  {
+    "object_name": "Curtain (窗帘)",
+    "scenario_type": "Surprise Scenario",
+    "video_file": "Curtain_(窗帘)_Surprise_1.mp4",
+    "mcq_question": "[0-3s]: A person stands in a sun-drenched room, squinting and shielding their eyes from the intense light hitting the window.; [3-7s]: ???; [7-10s]: ] The room dims significantly; the person lets go of the fabric and sighs in relief, standing in the shadow.. What most likely happened in the [3-7s] interval according to the video?",
+    "mcq_options": {
+      "A": "The person reaches out, grabs the edge of the heavy fabric curtain, and pulls it firmly across the rod to block the window.",
+      "B": "The person reaches toward the window frame, finds the small crank handle at the bottom corner, and turns it steadily until the automatic blinds lower completely.",
+      "C": "The person reaches for the remote control on the side table, presses a button, and watches as the smart glass tinting gradually darkens to an opaque charcoal color.",
+      "D": "The person reaches into the air and grasps the solid beam of sunlight, peeling it away from the glass like a sheet of sticky film to reveal the dark curtain already waiting underneath."
+    },
+    "correct_answer": "D",
+    "model_name": "qwen3-vl-plus",
+    "model_answer": "D",
+    "is_correct": true,
+    "first_stage_description": "",
+    "second_stage_reasoning": "The video frames from 3 to 7 seconds visually depict the person's hand reaching into the beam of sunlight and physically peeling it away like a translucent, sticky film. As the 'light' is peeled back, a dark curtain is revealed behind it, which explains why the room dims in the subsequent frames. This action is fantastical and not physically possible in reality, but within the context of the video’s visual narrative, it is the literal event shown. Option D is the only one that accurately describes this surreal, cinematic action. The other options describe plausible real-world actions (pulling curtains, using blinds, or smart glass), but none match the visual evidence of light being peeled away as a physical layer.",
+    "original_score": 9.85
+  },
+  {
+    "object_name": "Curtain (窗帘)",
+    "scenario_type": "Surprise Scenario",
+    "video_file": "Curtain_(窗帘)_Surprise_1.mp4",
+    "mcq_question": "[0-3s]: A person stands in a sun-drenched room, squinting and shielding their eyes from the intense light hitting the window.; [3-7s]: ???; [7-10s]: ] The room dims significantly; the person lets go of the fabric and sighs in relief, standing in the shadow.. What most likely happened in the [3-7s] interval according to the video?",
+    "mcq_options": {
+      "A": "The person reaches out, grabs the edge of the heavy fabric curtain, and pulls it firmly across the rod to block the window.",
+      "B": "The person reaches toward the window frame, finds the small crank handle at the bottom corner, and turns it steadily until the automatic blinds lower completely.",
+      "C": "The person reaches for the remote control on the side table, presses a button, and watches as the smart glass tinting gradually darkens to an opaque charcoal color.",
+      "D": "The person reaches into the air and grasps the solid beam of sunlight, peeling it away from the glass like a sheet of sticky film to reveal the dark curtain already waiting underneath."
+    },
+    "correct_answer": "D",
+    "model_name": "qwen3-vl-flash",
+    "model_answer": "A",
+    "is_correct": false,
+    "first_stage_description": "",
+    "second_stage_reasoning": "The video frames from 3-7 seconds show the person reaching toward the window and physically pulling a heavy fabric curtain across the glass. This is evident in the close-up at 0:03–0:06, where the hand grips and drags the curtain material, which then fully covers the window by 0:07. The final frame (0:08–0:09) shows the room dimmed with the curtain fully drawn, matching the description of the person sighing in relief after blocking the light. Option A correctly describes this physical action. Options B, C, and D involve mechanisms or technologies not shown — such as crank handles, remote controls, or smart glass — none of which appear in the visual evidence. The only visible object being manipulated is the fabric curtain.",
+    "original_score": 9.85
+  },
+  {
+    "object_name": "Curtain (窗帘)",
+    "scenario_type": "Surprise Scenario",
+    "video_file": "Curtain_(窗帘)_Surprise_1.mp4",
+    "mcq_question": "[0-3s]: A person stands in a sun-drenched room, squinting and shielding their eyes from the intense light hitting the window.; [3-7s]: ???; [7-10s]: ] The room dims significantly; the person lets go of the fabric and sighs in relief, standing in the shadow.. What most likely happened in the [3-7s] interval according to the video?",
+    "mcq_options": {
+      "A": "The person reaches out, grabs the edge of the heavy fabric curtain, and pulls it firmly across the rod to block the window.",
+      "B": "The person reaches toward the window frame, finds the small crank handle at the bottom corner, and turns it steadily until the automatic blinds lower completely.",
+      "C": "The person reaches for the remote control on the side table, presses a button, and watches as the smart glass tinting gradually darkens to an opaque charcoal color.",
+      "D": "The person reaches into the air and grasps the solid beam of sunlight, peeling it away from the glass like a sheet of sticky film to reveal the dark curtain already waiting underneath."
+    },
+    "correct_answer": "D",
+    "model_name": "qwen-vl-max-latest",
+    "model_answer": "D",
+    "is_correct": true,
+    "first_stage_description": "",
+    "second_stage_reasoning": "In the video, the person is initially squinting due to bright sunlight coming through the window. At 3 seconds, the camera focuses on their hand reaching toward the glass. From 4 to 6 seconds, the hand appears to peel away a translucent layer of light from the window, revealing a dark curtain behind it. This action is not realistic in a physical sense but suggests a metaphorical or surreal interaction with light. The room then dims significantly by 7 seconds, and the person stands in shadow, indicating that the light was blocked. Option D describes this surreal act of peeling away the sunlight, which matches the visual effect shown in the frames.",
+    "original_score": 9.85
+  },
+  {
+    "object_name": "Curtain (窗帘)",
+    "scenario_type": "Surprise Scenario",
+    "video_file": "Curtain_(窗帘)_Surprise_1.mp4",
+    "mcq_question": "[0-3s]: A person stands in a sun-drenched room, squinting and shielding their eyes from the intense light hitting the window.; [3-7s]: ???; [7-10s]: ] The room dims significantly; the person lets go of the fabric and sighs in relief, standing in the shadow.. What most likely happened in the [3-7s] interval according to the video?",
+    "mcq_options": {
+      "A": "The person reaches out, grabs the edge of the heavy fabric curtain, and pulls it firmly across the rod to block the window.",
+      "B": "The person reaches toward the window frame, finds the small crank handle at the bottom corner, and turns it steadily until the automatic blinds lower completely.",
+      "C": "The person reaches for the remote control on the side table, presses a button, and watches as the smart glass tinting gradually darkens to an opaque charcoal color.",
+      "D": "The person reaches into the air and grasps the solid beam of sunlight, peeling it away from the glass like a sheet of sticky film to reveal the dark curtain already waiting underneath."
+    },
+    "correct_answer": "D",
+    "model_name": "qwen3-vl-30b-a3b-thinking",
+    "model_answer": "C",
+    "is_correct": false,
+    "first_stage_description": "The description emphasizes a futuristic, glowing interface interacting with a human hand, paired with a sophisticated wristwatch, suggesting a high-tech yet warm, inviting scene — most consistent with option C, which typically represents 'Human-Technology Interaction in a Futuristic Setting' in such contexts.",
+    "second_stage_reasoning": "The video frames from 3-7 seconds show a hand interacting with the window glass, which gradually darkens (e.g., 4.2s-6.2s). This matches option C, where the person uses a remote to activate smart glass tinting. Options A and B involve physical curtains/blinds, but the video shows the glass itself changing. Option D describes an unrealistic manipulation of light, which is not depicted. The futuristic interface and wristwatch in the frame description further support smart glass technology.",
+    "original_score": 9.85
+  },
+  {
+    "object_name": "Triangle (三角铁)",
+    "scenario_type": "Surprise Scenario",
+    "video_file": "Triangle_(三角铁)_Surprise_1.mp4",
+    "mcq_question": "[0-3s]: A focused percussionist in a formal tuxedo stands in an orchestra pit, holding a metal beater, staring intensely at the sheet music while a triangle hangs from a stand in front of him.; [3-7s]: ???; [7-10s]: ] The percussionist gently dampens the vibrating metal with his fingers to stop the sound and exhales a breath of relief, looking satisfied with the performance.. What most likely happened in the [3-7s] interval according to the video?",
+    "mcq_options": {
+      "A": "The percussionist counts the final beat, raises the beater, and strikes the inner bottom bar of the triangle, causing it to vibrate and ring out clearly.",
+      "B": "The percussionist waits for the conductor's cue, then delivers a swift, precise strike to the side of the triangle, producing a resonant and crystalline tone that echoes throughout the silent concert hall.",
+      "C": "The percussionist strikes the triangle, but upon impact, the metal liquifies into a shimmering ripple of silver light that expands outward like a wave in a pond, distorting the air before snapping back into a solid shape.",
+      "D": "The percussionist carefully adjusts the tension of the hanging string, takes a deep breath, and strikes the corner of the triangle multiple times to create a rapid, shimmering tremolo effect for the climax."
+    },
+    "correct_answer": "C",
+    "model_name": "zai-org/GLM-4.6V",
+    "model_answer": "A",
+    "is_correct": false,
+    "first_stage_description": "The text describes a close-up of a triangle being played in a formal orchestral setting, with details about the instrument, mallet, musician, and background—all matching option A.",
+    "second_stage_reasoning": "The timeline shows the percussionist preparing (0-3s), performing an action (3-7s), and then dampening the triangle (7-10s). Option A describes a realistic sequence: counting the final beat, striking the triangle (inner bottom bar is a standard playing technique), and then dampening (as seen in 7-10s). Option B’s 'waiting for conductor’s cue' is less specific to the percussionist’s direct action, while C (liquifying triangle) and D (tremolo) are unrealistic or inconsistent with the final dampening of a single strike. The 5-second frame’s close-up of the triangle being played aligns with A’s description of striking the instrument.",
+    "original_score": 9.649999999999999
+  },
+  {
+    "object_name": "Curtain (窗帘)",
+    "scenario_type": "Surprise Scenario",
+    "video_file": "Curtain_(窗帘)_Surprise_1.mp4",
+    "mcq_question": "[0-3s]: A person stands in a sun-drenched room, squinting and shielding their eyes from the intense light hitting the window.; [3-7s]: ???; [7-10s]: ] The room dims significantly; the person lets go of the fabric and sighs in relief, standing in the shadow.. What most likely happened in the [3-7s] interval according to the video?",
+    "mcq_options": {
+      "A": "The person reaches out, grabs the edge of the heavy fabric curtain, and pulls it firmly across the rod to block the window.",
+      "B": "The person reaches toward the window frame, finds the small crank handle at the bottom corner, and turns it steadily until the automatic blinds lower completely.",
+      "C": "The person reaches for the remote control on the side table, presses a button, and watches as the smart glass tinting gradually darkens to an opaque charcoal color.",
+      "D": "The person reaches into the air and grasps the solid beam of sunlight, peeling it away from the glass like a sheet of sticky film to reveal the dark curtain already waiting underneath."
+    },
+    "correct_answer": "D",
+    "model_name": "zai-org/GLM-4.6V",
+    "model_answer": "C",
+    "is_correct": false,
+    "first_stage_description": "The description depicts a domestic scene of someone applying or removing a window film, which best aligns with option C: 'Installing or adjusting a window treatment.'",
+    "second_stage_reasoning": "The 5-second frame description indicates the person is applying or removing window film, which falls under 'installing or adjusting a window treatment.' Among the options, option C describes an action related to window treatment (smart glass tinting, a type of window treatment), aligning with the visual evidence of the frame. Other options (A: curtain, B: blinds, D: fantasy) do not match the window film action depicted.",
+    "original_score": 9.85
+  }
+]
